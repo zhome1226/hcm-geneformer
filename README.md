@@ -4,7 +4,7 @@
 
 用微调后的 [Geneformer](https://github.com/ctheodoris/Geneformer)（Theodoris et al., *Nature* 2023）构建虚拟病理心肌细胞，对候选基因做计算机模拟敲除（In Silico Knockout），筛选能把肥厚型心肌病（HCM）转录表型拉回健康状态的逆转靶点。
 
-硬件：本地 RTX 4090。推荐公开数据：[GSE145154](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE145154) 或 [GSE130652](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE130652)。
+硬件：本地 RTX 4090。主训练数据为 [SCP1303 / Chaffin et al., Nature 2022](https://singlecell.broadinstitute.org/single_cell/study/SCP1303)，详见 [#1](https://github.com/zhome1226/xiaoe-internship/issues/1)；已下载的验证数据与补充候选见 [数据说明](data/README.md)。旧推荐 GSE145154 无 HCM，GSE130652 是小鼠 ChIP-seq，均不用于本任务。
 
 ## 分工
 
