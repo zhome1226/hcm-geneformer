@@ -1,0 +1,33 @@
+# raw / large omics
+data/raw/
+data/processed/
+*.h5ad
+*.h5
+*.loom
+*.mtx
+*.npz
+*.npy
+*.pkl
+*.pickle
+
+# models and tokenized datasets
+models/
+*.pt
+*.pth
+*.ckpt
+*.bin
+*.safetensors
+
+# python / env
+__pycache__/
+.venv/
+venv/
+.env
+*.pyc
+.ipynb_checkpoints/
+.DS_Store
+
+# logs
+*.log
+wandb/
+lightning_logs/
