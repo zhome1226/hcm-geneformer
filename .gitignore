@@ -9,6 +9,9 @@ data/processed/
 *.npy
 *.pkl
 *.pickle
+*.tar
+*.gz
+*.[rR][dD][aA][tT][aA]
 
 # models and tokenized datasets
 models/
