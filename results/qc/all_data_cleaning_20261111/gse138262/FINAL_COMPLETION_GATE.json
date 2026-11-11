@@ -1,0 +1,29 @@
+{
+  "dataset": "GSE138262",
+  "status": "complete_verified",
+  "verified_utc": "2026-11-11T13:19:30.643913+00:00",
+  "verification_sha256": "cf11b644b634d6c7a7e01cc4d2d182ac3a953be13554e3e14715ffd83669b68a",
+  "report_sha256": "6b735799c125da6430147ab8582d20c00c7a1a6ccec3063b26b172f818c3d42e",
+  "checks_passed": 735,
+  "training_approved": false,
+  "training_limitation": "NOT APPROVED: severe strict whole-cell attrition; no Control; protocol/design and overlap review required",
+  "output_directory": "/home/zhome/xiaoe-internship-data/processed/wehrens_GSE138262_qc_20261111",
+  "code_sha256": {
+    "calibrate_mixed.py": "d8ca8cde4345a231ed536319c615dce41bb7d11e19e5c79161ebbf76f6aa509e",
+    "download_corrected.py": "ca3787264ee8bf4db43175f5fb6cf13ba6d42e8d16342b2a10c4542b9e5c6f7e",
+    "finalize_gse138262.py": "0424a52c07d4924d20f75deeea7b8ecc9b1b82183dd223ca2fa1b2e6be205bef",
+    "inspect_author.R": "422de92b774649f228f1f47da2ddcc8b01c44d8175e39cdb3b523044ebd478c5",
+    "inspect_axes.py": "a9edc714c5a976c5589e792c41d66f4b6f074132d9ec6a61523c173b0668b797",
+    "inspect_state.py": "f19c9238953e07e7f6dd9f75300ab482061322c5a4149279471952c6db6442c6",
+    "run_download.sh": "49591070d539e4e185534030b35ab931ff31d9758b5ced7df24b12a213acaa2d",
+    "run_finalize.sh": "61f290d8859227e9f2a6fd1092897e9479ea7f2bbfc113a1b82df39089bb8b09",
+    "run_identity.R": "a8e1f492346d97795fb405407dc604fc72640c1fa9856f89f3a5c23eb46337e7",
+    "run_identity.sh": "ea8d1c6454fadb34c2ad18bf13989e2c053c5900bb148fff6f90110194e0154d",
+    "run_inspect.sh": "55a4b618e4c40db261346ca249ce8fe544b077df6a2b7a6fbcf49bfa90b4795e",
+    "run_preflight.sh": "6410b2d3749a423e45c7c11fe3c665ea79609dfdb8a64404d37a010a543a4c2b",
+    "run_stage.sh": "cc36570d6d8bb9fbb0b2a64407306f99328e8daaf4d1b4b06d78d25debf98ddd",
+    "run_verify.sh": "0449993555c44751137ee01b416b10c1ad47afc882e375071b88be982b31be5c",
+    "stage_gse138262.py": "da5e556e7c795cd177e1543f0f5c4ccea66042355dbf5076f1188608d81c8b0b",
+    "verify_gse138262.py": "231e82beafa2df486c7b346b4ed590b4bc12c357c469989fe7624585ad6504ba"
+  }
+}

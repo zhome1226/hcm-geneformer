@@ -1,0 +1,13 @@
+donor_id	disease	source_cells	genes_500to5000	MT_lt5pct	strict_cells	CM_core	pending_identity	strong_mixed	author_analysis_cells	author_analysis_strict_cells
+Wang_N1	Control	259	258	0	0	0	0	0	254	0
+Wang_N13	Control	73	72	0	0	0	0	0	57	0
+Wang_N14	Control	28	27	0	0	0	0	0	27	0
+Wang_N2	Control	297	287	0	0	0	0	0	296	0
+Wang_N3	Control	360	360	0	0	0	0	0	360	0
+Wang_N4	Control	68	68	0	0	0	0	0	68	0
+Wang_N5	Control	338	338	0	0	0	0	0	338	0
+Wehrens_Patient1	HCM	1523	546	37	3	2	1	0	471	3
+Wehrens_Patient2	HCM	1520	747	10	4	4	0	0	607	4
+Wehrens_Patient3	HCM	1536	699	1	0	0	0	0	626	0
+Wehrens_Patient4	HCM	768	168	2	1	0	1	0	142	1
+Wehrens_Patient5	HCM	767	475	3	0	0	0	0	446	0

@@ -1,0 +1,2007 @@
+{
+  "dataset": "GSE203274",
+  "status": "complete_verified",
+  "checked_utc": "2026-11-11T14:04:41.440169+00:00",
+  "checks_passed": 490,
+  "source_nuclei": 157293,
+  "genes": 29266,
+  "strict_nuclei": 141301,
+  "source_donors": 13,
+  "source_samples": 30,
+  "core_binary_CM": 34532,
+  "core_HCM": 8521,
+  "core_Control": 26011,
+  "core_binary_donors": 5,
+  "light_CM": 20000,
+  "core_other_disease_CM": 22917,
+  "pending_CM": 9893,
+  "strong_mixed": 10,
+  "new_suspected_doublets": 0,
+  "author_CM_source": 73296,
+  "author_CM_strict": 57843,
+  "author_CM_core_all_diagnoses": 57449,
+  "author_CM_pending": 394,
+  "age_conflicting_donors": [
+    "UK1",
+    "UK2"
+  ],
+  "all_checks": [
+    {
+      "name": "two_original_files_only_cardiac_modality",
+      "passed": true
+    },
+    {
+      "name": "original_bytes_GSE203274_AllNuclei_snRNA_metadata.csv.gz",
+      "passed": true
+    },
+    {
+      "name": "original_MD5_GSE203274_AllNuclei_snRNA_metadata.csv.gz",
+      "passed": true
+    },
+    {
+      "name": "original_bytes_GSE203274_AllNuclei_snRNA_rawCount.tar.gz",
+      "passed": true
+    },
+    {
+      "name": "original_MD5_GSE203274_AllNuclei_snRNA_rawCount.tar.gz",
+      "passed": true
+    },
+    {
+      "name": "extracted_member_barcodes.tsv.gz",
+      "passed": true
+    },
+    {
+      "name": "extracted_member_genes.tsv.gz",
+      "passed": true
+    },
+    {
+      "name": "extracted_member_expression_matrix.mtx.gz",
+      "passed": true
+    },
+    {
+      "name": "all_three_count_members_verified",
+      "passed": true
+    },
+    {
+      "name": "real_integer_counts_not_scaled_expression",
+      "passed": true
+    },
+    {
+      "name": "source_shape_and_nnz",
+      "passed": true
+    },
+    {
+      "name": "full_source_cell_axis_unchanged",
+      "passed": true
+    },
+    {
+      "name": "full_source_gene_axis_unchanged",
+      "passed": true
+    },
+    {
+      "name": "full_source_every_count_value_unchanged",
+      "passed": true
+    },
+    {
+      "name": "MT_axis_and_true_percentage",
+      "passed": true
+    },
+    {
+      "name": "author_count_and_detected_fields_exact",
+      "passed": true
+    },
+    {
+      "name": "recomputed_QC_metrics",
+      "passed": true
+    },
+    {
+      "name": "strict_baseline_recomputed",
+      "passed": true
+    },
+    {
+      "name": "inherited_author_QC_is_visible",
+      "passed": true
+    },
+    {
+      "name": "original_author_metadata_orig.ident",
+      "passed": true
+    },
+    {
+      "name": "original_author_metadata_nCount_RNA",
+      "passed": true
+    },
+    {
+      "name": "original_author_metadata_nFeature_RNA",
+      "passed": true
+    },
+    {
+      "name": "original_author_metadata_labID",
+      "passed": true
+    },
+    {
+      "name": "original_author_metadata_procedure",
+      "passed": true
+    },
+    {
+      "name": "original_author_metadata_age",
+      "passed": true
+    },
+    {
+      "name": "original_author_metadata_gender",
+      "passed": true
+    },
+    {
+      "name": "original_author_metadata_echoEF",
+      "passed": true
+    },
+    {
+      "name": "original_author_metadata_vers10X",
+      "passed": true
+    },
+    {
+      "name": "original_author_metadata_diagnosis",
+      "passed": true
+    },
+    {
+      "name": "original_author_metadata_ageCont",
+      "passed": true
+    },
+    {
+      "name": "original_author_metadata_region",
+      "passed": true
+    },
+    {
+      "name": "original_author_metadata_batch_indices",
+      "passed": true
+    },
+    {
+      "name": "original_author_metadata_percent.mt",
+      "passed": true
+    },
+    {
+      "name": "original_author_metadata_ClinicalRank",
+      "passed": true
+    },
+    {
+      "name": "original_author_metadata_DEid",
+      "passed": true
+    },
+    {
+      "name": "original_author_metadata_MainCellType",
+      "passed": true
+    },
+    {
+      "name": "original_author_metadata_Cluster",
+      "passed": true
+    },
+    {
+      "name": "original_author_metadata_labID2",
+      "passed": true
+    },
+    {
+      "name": "original_author_metadata_Diagnosis",
+      "passed": true
+    },
+    {
+      "name": "original_author_metadata_patientID",
+      "passed": true
+    },
+    {
+      "name": "no_case_folding_clinical_columns",
+      "passed": true
+    },
+    {
+      "name": "clinical_disease_not_procedure_status",
+      "passed": true
+    },
+    {
+      "name": "other_pathologies_never_assigned_control",
+      "passed": true
+    },
+    {
+      "name": "source_capture_prefix_matches_metadata",
+      "passed": true
+    },
+    {
+      "name": "donor_binding_uses_author_labID",
+      "passed": true
+    },
+    {
+      "name": "single_HCM_donor_two_captures",
+      "passed": true
+    },
+    {
+      "name": "four_control_donors",
+      "passed": true
+    },
+    {
+      "name": "same_WU198_LV_RV_never_split_as_two_donors",
+      "passed": true
+    },
+    {
+      "name": "echoEF_is_captureID_not_numeric_EF",
+      "passed": true
+    },
+    {
+      "name": "author_age_components_not_coarse_ageCont",
+      "passed": true
+    },
+    {
+      "name": "approximate_ages_explicit",
+      "passed": true
+    },
+    {
+      "name": "only_thirty_cardiac_GEO_records_used",
+      "passed": true
+    },
+    {
+      "name": "LV_198_1_same_donor_region_candidate_GSMs",
+      "passed": true
+    },
+    {
+      "name": "LV_198_1_diagnosis_matches_GEO",
+      "passed": true
+    },
+    {
+      "name": "LV_198_1_both_source_ages_retained",
+      "passed": true
+    },
+    {
+      "name": "LV_198_1_true_bool_age_conflict",
+      "passed": true
+    },
+    {
+      "name": "LV_198_1_numeric_sample_loss",
+      "passed": true
+    },
+    {
+      "name": "LV_198_2_same_donor_region_candidate_GSMs",
+      "passed": true
+    },
+    {
+      "name": "LV_198_2_diagnosis_matches_GEO",
+      "passed": true
+    },
+    {
+      "name": "LV_198_2_both_source_ages_retained",
+      "passed": true
+    },
+    {
+      "name": "LV_198_2_true_bool_age_conflict",
+      "passed": true
+    },
+    {
+      "name": "LV_198_2_numeric_sample_loss",
+      "passed": true
+    },
+    {
+      "name": "P26_1_same_donor_region_candidate_GSMs",
+      "passed": true
+    },
+    {
+      "name": "P26_1_diagnosis_matches_GEO",
+      "passed": true
+    },
+    {
+      "name": "P26_1_both_source_ages_retained",
+      "passed": true
+    },
+    {
+      "name": "P26_1_true_bool_age_conflict",
+      "passed": true
+    },
+    {
+      "name": "P26_1_numeric_sample_loss",
+      "passed": true
+    },
+    {
+      "name": "P26_2_same_donor_region_candidate_GSMs",
+      "passed": true
+    },
+    {
+      "name": "P26_2_diagnosis_matches_GEO",
+      "passed": true
+    },
+    {
+      "name": "P26_2_both_source_ages_retained",
+      "passed": true
+    },
+    {
+      "name": "P26_2_true_bool_age_conflict",
+      "passed": true
+    },
+    {
+      "name": "P26_2_numeric_sample_loss",
+      "passed": true
+    },
+    {
+      "name": "P28_1_same_donor_region_candidate_GSMs",
+      "passed": true
+    },
+    {
+      "name": "P28_1_diagnosis_matches_GEO",
+      "passed": true
+    },
+    {
+      "name": "P28_1_both_source_ages_retained",
+      "passed": true
+    },
+    {
+      "name": "P28_1_true_bool_age_conflict",
+      "passed": true
+    },
+    {
+      "name": "P28_1_numeric_sample_loss",
+      "passed": true
+    },
+    {
+      "name": "P28_2_same_donor_region_candidate_GSMs",
+      "passed": true
+    },
+    {
+      "name": "P28_2_diagnosis_matches_GEO",
+      "passed": true
+    },
+    {
+      "name": "P28_2_both_source_ages_retained",
+      "passed": true
+    },
+    {
+      "name": "P28_2_true_bool_age_conflict",
+      "passed": true
+    },
+    {
+      "name": "P28_2_numeric_sample_loss",
+      "passed": true
+    },
+    {
+      "name": "P33_10k_same_donor_region_candidate_GSMs",
+      "passed": true
+    },
+    {
+      "name": "P33_10k_diagnosis_matches_GEO",
+      "passed": true
+    },
+    {
+      "name": "P33_10k_both_source_ages_retained",
+      "passed": true
+    },
+    {
+      "name": "P33_10k_true_bool_age_conflict",
+      "passed": true
+    },
+    {
+      "name": "P33_10k_numeric_sample_loss",
+      "passed": true
+    },
+    {
+      "name": "P33_9k_same_donor_region_candidate_GSMs",
+      "passed": true
+    },
+    {
+      "name": "P33_9k_diagnosis_matches_GEO",
+      "passed": true
+    },
+    {
+      "name": "P33_9k_both_source_ages_retained",
+      "passed": true
+    },
+    {
+      "name": "P33_9k_true_bool_age_conflict",
+      "passed": true
+    },
+    {
+      "name": "P33_9k_numeric_sample_loss",
+      "passed": true
+    },
+    {
+      "name": "P36_1_same_donor_region_candidate_GSMs",
+      "passed": true
+    },
+    {
+      "name": "P36_1_diagnosis_matches_GEO",
+      "passed": true
+    },
+    {
+      "name": "P36_1_both_source_ages_retained",
+      "passed": true
+    },
+    {
+      "name": "P36_1_true_bool_age_conflict",
+      "passed": true
+    },
+    {
+      "name": "P36_1_numeric_sample_loss",
+      "passed": true
+    },
+    {
+      "name": "P36_2_same_donor_region_candidate_GSMs",
+      "passed": true
+    },
+    {
+      "name": "P36_2_diagnosis_matches_GEO",
+      "passed": true
+    },
+    {
+      "name": "P36_2_both_source_ages_retained",
+      "passed": true
+    },
+    {
+      "name": "P36_2_true_bool_age_conflict",
+      "passed": true
+    },
+    {
+      "name": "P36_2_numeric_sample_loss",
+      "passed": true
+    },
+    {
+      "name": "P40_1_same_donor_region_candidate_GSMs",
+      "passed": true
+    },
+    {
+      "name": "P40_1_diagnosis_matches_GEO",
+      "passed": true
+    },
+    {
+      "name": "P40_1_both_source_ages_retained",
+      "passed": true
+    },
+    {
+      "name": "P40_1_true_bool_age_conflict",
+      "passed": true
+    },
+    {
+      "name": "P40_1_numeric_sample_loss",
+      "passed": true
+    },
+    {
+      "name": "P40_2_same_donor_region_candidate_GSMs",
+      "passed": true
+    },
+    {
+      "name": "P40_2_diagnosis_matches_GEO",
+      "passed": true
+    },
+    {
+      "name": "P40_2_both_source_ages_retained",
+      "passed": true
+    },
+    {
+      "name": "P40_2_true_bool_age_conflict",
+      "passed": true
+    },
+    {
+      "name": "P40_2_numeric_sample_loss",
+      "passed": true
+    },
+    {
+      "name": "P64_1_same_donor_region_candidate_GSMs",
+      "passed": true
+    },
+    {
+      "name": "P64_1_diagnosis_matches_GEO",
+      "passed": true
+    },
+    {
+      "name": "P64_1_both_source_ages_retained",
+      "passed": true
+    },
+    {
+      "name": "P64_1_true_bool_age_conflict",
+      "passed": true
+    },
+    {
+      "name": "P64_1_numeric_sample_loss",
+      "passed": true
+    },
+    {
+      "name": "P64_2_same_donor_region_candidate_GSMs",
+      "passed": true
+    },
+    {
+      "name": "P64_2_diagnosis_matches_GEO",
+      "passed": true
+    },
+    {
+      "name": "P64_2_both_source_ages_retained",
+      "passed": true
+    },
+    {
+      "name": "P64_2_true_bool_age_conflict",
+      "passed": true
+    },
+    {
+      "name": "P64_2_numeric_sample_loss",
+      "passed": true
+    },
+    {
+      "name": "P75_1_same_donor_region_candidate_GSMs",
+      "passed": true
+    },
+    {
+      "name": "P75_1_diagnosis_matches_GEO",
+      "passed": true
+    },
+    {
+      "name": "P75_1_both_source_ages_retained",
+      "passed": true
+    },
+    {
+      "name": "P75_1_true_bool_age_conflict",
+      "passed": true
+    },
+    {
+      "name": "P75_1_numeric_sample_loss",
+      "passed": true
+    },
+    {
+      "name": "P75_2_same_donor_region_candidate_GSMs",
+      "passed": true
+    },
+    {
+      "name": "P75_2_diagnosis_matches_GEO",
+      "passed": true
+    },
+    {
+      "name": "P75_2_both_source_ages_retained",
+      "passed": true
+    },
+    {
+      "name": "P75_2_true_bool_age_conflict",
+      "passed": true
+    },
+    {
+      "name": "P75_2_numeric_sample_loss",
+      "passed": true
+    },
+    {
+      "name": "P86_1_same_donor_region_candidate_GSMs",
+      "passed": true
+    },
+    {
+      "name": "P86_1_diagnosis_matches_GEO",
+      "passed": true
+    },
+    {
+      "name": "P86_1_both_source_ages_retained",
+      "passed": true
+    },
+    {
+      "name": "P86_1_true_bool_age_conflict",
+      "passed": true
+    },
+    {
+      "name": "P86_1_numeric_sample_loss",
+      "passed": true
+    },
+    {
+      "name": "P86_2_same_donor_region_candidate_GSMs",
+      "passed": true
+    },
+    {
+      "name": "P86_2_diagnosis_matches_GEO",
+      "passed": true
+    },
+    {
+      "name": "P86_2_both_source_ages_retained",
+      "passed": true
+    },
+    {
+      "name": "P86_2_true_bool_age_conflict",
+      "passed": true
+    },
+    {
+      "name": "P86_2_numeric_sample_loss",
+      "passed": true
+    },
+    {
+      "name": "P8_1_same_donor_region_candidate_GSMs",
+      "passed": true
+    },
+    {
+      "name": "P8_1_diagnosis_matches_GEO",
+      "passed": true
+    },
+    {
+      "name": "P8_1_both_source_ages_retained",
+      "passed": true
+    },
+    {
+      "name": "P8_1_true_bool_age_conflict",
+      "passed": true
+    },
+    {
+      "name": "P8_1_numeric_sample_loss",
+      "passed": true
+    },
+    {
+      "name": "P8_2_same_donor_region_candidate_GSMs",
+      "passed": true
+    },
+    {
+      "name": "P8_2_diagnosis_matches_GEO",
+      "passed": true
+    },
+    {
+      "name": "P8_2_both_source_ages_retained",
+      "passed": true
+    },
+    {
+      "name": "P8_2_true_bool_age_conflict",
+      "passed": true
+    },
+    {
+      "name": "P8_2_numeric_sample_loss",
+      "passed": true
+    },
+    {
+      "name": "RV_198_1_same_donor_region_candidate_GSMs",
+      "passed": true
+    },
+    {
+      "name": "RV_198_1_diagnosis_matches_GEO",
+      "passed": true
+    },
+    {
+      "name": "RV_198_1_both_source_ages_retained",
+      "passed": true
+    },
+    {
+      "name": "RV_198_1_true_bool_age_conflict",
+      "passed": true
+    },
+    {
+      "name": "RV_198_1_numeric_sample_loss",
+      "passed": true
+    },
+    {
+      "name": "RV_198_2_same_donor_region_candidate_GSMs",
+      "passed": true
+    },
+    {
+      "name": "RV_198_2_diagnosis_matches_GEO",
+      "passed": true
+    },
+    {
+      "name": "RV_198_2_both_source_ages_retained",
+      "passed": true
+    },
+    {
+      "name": "RV_198_2_true_bool_age_conflict",
+      "passed": true
+    },
+    {
+      "name": "RV_198_2_numeric_sample_loss",
+      "passed": true
+    },
+    {
+      "name": "RV_325_1_same_donor_region_candidate_GSMs",
+      "passed": true
+    },
+    {
+      "name": "RV_325_1_diagnosis_matches_GEO",
+      "passed": true
+    },
+    {
+      "name": "RV_325_1_both_source_ages_retained",
+      "passed": true
+    },
+    {
+      "name": "RV_325_1_true_bool_age_conflict",
+      "passed": true
+    },
+    {
+      "name": "RV_325_1_numeric_sample_loss",
+      "passed": true
+    },
+    {
+      "name": "RV_325_2_same_donor_region_candidate_GSMs",
+      "passed": true
+    },
+    {
+      "name": "RV_325_2_diagnosis_matches_GEO",
+      "passed": true
+    },
+    {
+      "name": "RV_325_2_both_source_ages_retained",
+      "passed": true
+    },
+    {
+      "name": "RV_325_2_true_bool_age_conflict",
+      "passed": true
+    },
+    {
+      "name": "RV_325_2_numeric_sample_loss",
+      "passed": true
+    },
+    {
+      "name": "UK_Ctrl_1_1_same_donor_region_candidate_GSMs",
+      "passed": true
+    },
+    {
+      "name": "UK_Ctrl_1_1_diagnosis_matches_GEO",
+      "passed": true
+    },
+    {
+      "name": "UK_Ctrl_1_1_both_source_ages_retained",
+      "passed": true
+    },
+    {
+      "name": "UK_Ctrl_1_1_true_bool_age_conflict",
+      "passed": true
+    },
+    {
+      "name": "UK_Ctrl_1_1_numeric_sample_loss",
+      "passed": true
+    },
+    {
+      "name": "UK_Ctrl_1_2_same_donor_region_candidate_GSMs",
+      "passed": true
+    },
+    {
+      "name": "UK_Ctrl_1_2_diagnosis_matches_GEO",
+      "passed": true
+    },
+    {
+      "name": "UK_Ctrl_1_2_both_source_ages_retained",
+      "passed": true
+    },
+    {
+      "name": "UK_Ctrl_1_2_true_bool_age_conflict",
+      "passed": true
+    },
+    {
+      "name": "UK_Ctrl_1_2_numeric_sample_loss",
+      "passed": true
+    },
+    {
+      "name": "UK_Ctrl_1_3_same_donor_region_candidate_GSMs",
+      "passed": true
+    },
+    {
+      "name": "UK_Ctrl_1_3_diagnosis_matches_GEO",
+      "passed": true
+    },
+    {
+      "name": "UK_Ctrl_1_3_both_source_ages_retained",
+      "passed": true
+    },
+    {
+      "name": "UK_Ctrl_1_3_true_bool_age_conflict",
+      "passed": true
+    },
+    {
+      "name": "UK_Ctrl_1_3_numeric_sample_loss",
+      "passed": true
+    },
+    {
+      "name": "UK_Ctrl_2_1_same_donor_region_candidate_GSMs",
+      "passed": true
+    },
+    {
+      "name": "UK_Ctrl_2_1_diagnosis_matches_GEO",
+      "passed": true
+    },
+    {
+      "name": "UK_Ctrl_2_1_both_source_ages_retained",
+      "passed": true
+    },
+    {
+      "name": "UK_Ctrl_2_1_true_bool_age_conflict",
+      "passed": true
+    },
+    {
+      "name": "UK_Ctrl_2_1_numeric_sample_loss",
+      "passed": true
+    },
+    {
+      "name": "UK_Ctrl_2_2_same_donor_region_candidate_GSMs",
+      "passed": true
+    },
+    {
+      "name": "UK_Ctrl_2_2_diagnosis_matches_GEO",
+      "passed": true
+    },
+    {
+      "name": "UK_Ctrl_2_2_both_source_ages_retained",
+      "passed": true
+    },
+    {
+      "name": "UK_Ctrl_2_2_true_bool_age_conflict",
+      "passed": true
+    },
+    {
+      "name": "UK_Ctrl_2_2_numeric_sample_loss",
+      "passed": true
+    },
+    {
+      "name": "UK_Ctrl_2_3_same_donor_region_candidate_GSMs",
+      "passed": true
+    },
+    {
+      "name": "UK_Ctrl_2_3_diagnosis_matches_GEO",
+      "passed": true
+    },
+    {
+      "name": "UK_Ctrl_2_3_both_source_ages_retained",
+      "passed": true
+    },
+    {
+      "name": "UK_Ctrl_2_3_true_bool_age_conflict",
+      "passed": true
+    },
+    {
+      "name": "UK_Ctrl_2_3_numeric_sample_loss",
+      "passed": true
+    },
+    {
+      "name": "UK_age_discrepancies_preserved_only_where_real",
+      "passed": true
+    },
+    {
+      "name": "metadata_dtype_repair_did_not_change_counts",
+      "passed": true
+    },
+    {
+      "name": "unique_exact_reference_symbols_only",
+      "passed": true
+    },
+    {
+      "name": "reference_mapping_preserves_true_source_columns",
+      "passed": true
+    },
+    {
+      "name": "all_unmapped_source_genes_retained",
+      "passed": true
+    },
+    {
+      "name": "fixed_reference_donors_disjoint",
+      "passed": true
+    },
+    {
+      "name": "reference_query_cell_order",
+      "passed": true
+    },
+    {
+      "name": "all_query_raw_values_correspond_exactly",
+      "passed": true
+    },
+    {
+      "name": "all_strict_identity_rows_unique_and_aligned",
+      "passed": true
+    },
+    {
+      "name": "identity_audit_exact_all_strict_rows",
+      "passed": true
+    },
+    {
+      "name": "R_prediction_preserved_reference_label",
+      "passed": true
+    },
+    {
+      "name": "R_prediction_preserved_reference_pruned",
+      "passed": true
+    },
+    {
+      "name": "R_prediction_preserved_reference_delta",
+      "passed": true
+    },
+    {
+      "name": "R_prediction_preserved_reference_delta_next",
+      "passed": true
+    },
+    {
+      "name": "R_prediction_preserved_reference_best_score",
+      "passed": true
+    },
+    {
+      "name": "frozen_strict_policy",
+      "passed": true
+    },
+    {
+      "name": "calibration_cells_match_fixed_donor_holdout",
+      "passed": true
+    },
+    {
+      "name": "reference_tail_Adipocyte",
+      "passed": true
+    },
+    {
+      "name": "reference_tail_Cardiomyocyte",
+      "passed": true
+    },
+    {
+      "name": "reference_tail_Endothelial",
+      "passed": true
+    },
+    {
+      "name": "reference_tail_Fibroblast",
+      "passed": true
+    },
+    {
+      "name": "reference_tail_Immune",
+      "passed": true
+    },
+    {
+      "name": "reference_tail_Neural",
+      "passed": true
+    },
+    {
+      "name": "reference_tail_Pericyte",
+      "passed": true
+    },
+    {
+      "name": "reference_tail_Smooth_muscle",
+      "passed": true
+    },
+    {
+      "name": "reference_tail_flags_independent",
+      "passed": true
+    },
+    {
+      "name": "every_cell_marker_evidence_Cardiomyocyte",
+      "passed": true
+    },
+    {
+      "name": "fixed_reference_bound_Cardiomyocyte",
+      "passed": true
+    },
+    {
+      "name": "every_cell_marker_evidence_Fibroblast",
+      "passed": true
+    },
+    {
+      "name": "fixed_reference_bound_Fibroblast",
+      "passed": true
+    },
+    {
+      "name": "every_cell_marker_evidence_Endothelial",
+      "passed": true
+    },
+    {
+      "name": "fixed_reference_bound_Endothelial",
+      "passed": true
+    },
+    {
+      "name": "every_cell_marker_evidence_Immune",
+      "passed": true
+    },
+    {
+      "name": "fixed_reference_bound_Immune",
+      "passed": true
+    },
+    {
+      "name": "every_cell_marker_evidence_Mural",
+      "passed": true
+    },
+    {
+      "name": "fixed_reference_bound_Mural",
+      "passed": true
+    },
+    {
+      "name": "every_cell_marker_evidence_Neural",
+      "passed": true
+    },
+    {
+      "name": "every_cell_marker_evidence_Adipocyte",
+      "passed": true
+    },
+    {
+      "name": "every_cell_marker_evidence_Mesothelial",
+      "passed": true
+    },
+    {
+      "name": "mixed_program_rules_recomputed",
+      "passed": true
+    },
+    {
+      "name": "CM_program_dominance_recomputed",
+      "passed": true
+    },
+    {
+      "name": "P40_2_residual_trigger_and_input_scope",
+      "passed": true
+    },
+    {
+      "name": "P40_2_caller_ids_unique",
+      "passed": true
+    },
+    {
+      "name": "P40_2_inherit_author_QC_no_fabricated_scores",
+      "passed": true
+    },
+    {
+      "name": "P26_1_residual_trigger_and_input_scope",
+      "passed": true
+    },
+    {
+      "name": "P26_1_caller_ids_unique",
+      "passed": true
+    },
+    {
+      "name": "P26_1_inherit_author_QC_no_fabricated_scores",
+      "passed": true
+    },
+    {
+      "name": "P8_2_residual_trigger_and_input_scope",
+      "passed": true
+    },
+    {
+      "name": "P8_2_caller_ids_unique",
+      "passed": true
+    },
+    {
+      "name": "P8_2_inherit_author_QC_no_fabricated_scores",
+      "passed": true
+    },
+    {
+      "name": "P33_10k_residual_trigger_and_input_scope",
+      "passed": true
+    },
+    {
+      "name": "P33_10k_caller_ids_unique",
+      "passed": true
+    },
+    {
+      "name": "P33_10k_inherit_author_QC_no_fabricated_scores",
+      "passed": true
+    },
+    {
+      "name": "P33_9k_residual_trigger_and_input_scope",
+      "passed": true
+    },
+    {
+      "name": "P33_9k_caller_ids_unique",
+      "passed": true
+    },
+    {
+      "name": "P33_9k_inherit_author_QC_no_fabricated_scores",
+      "passed": true
+    },
+    {
+      "name": "P36_2_residual_trigger_and_input_scope",
+      "passed": true
+    },
+    {
+      "name": "P36_2_caller_ids_unique",
+      "passed": true
+    },
+    {
+      "name": "P36_2_inherit_author_QC_no_fabricated_scores",
+      "passed": true
+    },
+    {
+      "name": "P75_1_residual_trigger_and_input_scope",
+      "passed": true
+    },
+    {
+      "name": "P75_1_caller_ids_unique",
+      "passed": true
+    },
+    {
+      "name": "P75_1_inherit_author_QC_no_fabricated_scores",
+      "passed": true
+    },
+    {
+      "name": "P86_1_residual_trigger_and_input_scope",
+      "passed": true
+    },
+    {
+      "name": "P86_1_caller_ids_unique",
+      "passed": true
+    },
+    {
+      "name": "P86_1_inherit_author_QC_no_fabricated_scores",
+      "passed": true
+    },
+    {
+      "name": "P26_2_residual_trigger_and_input_scope",
+      "passed": true
+    },
+    {
+      "name": "P26_2_caller_ids_unique",
+      "passed": true
+    },
+    {
+      "name": "P26_2_inherit_author_QC_no_fabricated_scores",
+      "passed": true
+    },
+    {
+      "name": "P28_1_residual_trigger_and_input_scope",
+      "passed": true
+    },
+    {
+      "name": "P28_1_caller_ids_unique",
+      "passed": true
+    },
+    {
+      "name": "P28_1_inherit_author_QC_no_fabricated_scores",
+      "passed": true
+    },
+    {
+      "name": "P28_2_residual_trigger_and_input_scope",
+      "passed": true
+    },
+    {
+      "name": "P28_2_caller_ids_unique",
+      "passed": true
+    },
+    {
+      "name": "P28_2_inherit_author_QC_no_fabricated_scores",
+      "passed": true
+    },
+    {
+      "name": "P40_1_residual_trigger_and_input_scope",
+      "passed": true
+    },
+    {
+      "name": "P40_1_caller_ids_unique",
+      "passed": true
+    },
+    {
+      "name": "P40_1_inherit_author_QC_no_fabricated_scores",
+      "passed": true
+    },
+    {
+      "name": "P64_1_residual_trigger_and_input_scope",
+      "passed": true
+    },
+    {
+      "name": "P64_1_caller_ids_unique",
+      "passed": true
+    },
+    {
+      "name": "P64_1_inherit_author_QC_no_fabricated_scores",
+      "passed": true
+    },
+    {
+      "name": "P64_2_residual_trigger_and_input_scope",
+      "passed": true
+    },
+    {
+      "name": "P64_2_caller_ids_unique",
+      "passed": true
+    },
+    {
+      "name": "P64_2_inherit_author_QC_no_fabricated_scores",
+      "passed": true
+    },
+    {
+      "name": "P75_2_residual_trigger_and_input_scope",
+      "passed": true
+    },
+    {
+      "name": "P75_2_caller_ids_unique",
+      "passed": true
+    },
+    {
+      "name": "P75_2_inherit_author_QC_no_fabricated_scores",
+      "passed": true
+    },
+    {
+      "name": "P86_2_residual_trigger_and_input_scope",
+      "passed": true
+    },
+    {
+      "name": "P86_2_caller_ids_unique",
+      "passed": true
+    },
+    {
+      "name": "P86_2_inherit_author_QC_no_fabricated_scores",
+      "passed": true
+    },
+    {
+      "name": "RV_198_2_residual_trigger_and_input_scope",
+      "passed": true
+    },
+    {
+      "name": "RV_198_2_caller_ids_unique",
+      "passed": true
+    },
+    {
+      "name": "RV_198_2_inherit_author_QC_no_fabricated_scores",
+      "passed": true
+    },
+    {
+      "name": "LV_198_1_residual_trigger_and_input_scope",
+      "passed": true
+    },
+    {
+      "name": "LV_198_1_caller_ids_unique",
+      "passed": true
+    },
+    {
+      "name": "LV_198_1_inherit_author_QC_no_fabricated_scores",
+      "passed": true
+    },
+    {
+      "name": "P36_1_residual_trigger_and_input_scope",
+      "passed": true
+    },
+    {
+      "name": "P36_1_caller_ids_unique",
+      "passed": true
+    },
+    {
+      "name": "P36_1_inherit_author_QC_no_fabricated_scores",
+      "passed": true
+    },
+    {
+      "name": "RV_198_1_residual_trigger_and_input_scope",
+      "passed": true
+    },
+    {
+      "name": "RV_198_1_caller_ids_unique",
+      "passed": true
+    },
+    {
+      "name": "RV_198_1_inherit_author_QC_no_fabricated_scores",
+      "passed": true
+    },
+    {
+      "name": "RV_325_1_residual_trigger_and_input_scope",
+      "passed": true
+    },
+    {
+      "name": "RV_325_1_caller_ids_unique",
+      "passed": true
+    },
+    {
+      "name": "RV_325_1_inherit_author_QC_no_fabricated_scores",
+      "passed": true
+    },
+    {
+      "name": "LV_198_2_residual_trigger_and_input_scope",
+      "passed": true
+    },
+    {
+      "name": "LV_198_2_caller_ids_unique",
+      "passed": true
+    },
+    {
+      "name": "LV_198_2_inherit_author_QC_no_fabricated_scores",
+      "passed": true
+    },
+    {
+      "name": "RV_325_2_residual_trigger_and_input_scope",
+      "passed": true
+    },
+    {
+      "name": "RV_325_2_caller_ids_unique",
+      "passed": true
+    },
+    {
+      "name": "RV_325_2_inherit_author_QC_no_fabricated_scores",
+      "passed": true
+    },
+    {
+      "name": "P8_1_residual_trigger_and_input_scope",
+      "passed": true
+    },
+    {
+      "name": "P8_1_caller_ids_unique",
+      "passed": true
+    },
+    {
+      "name": "P8_1_inherit_author_QC_no_fabricated_scores",
+      "passed": true
+    },
+    {
+      "name": "UK_Ctrl_1_1_residual_trigger_and_input_scope",
+      "passed": true
+    },
+    {
+      "name": "UK_Ctrl_1_1_caller_ids_unique",
+      "passed": true
+    },
+    {
+      "name": "UK_Ctrl_1_1_inherit_author_QC_no_fabricated_scores",
+      "passed": true
+    },
+    {
+      "name": "UK_Ctrl_2_3_residual_trigger_and_input_scope",
+      "passed": true
+    },
+    {
+      "name": "UK_Ctrl_2_3_caller_ids_unique",
+      "passed": true
+    },
+    {
+      "name": "UK_Ctrl_2_3_inherit_author_QC_no_fabricated_scores",
+      "passed": true
+    },
+    {
+      "name": "UK_Ctrl_2_1_residual_trigger_and_input_scope",
+      "passed": true
+    },
+    {
+      "name": "UK_Ctrl_2_1_caller_ids_unique",
+      "passed": true
+    },
+    {
+      "name": "UK_Ctrl_2_1_inherit_author_QC_no_fabricated_scores",
+      "passed": true
+    },
+    {
+      "name": "UK_Ctrl_2_2_residual_trigger_and_input_scope",
+      "passed": true
+    },
+    {
+      "name": "UK_Ctrl_2_2_caller_ids_unique",
+      "passed": true
+    },
+    {
+      "name": "UK_Ctrl_2_2_inherit_author_QC_no_fabricated_scores",
+      "passed": true
+    },
+    {
+      "name": "UK_Ctrl_1_2_residual_trigger_and_input_scope",
+      "passed": true
+    },
+    {
+      "name": "UK_Ctrl_1_2_caller_ids_unique",
+      "passed": true
+    },
+    {
+      "name": "UK_Ctrl_1_2_inherit_author_QC_no_fabricated_scores",
+      "passed": true
+    },
+    {
+      "name": "UK_Ctrl_1_3_residual_trigger_and_input_scope",
+      "passed": true
+    },
+    {
+      "name": "UK_Ctrl_1_3_caller_ids_unique",
+      "passed": true
+    },
+    {
+      "name": "UK_Ctrl_1_3_inherit_author_QC_no_fabricated_scores",
+      "passed": true
+    },
+    {
+      "name": "caller_results_preserved",
+      "passed": true
+    },
+    {
+      "name": "only_joint_supported_doublets_excluded",
+      "passed": true
+    },
+    {
+      "name": "diagnostic_only_same_strict_axis",
+      "passed": true
+    },
+    {
+      "name": "diagnostic_log_CP10k_block_0",
+      "passed": true
+    },
+    {
+      "name": "diagnostic_log_CP10k_block_5000",
+      "passed": true
+    },
+    {
+      "name": "diagnostic_log_CP10k_block_10000",
+      "passed": true
+    },
+    {
+      "name": "diagnostic_log_CP10k_block_15000",
+      "passed": true
+    },
+    {
+      "name": "diagnostic_log_CP10k_block_20000",
+      "passed": true
+    },
+    {
+      "name": "diagnostic_log_CP10k_block_25000",
+      "passed": true
+    },
+    {
+      "name": "diagnostic_log_CP10k_block_30000",
+      "passed": true
+    },
+    {
+      "name": "diagnostic_log_CP10k_block_35000",
+      "passed": true
+    },
+    {
+      "name": "diagnostic_log_CP10k_block_40000",
+      "passed": true
+    },
+    {
+      "name": "diagnostic_log_CP10k_block_45000",
+      "passed": true
+    },
+    {
+      "name": "diagnostic_log_CP10k_block_50000",
+      "passed": true
+    },
+    {
+      "name": "diagnostic_log_CP10k_block_55000",
+      "passed": true
+    },
+    {
+      "name": "diagnostic_log_CP10k_block_60000",
+      "passed": true
+    },
+    {
+      "name": "diagnostic_log_CP10k_block_65000",
+      "passed": true
+    },
+    {
+      "name": "diagnostic_log_CP10k_block_70000",
+      "passed": true
+    },
+    {
+      "name": "diagnostic_log_CP10k_block_75000",
+      "passed": true
+    },
+    {
+      "name": "diagnostic_log_CP10k_block_80000",
+      "passed": true
+    },
+    {
+      "name": "diagnostic_log_CP10k_block_85000",
+      "passed": true
+    },
+    {
+      "name": "diagnostic_log_CP10k_block_90000",
+      "passed": true
+    },
+    {
+      "name": "diagnostic_log_CP10k_block_95000",
+      "passed": true
+    },
+    {
+      "name": "diagnostic_log_CP10k_block_100000",
+      "passed": true
+    },
+    {
+      "name": "diagnostic_log_CP10k_block_105000",
+      "passed": true
+    },
+    {
+      "name": "diagnostic_log_CP10k_block_110000",
+      "passed": true
+    },
+    {
+      "name": "diagnostic_log_CP10k_block_115000",
+      "passed": true
+    },
+    {
+      "name": "diagnostic_log_CP10k_block_120000",
+      "passed": true
+    },
+    {
+      "name": "diagnostic_log_CP10k_block_125000",
+      "passed": true
+    },
+    {
+      "name": "diagnostic_log_CP10k_block_130000",
+      "passed": true
+    },
+    {
+      "name": "diagnostic_log_CP10k_block_135000",
+      "passed": true
+    },
+    {
+      "name": "diagnostic_log_CP10k_block_140000",
+      "passed": true
+    },
+    {
+      "name": "graph_is_finite_nonnegative_and_aligned",
+      "passed": true
+    },
+    {
+      "name": "CM_neighbor_support_recomputed",
+      "passed": true
+    },
+    {
+      "name": "all_CM_core_and_pending_decisions_recomputed",
+      "passed": true
+    },
+    {
+      "name": "every_strict_review_action_recomputed",
+      "passed": true
+    },
+    {
+      "name": "every_source_final_action_recomputed",
+      "passed": true
+    },
+    {
+      "name": "full_nuclei_audit_order_and_dispositions",
+      "passed": true
+    },
+    {
+      "name": "nine_h5ad_outputs_exist",
+      "passed": true
+    },
+    {
+      "name": "all_cells_qc.h5ad_digest",
+      "passed": true
+    },
+    {
+      "name": "all_cells_qc.h5ad_exact_selected_nuclei",
+      "passed": true
+    },
+    {
+      "name": "all_cells_qc.h5ad_full_native_gene_axis",
+      "passed": true
+    },
+    {
+      "name": "all_cells_qc.h5ad_all_values_unchanged",
+      "passed": true
+    },
+    {
+      "name": "all_cells_qc.h5ad_disease_and_donor_labels",
+      "passed": true
+    },
+    {
+      "name": "all_cells_qc.h5ad_donor_capture_region_and_clinical_metadata",
+      "passed": true
+    },
+    {
+      "name": "all_cells_qc.h5ad_native_and_derived_gene_metadata",
+      "passed": true
+    },
+    {
+      "name": "all_cells_qc.h5ad_recomputed_review_actions",
+      "passed": true
+    },
+    {
+      "name": "all_source_counts.h5ad_digest",
+      "passed": true
+    },
+    {
+      "name": "all_source_counts.h5ad_exact_selected_nuclei",
+      "passed": true
+    },
+    {
+      "name": "all_source_counts.h5ad_full_native_gene_axis",
+      "passed": true
+    },
+    {
+      "name": "all_source_counts.h5ad_all_values_unchanged",
+      "passed": true
+    },
+    {
+      "name": "all_source_counts.h5ad_disease_and_donor_labels",
+      "passed": true
+    },
+    {
+      "name": "all_source_counts.h5ad_donor_capture_region_and_clinical_metadata",
+      "passed": true
+    },
+    {
+      "name": "all_source_counts.h5ad_native_and_derived_gene_metadata",
+      "passed": true
+    },
+    {
+      "name": "cm_other_diseases.h5ad_digest",
+      "passed": true
+    },
+    {
+      "name": "cm_other_diseases.h5ad_exact_selected_nuclei",
+      "passed": true
+    },
+    {
+      "name": "cm_other_diseases.h5ad_full_native_gene_axis",
+      "passed": true
+    },
+    {
+      "name": "cm_other_diseases.h5ad_all_values_unchanged",
+      "passed": true
+    },
+    {
+      "name": "cm_other_diseases.h5ad_disease_and_donor_labels",
+      "passed": true
+    },
+    {
+      "name": "cm_other_diseases.h5ad_donor_capture_region_and_clinical_metadata",
+      "passed": true
+    },
+    {
+      "name": "cm_other_diseases.h5ad_native_and_derived_gene_metadata",
+      "passed": true
+    },
+    {
+      "name": "cm_other_diseases.h5ad_recomputed_review_actions",
+      "passed": true
+    },
+    {
+      "name": "other_CM_not_used_as_binary_controls",
+      "passed": true
+    },
+    {
+      "name": "cm_qc_full.h5ad_digest",
+      "passed": true
+    },
+    {
+      "name": "cm_qc_full.h5ad_exact_selected_nuclei",
+      "passed": true
+    },
+    {
+      "name": "cm_qc_full.h5ad_full_native_gene_axis",
+      "passed": true
+    },
+    {
+      "name": "cm_qc_full.h5ad_all_values_unchanged",
+      "passed": true
+    },
+    {
+      "name": "cm_qc_full.h5ad_disease_and_donor_labels",
+      "passed": true
+    },
+    {
+      "name": "cm_qc_full.h5ad_donor_capture_region_and_clinical_metadata",
+      "passed": true
+    },
+    {
+      "name": "cm_qc_full.h5ad_native_and_derived_gene_metadata",
+      "passed": true
+    },
+    {
+      "name": "cm_qc_full.h5ad_recomputed_review_actions",
+      "passed": true
+    },
+    {
+      "name": "cm_qc_full.h5ad_only_true_HCM_Control",
+      "passed": true
+    },
+    {
+      "name": "cm_qc_light.h5ad_digest",
+      "passed": true
+    },
+    {
+      "name": "cm_qc_light.h5ad_full_native_gene_axis",
+      "passed": true
+    },
+    {
+      "name": "cm_qc_light.h5ad_all_values_unchanged",
+      "passed": true
+    },
+    {
+      "name": "cm_qc_light.h5ad_disease_and_donor_labels",
+      "passed": true
+    },
+    {
+      "name": "cm_qc_light.h5ad_donor_capture_region_and_clinical_metadata",
+      "passed": true
+    },
+    {
+      "name": "cm_qc_light.h5ad_native_and_derived_gene_metadata",
+      "passed": true
+    },
+    {
+      "name": "cm_qc_light.h5ad_recomputed_review_actions",
+      "passed": true
+    },
+    {
+      "name": "cm_qc_light.h5ad_only_true_HCM_Control",
+      "passed": true
+    },
+    {
+      "name": "cm_review_pending.h5ad_digest",
+      "passed": true
+    },
+    {
+      "name": "cm_review_pending.h5ad_exact_selected_nuclei",
+      "passed": true
+    },
+    {
+      "name": "cm_review_pending.h5ad_full_native_gene_axis",
+      "passed": true
+    },
+    {
+      "name": "cm_review_pending.h5ad_all_values_unchanged",
+      "passed": true
+    },
+    {
+      "name": "cm_review_pending.h5ad_disease_and_donor_labels",
+      "passed": true
+    },
+    {
+      "name": "cm_review_pending.h5ad_donor_capture_region_and_clinical_metadata",
+      "passed": true
+    },
+    {
+      "name": "cm_review_pending.h5ad_native_and_derived_gene_metadata",
+      "passed": true
+    },
+    {
+      "name": "cm_review_pending.h5ad_recomputed_review_actions",
+      "passed": true
+    },
+    {
+      "name": "diagnostic_normalized.h5ad_digest",
+      "passed": true
+    },
+    {
+      "name": "outside_strict_numeric.h5ad_digest",
+      "passed": true
+    },
+    {
+      "name": "outside_strict_numeric.h5ad_exact_selected_nuclei",
+      "passed": true
+    },
+    {
+      "name": "outside_strict_numeric.h5ad_full_native_gene_axis",
+      "passed": true
+    },
+    {
+      "name": "outside_strict_numeric.h5ad_all_values_unchanged",
+      "passed": true
+    },
+    {
+      "name": "outside_strict_numeric.h5ad_disease_and_donor_labels",
+      "passed": true
+    },
+    {
+      "name": "outside_strict_numeric.h5ad_donor_capture_region_and_clinical_metadata",
+      "passed": true
+    },
+    {
+      "name": "outside_strict_numeric.h5ad_native_and_derived_gene_metadata",
+      "passed": true
+    },
+    {
+      "name": "suspected_doublets.h5ad_digest",
+      "passed": true
+    },
+    {
+      "name": "suspected_doublets.h5ad_exact_selected_nuclei",
+      "passed": true
+    },
+    {
+      "name": "suspected_doublets.h5ad_full_native_gene_axis",
+      "passed": true
+    },
+    {
+      "name": "suspected_doublets.h5ad_all_values_unchanged",
+      "passed": true
+    },
+    {
+      "name": "suspected_doublets.h5ad_disease_and_donor_labels",
+      "passed": true
+    },
+    {
+      "name": "suspected_doublets.h5ad_donor_capture_region_and_clinical_metadata",
+      "passed": true
+    },
+    {
+      "name": "suspected_doublets.h5ad_native_and_derived_gene_metadata",
+      "passed": true
+    },
+    {
+      "name": "suspected_doublets.h5ad_recomputed_review_actions",
+      "passed": true
+    },
+    {
+      "name": "light_unique_max20k_subset",
+      "passed": true
+    },
+    {
+      "name": "light_donor_balancing_without_replicate_inflation",
+      "passed": true
+    },
+    {
+      "name": "all_thirty_samples_reported",
+      "passed": true
+    },
+    {
+      "name": "author_CM_loss_accounted_separately",
+      "passed": true
+    },
+    {
+      "name": "LV_198_1_core_pending_loss_counts",
+      "passed": true
+    },
+    {
+      "name": "LV_198_2_core_pending_loss_counts",
+      "passed": true
+    },
+    {
+      "name": "P26_1_core_pending_loss_counts",
+      "passed": true
+    },
+    {
+      "name": "P26_2_core_pending_loss_counts",
+      "passed": true
+    },
+    {
+      "name": "P28_1_core_pending_loss_counts",
+      "passed": true
+    },
+    {
+      "name": "P28_2_core_pending_loss_counts",
+      "passed": true
+    },
+    {
+      "name": "P33_10k_core_pending_loss_counts",
+      "passed": true
+    },
+    {
+      "name": "P33_9k_core_pending_loss_counts",
+      "passed": true
+    },
+    {
+      "name": "P36_1_core_pending_loss_counts",
+      "passed": true
+    },
+    {
+      "name": "P36_2_core_pending_loss_counts",
+      "passed": true
+    },
+    {
+      "name": "P40_1_core_pending_loss_counts",
+      "passed": true
+    },
+    {
+      "name": "P40_2_core_pending_loss_counts",
+      "passed": true
+    },
+    {
+      "name": "P64_1_core_pending_loss_counts",
+      "passed": true
+    },
+    {
+      "name": "P64_2_core_pending_loss_counts",
+      "passed": true
+    },
+    {
+      "name": "P75_1_core_pending_loss_counts",
+      "passed": true
+    },
+    {
+      "name": "P75_2_core_pending_loss_counts",
+      "passed": true
+    },
+    {
+      "name": "P86_1_core_pending_loss_counts",
+      "passed": true
+    },
+    {
+      "name": "P86_2_core_pending_loss_counts",
+      "passed": true
+    },
+    {
+      "name": "P8_1_core_pending_loss_counts",
+      "passed": true
+    },
+    {
+      "name": "P8_2_core_pending_loss_counts",
+      "passed": true
+    },
+    {
+      "name": "RV_198_1_core_pending_loss_counts",
+      "passed": true
+    },
+    {
+      "name": "RV_198_2_core_pending_loss_counts",
+      "passed": true
+    },
+    {
+      "name": "RV_325_1_core_pending_loss_counts",
+      "passed": true
+    },
+    {
+      "name": "RV_325_2_core_pending_loss_counts",
+      "passed": true
+    },
+    {
+      "name": "UK_Ctrl_1_1_core_pending_loss_counts",
+      "passed": true
+    },
+    {
+      "name": "UK_Ctrl_1_2_core_pending_loss_counts",
+      "passed": true
+    },
+    {
+      "name": "UK_Ctrl_1_3_core_pending_loss_counts",
+      "passed": true
+    },
+    {
+      "name": "UK_Ctrl_2_1_core_pending_loss_counts",
+      "passed": true
+    },
+    {
+      "name": "UK_Ctrl_2_2_core_pending_loss_counts",
+      "passed": true
+    },
+    {
+      "name": "UK_Ctrl_2_3_core_pending_loss_counts",
+      "passed": true
+    },
+    {
+      "name": "training_still_unassigned_single_pediatric_HCM_donor",
+      "passed": true
+    },
+    {
+      "name": "executed_code_SHA256_calibrate_mixed.py",
+      "passed": true
+    },
+    {
+      "name": "executed_code_SHA256_finalize_gse203274.py",
+      "passed": true
+    },
+    {
+      "name": "executed_code_SHA256_prepare_residual_review.py",
+      "passed": true
+    },
+    {
+      "name": "executed_code_SHA256_qc_common.py",
+      "passed": true
+    },
+    {
+      "name": "executed_code_SHA256_repair_stage_metadata.py",
+      "passed": true
+    },
+    {
+      "name": "executed_code_SHA256_run_finalize.sh",
+      "passed": true
+    },
+    {
+      "name": "executed_code_SHA256_run_identity.R",
+      "passed": true
+    },
+    {
+      "name": "executed_code_SHA256_run_R.sh",
+      "passed": true
+    },
+    {
+      "name": "executed_code_SHA256_run_repair_metadata.sh",
+      "passed": true
+    },
+    {
+      "name": "executed_code_SHA256_run_residual.R",
+      "passed": true
+    },
+    {
+      "name": "executed_code_SHA256_run_stage.sh",
+      "passed": true
+    },
+    {
+      "name": "executed_code_SHA256_run_verify.sh",
+      "passed": true
+    },
+    {
+      "name": "executed_code_SHA256_stage_gse203274.py",
+      "passed": true
+    },
+    {
+      "name": "executed_code_SHA256_verify_gse203274.py",
+      "passed": true
+    },
+    {
+      "name": "job_exit_stage",
+      "passed": true
+    },
+    {
+      "name": "job_exit_repair_metadata",
+      "passed": true
+    },
+    {
+      "name": "job_exit_R",
+      "passed": true
+    },
+    {
+      "name": "job_exit_finalize",
+      "passed": true
+    }
+  ],
+  "verified_code_sha256": {
+    "calibrate_mixed.py": "c1c99e1210d1e5bbe45d9c9b631217e2de5ec59a56281638f28db0732b4c0873",
+    "finalize_gse203274.py": "792804504575652ad00cf906e469d217fcdb2db3ef0020110c5599bb90075242",
+    "prepare_residual_review.py": "92d0528c9cdb93141acbb612ee21ad664372cfa1078043f23fd419693a7df779",
+    "qc_common.py": "b37f26dbe19bf229bed55628d1fc0db3840fd4fb56511331152dd26cef8d7406",
+    "repair_stage_metadata.py": "14c27b6fcf21f09b8300d8aa2eb84bad4bc75304b729e62e5bcf75e31f0e37b9",
+    "run_finalize.sh": "fe6e28cd717c497bd3c203e749d89f75de2922e6f18fa8c0e23848eaf7f14f38",
+    "run_identity.R": "c8c0e56327cd0f82d879596de8ad44ce9a280a282cbcaa5b6ea9a92a9681a5dc",
+    "run_R.sh": "ef2e4031e258356cca7da7f04689acc121e6ad75806dfb2cdcd208d020279a9e",
+    "run_repair_metadata.sh": "930bd5ab947c9aba9dbc10bcbcd6d298a12aa7935a88733b96a7cd3e4ed9aaba",
+    "run_residual.R": "553da89004aec7fc3929ab1329ce3c8d560a0858f9591b677d57225df4cb3ef5",
+    "run_stage.sh": "0dafda00881134d789a8c2c0b18b52624c6a9edc283817ea55b7ea02cbab4ef8",
+    "run_verify.sh": "44a87dc278f8c9c9d3ab4a476899462b18bcffeab6debddc6c59870cace464ff",
+    "stage_gse203274.py": "67dd5e35f902bd092c8417193cee61d14995b0192b83fc413c468f1738d27ff7",
+    "verify_gse203274.py": "3ea3cdf68b4f07f3b380a3bf0b6f31932b93d9772093492d08bc434fa507f94e"
+  },
+  "suitability": "Pediatric cohort with one HCM donor; retain donor/region/age and all other diagnoses. QC success does not establish independent multi-donor HCM generalization or authorize a training split."
+}

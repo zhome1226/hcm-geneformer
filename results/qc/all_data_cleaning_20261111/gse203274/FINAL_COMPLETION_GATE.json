@@ -1,0 +1,27 @@
+{
+  "dataset": "GSE203274",
+  "status": "complete_verified",
+  "verified_utc": "2026-11-11T14:04:41.440169+00:00",
+  "checks_passed": 490,
+  "verification_sha256": "783e16f10fa95831c4de28424709137d188048e7285ddcef25e1089222d8d935",
+  "report_sha256": "d4b07b906ad0267eed16991b9c1e9020ffbaf0abc8fa9230ac0ce2bcd4e41a0e",
+  "output_directory": "/home/zhome/xiaoe-internship-data/processed/pediatric_GSE203274_qc_20261111",
+  "code_sha256": {
+    "calibrate_mixed.py": "c1c99e1210d1e5bbe45d9c9b631217e2de5ec59a56281638f28db0732b4c0873",
+    "finalize_gse203274.py": "792804504575652ad00cf906e469d217fcdb2db3ef0020110c5599bb90075242",
+    "prepare_residual_review.py": "92d0528c9cdb93141acbb612ee21ad664372cfa1078043f23fd419693a7df779",
+    "qc_common.py": "b37f26dbe19bf229bed55628d1fc0db3840fd4fb56511331152dd26cef8d7406",
+    "repair_stage_metadata.py": "14c27b6fcf21f09b8300d8aa2eb84bad4bc75304b729e62e5bcf75e31f0e37b9",
+    "run_finalize.sh": "fe6e28cd717c497bd3c203e749d89f75de2922e6f18fa8c0e23848eaf7f14f38",
+    "run_identity.R": "c8c0e56327cd0f82d879596de8ad44ce9a280a282cbcaa5b6ea9a92a9681a5dc",
+    "run_R.sh": "ef2e4031e258356cca7da7f04689acc121e6ad75806dfb2cdcd208d020279a9e",
+    "run_repair_metadata.sh": "930bd5ab947c9aba9dbc10bcbcd6d298a12aa7935a88733b96a7cd3e4ed9aaba",
+    "run_residual.R": "553da89004aec7fc3929ab1329ce3c8d560a0858f9591b677d57225df4cb3ef5",
+    "run_stage.sh": "0dafda00881134d789a8c2c0b18b52624c6a9edc283817ea55b7ea02cbab4ef8",
+    "run_verify.sh": "44a87dc278f8c9c9d3ab4a476899462b18bcffeab6debddc6c59870cace464ff",
+    "stage_gse203274.py": "67dd5e35f902bd092c8417193cee61d14995b0192b83fc413c468f1738d27ff7",
+    "verify_gse203274.py": "3ea3cdf68b4f07f3b380a3bf0b6f31932b93d9772093492d08bc434fa507f94e"
+  },
+  "training_split_assigned": false,
+  "limitation": "one pediatric HCM donor; repeats and LV/RV donor binding retained; other diagnoses never mapped to Control"
+}

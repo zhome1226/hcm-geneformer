@@ -1,0 +1,3 @@
+cell_line	source_cells	source_genes	usable_cells	quarantined_cells	control_cells	perturbation_labels_including_control	captures	target_missing_axis_cells	duplicate_symbol_rows	published_mt_genes	source_file	counts_slot
+K562	310385	8563	310385	0	10691	2058	48	25212	4	13	/home/zhome/xiaoe-internship-data/benchmarks/competitions/causalbench2023/data/K562_essential_raw_singlecell_01.h5ad	X
+RPE1	247914	8749	247914	0	11485	2392	56	34021	2	13	/home/zhome/xiaoe-internship-data/benchmarks/competitions/causalbench2023/data/rpe1_raw_singlecell_01.h5ad	X

@@ -1,0 +1,69 @@
+{
+  "checked_utc": "2026-11-11T17:20:59.104458+00:00",
+  "status": "passed",
+  "checks": {
+    "copied_files_match_local_sources_and_original_SHA256": true,
+    "exact_14_datasets_13_complete_1_missing_gene_annotation": true,
+    "supplement_nine_checks_pass_without_false_cleaning_completion": true,
+    "GSE227734_five_current_source_files_match_server": true,
+    "gitignore_blocks_requested_data_formats": true,
+    "preexisting_untracked_qc_review_not_staged": true,
+    "no_unrelated_paths_staged": true,
+    "all_staged_content_small_UTF8_text_and_no_data_extensions": true,
+    "no_credential_signatures_in_staged_content": true,
+    "all_staged_JSON_parse": true,
+    "whitespace_observations_only_in_verbatim_archived_files": true,
+    "delivery_markdown_relative_links_resolve": true
+  },
+  "staged_files_before_audit": 322,
+  "total_staged_bytes_before_audit": 4154987,
+  "largest_staged_file": {
+    "path": "results/qc/all_data_cleaning_20261111/acdc2017/INDEPENDENT_VERIFICATION.json",
+    "bytes": 1357077
+  },
+  "validated_JSON_files": 52,
+  "shell_scripts_marked_executable": 47,
+  "ignored_format_probes": [
+    "data/validation/ignore_probe/archive.tar",
+    "data/validation/ignore_probe/archive.gz",
+    "data/validation/ignore_probe/object.Rdata",
+    "data/validation/ignore_probe/object.RData",
+    "data/validation/ignore_probe/object.rdata",
+    "data/validation/ignore_probe/matrix.mtx",
+    "data/validation/ignore_probe/counts.h5ad",
+    "data/validation/ignore_probe/image.nii",
+    "data/validation/ignore_probe/counts.h5",
+    "data/validation/ignore_probe/reads.fastq.gz"
+  ],
+  "remote_GSE227734_source_SHA256": {
+    "prepare_gse227734.py": "f4c1557a2381a6ac1dead379257a680c06514f44a0f7c2a07369df9a3a2ed4b2",
+    "verify_gse227734.py": "c06cf987f2998ef18b5db316ef94d06a2eca0c9308acca8134e7a22b1d72ee66",
+    "run_preparation.sh": "69d61ccd6a33dab8d0d490efc75889f021b03d7d8ef23828158ae3b3065f287b",
+    "README.md": "6e7ab49188a95a55f02869bfb5a049f4822570539f935f8b6de74150a7e8b591",
+    "audit_publisher_supplement.py": "4b049968dad127caee45ac2b3ed555ecd1614ab0ec3008d46586d5590a43229f"
+  },
+  "missing_relative_links": [],
+  "whitespace_observation": {
+    "git_diff_check_returncode": 2,
+    "diagnostics": [
+      "results/qc/all_data_cleaning_20261111/ACDC2017_REPORT.md:16: new blank line at EOF.",
+      "results/qc/all_data_cleaning_20261111/CAUSALBENCH2023_REPORT.md:13: new blank line at EOF.",
+      "results/qc/all_data_cleaning_20261111/GSE138262_REPORT.md:21: trailing whitespace.",
+      "results/qc/all_data_cleaning_20261111/GSE203274_REPORT.md:31: trailing whitespace.",
+      "results/qc/all_data_cleaning_20261111/NEURIPS2021_REPORT.md:17: new blank line at EOF.",
+      "results/qc/all_data_cleaning_20261111/gse138262/REPORT.md:21: trailing whitespace.",
+      "results/qc/all_data_cleaning_20261111/gse181764/sample_qc_summary.tsv:5: trailing whitespace.",
+      "results/qc/all_data_cleaning_20261111/gse203274/REPORT.md:31: trailing whitespace.",
+      "results/qc/all_data_cleaning_20261111/gse227734/REPORT.md:26: new blank line at EOF.",
+      "src/qc_acdc2017/collect_completion.py:66: new blank line at EOF.",
+      "src/qc_causalbench2023/collect_completion.py:53: new blank line at EOF.",
+      "src/qc_gse138262/calibrate_mixed.py:38: new blank line at EOF."
+    ],
+    "raw_log": "GIT_DIFF_CHECK.txt",
+    "disposition": "Verbatim source archive retains historical blank EOFs/Markdown spaces and TSV trailing empty columns; source SHA256 parity is required. No code or data was reformatted to suppress diagnostics."
+  },
+  "global_cleaning_complete": false,
+  "datasets_complete": 13,
+  "datasets_total": 14,
+  "remaining_requirement": "authoritative ordered gene mapping or verifiable corrected GSE227734 matrix"
+}

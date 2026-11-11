@@ -1,0 +1,33 @@
+{
+  "version": "SCP1303_reviewed_strict_v3",
+  "created_utc": "2026-11-11T10:06:41.827607+00:00",
+  "seed": 20261111,
+  "min_genes": 500,
+  "max_genes": 5000,
+  "mt_percent_exclusive_max": 5,
+  "count_layer": "author CellBender X and counts; original CellRanger retained",
+  "disease_map": {
+    "NF": 0,
+    "HCM": 1
+  },
+  "reference": "Litvinukova2020 adult left ventricular nuclei; SingleR with reference-donor holdout calibration",
+  "neighbor_support_floor": 1.0,
+  "neighbor_floor_derivation": "Fifth percentile of author-CM unflagged context anchors with >=3 expanded CM genes and CM as best reference label; contextual support, not independent confidence.",
+  "retain_rule": "Applicable reference-tail CM support OR CM best reference label + >=3 expanded CM genes + CM program count dominance + neighbor support OR uncertain reference + >=5 expanded CM genes + same dominance/neighbors; author CM required.",
+  "noncm_rule": "Reference-tail non-CM support + >=2 matching lineage genes + <=1 CM panel gene + matching non-CM counts dominate CM counts.",
+  "doublet_rule": "scDblFinder doublet + original sample-relative score >=95th percentile + >=2 CM and >=3 non-CM genes + original mixed marker warning; no single-tool-only removal.",
+  "uncertain_rule": "Other reviewed author cardiomyocytes remain pending and outside reviewed core, retained in a separate H5AD.",
+  "unchallenged_cells": "Reuse author QC with explicit status; not claimed to have independent per-cell reference confirmation.",
+  "upper_limit_decision": "Maintain user-confirmed 5000 primary limit. 6000 is an identity/coverage sensitivity report only, not silently adopted.",
+  "split_status": "Original donor split preserved; provisional pending final training protocol",
+  "secondary_doublet_rate_assumption": "Residual dbr=.01, dbr.sd=.015 on author-retained complete library cell-type composition; original droplets/doublet rate not reconstructed.",
+  "group_reference_applicability": {
+    "reference_holdout_profiles": 30,
+    "accuracy": 1.0,
+    "CM_truth_profiles": 4,
+    "CM_precision": 1.0,
+    "CM_recall": 1.0
+  },
+  "additional_sparse_CM_rule": "Individual best reference label CM + >=3 genes from a CM-specific program derived only from training-reference counts + CM global cluster and >=80% weighted donor-profile CM consistency across >=3 donor profiles; non-CM/doublet exclusions override. Group profiles are correlated evidence, not independent votes.",
+  "program_source_sha256": "3ecbf810efd8ba8616c9007517b99b66b030944b7c43591de5723d5162b04f67"
+}

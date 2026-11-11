@@ -1,0 +1,9 @@
+{
+  "status": "passed",
+  "checked_utc": "2026-11-11T16:45:51.901540+00:00",
+  "independent_checks": 13707,
+  "verification_SHA256": "a0496ad2171b070133417328e874ca978572fd12ff0996de0a99f53fce51955e",
+  "prepared_manifest_SHA256": "b1bb8402ff093d497ae7ae62c000b56dc5be1dd3a5e7992fdd558ba637d0f73b",
+  "source_immutable": true,
+  "scope": "all 904 source files, all 750 NIfTI volumes and 300 image-mask phase pairs, exact official patient splits"
+}

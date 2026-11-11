@@ -1,0 +1,14 @@
+sample_id	donor	disease	input_nuclei	strict_nuclei	below_500	above_5000	MT_ge5	author_CM	matrix_equal_author_RNA_counts	author_MT_unit
+CL0412A	CL0412	Control	6073	5927	17	129	0	1628	True	fraction; multiply by 100 to obtain percent
+CL0412B	CL0412	Control	5146	4979	23	144	0	1370	True	fraction; multiply by 100 to obtain percent
+CL2	CL2	Control	4720	4576	0	144	0	1423	True	fraction; multiply by 100 to obtain percent
+HCM300	HCM300	HCM	3988	3893	0	95	0	343	True	fraction; multiply by 100 to obtain percent
+HCM456	HCM456	HCM	3687	3609	0	78	0	353	True	fraction; multiply by 100 to obtain percent
+HCM483	HCM483	HCM	3169	3080	0	89	0	675	True	fraction; multiply by 100 to obtain percent
+HCM516	HCM516	HCM	4654	4520	0	134	0	710	True	fraction; multiply by 100 to obtain percent
+HCM534	HCM534	HCM	4158	4047	4	107	0	373	True	fraction; multiply by 100 to obtain percent
+HCM621	HCM621	HCM	3677	3535	0	142	0	667	True	fraction; multiply by 100 to obtain percent
+HCM752	HCM752	HCM	3210	3123	4	83	0	449	True	fraction; multiply by 100 to obtain percent
+HCM763	HCM763	HCM	3906	3744	19	143	0	927	True	fraction; multiply by 100 to obtain percent
+HCM770	HCM770	HCM	4085	3912	0	173	0	1134	True	fraction; multiply by 100 to obtain percent
+HCM823	HCM823	HCM	4649	4593	0	56	0	169	True	fraction; multiply by 100 to obtain percent

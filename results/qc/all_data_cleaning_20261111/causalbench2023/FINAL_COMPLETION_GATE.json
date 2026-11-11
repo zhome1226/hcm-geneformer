@@ -1,0 +1,10 @@
+{
+  "status": "passed",
+  "checked_utc": "2026-11-11T16:33:49.584387+00:00",
+  "independent_checks": 1287,
+  "verification_SHA256": "bda945f1b7869229283af49a0349dfea7495d1fe48900c1699ff82ea9f6c9f50",
+  "prepared_manifest_SHA256": "a822a6ce66872b3ffa66576c00950b0df655db28876bdf0658fdcbc626a4cb79",
+  "source_immutable": true,
+  "scope": "both downloaded K562/RPE1 raw count releases and complete usable/perturbation/capture indices",
+  "does_not_certify_HCM_applicability_or_fixed_training_split": true
+}

@@ -1,0 +1,67 @@
+{
+  "created_utc": "2026-11-11T09:24:04.312217+00:00",
+  "seed": 20261111,
+  "source": "/home/zhome/xiaoe-internship-data/references/Litvinukova2020/heart_atlas_49312f8c.h5ad",
+  "reference_donor_ids": [
+    "D1",
+    "D11",
+    "D3",
+    "D4",
+    "D6",
+    "D7",
+    "H2",
+    "H3",
+    "H5",
+    "H6"
+  ],
+  "heldout_reference_donor_ids": [
+    "D2",
+    "D5",
+    "H4",
+    "H7"
+  ],
+  "broad_label_mapping": {
+    "regular ventricular cardiac myocyte": "Cardiomyocyte",
+    "regular atrial cardiac myocyte": "Cardiomyocyte",
+    "pericyte": "Pericyte",
+    "fibroblast": "Fibroblast",
+    "capillary endothelial cell": "Endothelial",
+    "endothelial cell of artery": "Endothelial",
+    "endothelial cell": "Endothelial",
+    "vein endothelial cell": "Endothelial",
+    "endothelial cell of lymphatic vessel": "Endothelial",
+    "smooth muscle cell": "Smooth_muscle",
+    "neural cell": "Neural",
+    "epicardial adipocyte": "Adipocyte",
+    "mesothelial cell": "Mesothelial",
+    "macrophage": "Immune",
+    "natural killer cell": "Immune",
+    "CD14-positive, CD16-positive monocyte": "Immune",
+    "CD4-positive, alpha-beta cytotoxic T cell": "Immune",
+    "activated CD8-positive, alpha-beta T cell": "Immune",
+    "CD8-positive, alpha-beta cytotoxic T cell": "Immune",
+    "CD14-positive monocyte": "Immune",
+    "monocyte": "Immune",
+    "mast cell": "Immune",
+    "mature NK T cell": "Immune",
+    "B cell": "Immune",
+    "activated CD4-positive, alpha-beta T cell": "Immune",
+    "dendritic cell": "Immune"
+  },
+  "reference_regions": [
+    "heart left ventricle"
+  ],
+  "suspension_type": "nucleus",
+  "reference_gene_count": 31823,
+  "excluded_unknown_nuclei": 7743,
+  "selection": "Fixed seed; max 60 reference or 100 calibration nuclei per donor and broad cell type",
+  "pruning_plan": "Report SingleR default nmads=3 pruning; additionally use the fifth percentile of correct held-out reference delta and delta.next by assigned type when at least 30 correct examples are available. These are empirical reference-tail flags, not posterior confidence.",
+  "independence_note": "Reference donors held out from reference training. Biological donor overlap between studies remains unestablished; this reference is not a disease evaluation set.",
+  "hashes": {
+    "calibration_metadata.tsv": "943eaebb63682948f8c2e4a869b040ae7ed8b32bf0f05128468c71b280ae91bb",
+    "reference_design.tsv": "b7f44767b9c4c7eb5182358b4948c6196adc688fcb6f127bc663cf514f6bd97f",
+    "reference_genes.tsv": "1565b9d7b9242d5d912b01b0185692f3af76e8b66497273dd941136d5f7a52e2",
+    "reference_metadata.tsv": "2d4803c24513e6d0de95cb992a2e7d96188e4223a51ef0d6da2e151dd2504849",
+    "reference_selection.tsv": "c1a1a87e1b0bee77bc41118c762397761cbcc34d6c6478cc8af72202bff37c63"
+  }
+}

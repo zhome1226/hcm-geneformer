@@ -1,0 +1,152 @@
+{
+  "version": "GSE138262_corrected_strict_v1",
+  "seed": 20261111,
+  "min_genes": 500,
+  "max_genes": 5000,
+  "mt_percent_exclusive_max": 5,
+  "count_source": "32 full corrected UMI count tables at Zenodo version DOI 10.5281/zenodo.18206554; retain native Ensembl/symbol IDs, missing symbols, all cells and genes. RNA assays in released Seurat objects have already removed mitochondrial genes; never derive MT% from those assays.",
+  "numeric": "500 <= detected genes <= 5000, MT percentage <5 from full corrected count tables; frozen project baseline, not a universal whole-cell heart threshold. No silent relaxation even if yield is near zero.",
+  "source_scope": "5 HCM donors/16 CEL-seq2 plates from GSE138262; 7 separately identified Wang healthy donors/16 iCell8 plate-parts are author-selected LV control companions. Author ALL also contains Litvinukova cells, inventoried separately; not appended or declared independent validation.",
+  "disease_map": {
+    "Control": 0,
+    "HCM": 1
+  },
+  "disease_definition": "Source donor diagnosis; not independently measured per-cell pathology.",
+  "cell_calling_and_doublets": "FACS-sorted CEL-seq2 and selected iCell8 whole cells: no EmptyDrops, no 10x-loading scDblFinder/Scrublet model, no claim that high gene counts or mixed programs prove doublets. Strong mixed programs stay in review; homotypic doublets remain unresolved.",
+  "identity": "Adapted adult LV nuclear SingleR reference with fixed donor-separated calibration, >=2 CM panel genes, CM-program dominance, no coherent mixed panels, and empirical reference-tail pass or >=3 CM genes plus >=.5 anchor-neighbor fraction. Neighbor rescue enabled only for a source study with >=50 strict cells; this dataset has too few cells. Domain shift and small sample limit confidence.",
+  "mixed_program_bounds": {
+    "Cardiomyocyte": {
+      "positive_q10": 2.0177177872310743,
+      "negative_q99": 2.2061581613486987,
+      "threshold": 2.2061581613486987
+    },
+    "Fibroblast": {
+      "positive_q10": 0.49856167763108883,
+      "negative_q99": 1.1492012336489958,
+      "threshold": 1.1492012336489958
+    },
+    "Endothelial": {
+      "positive_q10": 0.5477254824204757,
+      "negative_q99": 0.5916536880035794,
+      "threshold": 0.5916536880035794
+    },
+    "Immune": {
+      "positive_q10": 0.0,
+      "negative_q99": 0.0,
+      "threshold": 0.0
+    },
+    "Mural": {
+      "positive_q10": 0.47403376034313566,
+      "negative_q99": 0.9780136147441695,
+      "threshold": 0.9780136147441695
+    }
+  },
+  "mixed_program_pairs": [
+    [
+      "Cardiomyocyte",
+      "Fibroblast"
+    ],
+    [
+      "Cardiomyocyte",
+      "Endothelial"
+    ],
+    [
+      "Cardiomyocyte",
+      "Immune"
+    ],
+    [
+      "Cardiomyocyte",
+      "Mural"
+    ],
+    [
+      "Fibroblast",
+      "Endothelial"
+    ],
+    [
+      "Fibroblast",
+      "Immune"
+    ],
+    [
+      "Endothelial",
+      "Immune"
+    ],
+    [
+      "Immune",
+      "Mural"
+    ]
+  ],
+  "panels": {
+    "Cardiomyocyte": [
+      "TNNT2",
+      "TTN",
+      "TNNI3",
+      "ACTC1",
+      "MYH7",
+      "MYBPC3",
+      "MYL2",
+      "TNNC1",
+      "RYR2",
+      "PLN",
+      "ACTN2",
+      "MYH6"
+    ],
+    "Fibroblast": [
+      "COL1A1",
+      "COL1A2",
+      "DCN",
+      "LUM",
+      "PDGFRA"
+    ],
+    "Endothelial": [
+      "PECAM1",
+      "VWF",
+      "KDR",
+      "EMCN",
+      "CLDN5"
+    ],
+    "Immune": [
+      "PTPRC",
+      "LST1",
+      "TYROBP",
+      "CD3D",
+      "CD79A"
+    ],
+    "Mural": [
+      "RGS5",
+      "PDGFRB",
+      "CSPG4",
+      "MYH11",
+      "ACTA2",
+      "TAGLN"
+    ],
+    "Neural": [
+      "NRXN1",
+      "SNAP25",
+      "SYT1",
+      "SLC1A3",
+      "PLP1"
+    ],
+    "Adipocyte": [
+      "ADIPOQ",
+      "FABP4",
+      "PLIN1",
+      "LPL",
+      "CIDEC"
+    ],
+    "Mesothelial": [
+      "WT1",
+      "MSLN",
+      "UPK3B",
+      "KRT8",
+      "KRT18"
+    ]
+  },
+  "mixed_rule": "Each lineage >=3 genes with >=2 UMIs; both mean log1p(CP10k) programs >= max(fixed reference positive q10,negative q99); min/max score ratio >=.25. Heuristic correlated evidence, not independent doublet confidence.",
+  "graph": "Per source study only, diagnostic log1p(CP10k), <=3000 HVGs excluding MT, <=40 PCs, <=15 exact sklearn neighbors; graphs do not replace raw counts or integrate disease.",
+  "retention": "All 7537 input cells retained in all_source_counts.h5ad, all 28663 union features retained in every count object; per-native-axis presence mask and native plate H5AD files preserved.",
+  "training": "Not approved under the frozen strict baseline: only 8 numeric candidates, no healthy controls; no train/test split, tokenization, training, differential expression or target ranking.",
+  "light": "At most 20000 distinct core cells, no duplication; this strict result is already below the limit.",
+  "author_comparison": "All 48 shared plate/object RNA comparisons match corrected source counts exactly; only shared genes/cells are comparable because published RNA assays are filtered.",
+  "unmatched_features": "Empty author gene symbols retained with authoritative Ensembl identifiers, not guessed or discarded.",
+  "author_external_reference_overlap": "Author ALL incorporates Litvinukova2020 reference cells also used elsewhere; no independent disease-validation claim or automatic train inclusion."
+}

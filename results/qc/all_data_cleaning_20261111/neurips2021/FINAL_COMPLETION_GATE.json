@@ -1,0 +1,11 @@
+{
+  "status": "passed",
+  "checked_utc": "2026-11-11T16:17:31.110956+00:00",
+  "independent_checks": 880,
+  "matrices": 15,
+  "verification_SHA256": "e12fdcb114cbb3083c61697db9833963f54fbf9f862fc1518941b63aaf024148",
+  "prepared_manifest_SHA256": "f4fcd48005539c8be51feb2079fd46c43c62920e70e046b7bbc0b551ea003416",
+  "source_immutable": true,
+  "scope": "all two downloaded GSE194122 release objects; original counts plus usable modality/pairing indices",
+  "not_a_certificate_of_HCM_applicability_or_donor_independent_training_split": true
+}

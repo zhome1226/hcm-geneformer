@@ -1,0 +1,18 @@
+{
+  "dataset": "VCC2025",
+  "status": "complete_verified",
+  "verified_utc": "2026-11-11T15:08:09.611561+00:00",
+  "independent_checks_passed": 1141,
+  "independent_checks_failed": 0,
+  "all7_original_files_rehashed_against_download_baseline": true,
+  "all_stored_values_independently_scanned": true,
+  "official_splits_preserved": true,
+  "shared_control_expression_and_metadata_identical": true,
+  "original_source_files_used_read_only_via_explicit_indices": true,
+  "disease_label_assigned": false,
+  "biological_knockdown_or_singlet_certified": false,
+  "output_directory": "/home/zhome/xiaoe-internship-data/processed/VCC2025_qc_20261111",
+  "verification_file_SHA256": "037d00a423a7d84b96055a3935daf541788e976bbc00f3afcf12c33dcfc28867",
+  "output_manifest_SHA256": "7c5fe6e163f549268adf13cd36aca57c88e43c7941d92d2b322468d0813ebe29",
+  "source_prepare_exit_code": "0"
+}

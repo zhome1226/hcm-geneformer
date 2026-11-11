@@ -1,0 +1,3 @@
+disease	author_CM_input	author_CM_strict	author_CM_core	author_CM_pending	author_CM_suspected_doublet	numeric_excluded	core_fraction_of_author_input	core_fraction_of_author_strict
+Control	4421	4011	3829	182	0	410	0.8660936439719521	0.9546247818499127
+HCM	5800	4916	4718	198	0	884	0.8134482758620689	0.9597233523189586

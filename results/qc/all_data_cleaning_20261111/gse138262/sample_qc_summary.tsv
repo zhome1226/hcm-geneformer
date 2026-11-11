@@ -1,0 +1,33 @@
+sample_id	donor_id	disease	technology	source_cells	genes_500to5000	MT_lt5pct	strict_cells	CM_core	pending_identity	strong_mixed	median_MT_all	median_genes_all	numeric_retention_fraction	author_analysis_cells	author_analysis_strict_cells
+GSM4103885	Wehrens_Patient1	HCM	CEL-seq2 FACS-sorted whole cells	383	142	5	2	1	1	0	37.03703703703704	347.0	0.005221932114882507	113	2
+GSM4103886	Wehrens_Patient1	HCM	CEL-seq2 FACS-sorted whole cells	384	130	1	1	1	0	0	50.0	37.0	0.0026041666666666665	121	1
+GSM4103887	Wehrens_Patient1	HCM	CEL-seq2 FACS-sorted whole cells	374	117	24	0	0	0	0	45.03752587991718	39.5	0.0	100	0
+GSM4103888	Wehrens_Patient1	HCM	CEL-seq2 FACS-sorted whole cells	382	157	7	0	0	0	0	37.035660806389	251.0	0.0	137	0
+GSM4103889	Wehrens_Patient2	HCM	CEL-seq2 FACS-sorted whole cells	380	153	3	1	1	0	0	39.654344331781004	375.5	0.002631578947368421	131	1
+GSM4103890	Wehrens_Patient2	HCM	CEL-seq2 FACS-sorted whole cells	376	191	3	2	2	0	0	36.51350949114475	510.5	0.005319148936170213	153	2
+GSM4103891	Wehrens_Patient2	HCM	CEL-seq2 FACS-sorted whole cells	380	133	3	0	0	0	0	41.84002019452687	317.5	0.0	105	0
+GSM4103892	Wehrens_Patient2	HCM	CEL-seq2 FACS-sorted whole cells	384	270	1	1	1	0	0	35.2317457936399	701.5	0.0026041666666666665	218	1
+GSM4103893	Wehrens_Patient3	HCM	CEL-seq2 FACS-sorted whole cells	384	203	0	0	0	0	0	44.682819728691285	591.0	0.0	192	0
+GSM4103894	Wehrens_Patient3	HCM	CEL-seq2 FACS-sorted whole cells	384	197	0	0	0	0	0	47.396665708536936	512.0	0.0	172	0
+GSM4103895	Wehrens_Patient3	HCM	CEL-seq2 FACS-sorted whole cells	384	166	0	0	0	0	0	45.901577660117724	398.0	0.0	147	0
+GSM4103896	Wehrens_Patient3	HCM	CEL-seq2 FACS-sorted whole cells	384	133	1	0	0	0	0	59.36385765222161	127.0	0.0	115	0
+GSM4103897	Wehrens_Patient4	HCM	CEL-seq2 FACS-sorted whole cells	384	86	1	0	0	0	0	50.160706447408785	22.0	0.0	74	0
+GSM4103898	Wehrens_Patient4	HCM	CEL-seq2 FACS-sorted whole cells	384	82	1	1	0	1	0	45.45454545454545	72.0	0.0026041666666666665	68	1
+GSM4762107	Wehrens_Patient5	HCM	CEL-seq2 FACS-sorted whole cells	383	213	1	0	0	0	0	48.99749373433584	610.0	0.0	201	0
+GSM4762108	Wehrens_Patient5	HCM	CEL-seq2 FACS-sorted whole cells	384	262	2	0	0	0	0	34.55729485141249	801.0	0.0	245	0
+Wang_N1.97474.a	Wang_N1	Control	iCell8 whole cells; selected LV clusters	130	130	0	0	0	0	0	65.26522275549819	2871.5	0.0	130	0
+Wang_N1.97474.b	Wang_N1	Control	iCell8 whole cells; selected LV clusters	129	128	0	0	0	0	0	66.3182397770068	2581.0	0.0	124	0
+Wang_N2.97452.a	Wang_N2	Control	iCell8 whole cells; selected LV clusters	128	122	0	0	0	0	0	63.98506596964094	2613.5	0.0	128	0
+Wang_N2.97452.b	Wang_N2	Control	iCell8 whole cells; selected LV clusters	128	126	0	0	0	0	0	64.21056064888461	2477.5	0.0	128	0
+Wang_N2.97493.a	Wang_N2	Control	iCell8 whole cells; selected LV clusters	21	20	0	0	0	0	0	64.9920721021447	2062.0	0.0	20	0
+Wang_N2.97493.b	Wang_N2	Control	iCell8 whole cells; selected LV clusters	20	19	0	0	0	0	0	65.79469376108725	2694.0	0.0	20	0
+Wang_N3.97438.a	Wang_N3	Control	iCell8 whole cells; selected LV clusters	180	180	0	0	0	0	0	38.856764564389266	2596.0	0.0	180	0
+Wang_N3.97438.b	Wang_N3	Control	iCell8 whole cells; selected LV clusters	180	180	0	0	0	0	0	38.91407838931272	2584.0	0.0	180	0
+Wang_N4.97461.a	Wang_N4	Control	iCell8 whole cells; selected LV clusters	34	34	0	0	0	0	0	56.89195878179042	2318.0	0.0	34	0
+Wang_N4.97461.b	Wang_N4	Control	iCell8 whole cells; selected LV clusters	34	34	0	0	0	0	0	54.936498220998736	2273.5	0.0	34	0
+Wang_N5.97458.a	Wang_N5	Control	iCell8 whole cells; selected LV clusters	169	169	0	0	0	0	0	59.2027405792588	2093.0	0.0	169	0
+Wang_N5.97458.b	Wang_N5	Control	iCell8 whole cells; selected LV clusters	169	169	0	0	0	0	0	59.62443716741711	2081.0	0.0	169	0
+Wang_N13.100355.a	Wang_N13	Control	iCell8 whole cells; selected LV clusters	37	37	0	0	0	0	0	35.50570880064666	2007.0	0.0	30	0
+Wang_N13.100355.b	Wang_N13	Control	iCell8 whole cells; selected LV clusters	36	35	0	0	0	0	0	33.68561130034684	2102.0	0.0	27	0
+Wang_N14.104720.a	Wang_N14	Control	iCell8 whole cells; selected LV clusters	14	13	0	0	0	0	0	54.71035897157091	2565.0	0.0	13	0
+Wang_N14.104720.b	Wang_N14	Control	iCell8 whole cells; selected LV clusters	14	14	0	0	0	0	0	53.78928973731705	2596.0	0.0	14	0

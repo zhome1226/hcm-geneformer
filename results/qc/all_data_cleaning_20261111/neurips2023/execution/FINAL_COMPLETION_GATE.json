@@ -1,0 +1,18 @@
+{
+  "dataset": "NeurIPS2023",
+  "status": "complete_verified",
+  "verified_utc": "2026-11-11T15:52:10.915075+00:00",
+  "checks_passed": 383,
+  "checks_failed": 0,
+  "all8_originals_rehashed": true,
+  "all_native_assay_and_obsm_matrices_fully_scanned": true,
+  "official_splits_and_all_pair_maps_preserved": true,
+  "source_originals_read_only_with_real_usable_indices": true,
+  "reannotated_subset_not_double_counted": true,
+  "disease_labels_assigned": false,
+  "biological_response_or_singlet_certified": false,
+  "prepare_exit_code": "0",
+  "output_directory": "/home/zhome/xiaoe-internship-data/processed/NeurIPS2023_qc_20261111",
+  "verification_SHA256": "76e01463710f5cf6b76cb68a6e311fbbfdd136c2fa4839776466db658d22db02",
+  "output_manifest_SHA256": "752e475d73ae9fa19e9ff573a0ca2a698e2c21806b48b390bdcf0e683a3dbc9b"
+}

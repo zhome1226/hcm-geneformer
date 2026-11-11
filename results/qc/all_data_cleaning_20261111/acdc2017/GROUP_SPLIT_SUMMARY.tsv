@@ -1,0 +1,11 @@
+official_split	diagnostic_group	patients	usable_both_phases	usable_phase_pairs
+testing	DCM	10	10	20
+testing	HCM	10	9	18
+testing	MINF	10	10	20
+testing	NOR	10	10	20
+testing	RV	10	10	20
+training	DCM	20	12	24
+training	HCM	20	7	14
+training	MINF	20	16	32
+training	NOR	20	10	20
+training	RV	20	20	40

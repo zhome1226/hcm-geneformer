@@ -1,0 +1,36 @@
+{
+  "dataset": "GSE249925",
+  "version": "bulk_QC_v1",
+  "matrix_semantics": "Published nonnegative integer expression; GEO raw-count label conflicts with statement that provided reads were TMM-normalized. Integer values do not resolve provenance. Not certified unnormalized counts.",
+  "certified_unnormalized_counts": false,
+  "published_processing": [
+    "Assembly: hg38",
+    "Data were processed using a previoulsy published method[https://pubmed.ncbi.nlm.nih.gov/24972667/]. In brief, reads were quality controlled using FASTQC. Reads were mapped against hg38 genome using STAR aligner. HT-Seq was utilized to analyzed the aligned reads and generate gene-wise counts using Ensemble version 78 transcriptome. Extracted read data was processed using edgeR software. Timmed means of M-values method was utilized to normalized reads that were provided in the file named 20231208-For-GEO-Raw-Counts.tsv\".",
+    "Supplementary files format and content: 20231208-For-GEO-Raw-Counts.tsv; tab-delimited; Raw gene-count matrix"
+  ],
+  "author_reference": "GEO: hg38, Ensembl v78, STAR, HT-Seq, edgeR/TMM; PMID39255898, DOI10.1016/j.yjmcc.2024.09.005",
+  "original_preservation": "Original three files read-only; all native composite feature identifiers, lengths, sample order and values retained in all_published_expression.h5ad. X and published_values layer are identical integers, never called uncorrected raw counts.",
+  "QC_features": "Keep identifiable native features with any nonzero published value. All-zero and structurally invalid features retained in full source and separately indexed in feature_exclusions.tsv.gz; no low-abundance, disease-dependent or MT threshold filtering.",
+  "feature_axis": "Split native chromosome@Ensembl@symbol@start@end without renaming or aggregation; retain duplicate native Ensembl IDs and symbols as distinct source rows, mark nonunique identifiers. Length is source annotation, not inferred genomic span.",
+  "QC_samples": "Exact title-to-GSM mapping, nonnegative finite integer values, known source group and nonzero information. Expression/registry duplicates and 5MAD log totals/detected-feature flags are review flags only, never guessed donor identities or automatic deletions.",
+  "disease": {
+    "HCM": 1,
+    "Control": 0
+  },
+  "metadata": "Preserve exact sample titles including numeric strings and R suffixes. GSM/BioSample/SRA identify source records, not proven unique patients. No individual donor, sex, age or batch map provided; no imputation from names or study sex totals.",
+  "study": "Garmany et al., J Mol Cell Cardiol 2024: reported97 symptomatic obstructive HCM myectomy patients and23 donor cardiac controls. Per-sample group/tissue from GEO; no fabricated specimen-level septal location or sex.",
+  "training": "Bulk tissue mixtures are not individual cardiomyocytes. No single-cell training eligibility or automatic substitution for snRNA validation; donor/sex/batch and raw-count provenance require review before count-model inference or splitting.",
+  "not_applied": [
+    "single-cell500to5000",
+    "MT_lt5pct",
+    "EmptyDrops",
+    "doublet_calling",
+    "CM_extraction",
+    "normalization",
+    "imputation",
+    "batch_correction",
+    "differential_expression",
+    "tokenization",
+    "training"
+  ]
+}

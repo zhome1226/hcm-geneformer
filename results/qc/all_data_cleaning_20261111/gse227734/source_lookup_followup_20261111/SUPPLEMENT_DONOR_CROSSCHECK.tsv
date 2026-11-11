@@ -1,0 +1,6 @@
+source_title	source_sample_alias	pre_filter_cells_supplement	post_filter_cells_supplement	published_cells	age_years_original_GEO	age_years_supplement	age_conflict	sex_original_and_supplement	age_resolution
+P1	CZQ	40	37	37	54	54	False	male	sources_agree
+P2	ZZW	80	75	75	22	22	False	male	sources_agree
+P3	GCZ	90	70	70	47	47	False	male	sources_agree
+P4	SCL	90	66	66	50	50	False	male	sources_agree
+P5	LGH	90	90	90	63	64	True	male	unresolved_keep_both_sources

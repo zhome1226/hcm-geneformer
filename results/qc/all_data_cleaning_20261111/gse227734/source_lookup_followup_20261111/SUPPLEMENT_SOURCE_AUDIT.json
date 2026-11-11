@@ -1,0 +1,68 @@
+{
+  "checked_utc": "2026-11-11T17:10:52.405950+00:00",
+  "source_url": "https://ars.els-cdn.com/content/image/1-s2.0-S0022282823001876-mmc1.docx",
+  "source_path": "/home/zhome/xiaoe-internship-data/references/GSE227734_publisher_20261111/mmc1.docx",
+  "source_bytes": 3853376,
+  "source_sha256": "6b6ef2ca9c0737b0f300fa87244bf9ba9acd9bcd048839e8951b046bc2c5de54",
+  "checks": {
+    "supplement_sha256_matches_local_source": true,
+    "tables_reparsed_independently_match_local": true,
+    "all_ten_published_barcodes_match_supplement": true,
+    "five_donor_postfilter_counts_match_original": true,
+    "published_input_already_author_filtered_390_to_338": true,
+    "all_five_sexes_agree": true,
+    "P5_age_conflict_preserved_63_GEO_64_supplement": true,
+    "no_hidden_gene_mapping_in_original_HDF5": true,
+    "supplement_has_six_small_tables_and_no_embedded_files": true
+  },
+  "source_audit_passed": true,
+  "dataset_cleaning_complete": false,
+  "dataset_status": "blocked_missing_gene_annotation",
+  "training_eligible_cells": 0,
+  "tables_inspected": 6,
+  "table_dimensions": [
+    [
+      17,
+      2
+    ],
+    [
+      17,
+      3
+    ],
+    [
+      16,
+      6
+    ],
+    [
+      3,
+      7
+    ],
+    [
+      21,
+      2
+    ],
+    [
+      7,
+      5
+    ]
+  ],
+  "embedded_files": [],
+  "ordered_9760_feature_mapping_found": false,
+  "raw_reconstruction_constraints": "Table S1 provides ten 8-base cell barcodes and primers, but not an authoritative raw-library/author-cell key, complete UMI/read-layout specification or exact reference annotation release; do not guess these from run ordering.",
+  "age_conflicts": [
+    {
+      "source_title": "P5",
+      "source_sample_alias": "LGH",
+      "pre_filter_cells_supplement": 90,
+      "post_filter_cells_supplement": 90,
+      "published_cells": 90,
+      "age_years_original_GEO": 63,
+      "age_years_supplement": 64,
+      "age_conflict": true,
+      "sex_original_and_supplement": "male",
+      "age_resolution": "unresolved_keep_both_sources"
+    }
+  ],
+  "original_data_modified": false,
+  "audit_source_sha256": "4b049968dad127caee45ac2b3ed555ecd1614ab0ec3008d46586d5590a43229f"
+}

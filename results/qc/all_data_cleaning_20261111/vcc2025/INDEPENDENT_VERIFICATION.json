@@ -1,0 +1,4581 @@
+{
+  "dataset": "VCC2025",
+  "status": "complete_verified",
+  "verified_utc": "2026-11-11T15:08:09.611561+00:00",
+  "checks_passed": 1141,
+  "checks_failed": 0,
+  "checks": [
+    {
+      "name": "all_seven_original_files_accounted_for",
+      "passed": true
+    },
+    {
+      "name": "original_bytes_gene_names.csv",
+      "passed": true
+    },
+    {
+      "name": "original_MD5_gene_names.csv",
+      "passed": true
+    },
+    {
+      "name": "original_new_SHA256_record_gene_names.csv",
+      "passed": true
+    },
+    {
+      "name": "honest_SHA256_baseline_availability_gene_names.csv",
+      "passed": true
+    },
+    {
+      "name": "original_bytes_test/adata_Test.h5ad",
+      "passed": true
+    },
+    {
+      "name": "original_MD5_adata_Test.h5ad",
+      "passed": true
+    },
+    {
+      "name": "original_new_SHA256_record_adata_Test.h5ad",
+      "passed": true
+    },
+    {
+      "name": "original_historical_SHA256_adata_Test.h5ad",
+      "passed": true
+    },
+    {
+      "name": "honest_SHA256_baseline_availability_adata_Test.h5ad",
+      "passed": true
+    },
+    {
+      "name": "original_bytes_test/pert_counts_Test.csv",
+      "passed": true
+    },
+    {
+      "name": "original_MD5_pert_counts_Test.csv",
+      "passed": true
+    },
+    {
+      "name": "original_new_SHA256_record_pert_counts_Test.csv",
+      "passed": true
+    },
+    {
+      "name": "honest_SHA256_baseline_availability_pert_counts_Test.csv",
+      "passed": true
+    },
+    {
+      "name": "original_bytes_train/adata_Training.h5ad",
+      "passed": true
+    },
+    {
+      "name": "original_MD5_adata_Training.h5ad",
+      "passed": true
+    },
+    {
+      "name": "original_new_SHA256_record_adata_Training.h5ad",
+      "passed": true
+    },
+    {
+      "name": "original_historical_SHA256_adata_Training.h5ad",
+      "passed": true
+    },
+    {
+      "name": "honest_SHA256_baseline_availability_adata_Training.h5ad",
+      "passed": true
+    },
+    {
+      "name": "original_bytes_train/pert_counts_Training.csv",
+      "passed": true
+    },
+    {
+      "name": "original_MD5_pert_counts_Training.csv",
+      "passed": true
+    },
+    {
+      "name": "original_new_SHA256_record_pert_counts_Training.csv",
+      "passed": true
+    },
+    {
+      "name": "honest_SHA256_baseline_availability_pert_counts_Training.csv",
+      "passed": true
+    },
+    {
+      "name": "original_bytes_validation/adata_Validation.h5ad",
+      "passed": true
+    },
+    {
+      "name": "original_MD5_adata_Validation.h5ad",
+      "passed": true
+    },
+    {
+      "name": "original_new_SHA256_record_adata_Validation.h5ad",
+      "passed": true
+    },
+    {
+      "name": "original_historical_SHA256_adata_Validation.h5ad",
+      "passed": true
+    },
+    {
+      "name": "honest_SHA256_baseline_availability_adata_Validation.h5ad",
+      "passed": true
+    },
+    {
+      "name": "original_bytes_validation/pert_counts_Validation.csv",
+      "passed": true
+    },
+    {
+      "name": "original_MD5_pert_counts_Validation.csv",
+      "passed": true
+    },
+    {
+      "name": "original_new_SHA256_record_pert_counts_Validation.csv",
+      "passed": true
+    },
+    {
+      "name": "honest_SHA256_baseline_availability_pert_counts_Validation.csv",
+      "passed": true
+    },
+    {
+      "name": "fixed18080_gene_panel_unique_and_unmodified",
+      "passed": true
+    },
+    {
+      "name": "native_gene_positions_and_MT_flags",
+      "passed": true
+    },
+    {
+      "name": "train_real_CSR_dimensions_and_indptr",
+      "passed": true
+    },
+    {
+      "name": "train_no_fabricated_raw_or_counts_layer",
+      "passed": true
+    },
+    {
+      "name": "train_original_cells_and_gene_axis_unique_and_aligned",
+      "passed": true
+    },
+    {
+      "name": "train_native_metadata_fields_exactly_preserved",
+      "passed": true
+    },
+    {
+      "name": "train_exact_source_row_and_path_mapping",
+      "passed": true
+    },
+    {
+      "name": "native_train_geneIDs_used_only_on_exact_panel",
+      "passed": true
+    },
+    {
+      "name": "train_full_numeric_block_0",
+      "passed": true
+    },
+    {
+      "name": "train_full_column_bounds_block_0",
+      "passed": true
+    },
+    {
+      "name": "train_full_numeric_block_1536",
+      "passed": true
+    },
+    {
+      "name": "train_full_column_bounds_block_1536",
+      "passed": true
+    },
+    {
+      "name": "train_full_numeric_block_3072",
+      "passed": true
+    },
+    {
+      "name": "train_full_column_bounds_block_3072",
+      "passed": true
+    },
+    {
+      "name": "train_full_numeric_block_4608",
+      "passed": true
+    },
+    {
+      "name": "train_full_column_bounds_block_4608",
+      "passed": true
+    },
+    {
+      "name": "train_full_numeric_block_6144",
+      "passed": true
+    },
+    {
+      "name": "train_full_column_bounds_block_6144",
+      "passed": true
+    },
+    {
+      "name": "train_full_numeric_block_7680",
+      "passed": true
+    },
+    {
+      "name": "train_full_column_bounds_block_7680",
+      "passed": true
+    },
+    {
+      "name": "train_full_numeric_block_9216",
+      "passed": true
+    },
+    {
+      "name": "train_full_column_bounds_block_9216",
+      "passed": true
+    },
+    {
+      "name": "train_full_numeric_block_10752",
+      "passed": true
+    },
+    {
+      "name": "train_full_column_bounds_block_10752",
+      "passed": true
+    },
+    {
+      "name": "train_full_numeric_block_12288",
+      "passed": true
+    },
+    {
+      "name": "train_full_column_bounds_block_12288",
+      "passed": true
+    },
+    {
+      "name": "train_full_numeric_block_13824",
+      "passed": true
+    },
+    {
+      "name": "train_full_column_bounds_block_13824",
+      "passed": true
+    },
+    {
+      "name": "train_full_numeric_block_15360",
+      "passed": true
+    },
+    {
+      "name": "train_full_column_bounds_block_15360",
+      "passed": true
+    },
+    {
+      "name": "train_full_numeric_block_16896",
+      "passed": true
+    },
+    {
+      "name": "train_full_column_bounds_block_16896",
+      "passed": true
+    },
+    {
+      "name": "train_full_numeric_block_18432",
+      "passed": true
+    },
+    {
+      "name": "train_full_column_bounds_block_18432",
+      "passed": true
+    },
+    {
+      "name": "train_full_numeric_block_19968",
+      "passed": true
+    },
+    {
+      "name": "train_full_column_bounds_block_19968",
+      "passed": true
+    },
+    {
+      "name": "train_full_numeric_block_21504",
+      "passed": true
+    },
+    {
+      "name": "train_full_column_bounds_block_21504",
+      "passed": true
+    },
+    {
+      "name": "train_full_numeric_block_23040",
+      "passed": true
+    },
+    {
+      "name": "train_full_column_bounds_block_23040",
+      "passed": true
+    },
+    {
+      "name": "train_full_numeric_block_24576",
+      "passed": true
+    },
+    {
+      "name": "train_full_column_bounds_block_24576",
+      "passed": true
+    },
+    {
+      "name": "train_full_numeric_block_26112",
+      "passed": true
+    },
+    {
+      "name": "train_full_column_bounds_block_26112",
+      "passed": true
+    },
+    {
+      "name": "train_full_numeric_block_27648",
+      "passed": true
+    },
+    {
+      "name": "train_full_column_bounds_block_27648",
+      "passed": true
+    },
+    {
+      "name": "train_full_numeric_block_29184",
+      "passed": true
+    },
+    {
+      "name": "train_full_column_bounds_block_29184",
+      "passed": true
+    },
+    {
+      "name": "train_full_numeric_block_30720",
+      "passed": true
+    },
+    {
+      "name": "train_full_column_bounds_block_30720",
+      "passed": true
+    },
+    {
+      "name": "train_full_numeric_block_32256",
+      "passed": true
+    },
+    {
+      "name": "train_full_column_bounds_block_32256",
+      "passed": true
+    },
+    {
+      "name": "train_full_numeric_block_33792",
+      "passed": true
+    },
+    {
+      "name": "train_full_column_bounds_block_33792",
+      "passed": true
+    },
+    {
+      "name": "train_full_numeric_block_35328",
+      "passed": true
+    },
+    {
+      "name": "train_full_column_bounds_block_35328",
+      "passed": true
+    },
+    {
+      "name": "train_full_numeric_block_36864",
+      "passed": true
+    },
+    {
+      "name": "train_full_column_bounds_block_36864",
+      "passed": true
+    },
+    {
+      "name": "train_full_numeric_block_38400",
+      "passed": true
+    },
+    {
+      "name": "train_full_column_bounds_block_38400",
+      "passed": true
+    },
+    {
+      "name": "train_full_numeric_block_39936",
+      "passed": true
+    },
+    {
+      "name": "train_full_column_bounds_block_39936",
+      "passed": true
+    },
+    {
+      "name": "train_full_numeric_block_41472",
+      "passed": true
+    },
+    {
+      "name": "train_full_column_bounds_block_41472",
+      "passed": true
+    },
+    {
+      "name": "train_full_numeric_block_43008",
+      "passed": true
+    },
+    {
+      "name": "train_full_column_bounds_block_43008",
+      "passed": true
+    },
+    {
+      "name": "train_full_numeric_block_44544",
+      "passed": true
+    },
+    {
+      "name": "train_full_column_bounds_block_44544",
+      "passed": true
+    },
+    {
+      "name": "train_full_numeric_block_46080",
+      "passed": true
+    },
+    {
+      "name": "train_full_column_bounds_block_46080",
+      "passed": true
+    },
+    {
+      "name": "train_full_numeric_block_47616",
+      "passed": true
+    },
+    {
+      "name": "train_full_column_bounds_block_47616",
+      "passed": true
+    },
+    {
+      "name": "train_full_numeric_block_49152",
+      "passed": true
+    },
+    {
+      "name": "train_full_column_bounds_block_49152",
+      "passed": true
+    },
+    {
+      "name": "train_full_numeric_block_50688",
+      "passed": true
+    },
+    {
+      "name": "train_full_column_bounds_block_50688",
+      "passed": true
+    },
+    {
+      "name": "train_full_numeric_block_52224",
+      "passed": true
+    },
+    {
+      "name": "train_full_column_bounds_block_52224",
+      "passed": true
+    },
+    {
+      "name": "train_full_numeric_block_53760",
+      "passed": true
+    },
+    {
+      "name": "train_full_column_bounds_block_53760",
+      "passed": true
+    },
+    {
+      "name": "train_full_numeric_block_55296",
+      "passed": true
+    },
+    {
+      "name": "train_full_column_bounds_block_55296",
+      "passed": true
+    },
+    {
+      "name": "train_full_numeric_block_56832",
+      "passed": true
+    },
+    {
+      "name": "train_full_column_bounds_block_56832",
+      "passed": true
+    },
+    {
+      "name": "train_full_numeric_block_58368",
+      "passed": true
+    },
+    {
+      "name": "train_full_column_bounds_block_58368",
+      "passed": true
+    },
+    {
+      "name": "train_full_numeric_block_59904",
+      "passed": true
+    },
+    {
+      "name": "train_full_column_bounds_block_59904",
+      "passed": true
+    },
+    {
+      "name": "train_full_numeric_block_61440",
+      "passed": true
+    },
+    {
+      "name": "train_full_column_bounds_block_61440",
+      "passed": true
+    },
+    {
+      "name": "train_full_numeric_block_62976",
+      "passed": true
+    },
+    {
+      "name": "train_full_column_bounds_block_62976",
+      "passed": true
+    },
+    {
+      "name": "train_full_numeric_block_64512",
+      "passed": true
+    },
+    {
+      "name": "train_full_column_bounds_block_64512",
+      "passed": true
+    },
+    {
+      "name": "train_full_numeric_block_66048",
+      "passed": true
+    },
+    {
+      "name": "train_full_column_bounds_block_66048",
+      "passed": true
+    },
+    {
+      "name": "train_full_numeric_block_67584",
+      "passed": true
+    },
+    {
+      "name": "train_full_column_bounds_block_67584",
+      "passed": true
+    },
+    {
+      "name": "train_full_numeric_block_69120",
+      "passed": true
+    },
+    {
+      "name": "train_full_column_bounds_block_69120",
+      "passed": true
+    },
+    {
+      "name": "train_full_numeric_block_70656",
+      "passed": true
+    },
+    {
+      "name": "train_full_column_bounds_block_70656",
+      "passed": true
+    },
+    {
+      "name": "train_full_numeric_block_72192",
+      "passed": true
+    },
+    {
+      "name": "train_full_column_bounds_block_72192",
+      "passed": true
+    },
+    {
+      "name": "train_full_numeric_block_73728",
+      "passed": true
+    },
+    {
+      "name": "train_full_column_bounds_block_73728",
+      "passed": true
+    },
+    {
+      "name": "train_full_numeric_block_75264",
+      "passed": true
+    },
+    {
+      "name": "train_full_column_bounds_block_75264",
+      "passed": true
+    },
+    {
+      "name": "train_full_numeric_block_76800",
+      "passed": true
+    },
+    {
+      "name": "train_full_column_bounds_block_76800",
+      "passed": true
+    },
+    {
+      "name": "train_full_numeric_block_78336",
+      "passed": true
+    },
+    {
+      "name": "train_full_column_bounds_block_78336",
+      "passed": true
+    },
+    {
+      "name": "train_full_numeric_block_79872",
+      "passed": true
+    },
+    {
+      "name": "train_full_column_bounds_block_79872",
+      "passed": true
+    },
+    {
+      "name": "train_full_numeric_block_81408",
+      "passed": true
+    },
+    {
+      "name": "train_full_column_bounds_block_81408",
+      "passed": true
+    },
+    {
+      "name": "train_full_numeric_block_82944",
+      "passed": true
+    },
+    {
+      "name": "train_full_column_bounds_block_82944",
+      "passed": true
+    },
+    {
+      "name": "train_full_numeric_block_84480",
+      "passed": true
+    },
+    {
+      "name": "train_full_column_bounds_block_84480",
+      "passed": true
+    },
+    {
+      "name": "train_full_numeric_block_86016",
+      "passed": true
+    },
+    {
+      "name": "train_full_column_bounds_block_86016",
+      "passed": true
+    },
+    {
+      "name": "train_full_numeric_block_87552",
+      "passed": true
+    },
+    {
+      "name": "train_full_column_bounds_block_87552",
+      "passed": true
+    },
+    {
+      "name": "train_full_numeric_block_89088",
+      "passed": true
+    },
+    {
+      "name": "train_full_column_bounds_block_89088",
+      "passed": true
+    },
+    {
+      "name": "train_full_numeric_block_90624",
+      "passed": true
+    },
+    {
+      "name": "train_full_column_bounds_block_90624",
+      "passed": true
+    },
+    {
+      "name": "train_full_numeric_block_92160",
+      "passed": true
+    },
+    {
+      "name": "train_full_column_bounds_block_92160",
+      "passed": true
+    },
+    {
+      "name": "train_full_numeric_block_93696",
+      "passed": true
+    },
+    {
+      "name": "train_full_column_bounds_block_93696",
+      "passed": true
+    },
+    {
+      "name": "train_full_numeric_block_95232",
+      "passed": true
+    },
+    {
+      "name": "train_full_column_bounds_block_95232",
+      "passed": true
+    },
+    {
+      "name": "train_full_numeric_block_96768",
+      "passed": true
+    },
+    {
+      "name": "train_full_column_bounds_block_96768",
+      "passed": true
+    },
+    {
+      "name": "train_full_numeric_block_98304",
+      "passed": true
+    },
+    {
+      "name": "train_full_column_bounds_block_98304",
+      "passed": true
+    },
+    {
+      "name": "train_full_numeric_block_99840",
+      "passed": true
+    },
+    {
+      "name": "train_full_column_bounds_block_99840",
+      "passed": true
+    },
+    {
+      "name": "train_full_numeric_block_101376",
+      "passed": true
+    },
+    {
+      "name": "train_full_column_bounds_block_101376",
+      "passed": true
+    },
+    {
+      "name": "train_full_numeric_block_102912",
+      "passed": true
+    },
+    {
+      "name": "train_full_column_bounds_block_102912",
+      "passed": true
+    },
+    {
+      "name": "train_full_numeric_block_104448",
+      "passed": true
+    },
+    {
+      "name": "train_full_column_bounds_block_104448",
+      "passed": true
+    },
+    {
+      "name": "train_full_numeric_block_105984",
+      "passed": true
+    },
+    {
+      "name": "train_full_column_bounds_block_105984",
+      "passed": true
+    },
+    {
+      "name": "train_full_numeric_block_107520",
+      "passed": true
+    },
+    {
+      "name": "train_full_column_bounds_block_107520",
+      "passed": true
+    },
+    {
+      "name": "train_full_numeric_block_109056",
+      "passed": true
+    },
+    {
+      "name": "train_full_column_bounds_block_109056",
+      "passed": true
+    },
+    {
+      "name": "train_full_numeric_block_110592",
+      "passed": true
+    },
+    {
+      "name": "train_full_column_bounds_block_110592",
+      "passed": true
+    },
+    {
+      "name": "train_full_numeric_block_112128",
+      "passed": true
+    },
+    {
+      "name": "train_full_column_bounds_block_112128",
+      "passed": true
+    },
+    {
+      "name": "train_full_numeric_block_113664",
+      "passed": true
+    },
+    {
+      "name": "train_full_column_bounds_block_113664",
+      "passed": true
+    },
+    {
+      "name": "train_full_numeric_block_115200",
+      "passed": true
+    },
+    {
+      "name": "train_full_column_bounds_block_115200",
+      "passed": true
+    },
+    {
+      "name": "train_full_numeric_block_116736",
+      "passed": true
+    },
+    {
+      "name": "train_full_column_bounds_block_116736",
+      "passed": true
+    },
+    {
+      "name": "train_full_numeric_block_118272",
+      "passed": true
+    },
+    {
+      "name": "train_full_column_bounds_block_118272",
+      "passed": true
+    },
+    {
+      "name": "train_full_numeric_block_119808",
+      "passed": true
+    },
+    {
+      "name": "train_full_column_bounds_block_119808",
+      "passed": true
+    },
+    {
+      "name": "train_full_numeric_block_121344",
+      "passed": true
+    },
+    {
+      "name": "train_full_column_bounds_block_121344",
+      "passed": true
+    },
+    {
+      "name": "train_full_numeric_block_122880",
+      "passed": true
+    },
+    {
+      "name": "train_full_column_bounds_block_122880",
+      "passed": true
+    },
+    {
+      "name": "train_full_numeric_block_124416",
+      "passed": true
+    },
+    {
+      "name": "train_full_column_bounds_block_124416",
+      "passed": true
+    },
+    {
+      "name": "train_full_numeric_block_125952",
+      "passed": true
+    },
+    {
+      "name": "train_full_column_bounds_block_125952",
+      "passed": true
+    },
+    {
+      "name": "train_full_numeric_block_127488",
+      "passed": true
+    },
+    {
+      "name": "train_full_column_bounds_block_127488",
+      "passed": true
+    },
+    {
+      "name": "train_full_numeric_block_129024",
+      "passed": true
+    },
+    {
+      "name": "train_full_column_bounds_block_129024",
+      "passed": true
+    },
+    {
+      "name": "train_full_numeric_block_130560",
+      "passed": true
+    },
+    {
+      "name": "train_full_column_bounds_block_130560",
+      "passed": true
+    },
+    {
+      "name": "train_full_numeric_block_132096",
+      "passed": true
+    },
+    {
+      "name": "train_full_column_bounds_block_132096",
+      "passed": true
+    },
+    {
+      "name": "train_full_numeric_block_133632",
+      "passed": true
+    },
+    {
+      "name": "train_full_column_bounds_block_133632",
+      "passed": true
+    },
+    {
+      "name": "train_full_numeric_block_135168",
+      "passed": true
+    },
+    {
+      "name": "train_full_column_bounds_block_135168",
+      "passed": true
+    },
+    {
+      "name": "train_full_numeric_block_136704",
+      "passed": true
+    },
+    {
+      "name": "train_full_column_bounds_block_136704",
+      "passed": true
+    },
+    {
+      "name": "train_full_numeric_block_138240",
+      "passed": true
+    },
+    {
+      "name": "train_full_column_bounds_block_138240",
+      "passed": true
+    },
+    {
+      "name": "train_full_numeric_block_139776",
+      "passed": true
+    },
+    {
+      "name": "train_full_column_bounds_block_139776",
+      "passed": true
+    },
+    {
+      "name": "train_full_numeric_block_141312",
+      "passed": true
+    },
+    {
+      "name": "train_full_column_bounds_block_141312",
+      "passed": true
+    },
+    {
+      "name": "train_full_numeric_block_142848",
+      "passed": true
+    },
+    {
+      "name": "train_full_column_bounds_block_142848",
+      "passed": true
+    },
+    {
+      "name": "train_full_numeric_block_144384",
+      "passed": true
+    },
+    {
+      "name": "train_full_column_bounds_block_144384",
+      "passed": true
+    },
+    {
+      "name": "train_full_numeric_block_145920",
+      "passed": true
+    },
+    {
+      "name": "train_full_column_bounds_block_145920",
+      "passed": true
+    },
+    {
+      "name": "train_full_numeric_block_147456",
+      "passed": true
+    },
+    {
+      "name": "train_full_column_bounds_block_147456",
+      "passed": true
+    },
+    {
+      "name": "train_full_numeric_block_148992",
+      "passed": true
+    },
+    {
+      "name": "train_full_column_bounds_block_148992",
+      "passed": true
+    },
+    {
+      "name": "train_full_numeric_block_150528",
+      "passed": true
+    },
+    {
+      "name": "train_full_column_bounds_block_150528",
+      "passed": true
+    },
+    {
+      "name": "train_full_numeric_block_152064",
+      "passed": true
+    },
+    {
+      "name": "train_full_column_bounds_block_152064",
+      "passed": true
+    },
+    {
+      "name": "train_full_numeric_block_153600",
+      "passed": true
+    },
+    {
+      "name": "train_full_column_bounds_block_153600",
+      "passed": true
+    },
+    {
+      "name": "train_full_numeric_block_155136",
+      "passed": true
+    },
+    {
+      "name": "train_full_column_bounds_block_155136",
+      "passed": true
+    },
+    {
+      "name": "train_full_numeric_block_156672",
+      "passed": true
+    },
+    {
+      "name": "train_full_column_bounds_block_156672",
+      "passed": true
+    },
+    {
+      "name": "train_full_numeric_block_158208",
+      "passed": true
+    },
+    {
+      "name": "train_full_column_bounds_block_158208",
+      "passed": true
+    },
+    {
+      "name": "train_full_numeric_block_159744",
+      "passed": true
+    },
+    {
+      "name": "train_full_column_bounds_block_159744",
+      "passed": true
+    },
+    {
+      "name": "train_full_numeric_block_161280",
+      "passed": true
+    },
+    {
+      "name": "train_full_column_bounds_block_161280",
+      "passed": true
+    },
+    {
+      "name": "train_full_numeric_block_162816",
+      "passed": true
+    },
+    {
+      "name": "train_full_column_bounds_block_162816",
+      "passed": true
+    },
+    {
+      "name": "train_full_numeric_block_164352",
+      "passed": true
+    },
+    {
+      "name": "train_full_column_bounds_block_164352",
+      "passed": true
+    },
+    {
+      "name": "train_full_numeric_block_165888",
+      "passed": true
+    },
+    {
+      "name": "train_full_column_bounds_block_165888",
+      "passed": true
+    },
+    {
+      "name": "train_full_numeric_block_167424",
+      "passed": true
+    },
+    {
+      "name": "train_full_column_bounds_block_167424",
+      "passed": true
+    },
+    {
+      "name": "train_full_numeric_block_168960",
+      "passed": true
+    },
+    {
+      "name": "train_full_column_bounds_block_168960",
+      "passed": true
+    },
+    {
+      "name": "train_full_numeric_block_170496",
+      "passed": true
+    },
+    {
+      "name": "train_full_column_bounds_block_170496",
+      "passed": true
+    },
+    {
+      "name": "train_full_numeric_block_172032",
+      "passed": true
+    },
+    {
+      "name": "train_full_column_bounds_block_172032",
+      "passed": true
+    },
+    {
+      "name": "train_full_numeric_block_173568",
+      "passed": true
+    },
+    {
+      "name": "train_full_column_bounds_block_173568",
+      "passed": true
+    },
+    {
+      "name": "train_full_numeric_block_175104",
+      "passed": true
+    },
+    {
+      "name": "train_full_column_bounds_block_175104",
+      "passed": true
+    },
+    {
+      "name": "train_full_numeric_block_176640",
+      "passed": true
+    },
+    {
+      "name": "train_full_column_bounds_block_176640",
+      "passed": true
+    },
+    {
+      "name": "train_full_numeric_block_178176",
+      "passed": true
+    },
+    {
+      "name": "train_full_column_bounds_block_178176",
+      "passed": true
+    },
+    {
+      "name": "train_full_numeric_block_179712",
+      "passed": true
+    },
+    {
+      "name": "train_full_column_bounds_block_179712",
+      "passed": true
+    },
+    {
+      "name": "train_full_numeric_block_181248",
+      "passed": true
+    },
+    {
+      "name": "train_full_column_bounds_block_181248",
+      "passed": true
+    },
+    {
+      "name": "train_full_numeric_block_182784",
+      "passed": true
+    },
+    {
+      "name": "train_full_column_bounds_block_182784",
+      "passed": true
+    },
+    {
+      "name": "train_full_numeric_block_184320",
+      "passed": true
+    },
+    {
+      "name": "train_full_column_bounds_block_184320",
+      "passed": true
+    },
+    {
+      "name": "train_full_numeric_block_185856",
+      "passed": true
+    },
+    {
+      "name": "train_full_column_bounds_block_185856",
+      "passed": true
+    },
+    {
+      "name": "train_full_numeric_block_187392",
+      "passed": true
+    },
+    {
+      "name": "train_full_column_bounds_block_187392",
+      "passed": true
+    },
+    {
+      "name": "train_full_numeric_block_188928",
+      "passed": true
+    },
+    {
+      "name": "train_full_column_bounds_block_188928",
+      "passed": true
+    },
+    {
+      "name": "train_full_numeric_block_190464",
+      "passed": true
+    },
+    {
+      "name": "train_full_column_bounds_block_190464",
+      "passed": true
+    },
+    {
+      "name": "train_full_numeric_block_192000",
+      "passed": true
+    },
+    {
+      "name": "train_full_column_bounds_block_192000",
+      "passed": true
+    },
+    {
+      "name": "train_full_numeric_block_193536",
+      "passed": true
+    },
+    {
+      "name": "train_full_column_bounds_block_193536",
+      "passed": true
+    },
+    {
+      "name": "train_full_numeric_block_195072",
+      "passed": true
+    },
+    {
+      "name": "train_full_column_bounds_block_195072",
+      "passed": true
+    },
+    {
+      "name": "train_full_numeric_block_196608",
+      "passed": true
+    },
+    {
+      "name": "train_full_column_bounds_block_196608",
+      "passed": true
+    },
+    {
+      "name": "train_full_numeric_block_198144",
+      "passed": true
+    },
+    {
+      "name": "train_full_column_bounds_block_198144",
+      "passed": true
+    },
+    {
+      "name": "train_full_numeric_block_199680",
+      "passed": true
+    },
+    {
+      "name": "train_full_column_bounds_block_199680",
+      "passed": true
+    },
+    {
+      "name": "train_full_numeric_block_201216",
+      "passed": true
+    },
+    {
+      "name": "train_full_column_bounds_block_201216",
+      "passed": true
+    },
+    {
+      "name": "train_full_numeric_block_202752",
+      "passed": true
+    },
+    {
+      "name": "train_full_column_bounds_block_202752",
+      "passed": true
+    },
+    {
+      "name": "train_full_numeric_block_204288",
+      "passed": true
+    },
+    {
+      "name": "train_full_column_bounds_block_204288",
+      "passed": true
+    },
+    {
+      "name": "train_full_numeric_block_205824",
+      "passed": true
+    },
+    {
+      "name": "train_full_column_bounds_block_205824",
+      "passed": true
+    },
+    {
+      "name": "train_full_numeric_block_207360",
+      "passed": true
+    },
+    {
+      "name": "train_full_column_bounds_block_207360",
+      "passed": true
+    },
+    {
+      "name": "train_full_numeric_block_208896",
+      "passed": true
+    },
+    {
+      "name": "train_full_column_bounds_block_208896",
+      "passed": true
+    },
+    {
+      "name": "train_full_numeric_block_210432",
+      "passed": true
+    },
+    {
+      "name": "train_full_column_bounds_block_210432",
+      "passed": true
+    },
+    {
+      "name": "train_full_numeric_block_211968",
+      "passed": true
+    },
+    {
+      "name": "train_full_column_bounds_block_211968",
+      "passed": true
+    },
+    {
+      "name": "train_full_numeric_block_213504",
+      "passed": true
+    },
+    {
+      "name": "train_full_column_bounds_block_213504",
+      "passed": true
+    },
+    {
+      "name": "train_full_numeric_block_215040",
+      "passed": true
+    },
+    {
+      "name": "train_full_column_bounds_block_215040",
+      "passed": true
+    },
+    {
+      "name": "train_full_numeric_block_216576",
+      "passed": true
+    },
+    {
+      "name": "train_full_column_bounds_block_216576",
+      "passed": true
+    },
+    {
+      "name": "train_full_numeric_block_218112",
+      "passed": true
+    },
+    {
+      "name": "train_full_column_bounds_block_218112",
+      "passed": true
+    },
+    {
+      "name": "train_full_numeric_block_219648",
+      "passed": true
+    },
+    {
+      "name": "train_full_column_bounds_block_219648",
+      "passed": true
+    },
+    {
+      "name": "train_full_numeric_block_221184",
+      "passed": true
+    },
+    {
+      "name": "train_full_column_bounds_block_221184",
+      "passed": true
+    },
+    {
+      "name": "train_every_row_total_and_detected_count",
+      "passed": true
+    },
+    {
+      "name": "train_within_panel_MT_recomputed",
+      "passed": true
+    },
+    {
+      "name": "train_every_gene_total_and_detection_count",
+      "passed": true
+    },
+    {
+      "name": "train_matrix_summary_independently_recomputed",
+      "passed": true
+    },
+    {
+      "name": "train_canonical_storage_status_recomputed",
+      "passed": true
+    },
+    {
+      "name": "train_only_fixed_technical_QC_applied",
+      "passed": true
+    },
+    {
+      "name": "train_quarantine_reasons_recomputed",
+      "passed": true
+    },
+    {
+      "name": "train_roles_preserve_official_splits",
+      "passed": true
+    },
+    {
+      "name": "train_shared_reference_never_claimed_independent_outcome",
+      "passed": true
+    },
+    {
+      "name": "train_cellUID_stable_and_no_HCM_labels",
+      "passed": true
+    },
+    {
+      "name": "train_usable_index_is_exact_rows_and_metadata",
+      "passed": true
+    },
+    {
+      "name": "train_quarantine_rows_exact_and_not_placeholder",
+      "passed": true
+    },
+    {
+      "name": "train_official_target_set_has_no_controls",
+      "passed": true
+    },
+    {
+      "name": "train_official_count_and_median_UMI_TMSB4X",
+      "passed": true
+    },
+    {
+      "name": "train_official_count_and_median_UMI_PRCP",
+      "passed": true
+    },
+    {
+      "name": "train_official_count_and_median_UMI_TADA1",
+      "passed": true
+    },
+    {
+      "name": "train_official_count_and_median_UMI_HIRA",
+      "passed": true
+    },
+    {
+      "name": "train_official_count_and_median_UMI_IGF2R",
+      "passed": true
+    },
+    {
+      "name": "train_official_count_and_median_UMI_NCK2",
+      "passed": true
+    },
+    {
+      "name": "train_official_count_and_median_UMI_MED13",
+      "passed": true
+    },
+    {
+      "name": "train_official_count_and_median_UMI_MED12",
+      "passed": true
+    },
+    {
+      "name": "train_official_count_and_median_UMI_STAT1",
+      "passed": true
+    },
+    {
+      "name": "train_official_count_and_median_UMI_USP22",
+      "passed": true
+    },
+    {
+      "name": "train_official_count_and_median_UMI_MED13L",
+      "passed": true
+    },
+    {
+      "name": "train_official_count_and_median_UMI_TET1",
+      "passed": true
+    },
+    {
+      "name": "train_official_count_and_median_UMI_KIF1B",
+      "passed": true
+    },
+    {
+      "name": "train_official_count_and_median_UMI_SRC",
+      "passed": true
+    },
+    {
+      "name": "train_official_count_and_median_UMI_PBX1",
+      "passed": true
+    },
+    {
+      "name": "train_official_count_and_median_UMI_CAST",
+      "passed": true
+    },
+    {
+      "name": "train_official_count_and_median_UMI_IDE",
+      "passed": true
+    },
+    {
+      "name": "train_official_count_and_median_UMI_MAPKAPK2",
+      "passed": true
+    },
+    {
+      "name": "train_official_count_and_median_UMI_PTPN1",
+      "passed": true
+    },
+    {
+      "name": "train_official_count_and_median_UMI_KDM2B",
+      "passed": true
+    },
+    {
+      "name": "train_official_count_and_median_UMI_ATP1B1",
+      "passed": true
+    },
+    {
+      "name": "train_official_count_and_median_UMI_KAT2A",
+      "passed": true
+    },
+    {
+      "name": "train_official_count_and_median_UMI_NISCH",
+      "passed": true
+    },
+    {
+      "name": "train_official_count_and_median_UMI_KDR",
+      "passed": true
+    },
+    {
+      "name": "train_official_count_and_median_UMI_WFS1",
+      "passed": true
+    },
+    {
+      "name": "train_official_count_and_median_UMI_TARBP2",
+      "passed": true
+    },
+    {
+      "name": "train_official_count_and_median_UMI_MAP3K7",
+      "passed": true
+    },
+    {
+      "name": "train_official_count_and_median_UMI_HMGN1",
+      "passed": true
+    },
+    {
+      "name": "train_official_count_and_median_UMI_TSC22D4",
+      "passed": true
+    },
+    {
+      "name": "train_official_count_and_median_UMI_FOXH1",
+      "passed": true
+    },
+    {
+      "name": "train_official_count_and_median_UMI_PAGR1",
+      "passed": true
+    },
+    {
+      "name": "train_official_count_and_median_UMI_KLF10",
+      "passed": true
+    },
+    {
+      "name": "train_official_count_and_median_UMI_POLB",
+      "passed": true
+    },
+    {
+      "name": "train_official_count_and_median_UMI_RNF2",
+      "passed": true
+    },
+    {
+      "name": "train_official_count_and_median_UMI_SMARCA5",
+      "passed": true
+    },
+    {
+      "name": "train_official_count_and_median_UMI_ACAT2",
+      "passed": true
+    },
+    {
+      "name": "train_official_count_and_median_UMI_TRAM2",
+      "passed": true
+    },
+    {
+      "name": "train_official_count_and_median_UMI_CAMSAP2",
+      "passed": true
+    },
+    {
+      "name": "train_official_count_and_median_UMI_CDCA2",
+      "passed": true
+    },
+    {
+      "name": "train_official_count_and_median_UMI_CREG1",
+      "passed": true
+    },
+    {
+      "name": "train_official_count_and_median_UMI_CASP2",
+      "passed": true
+    },
+    {
+      "name": "train_official_count_and_median_UMI_UBE3C",
+      "passed": true
+    },
+    {
+      "name": "train_official_count_and_median_UMI_EIF4B",
+      "passed": true
+    },
+    {
+      "name": "train_official_count_and_median_UMI_STAG2",
+      "passed": true
+    },
+    {
+      "name": "train_official_count_and_median_UMI_HMGB2",
+      "passed": true
+    },
+    {
+      "name": "train_official_count_and_median_UMI_TGFBR2",
+      "passed": true
+    },
+    {
+      "name": "train_official_count_and_median_UMI_ANTXR1",
+      "passed": true
+    },
+    {
+      "name": "train_official_count_and_median_UMI_MTA1",
+      "passed": true
+    },
+    {
+      "name": "train_official_count_and_median_UMI_DHCR24",
+      "passed": true
+    },
+    {
+      "name": "train_official_count_and_median_UMI_NDUFB4",
+      "passed": true
+    },
+    {
+      "name": "train_official_count_and_median_UMI_ACVR1B",
+      "passed": true
+    },
+    {
+      "name": "train_official_count_and_median_UMI_DHX36",
+      "passed": true
+    },
+    {
+      "name": "train_official_count_and_median_UMI_LZTR1",
+      "passed": true
+    },
+    {
+      "name": "train_official_count_and_median_UMI_INSIG1",
+      "passed": true
+    },
+    {
+      "name": "train_official_count_and_median_UMI_LAD1",
+      "passed": true
+    },
+    {
+      "name": "train_official_count_and_median_UMI_TCF3",
+      "passed": true
+    },
+    {
+      "name": "train_official_count_and_median_UMI_DAXX",
+      "passed": true
+    },
+    {
+      "name": "train_official_count_and_median_UMI_CLDN7",
+      "passed": true
+    },
+    {
+      "name": "train_official_count_and_median_UMI_NIT1",
+      "passed": true
+    },
+    {
+      "name": "train_official_count_and_median_UMI_PRR12",
+      "passed": true
+    },
+    {
+      "name": "train_official_count_and_median_UMI_ARID1A",
+      "passed": true
+    },
+    {
+      "name": "train_official_count_and_median_UMI_STX4",
+      "passed": true
+    },
+    {
+      "name": "train_official_count_and_median_UMI_CENPO",
+      "passed": true
+    },
+    {
+      "name": "train_official_count_and_median_UMI_NRAS",
+      "passed": true
+    },
+    {
+      "name": "train_official_count_and_median_UMI_CHMP3",
+      "passed": true
+    },
+    {
+      "name": "train_official_count_and_median_UMI_EID2",
+      "passed": true
+    },
+    {
+      "name": "train_official_count_and_median_UMI_UQCRQ",
+      "passed": true
+    },
+    {
+      "name": "train_official_count_and_median_UMI_ZNF426",
+      "passed": true
+    },
+    {
+      "name": "train_official_count_and_median_UMI_BIRC2",
+      "passed": true
+    },
+    {
+      "name": "train_official_count_and_median_UMI_PLCB3",
+      "passed": true
+    },
+    {
+      "name": "train_official_count_and_median_UMI_TFAM",
+      "passed": true
+    },
+    {
+      "name": "train_official_count_and_median_UMI_PMS1",
+      "passed": true
+    },
+    {
+      "name": "train_official_count_and_median_UMI_ZNF286A",
+      "passed": true
+    },
+    {
+      "name": "train_official_count_and_median_UMI_GSK3B",
+      "passed": true
+    },
+    {
+      "name": "train_official_count_and_median_UMI_LRPPRC",
+      "passed": true
+    },
+    {
+      "name": "train_official_count_and_median_UMI_CASP3",
+      "passed": true
+    },
+    {
+      "name": "train_official_count_and_median_UMI_MAST2",
+      "passed": true
+    },
+    {
+      "name": "train_official_count_and_median_UMI_HAT1",
+      "passed": true
+    },
+    {
+      "name": "train_official_count_and_median_UMI_MAU2",
+      "passed": true
+    },
+    {
+      "name": "train_official_count_and_median_UMI_SMARCA4",
+      "passed": true
+    },
+    {
+      "name": "train_official_count_and_median_UMI_TWF2",
+      "passed": true
+    },
+    {
+      "name": "train_official_count_and_median_UMI_IRF3",
+      "passed": true
+    },
+    {
+      "name": "train_official_count_and_median_UMI_MKI67",
+      "passed": true
+    },
+    {
+      "name": "train_official_count_and_median_UMI_AKT2",
+      "passed": true
+    },
+    {
+      "name": "train_official_count_and_median_UMI_SSBP1",
+      "passed": true
+    },
+    {
+      "name": "train_official_count_and_median_UMI_PHF14",
+      "passed": true
+    },
+    {
+      "name": "train_official_count_and_median_UMI_DNMT1",
+      "passed": true
+    },
+    {
+      "name": "train_official_count_and_median_UMI_TMSB10",
+      "passed": true
+    },
+    {
+      "name": "train_official_count_and_median_UMI_CLDN6",
+      "passed": true
+    },
+    {
+      "name": "train_official_count_and_median_UMI_DLG5",
+      "passed": true
+    },
+    {
+      "name": "train_official_count_and_median_UMI_NDUFB6",
+      "passed": true
+    },
+    {
+      "name": "train_official_count_and_median_UMI_STAT6",
+      "passed": true
+    },
+    {
+      "name": "train_official_count_and_median_UMI_ZNF714",
+      "passed": true
+    },
+    {
+      "name": "train_official_count_and_median_UMI_SAFB",
+      "passed": true
+    },
+    {
+      "name": "train_official_count_and_median_UMI_SOX2",
+      "passed": true
+    },
+    {
+      "name": "train_official_count_and_median_UMI_SLC25A3",
+      "passed": true
+    },
+    {
+      "name": "train_official_count_and_median_UMI_ZNF593",
+      "passed": true
+    },
+    {
+      "name": "train_official_count_and_median_UMI_RAF1",
+      "passed": true
+    },
+    {
+      "name": "train_official_count_and_median_UMI_METTL17",
+      "passed": true
+    },
+    {
+      "name": "train_official_count_and_median_UMI_IKBKG",
+      "passed": true
+    },
+    {
+      "name": "train_official_count_and_median_UMI_SMAGP",
+      "passed": true
+    },
+    {
+      "name": "train_official_count_and_median_UMI_MAP1B",
+      "passed": true
+    },
+    {
+      "name": "train_official_count_and_median_UMI_TAZ",
+      "passed": true
+    },
+    {
+      "name": "train_official_count_and_median_UMI_OXCT1",
+      "passed": true
+    },
+    {
+      "name": "train_official_count_and_median_UMI_WSB2",
+      "passed": true
+    },
+    {
+      "name": "train_official_count_and_median_UMI_C1QBP",
+      "passed": true
+    },
+    {
+      "name": "train_official_count_and_median_UMI_CALM3",
+      "passed": true
+    },
+    {
+      "name": "train_official_count_and_median_UMI_SIX4",
+      "passed": true
+    },
+    {
+      "name": "train_official_count_and_median_UMI_RRM1",
+      "passed": true
+    },
+    {
+      "name": "train_official_count_and_median_UMI_MBTPS1",
+      "passed": true
+    },
+    {
+      "name": "train_official_count_and_median_UMI_RAB3B",
+      "passed": true
+    },
+    {
+      "name": "train_official_count_and_median_UMI_XRCC4",
+      "passed": true
+    },
+    {
+      "name": "train_official_count_and_median_UMI_TRAPPC6A",
+      "passed": true
+    },
+    {
+      "name": "train_official_count_and_median_UMI_SIN3B",
+      "passed": true
+    },
+    {
+      "name": "train_official_count_and_median_UMI_SV2A",
+      "passed": true
+    },
+    {
+      "name": "train_official_count_and_median_UMI_EWSR1",
+      "passed": true
+    },
+    {
+      "name": "train_official_count_and_median_UMI_TXNDC9",
+      "passed": true
+    },
+    {
+      "name": "train_official_count_and_median_UMI_TMBIM6",
+      "passed": true
+    },
+    {
+      "name": "train_official_count_and_median_UMI_METTL3",
+      "passed": true
+    },
+    {
+      "name": "train_official_count_and_median_UMI_METTL14",
+      "passed": true
+    },
+    {
+      "name": "train_official_count_and_median_UMI_MED24",
+      "passed": true
+    },
+    {
+      "name": "train_official_count_and_median_UMI_ATM",
+      "passed": true
+    },
+    {
+      "name": "train_official_count_and_median_UMI_PHF10",
+      "passed": true
+    },
+    {
+      "name": "train_official_count_and_median_UMI_DZIP3",
+      "passed": true
+    },
+    {
+      "name": "train_official_count_and_median_UMI_ZNF562",
+      "passed": true
+    },
+    {
+      "name": "train_official_count_and_median_UMI_MED1",
+      "passed": true
+    },
+    {
+      "name": "train_official_count_and_median_UMI_SNCA",
+      "passed": true
+    },
+    {
+      "name": "train_official_count_and_median_UMI_SUPT4H1",
+      "passed": true
+    },
+    {
+      "name": "train_official_count_and_median_UMI_PRDM14",
+      "passed": true
+    },
+    {
+      "name": "train_official_count_and_median_UMI_PMEL",
+      "passed": true
+    },
+    {
+      "name": "train_official_count_and_median_UMI_KDM1A",
+      "passed": true
+    },
+    {
+      "name": "train_official_count_and_median_UMI_NREP",
+      "passed": true
+    },
+    {
+      "name": "train_official_count_and_median_UMI_SEC62",
+      "passed": true
+    },
+    {
+      "name": "train_official_count_and_median_UMI_ETV4",
+      "passed": true
+    },
+    {
+      "name": "train_official_count_and_median_UMI_ATP6V0B",
+      "passed": true
+    },
+    {
+      "name": "train_official_count_and_median_UMI_SHPRH",
+      "passed": true
+    },
+    {
+      "name": "train_official_count_and_median_UMI_EPHB4",
+      "passed": true
+    },
+    {
+      "name": "train_official_count_and_median_UMI_EPB41L2",
+      "passed": true
+    },
+    {
+      "name": "train_official_count_and_median_UMI_SDC1",
+      "passed": true
+    },
+    {
+      "name": "train_official_count_and_median_UMI_KIF20A",
+      "passed": true
+    },
+    {
+      "name": "train_official_count_and_median_UMI_SALL4",
+      "passed": true
+    },
+    {
+      "name": "train_official_count_and_median_UMI_SLC39A6",
+      "passed": true
+    },
+    {
+      "name": "train_official_count_and_median_UMI_HSBP1",
+      "passed": true
+    },
+    {
+      "name": "train_official_count_and_median_UMI_FDPS",
+      "passed": true
+    },
+    {
+      "name": "train_official_count_and_median_UMI_TAF13",
+      "passed": true
+    },
+    {
+      "name": "train_official_count_and_median_UMI_BRD9",
+      "passed": true
+    },
+    {
+      "name": "train_official_count_and_median_UMI_DNAJA3",
+      "passed": true
+    },
+    {
+      "name": "train_official_count_and_median_UMI_OXA1L",
+      "passed": true
+    },
+    {
+      "name": "train_official_count_and_median_UMI_RNF20",
+      "passed": true
+    },
+    {
+      "name": "train_official_count_and_median_UMI_ATP6V0C",
+      "passed": true
+    },
+    {
+      "name": "train_full_perturbation_summary_recomputed",
+      "passed": true
+    },
+    {
+      "name": "validation_real_CSR_dimensions_and_indptr",
+      "passed": true
+    },
+    {
+      "name": "validation_no_fabricated_raw_or_counts_layer",
+      "passed": true
+    },
+    {
+      "name": "validation_original_cells_and_gene_axis_unique_and_aligned",
+      "passed": true
+    },
+    {
+      "name": "validation_native_metadata_fields_exactly_preserved",
+      "passed": true
+    },
+    {
+      "name": "validation_exact_source_row_and_path_mapping",
+      "passed": true
+    },
+    {
+      "name": "validation_full_numeric_block_0",
+      "passed": true
+    },
+    {
+      "name": "validation_full_column_bounds_block_0",
+      "passed": true
+    },
+    {
+      "name": "validation_full_numeric_block_1536",
+      "passed": true
+    },
+    {
+      "name": "validation_full_column_bounds_block_1536",
+      "passed": true
+    },
+    {
+      "name": "validation_full_numeric_block_3072",
+      "passed": true
+    },
+    {
+      "name": "validation_full_column_bounds_block_3072",
+      "passed": true
+    },
+    {
+      "name": "validation_full_numeric_block_4608",
+      "passed": true
+    },
+    {
+      "name": "validation_full_column_bounds_block_4608",
+      "passed": true
+    },
+    {
+      "name": "validation_full_numeric_block_6144",
+      "passed": true
+    },
+    {
+      "name": "validation_full_column_bounds_block_6144",
+      "passed": true
+    },
+    {
+      "name": "validation_full_numeric_block_7680",
+      "passed": true
+    },
+    {
+      "name": "validation_full_column_bounds_block_7680",
+      "passed": true
+    },
+    {
+      "name": "validation_full_numeric_block_9216",
+      "passed": true
+    },
+    {
+      "name": "validation_full_column_bounds_block_9216",
+      "passed": true
+    },
+    {
+      "name": "validation_full_numeric_block_10752",
+      "passed": true
+    },
+    {
+      "name": "validation_full_column_bounds_block_10752",
+      "passed": true
+    },
+    {
+      "name": "validation_full_numeric_block_12288",
+      "passed": true
+    },
+    {
+      "name": "validation_full_column_bounds_block_12288",
+      "passed": true
+    },
+    {
+      "name": "validation_full_numeric_block_13824",
+      "passed": true
+    },
+    {
+      "name": "validation_full_column_bounds_block_13824",
+      "passed": true
+    },
+    {
+      "name": "validation_full_numeric_block_15360",
+      "passed": true
+    },
+    {
+      "name": "validation_full_column_bounds_block_15360",
+      "passed": true
+    },
+    {
+      "name": "validation_full_numeric_block_16896",
+      "passed": true
+    },
+    {
+      "name": "validation_full_column_bounds_block_16896",
+      "passed": true
+    },
+    {
+      "name": "validation_full_numeric_block_18432",
+      "passed": true
+    },
+    {
+      "name": "validation_full_column_bounds_block_18432",
+      "passed": true
+    },
+    {
+      "name": "validation_full_numeric_block_19968",
+      "passed": true
+    },
+    {
+      "name": "validation_full_column_bounds_block_19968",
+      "passed": true
+    },
+    {
+      "name": "validation_full_numeric_block_21504",
+      "passed": true
+    },
+    {
+      "name": "validation_full_column_bounds_block_21504",
+      "passed": true
+    },
+    {
+      "name": "validation_full_numeric_block_23040",
+      "passed": true
+    },
+    {
+      "name": "validation_full_column_bounds_block_23040",
+      "passed": true
+    },
+    {
+      "name": "validation_full_numeric_block_24576",
+      "passed": true
+    },
+    {
+      "name": "validation_full_column_bounds_block_24576",
+      "passed": true
+    },
+    {
+      "name": "validation_full_numeric_block_26112",
+      "passed": true
+    },
+    {
+      "name": "validation_full_column_bounds_block_26112",
+      "passed": true
+    },
+    {
+      "name": "validation_full_numeric_block_27648",
+      "passed": true
+    },
+    {
+      "name": "validation_full_column_bounds_block_27648",
+      "passed": true
+    },
+    {
+      "name": "validation_full_numeric_block_29184",
+      "passed": true
+    },
+    {
+      "name": "validation_full_column_bounds_block_29184",
+      "passed": true
+    },
+    {
+      "name": "validation_full_numeric_block_30720",
+      "passed": true
+    },
+    {
+      "name": "validation_full_column_bounds_block_30720",
+      "passed": true
+    },
+    {
+      "name": "validation_full_numeric_block_32256",
+      "passed": true
+    },
+    {
+      "name": "validation_full_column_bounds_block_32256",
+      "passed": true
+    },
+    {
+      "name": "validation_full_numeric_block_33792",
+      "passed": true
+    },
+    {
+      "name": "validation_full_column_bounds_block_33792",
+      "passed": true
+    },
+    {
+      "name": "validation_full_numeric_block_35328",
+      "passed": true
+    },
+    {
+      "name": "validation_full_column_bounds_block_35328",
+      "passed": true
+    },
+    {
+      "name": "validation_full_numeric_block_36864",
+      "passed": true
+    },
+    {
+      "name": "validation_full_column_bounds_block_36864",
+      "passed": true
+    },
+    {
+      "name": "validation_full_numeric_block_38400",
+      "passed": true
+    },
+    {
+      "name": "validation_full_column_bounds_block_38400",
+      "passed": true
+    },
+    {
+      "name": "validation_full_numeric_block_39936",
+      "passed": true
+    },
+    {
+      "name": "validation_full_column_bounds_block_39936",
+      "passed": true
+    },
+    {
+      "name": "validation_full_numeric_block_41472",
+      "passed": true
+    },
+    {
+      "name": "validation_full_column_bounds_block_41472",
+      "passed": true
+    },
+    {
+      "name": "validation_full_numeric_block_43008",
+      "passed": true
+    },
+    {
+      "name": "validation_full_column_bounds_block_43008",
+      "passed": true
+    },
+    {
+      "name": "validation_full_numeric_block_44544",
+      "passed": true
+    },
+    {
+      "name": "validation_full_column_bounds_block_44544",
+      "passed": true
+    },
+    {
+      "name": "validation_full_numeric_block_46080",
+      "passed": true
+    },
+    {
+      "name": "validation_full_column_bounds_block_46080",
+      "passed": true
+    },
+    {
+      "name": "validation_full_numeric_block_47616",
+      "passed": true
+    },
+    {
+      "name": "validation_full_column_bounds_block_47616",
+      "passed": true
+    },
+    {
+      "name": "validation_full_numeric_block_49152",
+      "passed": true
+    },
+    {
+      "name": "validation_full_column_bounds_block_49152",
+      "passed": true
+    },
+    {
+      "name": "validation_full_numeric_block_50688",
+      "passed": true
+    },
+    {
+      "name": "validation_full_column_bounds_block_50688",
+      "passed": true
+    },
+    {
+      "name": "validation_full_numeric_block_52224",
+      "passed": true
+    },
+    {
+      "name": "validation_full_column_bounds_block_52224",
+      "passed": true
+    },
+    {
+      "name": "validation_full_numeric_block_53760",
+      "passed": true
+    },
+    {
+      "name": "validation_full_column_bounds_block_53760",
+      "passed": true
+    },
+    {
+      "name": "validation_full_numeric_block_55296",
+      "passed": true
+    },
+    {
+      "name": "validation_full_column_bounds_block_55296",
+      "passed": true
+    },
+    {
+      "name": "validation_full_numeric_block_56832",
+      "passed": true
+    },
+    {
+      "name": "validation_full_column_bounds_block_56832",
+      "passed": true
+    },
+    {
+      "name": "validation_full_numeric_block_58368",
+      "passed": true
+    },
+    {
+      "name": "validation_full_column_bounds_block_58368",
+      "passed": true
+    },
+    {
+      "name": "validation_full_numeric_block_59904",
+      "passed": true
+    },
+    {
+      "name": "validation_full_column_bounds_block_59904",
+      "passed": true
+    },
+    {
+      "name": "validation_full_numeric_block_61440",
+      "passed": true
+    },
+    {
+      "name": "validation_full_column_bounds_block_61440",
+      "passed": true
+    },
+    {
+      "name": "validation_full_numeric_block_62976",
+      "passed": true
+    },
+    {
+      "name": "validation_full_column_bounds_block_62976",
+      "passed": true
+    },
+    {
+      "name": "validation_full_numeric_block_64512",
+      "passed": true
+    },
+    {
+      "name": "validation_full_column_bounds_block_64512",
+      "passed": true
+    },
+    {
+      "name": "validation_full_numeric_block_66048",
+      "passed": true
+    },
+    {
+      "name": "validation_full_column_bounds_block_66048",
+      "passed": true
+    },
+    {
+      "name": "validation_full_numeric_block_67584",
+      "passed": true
+    },
+    {
+      "name": "validation_full_column_bounds_block_67584",
+      "passed": true
+    },
+    {
+      "name": "validation_full_numeric_block_69120",
+      "passed": true
+    },
+    {
+      "name": "validation_full_column_bounds_block_69120",
+      "passed": true
+    },
+    {
+      "name": "validation_full_numeric_block_70656",
+      "passed": true
+    },
+    {
+      "name": "validation_full_column_bounds_block_70656",
+      "passed": true
+    },
+    {
+      "name": "validation_full_numeric_block_72192",
+      "passed": true
+    },
+    {
+      "name": "validation_full_column_bounds_block_72192",
+      "passed": true
+    },
+    {
+      "name": "validation_full_numeric_block_73728",
+      "passed": true
+    },
+    {
+      "name": "validation_full_column_bounds_block_73728",
+      "passed": true
+    },
+    {
+      "name": "validation_full_numeric_block_75264",
+      "passed": true
+    },
+    {
+      "name": "validation_full_column_bounds_block_75264",
+      "passed": true
+    },
+    {
+      "name": "validation_full_numeric_block_76800",
+      "passed": true
+    },
+    {
+      "name": "validation_full_column_bounds_block_76800",
+      "passed": true
+    },
+    {
+      "name": "validation_full_numeric_block_78336",
+      "passed": true
+    },
+    {
+      "name": "validation_full_column_bounds_block_78336",
+      "passed": true
+    },
+    {
+      "name": "validation_full_numeric_block_79872",
+      "passed": true
+    },
+    {
+      "name": "validation_full_column_bounds_block_79872",
+      "passed": true
+    },
+    {
+      "name": "validation_full_numeric_block_81408",
+      "passed": true
+    },
+    {
+      "name": "validation_full_column_bounds_block_81408",
+      "passed": true
+    },
+    {
+      "name": "validation_full_numeric_block_82944",
+      "passed": true
+    },
+    {
+      "name": "validation_full_column_bounds_block_82944",
+      "passed": true
+    },
+    {
+      "name": "validation_full_numeric_block_84480",
+      "passed": true
+    },
+    {
+      "name": "validation_full_column_bounds_block_84480",
+      "passed": true
+    },
+    {
+      "name": "validation_full_numeric_block_86016",
+      "passed": true
+    },
+    {
+      "name": "validation_full_column_bounds_block_86016",
+      "passed": true
+    },
+    {
+      "name": "validation_full_numeric_block_87552",
+      "passed": true
+    },
+    {
+      "name": "validation_full_column_bounds_block_87552",
+      "passed": true
+    },
+    {
+      "name": "validation_full_numeric_block_89088",
+      "passed": true
+    },
+    {
+      "name": "validation_full_column_bounds_block_89088",
+      "passed": true
+    },
+    {
+      "name": "validation_full_numeric_block_90624",
+      "passed": true
+    },
+    {
+      "name": "validation_full_column_bounds_block_90624",
+      "passed": true
+    },
+    {
+      "name": "validation_full_numeric_block_92160",
+      "passed": true
+    },
+    {
+      "name": "validation_full_column_bounds_block_92160",
+      "passed": true
+    },
+    {
+      "name": "validation_full_numeric_block_93696",
+      "passed": true
+    },
+    {
+      "name": "validation_full_column_bounds_block_93696",
+      "passed": true
+    },
+    {
+      "name": "validation_full_numeric_block_95232",
+      "passed": true
+    },
+    {
+      "name": "validation_full_column_bounds_block_95232",
+      "passed": true
+    },
+    {
+      "name": "validation_full_numeric_block_96768",
+      "passed": true
+    },
+    {
+      "name": "validation_full_column_bounds_block_96768",
+      "passed": true
+    },
+    {
+      "name": "validation_full_numeric_block_98304",
+      "passed": true
+    },
+    {
+      "name": "validation_full_column_bounds_block_98304",
+      "passed": true
+    },
+    {
+      "name": "validation_every_row_total_and_detected_count",
+      "passed": true
+    },
+    {
+      "name": "validation_within_panel_MT_recomputed",
+      "passed": true
+    },
+    {
+      "name": "validation_every_gene_total_and_detection_count",
+      "passed": true
+    },
+    {
+      "name": "validation_matrix_summary_independently_recomputed",
+      "passed": true
+    },
+    {
+      "name": "validation_canonical_storage_status_recomputed",
+      "passed": true
+    },
+    {
+      "name": "validation_only_fixed_technical_QC_applied",
+      "passed": true
+    },
+    {
+      "name": "validation_quarantine_reasons_recomputed",
+      "passed": true
+    },
+    {
+      "name": "validation_roles_preserve_official_splits",
+      "passed": true
+    },
+    {
+      "name": "validation_shared_reference_never_claimed_independent_outcome",
+      "passed": true
+    },
+    {
+      "name": "validation_cellUID_stable_and_no_HCM_labels",
+      "passed": true
+    },
+    {
+      "name": "validation_usable_index_is_exact_rows_and_metadata",
+      "passed": true
+    },
+    {
+      "name": "validation_quarantine_rows_exact_and_not_placeholder",
+      "passed": true
+    },
+    {
+      "name": "validation_heldout_index_exactly_excludes_shared_controls",
+      "passed": true
+    },
+    {
+      "name": "validation_official_target_set_has_no_controls",
+      "passed": true
+    },
+    {
+      "name": "validation_official_count_and_median_UMI_SH3BP4",
+      "passed": true
+    },
+    {
+      "name": "validation_official_count_and_median_UMI_ZNF581",
+      "passed": true
+    },
+    {
+      "name": "validation_official_count_and_median_UMI_ANXA6",
+      "passed": true
+    },
+    {
+      "name": "validation_official_count_and_median_UMI_PACSIN3",
+      "passed": true
+    },
+    {
+      "name": "validation_official_count_and_median_UMI_MGST1",
+      "passed": true
+    },
+    {
+      "name": "validation_official_count_and_median_UMI_IGF1R",
+      "passed": true
+    },
+    {
+      "name": "validation_official_count_and_median_UMI_ITGAV",
+      "passed": true
+    },
+    {
+      "name": "validation_official_count_and_median_UMI_SLIRP",
+      "passed": true
+    },
+    {
+      "name": "validation_official_count_and_median_UMI_CTSV",
+      "passed": true
+    },
+    {
+      "name": "validation_official_count_and_median_UMI_MTFR1",
+      "passed": true
+    },
+    {
+      "name": "validation_official_count_and_median_UMI_KLHDC2",
+      "passed": true
+    },
+    {
+      "name": "validation_official_count_and_median_UMI_SMARCB1",
+      "passed": true
+    },
+    {
+      "name": "validation_official_count_and_median_UMI_PAXIP1",
+      "passed": true
+    },
+    {
+      "name": "validation_official_count_and_median_UMI_KRT18",
+      "passed": true
+    },
+    {
+      "name": "validation_official_count_and_median_UMI_EHMT1",
+      "passed": true
+    },
+    {
+      "name": "validation_official_count_and_median_UMI_HMGXB4",
+      "passed": true
+    },
+    {
+      "name": "validation_official_count_and_median_UMI_CSK",
+      "passed": true
+    },
+    {
+      "name": "validation_official_count_and_median_UMI_DOT1L",
+      "passed": true
+    },
+    {
+      "name": "validation_official_count_and_median_UMI_MAT2A",
+      "passed": true
+    },
+    {
+      "name": "validation_official_count_and_median_UMI_CENPB",
+      "passed": true
+    },
+    {
+      "name": "validation_official_count_and_median_UMI_TUSC3",
+      "passed": true
+    },
+    {
+      "name": "validation_official_count_and_median_UMI_USF2",
+      "passed": true
+    },
+    {
+      "name": "validation_official_count_and_median_UMI_HDAC8",
+      "passed": true
+    },
+    {
+      "name": "validation_official_count_and_median_UMI_CXCL12",
+      "passed": true
+    },
+    {
+      "name": "validation_official_count_and_median_UMI_THY1",
+      "passed": true
+    },
+    {
+      "name": "validation_official_count_and_median_UMI_GSTZ1",
+      "passed": true
+    },
+    {
+      "name": "validation_official_count_and_median_UMI_COX4I1",
+      "passed": true
+    },
+    {
+      "name": "validation_official_count_and_median_UMI_ACLY",
+      "passed": true
+    },
+    {
+      "name": "validation_official_count_and_median_UMI_COX6C",
+      "passed": true
+    },
+    {
+      "name": "validation_official_count_and_median_UMI_ARPC2",
+      "passed": true
+    },
+    {
+      "name": "validation_official_count_and_median_UMI_UQCRB",
+      "passed": true
+    },
+    {
+      "name": "validation_official_count_and_median_UMI_NFE2L1",
+      "passed": true
+    },
+    {
+      "name": "validation_official_count_and_median_UMI_VCL",
+      "passed": true
+    },
+    {
+      "name": "validation_official_count_and_median_UMI_HTATSF1",
+      "passed": true
+    },
+    {
+      "name": "validation_official_count_and_median_UMI_HMGCR",
+      "passed": true
+    },
+    {
+      "name": "validation_official_count_and_median_UMI_JMJD8",
+      "passed": true
+    },
+    {
+      "name": "validation_official_count_and_median_UMI_JAZF1",
+      "passed": true
+    },
+    {
+      "name": "validation_official_count_and_median_UMI_GNG12",
+      "passed": true
+    },
+    {
+      "name": "validation_official_count_and_median_UMI_DPH2",
+      "passed": true
+    },
+    {
+      "name": "validation_official_count_and_median_UMI_STRAP",
+      "passed": true
+    },
+    {
+      "name": "validation_official_count_and_median_UMI_PPP2R3C",
+      "passed": true
+    },
+    {
+      "name": "validation_official_count_and_median_UMI_SMARCE1",
+      "passed": true
+    },
+    {
+      "name": "validation_official_count_and_median_UMI_HDAC3",
+      "passed": true
+    },
+    {
+      "name": "validation_official_count_and_median_UMI_TCF7L2",
+      "passed": true
+    },
+    {
+      "name": "validation_official_count_and_median_UMI_SUPV3L1",
+      "passed": true
+    },
+    {
+      "name": "validation_official_count_and_median_UMI_EIF3H",
+      "passed": true
+    },
+    {
+      "name": "validation_official_count_and_median_UMI_FUBP1",
+      "passed": true
+    },
+    {
+      "name": "validation_official_count_and_median_UMI_WAC",
+      "passed": true
+    },
+    {
+      "name": "validation_official_count_and_median_UMI_ZNF598",
+      "passed": true
+    },
+    {
+      "name": "validation_official_count_and_median_UMI_MAX",
+      "passed": true
+    },
+    {
+      "name": "validation_full_perturbation_summary_recomputed",
+      "passed": true
+    },
+    {
+      "name": "test_real_CSR_dimensions_and_indptr",
+      "passed": true
+    },
+    {
+      "name": "test_no_fabricated_raw_or_counts_layer",
+      "passed": true
+    },
+    {
+      "name": "test_original_cells_and_gene_axis_unique_and_aligned",
+      "passed": true
+    },
+    {
+      "name": "test_native_metadata_fields_exactly_preserved",
+      "passed": true
+    },
+    {
+      "name": "test_exact_source_row_and_path_mapping",
+      "passed": true
+    },
+    {
+      "name": "test_full_numeric_block_0",
+      "passed": true
+    },
+    {
+      "name": "test_full_column_bounds_block_0",
+      "passed": true
+    },
+    {
+      "name": "test_full_numeric_block_1536",
+      "passed": true
+    },
+    {
+      "name": "test_full_column_bounds_block_1536",
+      "passed": true
+    },
+    {
+      "name": "test_full_numeric_block_3072",
+      "passed": true
+    },
+    {
+      "name": "test_full_column_bounds_block_3072",
+      "passed": true
+    },
+    {
+      "name": "test_full_numeric_block_4608",
+      "passed": true
+    },
+    {
+      "name": "test_full_column_bounds_block_4608",
+      "passed": true
+    },
+    {
+      "name": "test_full_numeric_block_6144",
+      "passed": true
+    },
+    {
+      "name": "test_full_column_bounds_block_6144",
+      "passed": true
+    },
+    {
+      "name": "test_full_numeric_block_7680",
+      "passed": true
+    },
+    {
+      "name": "test_full_column_bounds_block_7680",
+      "passed": true
+    },
+    {
+      "name": "test_full_numeric_block_9216",
+      "passed": true
+    },
+    {
+      "name": "test_full_column_bounds_block_9216",
+      "passed": true
+    },
+    {
+      "name": "test_full_numeric_block_10752",
+      "passed": true
+    },
+    {
+      "name": "test_full_column_bounds_block_10752",
+      "passed": true
+    },
+    {
+      "name": "test_full_numeric_block_12288",
+      "passed": true
+    },
+    {
+      "name": "test_full_column_bounds_block_12288",
+      "passed": true
+    },
+    {
+      "name": "test_full_numeric_block_13824",
+      "passed": true
+    },
+    {
+      "name": "test_full_column_bounds_block_13824",
+      "passed": true
+    },
+    {
+      "name": "test_full_numeric_block_15360",
+      "passed": true
+    },
+    {
+      "name": "test_full_column_bounds_block_15360",
+      "passed": true
+    },
+    {
+      "name": "test_full_numeric_block_16896",
+      "passed": true
+    },
+    {
+      "name": "test_full_column_bounds_block_16896",
+      "passed": true
+    },
+    {
+      "name": "test_full_numeric_block_18432",
+      "passed": true
+    },
+    {
+      "name": "test_full_column_bounds_block_18432",
+      "passed": true
+    },
+    {
+      "name": "test_full_numeric_block_19968",
+      "passed": true
+    },
+    {
+      "name": "test_full_column_bounds_block_19968",
+      "passed": true
+    },
+    {
+      "name": "test_full_numeric_block_21504",
+      "passed": true
+    },
+    {
+      "name": "test_full_column_bounds_block_21504",
+      "passed": true
+    },
+    {
+      "name": "test_full_numeric_block_23040",
+      "passed": true
+    },
+    {
+      "name": "test_full_column_bounds_block_23040",
+      "passed": true
+    },
+    {
+      "name": "test_full_numeric_block_24576",
+      "passed": true
+    },
+    {
+      "name": "test_full_column_bounds_block_24576",
+      "passed": true
+    },
+    {
+      "name": "test_full_numeric_block_26112",
+      "passed": true
+    },
+    {
+      "name": "test_full_column_bounds_block_26112",
+      "passed": true
+    },
+    {
+      "name": "test_full_numeric_block_27648",
+      "passed": true
+    },
+    {
+      "name": "test_full_column_bounds_block_27648",
+      "passed": true
+    },
+    {
+      "name": "test_full_numeric_block_29184",
+      "passed": true
+    },
+    {
+      "name": "test_full_column_bounds_block_29184",
+      "passed": true
+    },
+    {
+      "name": "test_full_numeric_block_30720",
+      "passed": true
+    },
+    {
+      "name": "test_full_column_bounds_block_30720",
+      "passed": true
+    },
+    {
+      "name": "test_full_numeric_block_32256",
+      "passed": true
+    },
+    {
+      "name": "test_full_column_bounds_block_32256",
+      "passed": true
+    },
+    {
+      "name": "test_full_numeric_block_33792",
+      "passed": true
+    },
+    {
+      "name": "test_full_column_bounds_block_33792",
+      "passed": true
+    },
+    {
+      "name": "test_full_numeric_block_35328",
+      "passed": true
+    },
+    {
+      "name": "test_full_column_bounds_block_35328",
+      "passed": true
+    },
+    {
+      "name": "test_full_numeric_block_36864",
+      "passed": true
+    },
+    {
+      "name": "test_full_column_bounds_block_36864",
+      "passed": true
+    },
+    {
+      "name": "test_full_numeric_block_38400",
+      "passed": true
+    },
+    {
+      "name": "test_full_column_bounds_block_38400",
+      "passed": true
+    },
+    {
+      "name": "test_full_numeric_block_39936",
+      "passed": true
+    },
+    {
+      "name": "test_full_column_bounds_block_39936",
+      "passed": true
+    },
+    {
+      "name": "test_full_numeric_block_41472",
+      "passed": true
+    },
+    {
+      "name": "test_full_column_bounds_block_41472",
+      "passed": true
+    },
+    {
+      "name": "test_full_numeric_block_43008",
+      "passed": true
+    },
+    {
+      "name": "test_full_column_bounds_block_43008",
+      "passed": true
+    },
+    {
+      "name": "test_full_numeric_block_44544",
+      "passed": true
+    },
+    {
+      "name": "test_full_column_bounds_block_44544",
+      "passed": true
+    },
+    {
+      "name": "test_full_numeric_block_46080",
+      "passed": true
+    },
+    {
+      "name": "test_full_column_bounds_block_46080",
+      "passed": true
+    },
+    {
+      "name": "test_full_numeric_block_47616",
+      "passed": true
+    },
+    {
+      "name": "test_full_column_bounds_block_47616",
+      "passed": true
+    },
+    {
+      "name": "test_full_numeric_block_49152",
+      "passed": true
+    },
+    {
+      "name": "test_full_column_bounds_block_49152",
+      "passed": true
+    },
+    {
+      "name": "test_full_numeric_block_50688",
+      "passed": true
+    },
+    {
+      "name": "test_full_column_bounds_block_50688",
+      "passed": true
+    },
+    {
+      "name": "test_full_numeric_block_52224",
+      "passed": true
+    },
+    {
+      "name": "test_full_column_bounds_block_52224",
+      "passed": true
+    },
+    {
+      "name": "test_full_numeric_block_53760",
+      "passed": true
+    },
+    {
+      "name": "test_full_column_bounds_block_53760",
+      "passed": true
+    },
+    {
+      "name": "test_full_numeric_block_55296",
+      "passed": true
+    },
+    {
+      "name": "test_full_column_bounds_block_55296",
+      "passed": true
+    },
+    {
+      "name": "test_full_numeric_block_56832",
+      "passed": true
+    },
+    {
+      "name": "test_full_column_bounds_block_56832",
+      "passed": true
+    },
+    {
+      "name": "test_full_numeric_block_58368",
+      "passed": true
+    },
+    {
+      "name": "test_full_column_bounds_block_58368",
+      "passed": true
+    },
+    {
+      "name": "test_full_numeric_block_59904",
+      "passed": true
+    },
+    {
+      "name": "test_full_column_bounds_block_59904",
+      "passed": true
+    },
+    {
+      "name": "test_full_numeric_block_61440",
+      "passed": true
+    },
+    {
+      "name": "test_full_column_bounds_block_61440",
+      "passed": true
+    },
+    {
+      "name": "test_full_numeric_block_62976",
+      "passed": true
+    },
+    {
+      "name": "test_full_column_bounds_block_62976",
+      "passed": true
+    },
+    {
+      "name": "test_full_numeric_block_64512",
+      "passed": true
+    },
+    {
+      "name": "test_full_column_bounds_block_64512",
+      "passed": true
+    },
+    {
+      "name": "test_full_numeric_block_66048",
+      "passed": true
+    },
+    {
+      "name": "test_full_column_bounds_block_66048",
+      "passed": true
+    },
+    {
+      "name": "test_full_numeric_block_67584",
+      "passed": true
+    },
+    {
+      "name": "test_full_column_bounds_block_67584",
+      "passed": true
+    },
+    {
+      "name": "test_full_numeric_block_69120",
+      "passed": true
+    },
+    {
+      "name": "test_full_column_bounds_block_69120",
+      "passed": true
+    },
+    {
+      "name": "test_full_numeric_block_70656",
+      "passed": true
+    },
+    {
+      "name": "test_full_column_bounds_block_70656",
+      "passed": true
+    },
+    {
+      "name": "test_full_numeric_block_72192",
+      "passed": true
+    },
+    {
+      "name": "test_full_column_bounds_block_72192",
+      "passed": true
+    },
+    {
+      "name": "test_full_numeric_block_73728",
+      "passed": true
+    },
+    {
+      "name": "test_full_column_bounds_block_73728",
+      "passed": true
+    },
+    {
+      "name": "test_full_numeric_block_75264",
+      "passed": true
+    },
+    {
+      "name": "test_full_column_bounds_block_75264",
+      "passed": true
+    },
+    {
+      "name": "test_full_numeric_block_76800",
+      "passed": true
+    },
+    {
+      "name": "test_full_column_bounds_block_76800",
+      "passed": true
+    },
+    {
+      "name": "test_full_numeric_block_78336",
+      "passed": true
+    },
+    {
+      "name": "test_full_column_bounds_block_78336",
+      "passed": true
+    },
+    {
+      "name": "test_full_numeric_block_79872",
+      "passed": true
+    },
+    {
+      "name": "test_full_column_bounds_block_79872",
+      "passed": true
+    },
+    {
+      "name": "test_full_numeric_block_81408",
+      "passed": true
+    },
+    {
+      "name": "test_full_column_bounds_block_81408",
+      "passed": true
+    },
+    {
+      "name": "test_full_numeric_block_82944",
+      "passed": true
+    },
+    {
+      "name": "test_full_column_bounds_block_82944",
+      "passed": true
+    },
+    {
+      "name": "test_full_numeric_block_84480",
+      "passed": true
+    },
+    {
+      "name": "test_full_column_bounds_block_84480",
+      "passed": true
+    },
+    {
+      "name": "test_full_numeric_block_86016",
+      "passed": true
+    },
+    {
+      "name": "test_full_column_bounds_block_86016",
+      "passed": true
+    },
+    {
+      "name": "test_full_numeric_block_87552",
+      "passed": true
+    },
+    {
+      "name": "test_full_column_bounds_block_87552",
+      "passed": true
+    },
+    {
+      "name": "test_full_numeric_block_89088",
+      "passed": true
+    },
+    {
+      "name": "test_full_column_bounds_block_89088",
+      "passed": true
+    },
+    {
+      "name": "test_full_numeric_block_90624",
+      "passed": true
+    },
+    {
+      "name": "test_full_column_bounds_block_90624",
+      "passed": true
+    },
+    {
+      "name": "test_full_numeric_block_92160",
+      "passed": true
+    },
+    {
+      "name": "test_full_column_bounds_block_92160",
+      "passed": true
+    },
+    {
+      "name": "test_full_numeric_block_93696",
+      "passed": true
+    },
+    {
+      "name": "test_full_column_bounds_block_93696",
+      "passed": true
+    },
+    {
+      "name": "test_full_numeric_block_95232",
+      "passed": true
+    },
+    {
+      "name": "test_full_column_bounds_block_95232",
+      "passed": true
+    },
+    {
+      "name": "test_full_numeric_block_96768",
+      "passed": true
+    },
+    {
+      "name": "test_full_column_bounds_block_96768",
+      "passed": true
+    },
+    {
+      "name": "test_full_numeric_block_98304",
+      "passed": true
+    },
+    {
+      "name": "test_full_column_bounds_block_98304",
+      "passed": true
+    },
+    {
+      "name": "test_full_numeric_block_99840",
+      "passed": true
+    },
+    {
+      "name": "test_full_column_bounds_block_99840",
+      "passed": true
+    },
+    {
+      "name": "test_full_numeric_block_101376",
+      "passed": true
+    },
+    {
+      "name": "test_full_column_bounds_block_101376",
+      "passed": true
+    },
+    {
+      "name": "test_full_numeric_block_102912",
+      "passed": true
+    },
+    {
+      "name": "test_full_column_bounds_block_102912",
+      "passed": true
+    },
+    {
+      "name": "test_full_numeric_block_104448",
+      "passed": true
+    },
+    {
+      "name": "test_full_column_bounds_block_104448",
+      "passed": true
+    },
+    {
+      "name": "test_full_numeric_block_105984",
+      "passed": true
+    },
+    {
+      "name": "test_full_column_bounds_block_105984",
+      "passed": true
+    },
+    {
+      "name": "test_full_numeric_block_107520",
+      "passed": true
+    },
+    {
+      "name": "test_full_column_bounds_block_107520",
+      "passed": true
+    },
+    {
+      "name": "test_full_numeric_block_109056",
+      "passed": true
+    },
+    {
+      "name": "test_full_column_bounds_block_109056",
+      "passed": true
+    },
+    {
+      "name": "test_full_numeric_block_110592",
+      "passed": true
+    },
+    {
+      "name": "test_full_column_bounds_block_110592",
+      "passed": true
+    },
+    {
+      "name": "test_full_numeric_block_112128",
+      "passed": true
+    },
+    {
+      "name": "test_full_column_bounds_block_112128",
+      "passed": true
+    },
+    {
+      "name": "test_full_numeric_block_113664",
+      "passed": true
+    },
+    {
+      "name": "test_full_column_bounds_block_113664",
+      "passed": true
+    },
+    {
+      "name": "test_full_numeric_block_115200",
+      "passed": true
+    },
+    {
+      "name": "test_full_column_bounds_block_115200",
+      "passed": true
+    },
+    {
+      "name": "test_full_numeric_block_116736",
+      "passed": true
+    },
+    {
+      "name": "test_full_column_bounds_block_116736",
+      "passed": true
+    },
+    {
+      "name": "test_full_numeric_block_118272",
+      "passed": true
+    },
+    {
+      "name": "test_full_column_bounds_block_118272",
+      "passed": true
+    },
+    {
+      "name": "test_full_numeric_block_119808",
+      "passed": true
+    },
+    {
+      "name": "test_full_column_bounds_block_119808",
+      "passed": true
+    },
+    {
+      "name": "test_full_numeric_block_121344",
+      "passed": true
+    },
+    {
+      "name": "test_full_column_bounds_block_121344",
+      "passed": true
+    },
+    {
+      "name": "test_full_numeric_block_122880",
+      "passed": true
+    },
+    {
+      "name": "test_full_column_bounds_block_122880",
+      "passed": true
+    },
+    {
+      "name": "test_full_numeric_block_124416",
+      "passed": true
+    },
+    {
+      "name": "test_full_column_bounds_block_124416",
+      "passed": true
+    },
+    {
+      "name": "test_full_numeric_block_125952",
+      "passed": true
+    },
+    {
+      "name": "test_full_column_bounds_block_125952",
+      "passed": true
+    },
+    {
+      "name": "test_full_numeric_block_127488",
+      "passed": true
+    },
+    {
+      "name": "test_full_column_bounds_block_127488",
+      "passed": true
+    },
+    {
+      "name": "test_full_numeric_block_129024",
+      "passed": true
+    },
+    {
+      "name": "test_full_column_bounds_block_129024",
+      "passed": true
+    },
+    {
+      "name": "test_full_numeric_block_130560",
+      "passed": true
+    },
+    {
+      "name": "test_full_column_bounds_block_130560",
+      "passed": true
+    },
+    {
+      "name": "test_full_numeric_block_132096",
+      "passed": true
+    },
+    {
+      "name": "test_full_column_bounds_block_132096",
+      "passed": true
+    },
+    {
+      "name": "test_full_numeric_block_133632",
+      "passed": true
+    },
+    {
+      "name": "test_full_column_bounds_block_133632",
+      "passed": true
+    },
+    {
+      "name": "test_full_numeric_block_135168",
+      "passed": true
+    },
+    {
+      "name": "test_full_column_bounds_block_135168",
+      "passed": true
+    },
+    {
+      "name": "test_full_numeric_block_136704",
+      "passed": true
+    },
+    {
+      "name": "test_full_column_bounds_block_136704",
+      "passed": true
+    },
+    {
+      "name": "test_full_numeric_block_138240",
+      "passed": true
+    },
+    {
+      "name": "test_full_column_bounds_block_138240",
+      "passed": true
+    },
+    {
+      "name": "test_full_numeric_block_139776",
+      "passed": true
+    },
+    {
+      "name": "test_full_column_bounds_block_139776",
+      "passed": true
+    },
+    {
+      "name": "test_full_numeric_block_141312",
+      "passed": true
+    },
+    {
+      "name": "test_full_column_bounds_block_141312",
+      "passed": true
+    },
+    {
+      "name": "test_full_numeric_block_142848",
+      "passed": true
+    },
+    {
+      "name": "test_full_column_bounds_block_142848",
+      "passed": true
+    },
+    {
+      "name": "test_full_numeric_block_144384",
+      "passed": true
+    },
+    {
+      "name": "test_full_column_bounds_block_144384",
+      "passed": true
+    },
+    {
+      "name": "test_full_numeric_block_145920",
+      "passed": true
+    },
+    {
+      "name": "test_full_column_bounds_block_145920",
+      "passed": true
+    },
+    {
+      "name": "test_full_numeric_block_147456",
+      "passed": true
+    },
+    {
+      "name": "test_full_column_bounds_block_147456",
+      "passed": true
+    },
+    {
+      "name": "test_full_numeric_block_148992",
+      "passed": true
+    },
+    {
+      "name": "test_full_column_bounds_block_148992",
+      "passed": true
+    },
+    {
+      "name": "test_full_numeric_block_150528",
+      "passed": true
+    },
+    {
+      "name": "test_full_column_bounds_block_150528",
+      "passed": true
+    },
+    {
+      "name": "test_full_numeric_block_152064",
+      "passed": true
+    },
+    {
+      "name": "test_full_column_bounds_block_152064",
+      "passed": true
+    },
+    {
+      "name": "test_full_numeric_block_153600",
+      "passed": true
+    },
+    {
+      "name": "test_full_column_bounds_block_153600",
+      "passed": true
+    },
+    {
+      "name": "test_full_numeric_block_155136",
+      "passed": true
+    },
+    {
+      "name": "test_full_column_bounds_block_155136",
+      "passed": true
+    },
+    {
+      "name": "test_full_numeric_block_156672",
+      "passed": true
+    },
+    {
+      "name": "test_full_column_bounds_block_156672",
+      "passed": true
+    },
+    {
+      "name": "test_full_numeric_block_158208",
+      "passed": true
+    },
+    {
+      "name": "test_full_column_bounds_block_158208",
+      "passed": true
+    },
+    {
+      "name": "test_full_numeric_block_159744",
+      "passed": true
+    },
+    {
+      "name": "test_full_column_bounds_block_159744",
+      "passed": true
+    },
+    {
+      "name": "test_full_numeric_block_161280",
+      "passed": true
+    },
+    {
+      "name": "test_full_column_bounds_block_161280",
+      "passed": true
+    },
+    {
+      "name": "test_full_numeric_block_162816",
+      "passed": true
+    },
+    {
+      "name": "test_full_column_bounds_block_162816",
+      "passed": true
+    },
+    {
+      "name": "test_full_numeric_block_164352",
+      "passed": true
+    },
+    {
+      "name": "test_full_column_bounds_block_164352",
+      "passed": true
+    },
+    {
+      "name": "test_full_numeric_block_165888",
+      "passed": true
+    },
+    {
+      "name": "test_full_column_bounds_block_165888",
+      "passed": true
+    },
+    {
+      "name": "test_full_numeric_block_167424",
+      "passed": true
+    },
+    {
+      "name": "test_full_column_bounds_block_167424",
+      "passed": true
+    },
+    {
+      "name": "test_full_numeric_block_168960",
+      "passed": true
+    },
+    {
+      "name": "test_full_column_bounds_block_168960",
+      "passed": true
+    },
+    {
+      "name": "test_full_numeric_block_170496",
+      "passed": true
+    },
+    {
+      "name": "test_full_column_bounds_block_170496",
+      "passed": true
+    },
+    {
+      "name": "test_every_row_total_and_detected_count",
+      "passed": true
+    },
+    {
+      "name": "test_within_panel_MT_recomputed",
+      "passed": true
+    },
+    {
+      "name": "test_every_gene_total_and_detection_count",
+      "passed": true
+    },
+    {
+      "name": "test_matrix_summary_independently_recomputed",
+      "passed": true
+    },
+    {
+      "name": "test_canonical_storage_status_recomputed",
+      "passed": true
+    },
+    {
+      "name": "test_only_fixed_technical_QC_applied",
+      "passed": true
+    },
+    {
+      "name": "test_quarantine_reasons_recomputed",
+      "passed": true
+    },
+    {
+      "name": "test_roles_preserve_official_splits",
+      "passed": true
+    },
+    {
+      "name": "test_shared_reference_never_claimed_independent_outcome",
+      "passed": true
+    },
+    {
+      "name": "test_cellUID_stable_and_no_HCM_labels",
+      "passed": true
+    },
+    {
+      "name": "test_usable_index_is_exact_rows_and_metadata",
+      "passed": true
+    },
+    {
+      "name": "test_quarantine_rows_exact_and_not_placeholder",
+      "passed": true
+    },
+    {
+      "name": "test_heldout_index_exactly_excludes_shared_controls",
+      "passed": true
+    },
+    {
+      "name": "test_official_target_set_has_no_controls",
+      "passed": true
+    },
+    {
+      "name": "test_official_count_and_median_UMI_GRB10",
+      "passed": true
+    },
+    {
+      "name": "test_official_count_and_median_UMI_STXBP1",
+      "passed": true
+    },
+    {
+      "name": "test_official_count_and_median_UMI_PLAGL2",
+      "passed": true
+    },
+    {
+      "name": "test_official_count_and_median_UMI_MED15",
+      "passed": true
+    },
+    {
+      "name": "test_official_count_and_median_UMI_SOX4",
+      "passed": true
+    },
+    {
+      "name": "test_official_count_and_median_UMI_HDGF",
+      "passed": true
+    },
+    {
+      "name": "test_official_count_and_median_UMI_PCCB",
+      "passed": true
+    },
+    {
+      "name": "test_official_count_and_median_UMI_STUB1",
+      "passed": true
+    },
+    {
+      "name": "test_official_count_and_median_UMI_CNN3",
+      "passed": true
+    },
+    {
+      "name": "test_official_count_and_median_UMI_NUDT9",
+      "passed": true
+    },
+    {
+      "name": "test_official_count_and_median_UMI_ZNF664",
+      "passed": true
+    },
+    {
+      "name": "test_official_count_and_median_UMI_MFSD10",
+      "passed": true
+    },
+    {
+      "name": "test_official_count_and_median_UMI_CREM",
+      "passed": true
+    },
+    {
+      "name": "test_official_count_and_median_UMI_EP300",
+      "passed": true
+    },
+    {
+      "name": "test_official_count_and_median_UMI_SAFB2",
+      "passed": true
+    },
+    {
+      "name": "test_official_count_and_median_UMI_FIBP",
+      "passed": true
+    },
+    {
+      "name": "test_official_count_and_median_UMI_PHF12",
+      "passed": true
+    },
+    {
+      "name": "test_official_count_and_median_UMI_CYFIP1",
+      "passed": true
+    },
+    {
+      "name": "test_official_count_and_median_UMI_MED25",
+      "passed": true
+    },
+    {
+      "name": "test_official_count_and_median_UMI_UGP2",
+      "passed": true
+    },
+    {
+      "name": "test_official_count_and_median_UMI_MORN2",
+      "passed": true
+    },
+    {
+      "name": "test_official_count_and_median_UMI_COASY",
+      "passed": true
+    },
+    {
+      "name": "test_official_count_and_median_UMI_RRM2",
+      "passed": true
+    },
+    {
+      "name": "test_official_count_and_median_UMI_APOE",
+      "passed": true
+    },
+    {
+      "name": "test_official_count_and_median_UMI_COL6A1",
+      "passed": true
+    },
+    {
+      "name": "test_official_count_and_median_UMI_DCK",
+      "passed": true
+    },
+    {
+      "name": "test_official_count_and_median_UMI_TNFRSF12A",
+      "passed": true
+    },
+    {
+      "name": "test_official_count_and_median_UMI_CTNNB1",
+      "passed": true
+    },
+    {
+      "name": "test_official_count_and_median_UMI_TOR1A",
+      "passed": true
+    },
+    {
+      "name": "test_official_count_and_median_UMI_MLLT1",
+      "passed": true
+    },
+    {
+      "name": "test_official_count_and_median_UMI_TRAFD1",
+      "passed": true
+    },
+    {
+      "name": "test_official_count_and_median_UMI_NDUFC2",
+      "passed": true
+    },
+    {
+      "name": "test_official_count_and_median_UMI_CD276",
+      "passed": true
+    },
+    {
+      "name": "test_official_count_and_median_UMI_NGRN",
+      "passed": true
+    },
+    {
+      "name": "test_official_count_and_median_UMI_NFX1",
+      "passed": true
+    },
+    {
+      "name": "test_official_count_and_median_UMI_ZNF107",
+      "passed": true
+    },
+    {
+      "name": "test_official_count_and_median_UMI_NEK2",
+      "passed": true
+    },
+    {
+      "name": "test_official_count_and_median_UMI_MED19",
+      "passed": true
+    },
+    {
+      "name": "test_official_count_and_median_UMI_EHMT2",
+      "passed": true
+    },
+    {
+      "name": "test_official_count_and_median_UMI_UGDH",
+      "passed": true
+    },
+    {
+      "name": "test_official_count_and_median_UMI_ARID3A",
+      "passed": true
+    },
+    {
+      "name": "test_official_count_and_median_UMI_AASS",
+      "passed": true
+    },
+    {
+      "name": "test_official_count_and_median_UMI_TSFM",
+      "passed": true
+    },
+    {
+      "name": "test_official_count_and_median_UMI_ZNF850",
+      "passed": true
+    },
+    {
+      "name": "test_official_count_and_median_UMI_SCCPDH",
+      "passed": true
+    },
+    {
+      "name": "test_official_count_and_median_UMI_ACTN1",
+      "passed": true
+    },
+    {
+      "name": "test_official_count_and_median_UMI_SET",
+      "passed": true
+    },
+    {
+      "name": "test_official_count_and_median_UMI_LTBR",
+      "passed": true
+    },
+    {
+      "name": "test_official_count_and_median_UMI_PBX3",
+      "passed": true
+    },
+    {
+      "name": "test_official_count_and_median_UMI_DPF2",
+      "passed": true
+    },
+    {
+      "name": "test_official_count_and_median_UMI_CSNK1E",
+      "passed": true
+    },
+    {
+      "name": "test_official_count_and_median_UMI_PIAS1",
+      "passed": true
+    },
+    {
+      "name": "test_official_count_and_median_UMI_PSME1",
+      "passed": true
+    },
+    {
+      "name": "test_official_count_and_median_UMI_GULP1",
+      "passed": true
+    },
+    {
+      "name": "test_official_count_and_median_UMI_ANKZF1",
+      "passed": true
+    },
+    {
+      "name": "test_official_count_and_median_UMI_FGFR1",
+      "passed": true
+    },
+    {
+      "name": "test_official_count_and_median_UMI_NDUFB9",
+      "passed": true
+    },
+    {
+      "name": "test_official_count_and_median_UMI_NCKAP1",
+      "passed": true
+    },
+    {
+      "name": "test_official_count_and_median_UMI_NFATC3",
+      "passed": true
+    },
+    {
+      "name": "test_official_count_and_median_UMI_SETDB1",
+      "passed": true
+    },
+    {
+      "name": "test_official_count_and_median_UMI_EPHX1",
+      "passed": true
+    },
+    {
+      "name": "test_official_count_and_median_UMI_MPC2",
+      "passed": true
+    },
+    {
+      "name": "test_official_count_and_median_UMI_PGAM1",
+      "passed": true
+    },
+    {
+      "name": "test_official_count_and_median_UMI_MED23",
+      "passed": true
+    },
+    {
+      "name": "test_official_count_and_median_UMI_LBR",
+      "passed": true
+    },
+    {
+      "name": "test_official_count_and_median_UMI_RFX5",
+      "passed": true
+    },
+    {
+      "name": "test_official_count_and_median_UMI_SBDS",
+      "passed": true
+    },
+    {
+      "name": "test_official_count_and_median_UMI_CDC25B",
+      "passed": true
+    },
+    {
+      "name": "test_official_count_and_median_UMI_HMGCS1",
+      "passed": true
+    },
+    {
+      "name": "test_official_count_and_median_UMI_ZNF92",
+      "passed": true
+    },
+    {
+      "name": "test_official_count_and_median_UMI_TSKU",
+      "passed": true
+    },
+    {
+      "name": "test_official_count_and_median_UMI_OAZ1",
+      "passed": true
+    },
+    {
+      "name": "test_official_count_and_median_UMI_THAP11",
+      "passed": true
+    },
+    {
+      "name": "test_official_count_and_median_UMI_HAX1",
+      "passed": true
+    },
+    {
+      "name": "test_official_count_and_median_UMI_CYCS",
+      "passed": true
+    },
+    {
+      "name": "test_official_count_and_median_UMI_RBPJ",
+      "passed": true
+    },
+    {
+      "name": "test_official_count_and_median_UMI_LAP3",
+      "passed": true
+    },
+    {
+      "name": "test_official_count_and_median_UMI_ZNF32",
+      "passed": true
+    },
+    {
+      "name": "test_official_count_and_median_UMI_SLC5A6",
+      "passed": true
+    },
+    {
+      "name": "test_official_count_and_median_UMI_ATF4",
+      "passed": true
+    },
+    {
+      "name": "test_official_count_and_median_UMI_CTBP2",
+      "passed": true
+    },
+    {
+      "name": "test_official_count_and_median_UMI_ASF1A",
+      "passed": true
+    },
+    {
+      "name": "test_official_count_and_median_UMI_HSP90B1",
+      "passed": true
+    },
+    {
+      "name": "test_official_count_and_median_UMI_JMJD1C",
+      "passed": true
+    },
+    {
+      "name": "test_official_count_and_median_UMI_ZBTB39",
+      "passed": true
+    },
+    {
+      "name": "test_official_count_and_median_UMI_NSDHL",
+      "passed": true
+    },
+    {
+      "name": "test_official_count_and_median_UMI_BRPF1",
+      "passed": true
+    },
+    {
+      "name": "test_official_count_and_median_UMI_BECN1",
+      "passed": true
+    },
+    {
+      "name": "test_official_count_and_median_UMI_ADNP",
+      "passed": true
+    },
+    {
+      "name": "test_official_count_and_median_UMI_DHX9",
+      "passed": true
+    },
+    {
+      "name": "test_official_count_and_median_UMI_TAF11",
+      "passed": true
+    },
+    {
+      "name": "test_official_count_and_median_UMI_ZFP62",
+      "passed": true
+    },
+    {
+      "name": "test_official_count_and_median_UMI_ELAC2",
+      "passed": true
+    },
+    {
+      "name": "test_official_count_and_median_UMI_INO80B",
+      "passed": true
+    },
+    {
+      "name": "test_official_count_and_median_UMI_OSTC",
+      "passed": true
+    },
+    {
+      "name": "test_official_count_and_median_UMI_RNF40",
+      "passed": true
+    },
+    {
+      "name": "test_official_count_and_median_UMI_PSMG1",
+      "passed": true
+    },
+    {
+      "name": "test_official_count_and_median_UMI_NCAPH2",
+      "passed": true
+    },
+    {
+      "name": "test_official_count_and_median_UMI_ZRSR2",
+      "passed": true
+    },
+    {
+      "name": "test_official_count_and_median_UMI_NELFE",
+      "passed": true
+    },
+    {
+      "name": "test_full_perturbation_summary_recomputed",
+      "passed": true
+    },
+    {
+      "name": "official_target_counts_150_50_100",
+      "passed": true
+    },
+    {
+      "name": "native_gene_mapping_present_and_nonempty",
+      "passed": true
+    },
+    {
+      "name": "train_validation_target_genes_disjoint",
+      "passed": true
+    },
+    {
+      "name": "train_validation_only_shared38176_controls",
+      "passed": true
+    },
+    {
+      "name": "train_validation_shared_source_metadata_identical",
+      "passed": true
+    },
+    {
+      "name": "train_validation_all_shared_count_rows_fingerprinted_identically",
+      "passed": true
+    },
+    {
+      "name": "train_test_target_genes_disjoint",
+      "passed": true
+    },
+    {
+      "name": "train_test_only_shared38176_controls",
+      "passed": true
+    },
+    {
+      "name": "train_test_shared_source_metadata_identical",
+      "passed": true
+    },
+    {
+      "name": "train_test_all_shared_count_rows_fingerprinted_identically",
+      "passed": true
+    },
+    {
+      "name": "validation_test_target_genes_disjoint",
+      "passed": true
+    },
+    {
+      "name": "validation_test_only_shared38176_controls",
+      "passed": true
+    },
+    {
+      "name": "validation_test_shared_source_metadata_identical",
+      "passed": true
+    },
+    {
+      "name": "validation_test_all_shared_count_rows_fingerprinted_identically",
+      "passed": true
+    },
+    {
+      "name": "noncontrol_cell_identifiers_unique_across_splits",
+      "passed": true
+    },
+    {
+      "name": "each_guide_maps_to_exactly_one_target",
+      "passed": true
+    },
+    {
+      "name": "noncontrol_hash_field_is_empty",
+      "passed": true
+    },
+    {
+      "name": "cellUID_and_sourceID_identify_same_unique_cells",
+      "passed": true
+    },
+    {
+      "name": "unique_control_index_exact_train_reference",
+      "passed": true
+    },
+    {
+      "name": "unique_control_copy_choice_explicit",
+      "passed": true
+    },
+    {
+      "name": "total_export_counts_recomputed",
+      "passed": true
+    },
+    {
+      "name": "exact_three_splits_in_dataset_and_summary",
+      "passed": true
+    },
+    {
+      "name": "train_dataset_index_paths_dimensions_and_no_redundant_matrix",
+      "passed": true
+    },
+    {
+      "name": "train_summary_all_cell_and_feature_counts_recomputed",
+      "passed": true
+    },
+    {
+      "name": "validation_dataset_index_paths_dimensions_and_no_redundant_matrix",
+      "passed": true
+    },
+    {
+      "name": "validation_summary_all_cell_and_feature_counts_recomputed",
+      "passed": true
+    },
+    {
+      "name": "test_dataset_index_paths_dimensions_and_no_redundant_matrix",
+      "passed": true
+    },
+    {
+      "name": "test_summary_all_cell_and_feature_counts_recomputed",
+      "passed": true
+    },
+    {
+      "name": "combined_perturbation_split_table_exact",
+      "passed": true
+    },
+    {
+      "name": "policy_preserves_modality_and_count_semantics",
+      "passed": true
+    },
+    {
+      "name": "HCM_filters_and_training_explicitly_not_applied",
+      "passed": true
+    },
+    {
+      "name": "metadata_inspection_unique_cells_matches_full_audit",
+      "passed": true
+    },
+    {
+      "name": "baseline_copy_exact",
+      "passed": true
+    },
+    {
+      "name": "exported_payload_bytes_DATASET_INDEX.tsv",
+      "passed": true
+    },
+    {
+      "name": "exported_payload_SHA256_DATASET_INDEX.tsv",
+      "passed": true
+    },
+    {
+      "name": "exported_payload_MD5_DATASET_INDEX.tsv",
+      "passed": true
+    },
+    {
+      "name": "exported_payload_bytes_INPUT_INSPECTION.json",
+      "passed": true
+    },
+    {
+      "name": "exported_payload_SHA256_INPUT_INSPECTION.json",
+      "passed": true
+    },
+    {
+      "name": "exported_payload_MD5_INPUT_INSPECTION.json",
+      "passed": true
+    },
+    {
+      "name": "exported_payload_bytes_ORIGINAL_DOWNLOAD_BASELINE.json",
+      "passed": true
+    },
+    {
+      "name": "exported_payload_SHA256_ORIGINAL_DOWNLOAD_BASELINE.json",
+      "passed": true
+    },
+    {
+      "name": "exported_payload_MD5_ORIGINAL_DOWNLOAD_BASELINE.json",
+      "passed": true
+    },
+    {
+      "name": "exported_payload_bytes_ORIGINAL_FILES.tsv",
+      "passed": true
+    },
+    {
+      "name": "exported_payload_SHA256_ORIGINAL_FILES.tsv",
+      "passed": true
+    },
+    {
+      "name": "exported_payload_MD5_ORIGINAL_FILES.tsv",
+      "passed": true
+    },
+    {
+      "name": "exported_payload_bytes_PERTURBATION_SPLITS.tsv",
+      "passed": true
+    },
+    {
+      "name": "exported_payload_SHA256_PERTURBATION_SPLITS.tsv",
+      "passed": true
+    },
+    {
+      "name": "exported_payload_MD5_PERTURBATION_SPLITS.tsv",
+      "passed": true
+    },
+    {
+      "name": "exported_payload_bytes_feature_index_QC.tsv.gz",
+      "passed": true
+    },
+    {
+      "name": "exported_payload_SHA256_feature_index_QC.tsv.gz",
+      "passed": true
+    },
+    {
+      "name": "exported_payload_MD5_feature_index_QC.tsv.gz",
+      "passed": true
+    },
+    {
+      "name": "exported_payload_bytes_qc_policy.json",
+      "passed": true
+    },
+    {
+      "name": "exported_payload_SHA256_qc_policy.json",
+      "passed": true
+    },
+    {
+      "name": "exported_payload_MD5_qc_policy.json",
+      "passed": true
+    },
+    {
+      "name": "exported_payload_bytes_shared_controls_unique_index.tsv.gz",
+      "passed": true
+    },
+    {
+      "name": "exported_payload_SHA256_shared_controls_unique_index.tsv.gz",
+      "passed": true
+    },
+    {
+      "name": "exported_payload_MD5_shared_controls_unique_index.tsv.gz",
+      "passed": true
+    },
+    {
+      "name": "exported_payload_bytes_split_QC_summary.tsv",
+      "passed": true
+    },
+    {
+      "name": "exported_payload_SHA256_split_QC_summary.tsv",
+      "passed": true
+    },
+    {
+      "name": "exported_payload_MD5_split_QC_summary.tsv",
+      "passed": true
+    },
+    {
+      "name": "exported_payload_bytes_test_cell_QC.tsv.gz",
+      "passed": true
+    },
+    {
+      "name": "exported_payload_SHA256_test_cell_QC.tsv.gz",
+      "passed": true
+    },
+    {
+      "name": "exported_payload_MD5_test_cell_QC.tsv.gz",
+      "passed": true
+    },
+    {
+      "name": "exported_payload_bytes_test_held_out_perturbation_index.tsv.gz",
+      "passed": true
+    },
+    {
+      "name": "exported_payload_SHA256_test_held_out_perturbation_index.tsv.gz",
+      "passed": true
+    },
+    {
+      "name": "exported_payload_MD5_test_held_out_perturbation_index.tsv.gz",
+      "passed": true
+    },
+    {
+      "name": "exported_payload_bytes_test_perturbation_summary.tsv",
+      "passed": true
+    },
+    {
+      "name": "exported_payload_SHA256_test_perturbation_summary.tsv",
+      "passed": true
+    },
+    {
+      "name": "exported_payload_MD5_test_perturbation_summary.tsv",
+      "passed": true
+    },
+    {
+      "name": "exported_payload_bytes_test_quarantine_index.tsv",
+      "passed": true
+    },
+    {
+      "name": "exported_payload_SHA256_test_quarantine_index.tsv",
+      "passed": true
+    },
+    {
+      "name": "exported_payload_MD5_test_quarantine_index.tsv",
+      "passed": true
+    },
+    {
+      "name": "exported_payload_bytes_test_usable_index.tsv.gz",
+      "passed": true
+    },
+    {
+      "name": "exported_payload_SHA256_test_usable_index.tsv.gz",
+      "passed": true
+    },
+    {
+      "name": "exported_payload_MD5_test_usable_index.tsv.gz",
+      "passed": true
+    },
+    {
+      "name": "exported_payload_bytes_train_cell_QC.tsv.gz",
+      "passed": true
+    },
+    {
+      "name": "exported_payload_SHA256_train_cell_QC.tsv.gz",
+      "passed": true
+    },
+    {
+      "name": "exported_payload_MD5_train_cell_QC.tsv.gz",
+      "passed": true
+    },
+    {
+      "name": "exported_payload_bytes_train_perturbation_summary.tsv",
+      "passed": true
+    },
+    {
+      "name": "exported_payload_SHA256_train_perturbation_summary.tsv",
+      "passed": true
+    },
+    {
+      "name": "exported_payload_MD5_train_perturbation_summary.tsv",
+      "passed": true
+    },
+    {
+      "name": "exported_payload_bytes_train_quarantine_index.tsv",
+      "passed": true
+    },
+    {
+      "name": "exported_payload_SHA256_train_quarantine_index.tsv",
+      "passed": true
+    },
+    {
+      "name": "exported_payload_MD5_train_quarantine_index.tsv",
+      "passed": true
+    },
+    {
+      "name": "exported_payload_bytes_train_usable_index.tsv.gz",
+      "passed": true
+    },
+    {
+      "name": "exported_payload_SHA256_train_usable_index.tsv.gz",
+      "passed": true
+    },
+    {
+      "name": "exported_payload_MD5_train_usable_index.tsv.gz",
+      "passed": true
+    },
+    {
+      "name": "exported_payload_bytes_validation_cell_QC.tsv.gz",
+      "passed": true
+    },
+    {
+      "name": "exported_payload_SHA256_validation_cell_QC.tsv.gz",
+      "passed": true
+    },
+    {
+      "name": "exported_payload_MD5_validation_cell_QC.tsv.gz",
+      "passed": true
+    },
+    {
+      "name": "exported_payload_bytes_validation_held_out_perturbation_index.tsv.gz",
+      "passed": true
+    },
+    {
+      "name": "exported_payload_SHA256_validation_held_out_perturbation_index.tsv.gz",
+      "passed": true
+    },
+    {
+      "name": "exported_payload_MD5_validation_held_out_perturbation_index.tsv.gz",
+      "passed": true
+    },
+    {
+      "name": "exported_payload_bytes_validation_perturbation_summary.tsv",
+      "passed": true
+    },
+    {
+      "name": "exported_payload_SHA256_validation_perturbation_summary.tsv",
+      "passed": true
+    },
+    {
+      "name": "exported_payload_MD5_validation_perturbation_summary.tsv",
+      "passed": true
+    },
+    {
+      "name": "exported_payload_bytes_validation_quarantine_index.tsv",
+      "passed": true
+    },
+    {
+      "name": "exported_payload_SHA256_validation_quarantine_index.tsv",
+      "passed": true
+    },
+    {
+      "name": "exported_payload_MD5_validation_quarantine_index.tsv",
+      "passed": true
+    },
+    {
+      "name": "exported_payload_bytes_validation_usable_index.tsv.gz",
+      "passed": true
+    },
+    {
+      "name": "exported_payload_SHA256_validation_usable_index.tsv.gz",
+      "passed": true
+    },
+    {
+      "name": "exported_payload_MD5_validation_usable_index.tsv.gz",
+      "passed": true
+    },
+    {
+      "name": "prepare_job_exited_successfully",
+      "passed": true
+    }
+  ],
+  "scope": "Independent full scan of every stored count value, source hashes, every exported cell/feature metric, official split and source metadata alignment; no biological efficacy or singlet certification.",
+  "unique_cells": 414694,
+  "unique_perturbed_cells": 376518,
+  "shared_controls": 38176,
+  "published_file_observations": 491046,
+  "genes_preserved": 18080,
+  "retained_observations": 491046,
+  "quarantined_observations": 0
+}

@@ -1,0 +1,3 @@
+cell_line	rows	features	minimum	maximum	nonzero_values	nonfinite_values	negative_values	fractional_values	zero_count_cells	all_zero_features	count_sum_total
+K562	310385	8563	0.0	3161.0	1121681215	0	0	0	0	0	4312300731.0
+RPE1	247914	8749	0.0	3204.0	867313640	0	0	0	0	0	3326979875.0

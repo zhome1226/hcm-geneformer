@@ -1,0 +1,8 @@
+{
+  "strict_nuclei": 141301,
+  "strong_mixed_nuclei": 10,
+  "weak_mixed_nuclei": 19978,
+  "triggered_captures": [],
+  "trigger_rule": "After inherited author CellBender and global/subtype mixed-cluster removal: supplemental scDblFinder only if >=10 AND >=1% strict nuclei have coherent strong mixed programs; model uses ALL published >=500-gene nuclei from that orig.ident, including >5000 and high-MT if present. Residual-screen heuristic, original loading and removal history unknown.",
+  "exclusion_rule": "Only model doublet AND coherent strong distinct-lineage pair; mixtures without supplemental support remain pending, not proven doublets."
+}

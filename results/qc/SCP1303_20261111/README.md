@@ -1,5 +1,7 @@
 # SCP1303 HCM/NF 心肌细胞核清洗结果
 
+本页是最初严格基线的历史记录。当前经过身份/残余双细胞定向复核的最终版本见[复核报告](../all_data_cleaning_20261111/scp1303_reviewed/REPORT.md)，使用服务器`processed/SCP1303_qc_reviewed_final_20261111/`；完整核心114711核、轻量20000核、待定144核。
+
 日期：2026-11-11（Asia/Shanghai）。本轮完成 SCP1303 的严格基线筛选和轻量抽样；未训练、未做差异表达、未做 tokenization。其他研究原件未处理。
 
 ## 交付结果

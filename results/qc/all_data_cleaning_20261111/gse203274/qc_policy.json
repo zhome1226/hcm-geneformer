@@ -1,0 +1,160 @@
+{
+  "version": "GSE203274_pediatric_strict_v1",
+  "seed": 20261111,
+  "min_genes": 500,
+  "max_genes": 5000,
+  "mt_percent_exclusive_max": 5,
+  "count_source": "GEO AllNuclei rawCount file: released unnormalized integer RNA counts after author CellBender v0.1.0 background correction and author QC. Not uncorrected CellRanger molecular counts, scaled data, Harmony coordinates or full raw droplets.",
+  "author_QC": "Hill et al., Nature 2022, PMID35732239/PMC10405779: hg19 pre-mRNA CellRanger3.0.1, CellBender0.1.0, 700-10000 genes, MT<0.2%, Harmony and repeated global/cell-type mixed-marker cluster removal; published set157293 nuclei. Source restrictions inherited and excluded original nuclei/genes cannot be recovered.",
+  "numeric": "Recompute from released full counts: 500<=detected genes<=5000 and MT%<5. Published percent.mt is percentage, not fraction; exactly matches recomputation. Inherited MT<0.2% is already stricter; this project upper-gene threshold adds selection.",
+  "gene_axis": "All29266 native source symbols retained including zeros/duplicates. Derived reference_gene_id assigned only for18393 unique exact symbol matches to existing GRCh38 adult LV reference; source assembly is hg19, no native Ensembl IDs claimed or guessed; unmapped/ambiguous genes remain.",
+  "disease_map": {
+    "Control": 0,
+    "HCM": 1,
+    "DCM": -1,
+    "HLHS": -1,
+    "TOF": -1
+  },
+  "disease_source": "Use author ClinicalRank and Diagnosis with GEO clinical diagnoses. Lowercase diagnosis mixes LVAD/HTx/procedure status with disease and cannot define HCM/Control alone. Non-HCM pathology is never relabeled Control.",
+  "donor_binding": "Use13 author labID donors,30 orig.ident batches. Same13_198 LV/RV is one donor even though author patientID splits sites; repeats/plate counts are not independent patients. P33 9k/10k and other batches retain candidate GEO sets, no invented unique GSM association.",
+  "age": "Pediatric source text retained and split into year/month/day components; approximate years explicitly derived. UK1/UK2 author age and GEO age disagree, both retained with true conflict flags; ageCont is source metadata and not preferred exact age.",
+  "clinical_field_issue": "author echoEF equals orig.ident/capture ID for every nucleus; retained unchanged, numeric_ejection_fraction_available=False, no invented EF values.",
+  "reference_identity": "SingleR adult LV reference with fixed donor-separated holdout on unique symbol/Ensembl matches. Source author labels, multiple markers and neighborhood support combined; neonatal/pediatric reference domain shift remains. Reference scores/tails and correlated graph support are not independent confidence probabilities.",
+  "CM_core": "Author MainCellType=CM, SingleR best and pruned Cardiomyocyte, >=2 CM-panel genes, CM-program dominance, no strong mixed or joint suspected-doublet exclusion; and empirical reference-tail pass OR >=3 CM genes with >=.5 CM-anchor neighbor fraction.",
+  "CM_pending": "Author CM OR best reference CM OR >=3 CM genes with CM program dominance, but not core and not jointly excluded; all diagnoses retained with source label.",
+  "doublet_model": "After inherited author CellBender and global/subtype mixed-cluster removal: supplemental scDblFinder only if >=10 AND >=1% strict nuclei have coherent strong mixed programs; model uses ALL published >=500-gene nuclei from that orig.ident, including >5000 and high-MT if present. Residual-screen heuristic, original loading and removal history unknown.",
+  "doublet_exclusion": "Only model doublet AND coherent strong distinct-lineage pair; mixtures without supplemental support remain pending, not proven doublets.",
+  "doublet_rate_limitation": "If triggered, dbr=NULL,dbr.per1k=.008 is a supplemental residual-screening heuristic; published post-QC batch size is not known original loading or a measured residual rate. No EmptyDrops or repeated CellBender.",
+  "panels": {
+    "Cardiomyocyte": [
+      "TNNT2",
+      "TTN",
+      "TNNI3",
+      "ACTC1",
+      "MYH7",
+      "MYBPC3",
+      "MYL2",
+      "TNNC1",
+      "RYR2",
+      "PLN",
+      "ACTN2",
+      "MYH6"
+    ],
+    "Fibroblast": [
+      "COL1A1",
+      "COL1A2",
+      "DCN",
+      "LUM",
+      "PDGFRA"
+    ],
+    "Endothelial": [
+      "PECAM1",
+      "VWF",
+      "KDR",
+      "EMCN",
+      "CLDN5"
+    ],
+    "Immune": [
+      "PTPRC",
+      "LST1",
+      "TYROBP",
+      "CD3D",
+      "CD79A"
+    ],
+    "Mural": [
+      "RGS5",
+      "PDGFRB",
+      "CSPG4",
+      "MYH11",
+      "ACTA2",
+      "TAGLN"
+    ],
+    "Neural": [
+      "NRXN1",
+      "SNAP25",
+      "SYT1",
+      "SLC1A3",
+      "PLP1"
+    ],
+    "Adipocyte": [
+      "ADIPOQ",
+      "FABP4",
+      "PLIN1",
+      "LPL",
+      "CIDEC"
+    ],
+    "Mesothelial": [
+      "WT1",
+      "MSLN",
+      "UPK3B",
+      "KRT8",
+      "KRT18"
+    ]
+  },
+  "mixed_program_pairs": [
+    [
+      "Cardiomyocyte",
+      "Fibroblast"
+    ],
+    [
+      "Cardiomyocyte",
+      "Endothelial"
+    ],
+    [
+      "Cardiomyocyte",
+      "Immune"
+    ],
+    [
+      "Cardiomyocyte",
+      "Mural"
+    ],
+    [
+      "Fibroblast",
+      "Endothelial"
+    ],
+    [
+      "Fibroblast",
+      "Immune"
+    ],
+    [
+      "Endothelial",
+      "Immune"
+    ],
+    [
+      "Immune",
+      "Mural"
+    ]
+  ],
+  "mixed_program_bounds": {
+    "Cardiomyocyte": {
+      "positive_q10": 2.0177177872310743,
+      "negative_q99": 2.2061581613486987,
+      "threshold": 2.2061581613486987
+    },
+    "Fibroblast": {
+      "positive_q10": 0.49856167763108883,
+      "negative_q99": 1.1492012336489958,
+      "threshold": 1.1492012336489958
+    },
+    "Endothelial": {
+      "positive_q10": 0.5477254824204757,
+      "negative_q99": 0.5916536880035794,
+      "threshold": 0.5916536880035794
+    },
+    "Immune": {
+      "positive_q10": 0.0,
+      "negative_q99": 0.0,
+      "threshold": 0.0
+    },
+    "Mural": {
+      "positive_q10": 0.47403376034313566,
+      "negative_q99": 0.9780136147441695,
+      "threshold": 0.9780136147441695
+    }
+  },
+  "strong_mixed_rule": "Each distinct lineage >=3 genes with >=2 UMIs; both mean log1p(CP10k) programs>=max(fixed reference positive q10,negative q99), min/max program ratio>=.25. Weak one-UMI combinations are diagnostic only, not deletion criteria.",
+  "graph": "Pediatric cohort alone; diagnostic log1p(CP10k),3000HVGs excluding MT,40PCs,15 exact sklearn neighbors,Leiden.6; no disease integration or disease labels in neighbor construction. Original-count objects retain all genes.",
+  "output_scope": "all_cells_qc retains all source diagnoses; cm_qc_full/light contain ONLY Control/HCM core; cm_other_diseases retains other verified CM with label=-1. Pending, suspected doublets and numeric exclusions kept separately; no duplicate nuclei to fill20k.",
+  "training": "QC completed, train/test unassigned. Only one HCM donor P86 at11y3m12d; two captures are not independent HCM patients. Pediatric/external-reference/region and cross-study donor-overlap review needed before training or validation; not an independent multi-donor HCM benchmark.",
+  "scope": "No tokenization, virtual-cell training, differential expression, target ranking, count normalization/imputation/integration or HVG truncation in delivered counts."
+}

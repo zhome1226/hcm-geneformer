@@ -1,0 +1,1772 @@
+{
+  "dataset": "bulk_GSE249925",
+  "status": "complete_verified",
+  "checked_utc": "2026-11-11T14:28:33.349000+00:00",
+  "checks_passed": 430,
+  "source_features": 64253,
+  "QC_features": 48629,
+  "source_samples": 120,
+  "QC_samples": 120,
+  "HCM_samples": 97,
+  "Control_samples": 23,
+  "zero_features_removed_from_QC_only": 15624,
+  "invalid_feature_identity": 0,
+  "duplicate_Ensembl_rows": 0,
+  "duplicate_symbol_rows": 7064,
+  "MAD_total_flags": 2,
+  "MAD_detected_flags": 0,
+  "certified_unnormalized_counts": false,
+  "single_cell_training_eligible": false,
+  "original_input_checksums": {
+    "GSE249925_20231208-For-GEO-Raw-Counts.tsv.gz": {
+      "bytes": 6968101,
+      "MD5": "41ddfb5c5726a2d9481a555f98779793",
+      "SHA256": "6df73918890094b9eccdeca61044cc83054218afab362223161e1783f1cd3e3f",
+      "historical_SHA256_available": false,
+      "historical_size_and_MD5_matched": true
+    },
+    "sample_metadata.soft": {
+      "bytes": 274426,
+      "MD5": "33fe34def3d4f1b1a28413aa2baf779c",
+      "SHA256": "a5ce4d35e169a5b706678ab3fdd7c968b5d28051bc306a47c58faab161faeb27",
+      "historical_SHA256_available": false,
+      "historical_size_and_MD5_matched": true
+    },
+    "series_metadata.soft": {
+      "bytes": 5251,
+      "MD5": "2e279c22e8da5c1ac1221745638702a2",
+      "SHA256": "ff1423e58c32f0a4285989ca352646f2be476ac36cac282703e660f53281eec6",
+      "historical_SHA256_available": false,
+      "historical_size_and_MD5_matched": true
+    }
+  },
+  "all_checks": [
+    {
+      "name": "three_original_payloads_accounted_for",
+      "passed": true
+    },
+    {
+      "name": "original_bytes_GSE249925_20231208-For-GEO-Raw-Counts.tsv.gz",
+      "passed": true
+    },
+    {
+      "name": "original_MD5_GSE249925_20231208-For-GEO-Raw-Counts.tsv.gz",
+      "passed": true
+    },
+    {
+      "name": "original_bytes_sample_metadata.soft",
+      "passed": true
+    },
+    {
+      "name": "original_MD5_sample_metadata.soft",
+      "passed": true
+    },
+    {
+      "name": "original_bytes_series_metadata.soft",
+      "passed": true
+    },
+    {
+      "name": "original_MD5_series_metadata.soft",
+      "passed": true
+    },
+    {
+      "name": "native_header_and_complete_row_widths",
+      "passed": true
+    },
+    {
+      "name": "no_duplicate_native_column_headers",
+      "passed": true
+    },
+    {
+      "name": "source_matrix_is_real_nonnegative_integer_release",
+      "passed": true
+    },
+    {
+      "name": "native_feature_ids_are_unique",
+      "passed": true
+    },
+    {
+      "name": "full_axes_exactly_preserved",
+      "passed": true
+    },
+    {
+      "name": "every_full_published_value_matches_original",
+      "passed": true
+    },
+    {
+      "name": "source_length_and_composite_ID_strings_preserved",
+      "passed": true
+    },
+    {
+      "name": "original_feature_row_order_preserved",
+      "passed": true
+    },
+    {
+      "name": "every_native_composite_feature_has_five_parts",
+      "passed": true
+    },
+    {
+      "name": "native_component_chromosome",
+      "passed": true
+    },
+    {
+      "name": "native_component_gene_id",
+      "passed": true
+    },
+    {
+      "name": "native_component_gene_symbol",
+      "passed": true
+    },
+    {
+      "name": "native_component_start_original",
+      "passed": true
+    },
+    {
+      "name": "native_component_end_original",
+      "passed": true
+    },
+    {
+      "name": "feature_identity_and_zero_QC_recomputed",
+      "passed": true
+    },
+    {
+      "name": "sample_information_QC_recomputed",
+      "passed": true
+    },
+    {
+      "name": "every_feature_QC_total_and_detection_matches",
+      "passed": true
+    },
+    {
+      "name": "every_sample_QC_total_and_detection_matches",
+      "passed": true
+    },
+    {
+      "name": "bulk_MT_is_a_reported_metric_only",
+      "passed": true
+    },
+    {
+      "name": "every_feature_exclusion_reason_recomputed",
+      "passed": true
+    },
+    {
+      "name": "duplicate_native_gene_IDs_and_symbols_flagged_without_aggregation",
+      "passed": true
+    },
+    {
+      "name": "QC_axes_exact_retained_subset",
+      "passed": true
+    },
+    {
+      "name": "every_QC_value_matches_original_without_normalization",
+      "passed": true
+    },
+    {
+      "name": "QC_metadata_is_exact_subset",
+      "passed": true
+    },
+    {
+      "name": "QC_TSV_native_order_and_annotations",
+      "passed": true
+    },
+    {
+      "name": "every_QC_TSV_value_matches_original",
+      "passed": true
+    },
+    {
+      "name": "all_zero_removals_really_have_no_information",
+      "passed": true
+    },
+    {
+      "name": "complete_gene_audit_and_exclusion_indices",
+      "passed": true
+    },
+    {
+      "name": "sample_exclusions_are_real_empty_result",
+      "passed": true
+    },
+    {
+      "name": "all120_original_and_previously_retrieved_GEO_records_accounted_for",
+      "passed": true
+    },
+    {
+      "name": "GSM7967163_exact_source_title_and_registry_mapping",
+      "passed": true
+    },
+    {
+      "name": "GSM7967163_disease_and_tissue_from_GEO",
+      "passed": true
+    },
+    {
+      "name": "GSM7967163_second_source_GEO_crosscheck",
+      "passed": true
+    },
+    {
+      "name": "GSM7967222_exact_source_title_and_registry_mapping",
+      "passed": true
+    },
+    {
+      "name": "GSM7967222_disease_and_tissue_from_GEO",
+      "passed": true
+    },
+    {
+      "name": "GSM7967222_second_source_GEO_crosscheck",
+      "passed": true
+    },
+    {
+      "name": "GSM7967164_exact_source_title_and_registry_mapping",
+      "passed": true
+    },
+    {
+      "name": "GSM7967164_disease_and_tissue_from_GEO",
+      "passed": true
+    },
+    {
+      "name": "GSM7967164_second_source_GEO_crosscheck",
+      "passed": true
+    },
+    {
+      "name": "GSM7967165_exact_source_title_and_registry_mapping",
+      "passed": true
+    },
+    {
+      "name": "GSM7967165_disease_and_tissue_from_GEO",
+      "passed": true
+    },
+    {
+      "name": "GSM7967165_second_source_GEO_crosscheck",
+      "passed": true
+    },
+    {
+      "name": "GSM7967223_exact_source_title_and_registry_mapping",
+      "passed": true
+    },
+    {
+      "name": "GSM7967223_disease_and_tissue_from_GEO",
+      "passed": true
+    },
+    {
+      "name": "GSM7967223_second_source_GEO_crosscheck",
+      "passed": true
+    },
+    {
+      "name": "GSM7967224_exact_source_title_and_registry_mapping",
+      "passed": true
+    },
+    {
+      "name": "GSM7967224_disease_and_tissue_from_GEO",
+      "passed": true
+    },
+    {
+      "name": "GSM7967224_second_source_GEO_crosscheck",
+      "passed": true
+    },
+    {
+      "name": "GSM7967225_exact_source_title_and_registry_mapping",
+      "passed": true
+    },
+    {
+      "name": "GSM7967225_disease_and_tissue_from_GEO",
+      "passed": true
+    },
+    {
+      "name": "GSM7967225_second_source_GEO_crosscheck",
+      "passed": true
+    },
+    {
+      "name": "GSM7967166_exact_source_title_and_registry_mapping",
+      "passed": true
+    },
+    {
+      "name": "GSM7967166_disease_and_tissue_from_GEO",
+      "passed": true
+    },
+    {
+      "name": "GSM7967166_second_source_GEO_crosscheck",
+      "passed": true
+    },
+    {
+      "name": "GSM7967167_exact_source_title_and_registry_mapping",
+      "passed": true
+    },
+    {
+      "name": "GSM7967167_disease_and_tissue_from_GEO",
+      "passed": true
+    },
+    {
+      "name": "GSM7967167_second_source_GEO_crosscheck",
+      "passed": true
+    },
+    {
+      "name": "GSM7967226_exact_source_title_and_registry_mapping",
+      "passed": true
+    },
+    {
+      "name": "GSM7967226_disease_and_tissue_from_GEO",
+      "passed": true
+    },
+    {
+      "name": "GSM7967226_second_source_GEO_crosscheck",
+      "passed": true
+    },
+    {
+      "name": "GSM7967227_exact_source_title_and_registry_mapping",
+      "passed": true
+    },
+    {
+      "name": "GSM7967227_disease_and_tissue_from_GEO",
+      "passed": true
+    },
+    {
+      "name": "GSM7967227_second_source_GEO_crosscheck",
+      "passed": true
+    },
+    {
+      "name": "GSM7967228_exact_source_title_and_registry_mapping",
+      "passed": true
+    },
+    {
+      "name": "GSM7967228_disease_and_tissue_from_GEO",
+      "passed": true
+    },
+    {
+      "name": "GSM7967228_second_source_GEO_crosscheck",
+      "passed": true
+    },
+    {
+      "name": "GSM7967168_exact_source_title_and_registry_mapping",
+      "passed": true
+    },
+    {
+      "name": "GSM7967168_disease_and_tissue_from_GEO",
+      "passed": true
+    },
+    {
+      "name": "GSM7967168_second_source_GEO_crosscheck",
+      "passed": true
+    },
+    {
+      "name": "GSM7967229_exact_source_title_and_registry_mapping",
+      "passed": true
+    },
+    {
+      "name": "GSM7967229_disease_and_tissue_from_GEO",
+      "passed": true
+    },
+    {
+      "name": "GSM7967229_second_source_GEO_crosscheck",
+      "passed": true
+    },
+    {
+      "name": "GSM7967169_exact_source_title_and_registry_mapping",
+      "passed": true
+    },
+    {
+      "name": "GSM7967169_disease_and_tissue_from_GEO",
+      "passed": true
+    },
+    {
+      "name": "GSM7967169_second_source_GEO_crosscheck",
+      "passed": true
+    },
+    {
+      "name": "GSM7967230_exact_source_title_and_registry_mapping",
+      "passed": true
+    },
+    {
+      "name": "GSM7967230_disease_and_tissue_from_GEO",
+      "passed": true
+    },
+    {
+      "name": "GSM7967230_second_source_GEO_crosscheck",
+      "passed": true
+    },
+    {
+      "name": "GSM7967231_exact_source_title_and_registry_mapping",
+      "passed": true
+    },
+    {
+      "name": "GSM7967231_disease_and_tissue_from_GEO",
+      "passed": true
+    },
+    {
+      "name": "GSM7967231_second_source_GEO_crosscheck",
+      "passed": true
+    },
+    {
+      "name": "GSM7967232_exact_source_title_and_registry_mapping",
+      "passed": true
+    },
+    {
+      "name": "GSM7967232_disease_and_tissue_from_GEO",
+      "passed": true
+    },
+    {
+      "name": "GSM7967232_second_source_GEO_crosscheck",
+      "passed": true
+    },
+    {
+      "name": "GSM7967170_exact_source_title_and_registry_mapping",
+      "passed": true
+    },
+    {
+      "name": "GSM7967170_disease_and_tissue_from_GEO",
+      "passed": true
+    },
+    {
+      "name": "GSM7967170_second_source_GEO_crosscheck",
+      "passed": true
+    },
+    {
+      "name": "GSM7967171_exact_source_title_and_registry_mapping",
+      "passed": true
+    },
+    {
+      "name": "GSM7967171_disease_and_tissue_from_GEO",
+      "passed": true
+    },
+    {
+      "name": "GSM7967171_second_source_GEO_crosscheck",
+      "passed": true
+    },
+    {
+      "name": "GSM7967172_exact_source_title_and_registry_mapping",
+      "passed": true
+    },
+    {
+      "name": "GSM7967172_disease_and_tissue_from_GEO",
+      "passed": true
+    },
+    {
+      "name": "GSM7967172_second_source_GEO_crosscheck",
+      "passed": true
+    },
+    {
+      "name": "GSM7967173_exact_source_title_and_registry_mapping",
+      "passed": true
+    },
+    {
+      "name": "GSM7967173_disease_and_tissue_from_GEO",
+      "passed": true
+    },
+    {
+      "name": "GSM7967173_second_source_GEO_crosscheck",
+      "passed": true
+    },
+    {
+      "name": "GSM7967184_exact_source_title_and_registry_mapping",
+      "passed": true
+    },
+    {
+      "name": "GSM7967184_disease_and_tissue_from_GEO",
+      "passed": true
+    },
+    {
+      "name": "GSM7967184_second_source_GEO_crosscheck",
+      "passed": true
+    },
+    {
+      "name": "GSM7967174_exact_source_title_and_registry_mapping",
+      "passed": true
+    },
+    {
+      "name": "GSM7967174_disease_and_tissue_from_GEO",
+      "passed": true
+    },
+    {
+      "name": "GSM7967174_second_source_GEO_crosscheck",
+      "passed": true
+    },
+    {
+      "name": "GSM7967175_exact_source_title_and_registry_mapping",
+      "passed": true
+    },
+    {
+      "name": "GSM7967175_disease_and_tissue_from_GEO",
+      "passed": true
+    },
+    {
+      "name": "GSM7967175_second_source_GEO_crosscheck",
+      "passed": true
+    },
+    {
+      "name": "GSM7967233_exact_source_title_and_registry_mapping",
+      "passed": true
+    },
+    {
+      "name": "GSM7967233_disease_and_tissue_from_GEO",
+      "passed": true
+    },
+    {
+      "name": "GSM7967233_second_source_GEO_crosscheck",
+      "passed": true
+    },
+    {
+      "name": "GSM7967176_exact_source_title_and_registry_mapping",
+      "passed": true
+    },
+    {
+      "name": "GSM7967176_disease_and_tissue_from_GEO",
+      "passed": true
+    },
+    {
+      "name": "GSM7967176_second_source_GEO_crosscheck",
+      "passed": true
+    },
+    {
+      "name": "GSM7967177_exact_source_title_and_registry_mapping",
+      "passed": true
+    },
+    {
+      "name": "GSM7967177_disease_and_tissue_from_GEO",
+      "passed": true
+    },
+    {
+      "name": "GSM7967177_second_source_GEO_crosscheck",
+      "passed": true
+    },
+    {
+      "name": "GSM7967178_exact_source_title_and_registry_mapping",
+      "passed": true
+    },
+    {
+      "name": "GSM7967178_disease_and_tissue_from_GEO",
+      "passed": true
+    },
+    {
+      "name": "GSM7967178_second_source_GEO_crosscheck",
+      "passed": true
+    },
+    {
+      "name": "GSM7967179_exact_source_title_and_registry_mapping",
+      "passed": true
+    },
+    {
+      "name": "GSM7967179_disease_and_tissue_from_GEO",
+      "passed": true
+    },
+    {
+      "name": "GSM7967179_second_source_GEO_crosscheck",
+      "passed": true
+    },
+    {
+      "name": "GSM7967180_exact_source_title_and_registry_mapping",
+      "passed": true
+    },
+    {
+      "name": "GSM7967180_disease_and_tissue_from_GEO",
+      "passed": true
+    },
+    {
+      "name": "GSM7967180_second_source_GEO_crosscheck",
+      "passed": true
+    },
+    {
+      "name": "GSM7967181_exact_source_title_and_registry_mapping",
+      "passed": true
+    },
+    {
+      "name": "GSM7967181_disease_and_tissue_from_GEO",
+      "passed": true
+    },
+    {
+      "name": "GSM7967181_second_source_GEO_crosscheck",
+      "passed": true
+    },
+    {
+      "name": "GSM7967182_exact_source_title_and_registry_mapping",
+      "passed": true
+    },
+    {
+      "name": "GSM7967182_disease_and_tissue_from_GEO",
+      "passed": true
+    },
+    {
+      "name": "GSM7967182_second_source_GEO_crosscheck",
+      "passed": true
+    },
+    {
+      "name": "GSM7967234_exact_source_title_and_registry_mapping",
+      "passed": true
+    },
+    {
+      "name": "GSM7967234_disease_and_tissue_from_GEO",
+      "passed": true
+    },
+    {
+      "name": "GSM7967234_second_source_GEO_crosscheck",
+      "passed": true
+    },
+    {
+      "name": "GSM7967235_exact_source_title_and_registry_mapping",
+      "passed": true
+    },
+    {
+      "name": "GSM7967235_disease_and_tissue_from_GEO",
+      "passed": true
+    },
+    {
+      "name": "GSM7967235_second_source_GEO_crosscheck",
+      "passed": true
+    },
+    {
+      "name": "GSM7967236_exact_source_title_and_registry_mapping",
+      "passed": true
+    },
+    {
+      "name": "GSM7967236_disease_and_tissue_from_GEO",
+      "passed": true
+    },
+    {
+      "name": "GSM7967236_second_source_GEO_crosscheck",
+      "passed": true
+    },
+    {
+      "name": "GSM7967237_exact_source_title_and_registry_mapping",
+      "passed": true
+    },
+    {
+      "name": "GSM7967237_disease_and_tissue_from_GEO",
+      "passed": true
+    },
+    {
+      "name": "GSM7967237_second_source_GEO_crosscheck",
+      "passed": true
+    },
+    {
+      "name": "GSM7967238_exact_source_title_and_registry_mapping",
+      "passed": true
+    },
+    {
+      "name": "GSM7967238_disease_and_tissue_from_GEO",
+      "passed": true
+    },
+    {
+      "name": "GSM7967238_second_source_GEO_crosscheck",
+      "passed": true
+    },
+    {
+      "name": "GSM7967239_exact_source_title_and_registry_mapping",
+      "passed": true
+    },
+    {
+      "name": "GSM7967239_disease_and_tissue_from_GEO",
+      "passed": true
+    },
+    {
+      "name": "GSM7967239_second_source_GEO_crosscheck",
+      "passed": true
+    },
+    {
+      "name": "GSM7967240_exact_source_title_and_registry_mapping",
+      "passed": true
+    },
+    {
+      "name": "GSM7967240_disease_and_tissue_from_GEO",
+      "passed": true
+    },
+    {
+      "name": "GSM7967240_second_source_GEO_crosscheck",
+      "passed": true
+    },
+    {
+      "name": "GSM7967183_exact_source_title_and_registry_mapping",
+      "passed": true
+    },
+    {
+      "name": "GSM7967183_disease_and_tissue_from_GEO",
+      "passed": true
+    },
+    {
+      "name": "GSM7967183_second_source_GEO_crosscheck",
+      "passed": true
+    },
+    {
+      "name": "GSM7967185_exact_source_title_and_registry_mapping",
+      "passed": true
+    },
+    {
+      "name": "GSM7967185_disease_and_tissue_from_GEO",
+      "passed": true
+    },
+    {
+      "name": "GSM7967185_second_source_GEO_crosscheck",
+      "passed": true
+    },
+    {
+      "name": "GSM7967186_exact_source_title_and_registry_mapping",
+      "passed": true
+    },
+    {
+      "name": "GSM7967186_disease_and_tissue_from_GEO",
+      "passed": true
+    },
+    {
+      "name": "GSM7967186_second_source_GEO_crosscheck",
+      "passed": true
+    },
+    {
+      "name": "GSM7967241_exact_source_title_and_registry_mapping",
+      "passed": true
+    },
+    {
+      "name": "GSM7967241_disease_and_tissue_from_GEO",
+      "passed": true
+    },
+    {
+      "name": "GSM7967241_second_source_GEO_crosscheck",
+      "passed": true
+    },
+    {
+      "name": "GSM7967242_exact_source_title_and_registry_mapping",
+      "passed": true
+    },
+    {
+      "name": "GSM7967242_disease_and_tissue_from_GEO",
+      "passed": true
+    },
+    {
+      "name": "GSM7967242_second_source_GEO_crosscheck",
+      "passed": true
+    },
+    {
+      "name": "GSM7967243_exact_source_title_and_registry_mapping",
+      "passed": true
+    },
+    {
+      "name": "GSM7967243_disease_and_tissue_from_GEO",
+      "passed": true
+    },
+    {
+      "name": "GSM7967243_second_source_GEO_crosscheck",
+      "passed": true
+    },
+    {
+      "name": "GSM7967244_exact_source_title_and_registry_mapping",
+      "passed": true
+    },
+    {
+      "name": "GSM7967244_disease_and_tissue_from_GEO",
+      "passed": true
+    },
+    {
+      "name": "GSM7967244_second_source_GEO_crosscheck",
+      "passed": true
+    },
+    {
+      "name": "GSM7967187_exact_source_title_and_registry_mapping",
+      "passed": true
+    },
+    {
+      "name": "GSM7967187_disease_and_tissue_from_GEO",
+      "passed": true
+    },
+    {
+      "name": "GSM7967187_second_source_GEO_crosscheck",
+      "passed": true
+    },
+    {
+      "name": "GSM7967188_exact_source_title_and_registry_mapping",
+      "passed": true
+    },
+    {
+      "name": "GSM7967188_disease_and_tissue_from_GEO",
+      "passed": true
+    },
+    {
+      "name": "GSM7967188_second_source_GEO_crosscheck",
+      "passed": true
+    },
+    {
+      "name": "GSM7967189_exact_source_title_and_registry_mapping",
+      "passed": true
+    },
+    {
+      "name": "GSM7967189_disease_and_tissue_from_GEO",
+      "passed": true
+    },
+    {
+      "name": "GSM7967189_second_source_GEO_crosscheck",
+      "passed": true
+    },
+    {
+      "name": "GSM7967190_exact_source_title_and_registry_mapping",
+      "passed": true
+    },
+    {
+      "name": "GSM7967190_disease_and_tissue_from_GEO",
+      "passed": true
+    },
+    {
+      "name": "GSM7967190_second_source_GEO_crosscheck",
+      "passed": true
+    },
+    {
+      "name": "GSM7967191_exact_source_title_and_registry_mapping",
+      "passed": true
+    },
+    {
+      "name": "GSM7967191_disease_and_tissue_from_GEO",
+      "passed": true
+    },
+    {
+      "name": "GSM7967191_second_source_GEO_crosscheck",
+      "passed": true
+    },
+    {
+      "name": "GSM7967192_exact_source_title_and_registry_mapping",
+      "passed": true
+    },
+    {
+      "name": "GSM7967192_disease_and_tissue_from_GEO",
+      "passed": true
+    },
+    {
+      "name": "GSM7967192_second_source_GEO_crosscheck",
+      "passed": true
+    },
+    {
+      "name": "GSM7967245_exact_source_title_and_registry_mapping",
+      "passed": true
+    },
+    {
+      "name": "GSM7967245_disease_and_tissue_from_GEO",
+      "passed": true
+    },
+    {
+      "name": "GSM7967245_second_source_GEO_crosscheck",
+      "passed": true
+    },
+    {
+      "name": "GSM7967193_exact_source_title_and_registry_mapping",
+      "passed": true
+    },
+    {
+      "name": "GSM7967193_disease_and_tissue_from_GEO",
+      "passed": true
+    },
+    {
+      "name": "GSM7967193_second_source_GEO_crosscheck",
+      "passed": true
+    },
+    {
+      "name": "GSM7967194_exact_source_title_and_registry_mapping",
+      "passed": true
+    },
+    {
+      "name": "GSM7967194_disease_and_tissue_from_GEO",
+      "passed": true
+    },
+    {
+      "name": "GSM7967194_second_source_GEO_crosscheck",
+      "passed": true
+    },
+    {
+      "name": "GSM7967195_exact_source_title_and_registry_mapping",
+      "passed": true
+    },
+    {
+      "name": "GSM7967195_disease_and_tissue_from_GEO",
+      "passed": true
+    },
+    {
+      "name": "GSM7967195_second_source_GEO_crosscheck",
+      "passed": true
+    },
+    {
+      "name": "GSM7967246_exact_source_title_and_registry_mapping",
+      "passed": true
+    },
+    {
+      "name": "GSM7967246_disease_and_tissue_from_GEO",
+      "passed": true
+    },
+    {
+      "name": "GSM7967246_second_source_GEO_crosscheck",
+      "passed": true
+    },
+    {
+      "name": "GSM7967196_exact_source_title_and_registry_mapping",
+      "passed": true
+    },
+    {
+      "name": "GSM7967196_disease_and_tissue_from_GEO",
+      "passed": true
+    },
+    {
+      "name": "GSM7967196_second_source_GEO_crosscheck",
+      "passed": true
+    },
+    {
+      "name": "GSM7967197_exact_source_title_and_registry_mapping",
+      "passed": true
+    },
+    {
+      "name": "GSM7967197_disease_and_tissue_from_GEO",
+      "passed": true
+    },
+    {
+      "name": "GSM7967197_second_source_GEO_crosscheck",
+      "passed": true
+    },
+    {
+      "name": "GSM7967247_exact_source_title_and_registry_mapping",
+      "passed": true
+    },
+    {
+      "name": "GSM7967247_disease_and_tissue_from_GEO",
+      "passed": true
+    },
+    {
+      "name": "GSM7967247_second_source_GEO_crosscheck",
+      "passed": true
+    },
+    {
+      "name": "GSM7967198_exact_source_title_and_registry_mapping",
+      "passed": true
+    },
+    {
+      "name": "GSM7967198_disease_and_tissue_from_GEO",
+      "passed": true
+    },
+    {
+      "name": "GSM7967198_second_source_GEO_crosscheck",
+      "passed": true
+    },
+    {
+      "name": "GSM7967199_exact_source_title_and_registry_mapping",
+      "passed": true
+    },
+    {
+      "name": "GSM7967199_disease_and_tissue_from_GEO",
+      "passed": true
+    },
+    {
+      "name": "GSM7967199_second_source_GEO_crosscheck",
+      "passed": true
+    },
+    {
+      "name": "GSM7967200_exact_source_title_and_registry_mapping",
+      "passed": true
+    },
+    {
+      "name": "GSM7967200_disease_and_tissue_from_GEO",
+      "passed": true
+    },
+    {
+      "name": "GSM7967200_second_source_GEO_crosscheck",
+      "passed": true
+    },
+    {
+      "name": "GSM7967201_exact_source_title_and_registry_mapping",
+      "passed": true
+    },
+    {
+      "name": "GSM7967201_disease_and_tissue_from_GEO",
+      "passed": true
+    },
+    {
+      "name": "GSM7967201_second_source_GEO_crosscheck",
+      "passed": true
+    },
+    {
+      "name": "GSM7967202_exact_source_title_and_registry_mapping",
+      "passed": true
+    },
+    {
+      "name": "GSM7967202_disease_and_tissue_from_GEO",
+      "passed": true
+    },
+    {
+      "name": "GSM7967202_second_source_GEO_crosscheck",
+      "passed": true
+    },
+    {
+      "name": "GSM7967203_exact_source_title_and_registry_mapping",
+      "passed": true
+    },
+    {
+      "name": "GSM7967203_disease_and_tissue_from_GEO",
+      "passed": true
+    },
+    {
+      "name": "GSM7967203_second_source_GEO_crosscheck",
+      "passed": true
+    },
+    {
+      "name": "GSM7967204_exact_source_title_and_registry_mapping",
+      "passed": true
+    },
+    {
+      "name": "GSM7967204_disease_and_tissue_from_GEO",
+      "passed": true
+    },
+    {
+      "name": "GSM7967204_second_source_GEO_crosscheck",
+      "passed": true
+    },
+    {
+      "name": "GSM7967205_exact_source_title_and_registry_mapping",
+      "passed": true
+    },
+    {
+      "name": "GSM7967205_disease_and_tissue_from_GEO",
+      "passed": true
+    },
+    {
+      "name": "GSM7967205_second_source_GEO_crosscheck",
+      "passed": true
+    },
+    {
+      "name": "GSM7967206_exact_source_title_and_registry_mapping",
+      "passed": true
+    },
+    {
+      "name": "GSM7967206_disease_and_tissue_from_GEO",
+      "passed": true
+    },
+    {
+      "name": "GSM7967206_second_source_GEO_crosscheck",
+      "passed": true
+    },
+    {
+      "name": "GSM7967207_exact_source_title_and_registry_mapping",
+      "passed": true
+    },
+    {
+      "name": "GSM7967207_disease_and_tissue_from_GEO",
+      "passed": true
+    },
+    {
+      "name": "GSM7967207_second_source_GEO_crosscheck",
+      "passed": true
+    },
+    {
+      "name": "GSM7967208_exact_source_title_and_registry_mapping",
+      "passed": true
+    },
+    {
+      "name": "GSM7967208_disease_and_tissue_from_GEO",
+      "passed": true
+    },
+    {
+      "name": "GSM7967208_second_source_GEO_crosscheck",
+      "passed": true
+    },
+    {
+      "name": "GSM7967209_exact_source_title_and_registry_mapping",
+      "passed": true
+    },
+    {
+      "name": "GSM7967209_disease_and_tissue_from_GEO",
+      "passed": true
+    },
+    {
+      "name": "GSM7967209_second_source_GEO_crosscheck",
+      "passed": true
+    },
+    {
+      "name": "GSM7967210_exact_source_title_and_registry_mapping",
+      "passed": true
+    },
+    {
+      "name": "GSM7967210_disease_and_tissue_from_GEO",
+      "passed": true
+    },
+    {
+      "name": "GSM7967210_second_source_GEO_crosscheck",
+      "passed": true
+    },
+    {
+      "name": "GSM7967211_exact_source_title_and_registry_mapping",
+      "passed": true
+    },
+    {
+      "name": "GSM7967211_disease_and_tissue_from_GEO",
+      "passed": true
+    },
+    {
+      "name": "GSM7967211_second_source_GEO_crosscheck",
+      "passed": true
+    },
+    {
+      "name": "GSM7967212_exact_source_title_and_registry_mapping",
+      "passed": true
+    },
+    {
+      "name": "GSM7967212_disease_and_tissue_from_GEO",
+      "passed": true
+    },
+    {
+      "name": "GSM7967212_second_source_GEO_crosscheck",
+      "passed": true
+    },
+    {
+      "name": "GSM7967213_exact_source_title_and_registry_mapping",
+      "passed": true
+    },
+    {
+      "name": "GSM7967213_disease_and_tissue_from_GEO",
+      "passed": true
+    },
+    {
+      "name": "GSM7967213_second_source_GEO_crosscheck",
+      "passed": true
+    },
+    {
+      "name": "GSM7967214_exact_source_title_and_registry_mapping",
+      "passed": true
+    },
+    {
+      "name": "GSM7967214_disease_and_tissue_from_GEO",
+      "passed": true
+    },
+    {
+      "name": "GSM7967214_second_source_GEO_crosscheck",
+      "passed": true
+    },
+    {
+      "name": "GSM7967248_exact_source_title_and_registry_mapping",
+      "passed": true
+    },
+    {
+      "name": "GSM7967248_disease_and_tissue_from_GEO",
+      "passed": true
+    },
+    {
+      "name": "GSM7967248_second_source_GEO_crosscheck",
+      "passed": true
+    },
+    {
+      "name": "GSM7967215_exact_source_title_and_registry_mapping",
+      "passed": true
+    },
+    {
+      "name": "GSM7967215_disease_and_tissue_from_GEO",
+      "passed": true
+    },
+    {
+      "name": "GSM7967215_second_source_GEO_crosscheck",
+      "passed": true
+    },
+    {
+      "name": "GSM7967249_exact_source_title_and_registry_mapping",
+      "passed": true
+    },
+    {
+      "name": "GSM7967249_disease_and_tissue_from_GEO",
+      "passed": true
+    },
+    {
+      "name": "GSM7967249_second_source_GEO_crosscheck",
+      "passed": true
+    },
+    {
+      "name": "GSM7967250_exact_source_title_and_registry_mapping",
+      "passed": true
+    },
+    {
+      "name": "GSM7967250_disease_and_tissue_from_GEO",
+      "passed": true
+    },
+    {
+      "name": "GSM7967250_second_source_GEO_crosscheck",
+      "passed": true
+    },
+    {
+      "name": "GSM7967251_exact_source_title_and_registry_mapping",
+      "passed": true
+    },
+    {
+      "name": "GSM7967251_disease_and_tissue_from_GEO",
+      "passed": true
+    },
+    {
+      "name": "GSM7967251_second_source_GEO_crosscheck",
+      "passed": true
+    },
+    {
+      "name": "GSM7967216_exact_source_title_and_registry_mapping",
+      "passed": true
+    },
+    {
+      "name": "GSM7967216_disease_and_tissue_from_GEO",
+      "passed": true
+    },
+    {
+      "name": "GSM7967216_second_source_GEO_crosscheck",
+      "passed": true
+    },
+    {
+      "name": "GSM7967217_exact_source_title_and_registry_mapping",
+      "passed": true
+    },
+    {
+      "name": "GSM7967217_disease_and_tissue_from_GEO",
+      "passed": true
+    },
+    {
+      "name": "GSM7967217_second_source_GEO_crosscheck",
+      "passed": true
+    },
+    {
+      "name": "GSM7967218_exact_source_title_and_registry_mapping",
+      "passed": true
+    },
+    {
+      "name": "GSM7967218_disease_and_tissue_from_GEO",
+      "passed": true
+    },
+    {
+      "name": "GSM7967218_second_source_GEO_crosscheck",
+      "passed": true
+    },
+    {
+      "name": "GSM7967219_exact_source_title_and_registry_mapping",
+      "passed": true
+    },
+    {
+      "name": "GSM7967219_disease_and_tissue_from_GEO",
+      "passed": true
+    },
+    {
+      "name": "GSM7967219_second_source_GEO_crosscheck",
+      "passed": true
+    },
+    {
+      "name": "GSM7967220_exact_source_title_and_registry_mapping",
+      "passed": true
+    },
+    {
+      "name": "GSM7967220_disease_and_tissue_from_GEO",
+      "passed": true
+    },
+    {
+      "name": "GSM7967220_second_source_GEO_crosscheck",
+      "passed": true
+    },
+    {
+      "name": "GSM7967252_exact_source_title_and_registry_mapping",
+      "passed": true
+    },
+    {
+      "name": "GSM7967252_disease_and_tissue_from_GEO",
+      "passed": true
+    },
+    {
+      "name": "GSM7967252_second_source_GEO_crosscheck",
+      "passed": true
+    },
+    {
+      "name": "GSM7967253_exact_source_title_and_registry_mapping",
+      "passed": true
+    },
+    {
+      "name": "GSM7967253_disease_and_tissue_from_GEO",
+      "passed": true
+    },
+    {
+      "name": "GSM7967253_second_source_GEO_crosscheck",
+      "passed": true
+    },
+    {
+      "name": "GSM7967221_exact_source_title_and_registry_mapping",
+      "passed": true
+    },
+    {
+      "name": "GSM7967221_disease_and_tissue_from_GEO",
+      "passed": true
+    },
+    {
+      "name": "GSM7967221_second_source_GEO_crosscheck",
+      "passed": true
+    },
+    {
+      "name": "GSM7967254_exact_source_title_and_registry_mapping",
+      "passed": true
+    },
+    {
+      "name": "GSM7967254_disease_and_tissue_from_GEO",
+      "passed": true
+    },
+    {
+      "name": "GSM7967254_second_source_GEO_crosscheck",
+      "passed": true
+    },
+    {
+      "name": "GSM7967255_exact_source_title_and_registry_mapping",
+      "passed": true
+    },
+    {
+      "name": "GSM7967255_disease_and_tissue_from_GEO",
+      "passed": true
+    },
+    {
+      "name": "GSM7967255_second_source_GEO_crosscheck",
+      "passed": true
+    },
+    {
+      "name": "GSM7967256_exact_source_title_and_registry_mapping",
+      "passed": true
+    },
+    {
+      "name": "GSM7967256_disease_and_tissue_from_GEO",
+      "passed": true
+    },
+    {
+      "name": "GSM7967256_second_source_GEO_crosscheck",
+      "passed": true
+    },
+    {
+      "name": "GSM7967257_exact_source_title_and_registry_mapping",
+      "passed": true
+    },
+    {
+      "name": "GSM7967257_disease_and_tissue_from_GEO",
+      "passed": true
+    },
+    {
+      "name": "GSM7967257_second_source_GEO_crosscheck",
+      "passed": true
+    },
+    {
+      "name": "GSM7967258_exact_source_title_and_registry_mapping",
+      "passed": true
+    },
+    {
+      "name": "GSM7967258_disease_and_tissue_from_GEO",
+      "passed": true
+    },
+    {
+      "name": "GSM7967258_second_source_GEO_crosscheck",
+      "passed": true
+    },
+    {
+      "name": "GSM7967259_exact_source_title_and_registry_mapping",
+      "passed": true
+    },
+    {
+      "name": "GSM7967259_disease_and_tissue_from_GEO",
+      "passed": true
+    },
+    {
+      "name": "GSM7967259_second_source_GEO_crosscheck",
+      "passed": true
+    },
+    {
+      "name": "GSM7967260_exact_source_title_and_registry_mapping",
+      "passed": true
+    },
+    {
+      "name": "GSM7967260_disease_and_tissue_from_GEO",
+      "passed": true
+    },
+    {
+      "name": "GSM7967260_second_source_GEO_crosscheck",
+      "passed": true
+    },
+    {
+      "name": "GSM7967261_exact_source_title_and_registry_mapping",
+      "passed": true
+    },
+    {
+      "name": "GSM7967261_disease_and_tissue_from_GEO",
+      "passed": true
+    },
+    {
+      "name": "GSM7967261_second_source_GEO_crosscheck",
+      "passed": true
+    },
+    {
+      "name": "GSM7967262_exact_source_title_and_registry_mapping",
+      "passed": true
+    },
+    {
+      "name": "GSM7967262_disease_and_tissue_from_GEO",
+      "passed": true
+    },
+    {
+      "name": "GSM7967262_second_source_GEO_crosscheck",
+      "passed": true
+    },
+    {
+      "name": "GSM7967263_exact_source_title_and_registry_mapping",
+      "passed": true
+    },
+    {
+      "name": "GSM7967263_disease_and_tissue_from_GEO",
+      "passed": true
+    },
+    {
+      "name": "GSM7967263_second_source_GEO_crosscheck",
+      "passed": true
+    },
+    {
+      "name": "GSM7967264_exact_source_title_and_registry_mapping",
+      "passed": true
+    },
+    {
+      "name": "GSM7967264_disease_and_tissue_from_GEO",
+      "passed": true
+    },
+    {
+      "name": "GSM7967264_second_source_GEO_crosscheck",
+      "passed": true
+    },
+    {
+      "name": "GSM7967265_exact_source_title_and_registry_mapping",
+      "passed": true
+    },
+    {
+      "name": "GSM7967265_disease_and_tissue_from_GEO",
+      "passed": true
+    },
+    {
+      "name": "GSM7967265_second_source_GEO_crosscheck",
+      "passed": true
+    },
+    {
+      "name": "GSM7967266_exact_source_title_and_registry_mapping",
+      "passed": true
+    },
+    {
+      "name": "GSM7967266_disease_and_tissue_from_GEO",
+      "passed": true
+    },
+    {
+      "name": "GSM7967266_second_source_GEO_crosscheck",
+      "passed": true
+    },
+    {
+      "name": "GSM7967267_exact_source_title_and_registry_mapping",
+      "passed": true
+    },
+    {
+      "name": "GSM7967267_disease_and_tissue_from_GEO",
+      "passed": true
+    },
+    {
+      "name": "GSM7967267_second_source_GEO_crosscheck",
+      "passed": true
+    },
+    {
+      "name": "GSM7967268_exact_source_title_and_registry_mapping",
+      "passed": true
+    },
+    {
+      "name": "GSM7967268_disease_and_tissue_from_GEO",
+      "passed": true
+    },
+    {
+      "name": "GSM7967268_second_source_GEO_crosscheck",
+      "passed": true
+    },
+    {
+      "name": "GSM7967269_exact_source_title_and_registry_mapping",
+      "passed": true
+    },
+    {
+      "name": "GSM7967269_disease_and_tissue_from_GEO",
+      "passed": true
+    },
+    {
+      "name": "GSM7967269_second_source_GEO_crosscheck",
+      "passed": true
+    },
+    {
+      "name": "GSM7967270_exact_source_title_and_registry_mapping",
+      "passed": true
+    },
+    {
+      "name": "GSM7967270_disease_and_tissue_from_GEO",
+      "passed": true
+    },
+    {
+      "name": "GSM7967270_second_source_GEO_crosscheck",
+      "passed": true
+    },
+    {
+      "name": "GSM7967271_exact_source_title_and_registry_mapping",
+      "passed": true
+    },
+    {
+      "name": "GSM7967271_disease_and_tissue_from_GEO",
+      "passed": true
+    },
+    {
+      "name": "GSM7967271_second_source_GEO_crosscheck",
+      "passed": true
+    },
+    {
+      "name": "GSM7967272_exact_source_title_and_registry_mapping",
+      "passed": true
+    },
+    {
+      "name": "GSM7967272_disease_and_tissue_from_GEO",
+      "passed": true
+    },
+    {
+      "name": "GSM7967272_second_source_GEO_crosscheck",
+      "passed": true
+    },
+    {
+      "name": "GSM7967273_exact_source_title_and_registry_mapping",
+      "passed": true
+    },
+    {
+      "name": "GSM7967273_disease_and_tissue_from_GEO",
+      "passed": true
+    },
+    {
+      "name": "GSM7967273_second_source_GEO_crosscheck",
+      "passed": true
+    },
+    {
+      "name": "GSM7967274_exact_source_title_and_registry_mapping",
+      "passed": true
+    },
+    {
+      "name": "GSM7967274_disease_and_tissue_from_GEO",
+      "passed": true
+    },
+    {
+      "name": "GSM7967274_second_source_GEO_crosscheck",
+      "passed": true
+    },
+    {
+      "name": "GSM7967275_exact_source_title_and_registry_mapping",
+      "passed": true
+    },
+    {
+      "name": "GSM7967275_disease_and_tissue_from_GEO",
+      "passed": true
+    },
+    {
+      "name": "GSM7967275_second_source_GEO_crosscheck",
+      "passed": true
+    },
+    {
+      "name": "GSM7967276_exact_source_title_and_registry_mapping",
+      "passed": true
+    },
+    {
+      "name": "GSM7967276_disease_and_tissue_from_GEO",
+      "passed": true
+    },
+    {
+      "name": "GSM7967276_second_source_GEO_crosscheck",
+      "passed": true
+    },
+    {
+      "name": "GSM7967277_exact_source_title_and_registry_mapping",
+      "passed": true
+    },
+    {
+      "name": "GSM7967277_disease_and_tissue_from_GEO",
+      "passed": true
+    },
+    {
+      "name": "GSM7967277_second_source_GEO_crosscheck",
+      "passed": true
+    },
+    {
+      "name": "GSM7967278_exact_source_title_and_registry_mapping",
+      "passed": true
+    },
+    {
+      "name": "GSM7967278_disease_and_tissue_from_GEO",
+      "passed": true
+    },
+    {
+      "name": "GSM7967278_second_source_GEO_crosscheck",
+      "passed": true
+    },
+    {
+      "name": "GSM7967279_exact_source_title_and_registry_mapping",
+      "passed": true
+    },
+    {
+      "name": "GSM7967279_disease_and_tissue_from_GEO",
+      "passed": true
+    },
+    {
+      "name": "GSM7967279_second_source_GEO_crosscheck",
+      "passed": true
+    },
+    {
+      "name": "GSM7967280_exact_source_title_and_registry_mapping",
+      "passed": true
+    },
+    {
+      "name": "GSM7967280_disease_and_tissue_from_GEO",
+      "passed": true
+    },
+    {
+      "name": "GSM7967280_second_source_GEO_crosscheck",
+      "passed": true
+    },
+    {
+      "name": "GSM7967281_exact_source_title_and_registry_mapping",
+      "passed": true
+    },
+    {
+      "name": "GSM7967281_disease_and_tissue_from_GEO",
+      "passed": true
+    },
+    {
+      "name": "GSM7967281_second_source_GEO_crosscheck",
+      "passed": true
+    },
+    {
+      "name": "GSM7967282_exact_source_title_and_registry_mapping",
+      "passed": true
+    },
+    {
+      "name": "GSM7967282_disease_and_tissue_from_GEO",
+      "passed": true
+    },
+    {
+      "name": "GSM7967282_second_source_GEO_crosscheck",
+      "passed": true
+    },
+    {
+      "name": "only_true_source_groups_labeled",
+      "passed": true
+    },
+    {
+      "name": "donor_age_sex_batch_not_invented",
+      "passed": true
+    },
+    {
+      "name": "all_source_GEO_specimens_are_human_bulk_RNA",
+      "passed": true
+    },
+    {
+      "name": "numeric_sample_titles_and_R_suffixes_preserved",
+      "passed": true
+    },
+    {
+      "name": "registry_duplicates_recomputed",
+      "passed": true
+    },
+    {
+      "name": "exact_expression_duplicates_recomputed_not_used_as_donor_map",
+      "passed": true
+    },
+    {
+      "name": "review_only_log_total_5MAD_flag_only",
+      "passed": true
+    },
+    {
+      "name": "review_only_log_detected_5MAD_flag_only",
+      "passed": true
+    },
+    {
+      "name": "source_conflict_is_real_and_preserved",
+      "passed": true
+    },
+    {
+      "name": "no_false_raw_count_certification",
+      "passed": true
+    },
+    {
+      "name": "bulk_specific_policy_and_no_silent_transformation",
+      "passed": true
+    },
+    {
+      "name": "training_split_not_assigned_without_subject_mapping",
+      "passed": true
+    },
+    {
+      "name": "sample_audit_native_string_order",
+      "passed": true
+    },
+    {
+      "name": "sample_audit_disease_and_donor_limits",
+      "passed": true
+    },
+    {
+      "name": "group_summary_HCM",
+      "passed": true
+    },
+    {
+      "name": "group_summary_Control",
+      "passed": true
+    },
+    {
+      "name": "export_shape_summary_matches_real_outputs",
+      "passed": true
+    },
+    {
+      "name": "all_published_expression.h5ad_bytes_MD5_SHA256",
+      "passed": true
+    },
+    {
+      "name": "bulk_qc_expression.h5ad_bytes_MD5_SHA256",
+      "passed": true
+    },
+    {
+      "name": "bulk_qc_matrix.tsv.gz_bytes_MD5_SHA256",
+      "passed": true
+    },
+    {
+      "name": "sample_metadata_QC.tsv_bytes_MD5_SHA256",
+      "passed": true
+    },
+    {
+      "name": "feature_audit.tsv.gz_bytes_MD5_SHA256",
+      "passed": true
+    },
+    {
+      "name": "feature_exclusions.tsv.gz_bytes_MD5_SHA256",
+      "passed": true
+    },
+    {
+      "name": "sample_exclusions.tsv_bytes_MD5_SHA256",
+      "passed": true
+    },
+    {
+      "name": "group_QC_summary.tsv_bytes_MD5_SHA256",
+      "passed": true
+    },
+    {
+      "name": "qc_policy.json_bytes_MD5_SHA256",
+      "passed": true
+    },
+    {
+      "name": "all_nine_required_deliverables_present",
+      "passed": true
+    },
+    {
+      "name": "executed_code_SHA256_inspect_gse249925.py",
+      "passed": true
+    },
+    {
+      "name": "executed_code_SHA256_prepare_gse249925.py",
+      "passed": true
+    },
+    {
+      "name": "executed_code_SHA256_run_prepare.sh",
+      "passed": true
+    },
+    {
+      "name": "executed_code_SHA256_run_verify.sh",
+      "passed": true
+    },
+    {
+      "name": "executed_code_SHA256_verify_gse249925.py",
+      "passed": true
+    },
+    {
+      "name": "prepare_process_exited_successfully",
+      "passed": true
+    }
+  ],
+  "verified_code_sha256": {
+    "inspect_gse249925.py": "d225426e7c8c05c7983df292dd49b4ef4972c310a26eb8db17d5b625e164fdd9",
+    "prepare_gse249925.py": "be3af30bf065750fbf4be4f89eac67af0b29695c9cd5ea55510f29c79ee8ab89",
+    "run_prepare.sh": "135fc06a14790bdbdcc9efab1c08833bee81a81c72e60cd424ddb677b0988ff8",
+    "run_verify.sh": "fc4e33007726320e1ddee3438b0a01600776d3f714a7f895d79a734e780e4890",
+    "verify_gse249925.py": "a16633f27f7c757ffe0dbf61f77bdf619715da8287037381af608e8aa78727ca"
+  }
+}

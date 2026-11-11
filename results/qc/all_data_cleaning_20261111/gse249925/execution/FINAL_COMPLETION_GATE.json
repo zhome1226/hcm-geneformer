@@ -1,0 +1,19 @@
+{
+  "dataset": "bulk_GSE249925",
+  "status": "complete_verified",
+  "verified_utc": "2026-11-11T14:28:33.349000+00:00",
+  "checks_passed": 430,
+  "verification_sha256": "1d7b4021fd71c3002d3b4dbf1f615c9b3c1cef0776bba1737d8f21e4b8ba34a2",
+  "report_sha256": "2f21618635f0801e457846e07cabf1ccb1ac1fd05a1ec8efbdaf25a2da403892",
+  "output_directory": "/home/zhome/xiaoe-internship-data/processed/bulk_GSE249925_qc_20261111",
+  "code_sha256": {
+    "inspect_gse249925.py": "d225426e7c8c05c7983df292dd49b4ef4972c310a26eb8db17d5b625e164fdd9",
+    "prepare_gse249925.py": "be3af30bf065750fbf4be4f89eac67af0b29695c9cd5ea55510f29c79ee8ab89",
+    "run_prepare.sh": "135fc06a14790bdbdcc9efab1c08833bee81a81c72e60cd424ddb677b0988ff8",
+    "run_verify.sh": "fc4e33007726320e1ddee3438b0a01600776d3f714a7f895d79a734e780e4890",
+    "verify_gse249925.py": "a16633f27f7c757ffe0dbf61f77bdf619715da8287037381af608e8aa78727ca"
+  },
+  "certified_unnormalized_counts": false,
+  "single_cell_training_eligible": false,
+  "limitation": "Published integer expression validated; original GEO raw-count label conflicts with TMM statement; no per-sample donor/sex/batch map."
+}

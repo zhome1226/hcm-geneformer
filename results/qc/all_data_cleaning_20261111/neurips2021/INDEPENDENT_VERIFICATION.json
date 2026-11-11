@@ -1,0 +1,3532 @@
+{
+  "status": "passed",
+  "checked_utc": "2026-11-11T16:17:31.110956+00:00",
+  "checks_passed": 880,
+  "matrices_fully_recomputed": 15,
+  "compressed_and_expanded_files_verified": 4,
+  "source_cells": 159510,
+  "usable_paired_cells": 159510,
+  "unique_donors": 10,
+  "checks": [
+    {
+      "name": "exact_two_originals_and_two_expanded_files",
+      "passed": true
+    },
+    {
+      "name": "original_baseline_identity_GSE194122_openproblems_neurips2021_cite_BMMC_processed.h5ad.gz",
+      "passed": true
+    },
+    {
+      "name": "original_one_manifest_row_GSE194122_openproblems_neurips2021_cite_BMMC_processed.h5ad.gz",
+      "passed": true
+    },
+    {
+      "name": "original_bytes_GSE194122_openproblems_neurips2021_cite_BMMC_processed.h5ad.gz",
+      "passed": true
+    },
+    {
+      "name": "original_MD5_GSE194122_openproblems_neurips2021_cite_BMMC_processed.h5ad.gz",
+      "passed": true
+    },
+    {
+      "name": "original_SHA256_GSE194122_openproblems_neurips2021_cite_BMMC_processed.h5ad.gz",
+      "passed": true
+    },
+    {
+      "name": "expanded_one_manifest_row_GSE194122_openproblems_neurips2021_cite_BMMC_processed.h5ad",
+      "passed": true
+    },
+    {
+      "name": "expanded_bytes_GSE194122_openproblems_neurips2021_cite_BMMC_processed.h5ad",
+      "passed": true
+    },
+    {
+      "name": "expanded_MD5_GSE194122_openproblems_neurips2021_cite_BMMC_processed.h5ad",
+      "passed": true
+    },
+    {
+      "name": "expanded_SHA256_GSE194122_openproblems_neurips2021_cite_BMMC_processed.h5ad",
+      "passed": true
+    },
+    {
+      "name": "original_baseline_identity_GSE194122_openproblems_neurips2021_multiome_BMMC_processed.h5ad.gz",
+      "passed": true
+    },
+    {
+      "name": "original_one_manifest_row_GSE194122_openproblems_neurips2021_multiome_BMMC_processed.h5ad.gz",
+      "passed": true
+    },
+    {
+      "name": "original_bytes_GSE194122_openproblems_neurips2021_multiome_BMMC_processed.h5ad.gz",
+      "passed": true
+    },
+    {
+      "name": "original_MD5_GSE194122_openproblems_neurips2021_multiome_BMMC_processed.h5ad.gz",
+      "passed": true
+    },
+    {
+      "name": "original_SHA256_GSE194122_openproblems_neurips2021_multiome_BMMC_processed.h5ad.gz",
+      "passed": true
+    },
+    {
+      "name": "expanded_one_manifest_row_GSE194122_openproblems_neurips2021_multiome_BMMC_processed.h5ad",
+      "passed": true
+    },
+    {
+      "name": "expanded_bytes_GSE194122_openproblems_neurips2021_multiome_BMMC_processed.h5ad",
+      "passed": true
+    },
+    {
+      "name": "expanded_MD5_GSE194122_openproblems_neurips2021_multiome_BMMC_processed.h5ad",
+      "passed": true
+    },
+    {
+      "name": "expanded_SHA256_GSE194122_openproblems_neurips2021_multiome_BMMC_processed.h5ad",
+      "passed": true
+    },
+    {
+      "name": "cite_all_author_observation_fields_exact",
+      "passed": true
+    },
+    {
+      "name": "cite_all_author_feature_fields_exact",
+      "passed": true
+    },
+    {
+      "name": "cite_source_metadata_dtypes_recorded",
+      "passed": true
+    },
+    {
+      "name": "cite_original_row_and_column_positions",
+      "passed": true
+    },
+    {
+      "name": "cite_unique_source_cell_axis",
+      "passed": true
+    },
+    {
+      "name": "cite_all_source_feature_names_nonempty",
+      "passed": true
+    },
+    {
+      "name": "cite_source_pointers",
+      "passed": true
+    },
+    {
+      "name": "cite_exact_cell_UIDs",
+      "passed": true
+    },
+    {
+      "name": "cite_exact_donor_UIDs",
+      "passed": true
+    },
+    {
+      "name": "cite_exact_feature_UIDs",
+      "passed": true
+    },
+    {
+      "name": "cite_correct_modality_set",
+      "passed": true
+    },
+    {
+      "name": "cite_unique_assay_specific_feature_keys",
+      "passed": true
+    },
+    {
+      "name": "cite_missing_gene_IDs_preserved",
+      "passed": true
+    },
+    {
+      "name": "cite_GEX_gene_IDs_complete_and_unique",
+      "passed": true
+    },
+    {
+      "name": "cite_duplicate_names_not_collapsed",
+      "passed": true
+    },
+    {
+      "name": "cite_obs_GEX_n_genes_by_counts_missingness",
+      "passed": true
+    },
+    {
+      "name": "cite_obs_GEX_pct_counts_mt_missingness",
+      "passed": true
+    },
+    {
+      "name": "cite_obs_GEX_size_factors_missingness",
+      "passed": true
+    },
+    {
+      "name": "cite_obs_GEX_phase_missingness",
+      "passed": true
+    },
+    {
+      "name": "cite_obs_ADT_n_antibodies_by_counts_missingness",
+      "passed": true
+    },
+    {
+      "name": "cite_obs_ADT_total_counts_missingness",
+      "passed": true
+    },
+    {
+      "name": "cite_obs_ADT_iso_count_missingness",
+      "passed": true
+    },
+    {
+      "name": "cite_obs_cell_type_missingness",
+      "passed": true
+    },
+    {
+      "name": "cite_obs_batch_missingness",
+      "passed": true
+    },
+    {
+      "name": "cite_obs_ADT_pseudotime_order_missingness",
+      "passed": true
+    },
+    {
+      "name": "cite_obs_GEX_pseudotime_order_missingness",
+      "passed": true
+    },
+    {
+      "name": "cite_obs_Samplename_missingness",
+      "passed": true
+    },
+    {
+      "name": "cite_obs_Site_missingness",
+      "passed": true
+    },
+    {
+      "name": "cite_obs_DonorNumber_missingness",
+      "passed": true
+    },
+    {
+      "name": "cite_obs_Modality_missingness",
+      "passed": true
+    },
+    {
+      "name": "cite_obs_VendorLot_missingness",
+      "passed": true
+    },
+    {
+      "name": "cite_obs_DonorID_missingness",
+      "passed": true
+    },
+    {
+      "name": "cite_obs_DonorAge_missingness",
+      "passed": true
+    },
+    {
+      "name": "cite_obs_DonorBMI_missingness",
+      "passed": true
+    },
+    {
+      "name": "cite_obs_DonorBloodType_missingness",
+      "passed": true
+    },
+    {
+      "name": "cite_obs_DonorRace_missingness",
+      "passed": true
+    },
+    {
+      "name": "cite_obs_Ethnicity_missingness",
+      "passed": true
+    },
+    {
+      "name": "cite_obs_DonorGender_missingness",
+      "passed": true
+    },
+    {
+      "name": "cite_obs_QCMeds_missingness",
+      "passed": true
+    },
+    {
+      "name": "cite_obs_DonorSmoker_missingness",
+      "passed": true
+    },
+    {
+      "name": "cite_obs_is_train_missingness",
+      "passed": true
+    },
+    {
+      "name": "cite_var_feature_types_missingness",
+      "passed": true
+    },
+    {
+      "name": "cite_var_gene_id_missingness",
+      "passed": true
+    },
+    {
+      "name": "cite_every_auxiliary_assay_covered",
+      "passed": true
+    },
+    {
+      "name": "/X_sparse_pointer",
+      "passed": true
+    },
+    {
+      "name": "/X_index_bounds_0",
+      "passed": true
+    },
+    {
+      "name": "/X_index_bounds_4000000",
+      "passed": true
+    },
+    {
+      "name": "/X_index_bounds_8000000",
+      "passed": true
+    },
+    {
+      "name": "/X_index_bounds_12000000",
+      "passed": true
+    },
+    {
+      "name": "/X_index_bounds_16000000",
+      "passed": true
+    },
+    {
+      "name": "/X_index_bounds_20000000",
+      "passed": true
+    },
+    {
+      "name": "/X_index_bounds_24000000",
+      "passed": true
+    },
+    {
+      "name": "/X_index_bounds_28000000",
+      "passed": true
+    },
+    {
+      "name": "/X_index_bounds_32000000",
+      "passed": true
+    },
+    {
+      "name": "/X_index_bounds_36000000",
+      "passed": true
+    },
+    {
+      "name": "/X_index_bounds_40000000",
+      "passed": true
+    },
+    {
+      "name": "/X_index_bounds_44000000",
+      "passed": true
+    },
+    {
+      "name": "/X_index_bounds_48000000",
+      "passed": true
+    },
+    {
+      "name": "/X_index_bounds_52000000",
+      "passed": true
+    },
+    {
+      "name": "/X_index_bounds_56000000",
+      "passed": true
+    },
+    {
+      "name": "/X_index_bounds_60000000",
+      "passed": true
+    },
+    {
+      "name": "/X_index_bounds_64000000",
+      "passed": true
+    },
+    {
+      "name": "/X_index_bounds_68000000",
+      "passed": true
+    },
+    {
+      "name": "/X_index_bounds_72000000",
+      "passed": true
+    },
+    {
+      "name": "/X_index_bounds_76000000",
+      "passed": true
+    },
+    {
+      "name": "/X_index_bounds_80000000",
+      "passed": true
+    },
+    {
+      "name": "/X_index_bounds_84000000",
+      "passed": true
+    },
+    {
+      "name": "/X_index_bounds_88000000",
+      "passed": true
+    },
+    {
+      "name": "/X_index_bounds_92000000",
+      "passed": true
+    },
+    {
+      "name": "/X_index_bounds_96000000",
+      "passed": true
+    },
+    {
+      "name": "/X_index_bounds_100000000",
+      "passed": true
+    },
+    {
+      "name": "/X_index_bounds_104000000",
+      "passed": true
+    },
+    {
+      "name": "/X_index_bounds_108000000",
+      "passed": true
+    },
+    {
+      "name": "/X_index_bounds_112000000",
+      "passed": true
+    },
+    {
+      "name": "/X_index_bounds_116000000",
+      "passed": true
+    },
+    {
+      "name": "/X_index_bounds_120000000",
+      "passed": true
+    },
+    {
+      "name": "/X_index_bounds_124000000",
+      "passed": true
+    },
+    {
+      "name": "/X_index_bounds_128000000",
+      "passed": true
+    },
+    {
+      "name": "/X_index_bounds_132000000",
+      "passed": true
+    },
+    {
+      "name": "/X_index_bounds_136000000",
+      "passed": true
+    },
+    {
+      "name": "/X_index_bounds_140000000",
+      "passed": true
+    },
+    {
+      "name": "cite_X_role",
+      "passed": true
+    },
+    {
+      "name": "cite_X_rows",
+      "passed": true
+    },
+    {
+      "name": "cite_X_features",
+      "passed": true
+    },
+    {
+      "name": "cite_X_finite_nonzero_values",
+      "passed": true
+    },
+    {
+      "name": "cite_X_nonfinite_values",
+      "passed": true
+    },
+    {
+      "name": "cite_X_nonfinite_rows",
+      "passed": true
+    },
+    {
+      "name": "cite_X_nonfinite_columns",
+      "passed": true
+    },
+    {
+      "name": "cite_X_negative_values",
+      "passed": true
+    },
+    {
+      "name": "cite_X_fractional_values",
+      "passed": true
+    },
+    {
+      "name": "cite_X_minimum_finite_stored_value",
+      "passed": true
+    },
+    {
+      "name": "cite_X_maximum_finite_stored_value",
+      "passed": true
+    },
+    {
+      "name": "cite_X_zero_information_finite_rows",
+      "passed": true
+    },
+    {
+      "name": "cite_X_all_zero_finite_columns",
+      "passed": true
+    },
+    {
+      "name": "cite_X_finite_row_sum_total",
+      "passed": true
+    },
+    {
+      "name": "cite_X_source_cell_axis",
+      "passed": true
+    },
+    {
+      "name": "cite_X_source_feature_axis",
+      "passed": true
+    },
+    {
+      "name": "/layers/counts_sparse_pointer",
+      "passed": true
+    },
+    {
+      "name": "/layers/counts_index_bounds_0",
+      "passed": true
+    },
+    {
+      "name": "/layers/counts_index_bounds_4000000",
+      "passed": true
+    },
+    {
+      "name": "/layers/counts_index_bounds_8000000",
+      "passed": true
+    },
+    {
+      "name": "/layers/counts_index_bounds_12000000",
+      "passed": true
+    },
+    {
+      "name": "/layers/counts_index_bounds_16000000",
+      "passed": true
+    },
+    {
+      "name": "/layers/counts_index_bounds_20000000",
+      "passed": true
+    },
+    {
+      "name": "/layers/counts_index_bounds_24000000",
+      "passed": true
+    },
+    {
+      "name": "/layers/counts_index_bounds_28000000",
+      "passed": true
+    },
+    {
+      "name": "/layers/counts_index_bounds_32000000",
+      "passed": true
+    },
+    {
+      "name": "/layers/counts_index_bounds_36000000",
+      "passed": true
+    },
+    {
+      "name": "/layers/counts_index_bounds_40000000",
+      "passed": true
+    },
+    {
+      "name": "/layers/counts_index_bounds_44000000",
+      "passed": true
+    },
+    {
+      "name": "/layers/counts_index_bounds_48000000",
+      "passed": true
+    },
+    {
+      "name": "/layers/counts_index_bounds_52000000",
+      "passed": true
+    },
+    {
+      "name": "/layers/counts_index_bounds_56000000",
+      "passed": true
+    },
+    {
+      "name": "/layers/counts_index_bounds_60000000",
+      "passed": true
+    },
+    {
+      "name": "/layers/counts_index_bounds_64000000",
+      "passed": true
+    },
+    {
+      "name": "/layers/counts_index_bounds_68000000",
+      "passed": true
+    },
+    {
+      "name": "/layers/counts_index_bounds_72000000",
+      "passed": true
+    },
+    {
+      "name": "/layers/counts_index_bounds_76000000",
+      "passed": true
+    },
+    {
+      "name": "/layers/counts_index_bounds_80000000",
+      "passed": true
+    },
+    {
+      "name": "/layers/counts_index_bounds_84000000",
+      "passed": true
+    },
+    {
+      "name": "/layers/counts_index_bounds_88000000",
+      "passed": true
+    },
+    {
+      "name": "/layers/counts_index_bounds_92000000",
+      "passed": true
+    },
+    {
+      "name": "/layers/counts_index_bounds_96000000",
+      "passed": true
+    },
+    {
+      "name": "/layers/counts_index_bounds_100000000",
+      "passed": true
+    },
+    {
+      "name": "/layers/counts_index_bounds_104000000",
+      "passed": true
+    },
+    {
+      "name": "/layers/counts_index_bounds_108000000",
+      "passed": true
+    },
+    {
+      "name": "/layers/counts_index_bounds_112000000",
+      "passed": true
+    },
+    {
+      "name": "/layers/counts_index_bounds_116000000",
+      "passed": true
+    },
+    {
+      "name": "/layers/counts_index_bounds_120000000",
+      "passed": true
+    },
+    {
+      "name": "/layers/counts_index_bounds_124000000",
+      "passed": true
+    },
+    {
+      "name": "/layers/counts_index_bounds_128000000",
+      "passed": true
+    },
+    {
+      "name": "/layers/counts_index_bounds_132000000",
+      "passed": true
+    },
+    {
+      "name": "/layers/counts_index_bounds_136000000",
+      "passed": true
+    },
+    {
+      "name": "/layers/counts_index_bounds_140000000",
+      "passed": true
+    },
+    {
+      "name": "cite_layers/counts_role",
+      "passed": true
+    },
+    {
+      "name": "cite_layers/counts_rows",
+      "passed": true
+    },
+    {
+      "name": "cite_layers/counts_features",
+      "passed": true
+    },
+    {
+      "name": "cite_layers/counts_finite_nonzero_values",
+      "passed": true
+    },
+    {
+      "name": "cite_layers/counts_nonfinite_values",
+      "passed": true
+    },
+    {
+      "name": "cite_layers/counts_nonfinite_rows",
+      "passed": true
+    },
+    {
+      "name": "cite_layers/counts_nonfinite_columns",
+      "passed": true
+    },
+    {
+      "name": "cite_layers/counts_negative_values",
+      "passed": true
+    },
+    {
+      "name": "cite_layers/counts_fractional_values",
+      "passed": true
+    },
+    {
+      "name": "cite_layers/counts_minimum_finite_stored_value",
+      "passed": true
+    },
+    {
+      "name": "cite_layers/counts_maximum_finite_stored_value",
+      "passed": true
+    },
+    {
+      "name": "cite_layers/counts_zero_information_finite_rows",
+      "passed": true
+    },
+    {
+      "name": "cite_layers/counts_all_zero_finite_columns",
+      "passed": true
+    },
+    {
+      "name": "cite_layers/counts_finite_row_sum_total",
+      "passed": true
+    },
+    {
+      "name": "cite_layers/counts_source_cell_axis",
+      "passed": true
+    },
+    {
+      "name": "cite_layers/counts_source_feature_axis",
+      "passed": true
+    },
+    {
+      "name": "cite_obsm/ADT_X_pca_role",
+      "passed": true
+    },
+    {
+      "name": "cite_obsm/ADT_X_pca_rows",
+      "passed": true
+    },
+    {
+      "name": "cite_obsm/ADT_X_pca_features",
+      "passed": true
+    },
+    {
+      "name": "cite_obsm/ADT_X_pca_finite_nonzero_values",
+      "passed": true
+    },
+    {
+      "name": "cite_obsm/ADT_X_pca_nonfinite_values",
+      "passed": true
+    },
+    {
+      "name": "cite_obsm/ADT_X_pca_nonfinite_rows",
+      "passed": true
+    },
+    {
+      "name": "cite_obsm/ADT_X_pca_nonfinite_columns",
+      "passed": true
+    },
+    {
+      "name": "cite_obsm/ADT_X_pca_negative_values",
+      "passed": true
+    },
+    {
+      "name": "cite_obsm/ADT_X_pca_fractional_values",
+      "passed": true
+    },
+    {
+      "name": "cite_obsm/ADT_X_pca_minimum_finite_stored_value",
+      "passed": true
+    },
+    {
+      "name": "cite_obsm/ADT_X_pca_maximum_finite_stored_value",
+      "passed": true
+    },
+    {
+      "name": "cite_obsm/ADT_X_pca_zero_information_finite_rows",
+      "passed": true
+    },
+    {
+      "name": "cite_obsm/ADT_X_pca_all_zero_finite_columns",
+      "passed": true
+    },
+    {
+      "name": "cite_obsm/ADT_X_pca_finite_row_sum_total",
+      "passed": true
+    },
+    {
+      "name": "cite_obsm/ADT_X_pca_source_cell_axis",
+      "passed": true
+    },
+    {
+      "name": "cite_obsm/ADT_X_pca_all_derived_columns_indexed",
+      "passed": true
+    },
+    {
+      "name": "cite_obsm/ADT_X_pca_nonfinite_per_column",
+      "passed": true
+    },
+    {
+      "name": "cite_obsm/ADT_X_pca_nonzero_per_column",
+      "passed": true
+    },
+    {
+      "name": "cite_obsm/ADT_X_pca_usable_coordinate_rule",
+      "passed": true
+    },
+    {
+      "name": "cite_obsm/ADT_X_pca_coordinate_reasons",
+      "passed": true
+    },
+    {
+      "name": "cite_obsm/ADT_X_pca_exact_nonfinite_rows",
+      "passed": true
+    },
+    {
+      "name": "cite_obsm/ADT_X_pca_exact_derived_feature_axis",
+      "passed": true
+    },
+    {
+      "name": "cite_obsm/ADT_X_umap_role",
+      "passed": true
+    },
+    {
+      "name": "cite_obsm/ADT_X_umap_rows",
+      "passed": true
+    },
+    {
+      "name": "cite_obsm/ADT_X_umap_features",
+      "passed": true
+    },
+    {
+      "name": "cite_obsm/ADT_X_umap_finite_nonzero_values",
+      "passed": true
+    },
+    {
+      "name": "cite_obsm/ADT_X_umap_nonfinite_values",
+      "passed": true
+    },
+    {
+      "name": "cite_obsm/ADT_X_umap_nonfinite_rows",
+      "passed": true
+    },
+    {
+      "name": "cite_obsm/ADT_X_umap_nonfinite_columns",
+      "passed": true
+    },
+    {
+      "name": "cite_obsm/ADT_X_umap_negative_values",
+      "passed": true
+    },
+    {
+      "name": "cite_obsm/ADT_X_umap_fractional_values",
+      "passed": true
+    },
+    {
+      "name": "cite_obsm/ADT_X_umap_minimum_finite_stored_value",
+      "passed": true
+    },
+    {
+      "name": "cite_obsm/ADT_X_umap_maximum_finite_stored_value",
+      "passed": true
+    },
+    {
+      "name": "cite_obsm/ADT_X_umap_zero_information_finite_rows",
+      "passed": true
+    },
+    {
+      "name": "cite_obsm/ADT_X_umap_all_zero_finite_columns",
+      "passed": true
+    },
+    {
+      "name": "cite_obsm/ADT_X_umap_finite_row_sum_total",
+      "passed": true
+    },
+    {
+      "name": "cite_obsm/ADT_X_umap_source_cell_axis",
+      "passed": true
+    },
+    {
+      "name": "cite_obsm/ADT_X_umap_all_derived_columns_indexed",
+      "passed": true
+    },
+    {
+      "name": "cite_obsm/ADT_X_umap_nonfinite_per_column",
+      "passed": true
+    },
+    {
+      "name": "cite_obsm/ADT_X_umap_nonzero_per_column",
+      "passed": true
+    },
+    {
+      "name": "cite_obsm/ADT_X_umap_usable_coordinate_rule",
+      "passed": true
+    },
+    {
+      "name": "cite_obsm/ADT_X_umap_coordinate_reasons",
+      "passed": true
+    },
+    {
+      "name": "cite_obsm/ADT_X_umap_exact_nonfinite_rows",
+      "passed": true
+    },
+    {
+      "name": "cite_obsm/ADT_X_umap_exact_derived_feature_axis",
+      "passed": true
+    },
+    {
+      "name": "cite_obsm/ADT_isotype_controls_role",
+      "passed": true
+    },
+    {
+      "name": "cite_obsm/ADT_isotype_controls_rows",
+      "passed": true
+    },
+    {
+      "name": "cite_obsm/ADT_isotype_controls_features",
+      "passed": true
+    },
+    {
+      "name": "cite_obsm/ADT_isotype_controls_finite_nonzero_values",
+      "passed": true
+    },
+    {
+      "name": "cite_obsm/ADT_isotype_controls_nonfinite_values",
+      "passed": true
+    },
+    {
+      "name": "cite_obsm/ADT_isotype_controls_nonfinite_rows",
+      "passed": true
+    },
+    {
+      "name": "cite_obsm/ADT_isotype_controls_nonfinite_columns",
+      "passed": true
+    },
+    {
+      "name": "cite_obsm/ADT_isotype_controls_negative_values",
+      "passed": true
+    },
+    {
+      "name": "cite_obsm/ADT_isotype_controls_fractional_values",
+      "passed": true
+    },
+    {
+      "name": "cite_obsm/ADT_isotype_controls_minimum_finite_stored_value",
+      "passed": true
+    },
+    {
+      "name": "cite_obsm/ADT_isotype_controls_maximum_finite_stored_value",
+      "passed": true
+    },
+    {
+      "name": "cite_obsm/ADT_isotype_controls_zero_information_finite_rows",
+      "passed": true
+    },
+    {
+      "name": "cite_obsm/ADT_isotype_controls_all_zero_finite_columns",
+      "passed": true
+    },
+    {
+      "name": "cite_obsm/ADT_isotype_controls_finite_row_sum_total",
+      "passed": true
+    },
+    {
+      "name": "cite_obsm/ADT_isotype_controls_source_cell_axis",
+      "passed": true
+    },
+    {
+      "name": "cite_obsm/ADT_isotype_controls_all_derived_columns_indexed",
+      "passed": true
+    },
+    {
+      "name": "cite_obsm/ADT_isotype_controls_nonfinite_per_column",
+      "passed": true
+    },
+    {
+      "name": "cite_obsm/ADT_isotype_controls_nonzero_per_column",
+      "passed": true
+    },
+    {
+      "name": "cite_obsm/ADT_isotype_controls_usable_coordinate_rule",
+      "passed": true
+    },
+    {
+      "name": "cite_obsm/ADT_isotype_controls_coordinate_reasons",
+      "passed": true
+    },
+    {
+      "name": "cite_obsm/ADT_isotype_controls_exact_nonfinite_rows",
+      "passed": true
+    },
+    {
+      "name": "cite_obsm/ADT_isotype_controls_table_row_alignment",
+      "passed": true
+    },
+    {
+      "name": "cite_obsm/ADT_isotype_controls_exact_derived_feature_axis",
+      "passed": true
+    },
+    {
+      "name": "cite_obsm/GEX_X_pca_role",
+      "passed": true
+    },
+    {
+      "name": "cite_obsm/GEX_X_pca_rows",
+      "passed": true
+    },
+    {
+      "name": "cite_obsm/GEX_X_pca_features",
+      "passed": true
+    },
+    {
+      "name": "cite_obsm/GEX_X_pca_finite_nonzero_values",
+      "passed": true
+    },
+    {
+      "name": "cite_obsm/GEX_X_pca_nonfinite_values",
+      "passed": true
+    },
+    {
+      "name": "cite_obsm/GEX_X_pca_nonfinite_rows",
+      "passed": true
+    },
+    {
+      "name": "cite_obsm/GEX_X_pca_nonfinite_columns",
+      "passed": true
+    },
+    {
+      "name": "cite_obsm/GEX_X_pca_negative_values",
+      "passed": true
+    },
+    {
+      "name": "cite_obsm/GEX_X_pca_fractional_values",
+      "passed": true
+    },
+    {
+      "name": "cite_obsm/GEX_X_pca_minimum_finite_stored_value",
+      "passed": true
+    },
+    {
+      "name": "cite_obsm/GEX_X_pca_maximum_finite_stored_value",
+      "passed": true
+    },
+    {
+      "name": "cite_obsm/GEX_X_pca_zero_information_finite_rows",
+      "passed": true
+    },
+    {
+      "name": "cite_obsm/GEX_X_pca_all_zero_finite_columns",
+      "passed": true
+    },
+    {
+      "name": "cite_obsm/GEX_X_pca_finite_row_sum_total",
+      "passed": true
+    },
+    {
+      "name": "cite_obsm/GEX_X_pca_source_cell_axis",
+      "passed": true
+    },
+    {
+      "name": "cite_obsm/GEX_X_pca_all_derived_columns_indexed",
+      "passed": true
+    },
+    {
+      "name": "cite_obsm/GEX_X_pca_nonfinite_per_column",
+      "passed": true
+    },
+    {
+      "name": "cite_obsm/GEX_X_pca_nonzero_per_column",
+      "passed": true
+    },
+    {
+      "name": "cite_obsm/GEX_X_pca_usable_coordinate_rule",
+      "passed": true
+    },
+    {
+      "name": "cite_obsm/GEX_X_pca_coordinate_reasons",
+      "passed": true
+    },
+    {
+      "name": "cite_obsm/GEX_X_pca_exact_nonfinite_rows",
+      "passed": true
+    },
+    {
+      "name": "cite_obsm/GEX_X_pca_exact_derived_feature_axis",
+      "passed": true
+    },
+    {
+      "name": "cite_obsm/GEX_X_umap_role",
+      "passed": true
+    },
+    {
+      "name": "cite_obsm/GEX_X_umap_rows",
+      "passed": true
+    },
+    {
+      "name": "cite_obsm/GEX_X_umap_features",
+      "passed": true
+    },
+    {
+      "name": "cite_obsm/GEX_X_umap_finite_nonzero_values",
+      "passed": true
+    },
+    {
+      "name": "cite_obsm/GEX_X_umap_nonfinite_values",
+      "passed": true
+    },
+    {
+      "name": "cite_obsm/GEX_X_umap_nonfinite_rows",
+      "passed": true
+    },
+    {
+      "name": "cite_obsm/GEX_X_umap_nonfinite_columns",
+      "passed": true
+    },
+    {
+      "name": "cite_obsm/GEX_X_umap_negative_values",
+      "passed": true
+    },
+    {
+      "name": "cite_obsm/GEX_X_umap_fractional_values",
+      "passed": true
+    },
+    {
+      "name": "cite_obsm/GEX_X_umap_minimum_finite_stored_value",
+      "passed": true
+    },
+    {
+      "name": "cite_obsm/GEX_X_umap_maximum_finite_stored_value",
+      "passed": true
+    },
+    {
+      "name": "cite_obsm/GEX_X_umap_zero_information_finite_rows",
+      "passed": true
+    },
+    {
+      "name": "cite_obsm/GEX_X_umap_all_zero_finite_columns",
+      "passed": true
+    },
+    {
+      "name": "cite_obsm/GEX_X_umap_finite_row_sum_total",
+      "passed": true
+    },
+    {
+      "name": "cite_obsm/GEX_X_umap_source_cell_axis",
+      "passed": true
+    },
+    {
+      "name": "cite_obsm/GEX_X_umap_all_derived_columns_indexed",
+      "passed": true
+    },
+    {
+      "name": "cite_obsm/GEX_X_umap_nonfinite_per_column",
+      "passed": true
+    },
+    {
+      "name": "cite_obsm/GEX_X_umap_nonzero_per_column",
+      "passed": true
+    },
+    {
+      "name": "cite_obsm/GEX_X_umap_usable_coordinate_rule",
+      "passed": true
+    },
+    {
+      "name": "cite_obsm/GEX_X_umap_coordinate_reasons",
+      "passed": true
+    },
+    {
+      "name": "cite_obsm/GEX_X_umap_exact_nonfinite_rows",
+      "passed": true
+    },
+    {
+      "name": "cite_obsm/GEX_X_umap_exact_derived_feature_axis",
+      "passed": true
+    },
+    {
+      "name": "cite_required_metadata_rule",
+      "passed": true
+    },
+    {
+      "name": "cite_ADT_all_row_totals_exact",
+      "passed": true
+    },
+    {
+      "name": "cite_ADT_all_row_detected_counts_exact",
+      "passed": true
+    },
+    {
+      "name": "cite_ADT_nonzero_flag",
+      "passed": true
+    },
+    {
+      "name": "cite_ADT_assay_loader_index",
+      "passed": true
+    },
+    {
+      "name": "cite_GEX_all_row_totals_exact",
+      "passed": true
+    },
+    {
+      "name": "cite_GEX_all_row_detected_counts_exact",
+      "passed": true
+    },
+    {
+      "name": "cite_GEX_nonzero_flag",
+      "passed": true
+    },
+    {
+      "name": "cite_GEX_assay_loader_index",
+      "passed": true
+    },
+    {
+      "name": "cite_all_feature_totals_exact",
+      "passed": true
+    },
+    {
+      "name": "cite_all_feature_detection_counts_exact",
+      "passed": true
+    },
+    {
+      "name": "cite_usable_feature_rule",
+      "passed": true
+    },
+    {
+      "name": "cite_all_MT_sums_exact",
+      "passed": true
+    },
+    {
+      "name": "cite_published_axis_MT_percentage",
+      "passed": true
+    },
+    {
+      "name": "cite_usable_pair_rule",
+      "passed": true
+    },
+    {
+      "name": "cite_exact_usable_rows",
+      "passed": true
+    },
+    {
+      "name": "cite_exact_quarantine_rows",
+      "passed": true
+    },
+    {
+      "name": "cite_exact_quarantine_reasons",
+      "passed": true
+    },
+    {
+      "name": "cite_paired_cells_have_both_modalities",
+      "passed": true
+    },
+    {
+      "name": "cite_no_HCM_labels_created",
+      "passed": true
+    },
+    {
+      "name": "cite_official_split_preserved",
+      "passed": true
+    },
+    {
+      "name": "cite_unit_summary",
+      "passed": true
+    },
+    {
+      "name": "multiome_all_author_observation_fields_exact",
+      "passed": true
+    },
+    {
+      "name": "multiome_all_author_feature_fields_exact",
+      "passed": true
+    },
+    {
+      "name": "multiome_source_metadata_dtypes_recorded",
+      "passed": true
+    },
+    {
+      "name": "multiome_original_row_and_column_positions",
+      "passed": true
+    },
+    {
+      "name": "multiome_unique_source_cell_axis",
+      "passed": true
+    },
+    {
+      "name": "multiome_all_source_feature_names_nonempty",
+      "passed": true
+    },
+    {
+      "name": "multiome_source_pointers",
+      "passed": true
+    },
+    {
+      "name": "multiome_exact_cell_UIDs",
+      "passed": true
+    },
+    {
+      "name": "multiome_exact_donor_UIDs",
+      "passed": true
+    },
+    {
+      "name": "multiome_exact_feature_UIDs",
+      "passed": true
+    },
+    {
+      "name": "multiome_correct_modality_set",
+      "passed": true
+    },
+    {
+      "name": "multiome_unique_assay_specific_feature_keys",
+      "passed": true
+    },
+    {
+      "name": "multiome_missing_gene_IDs_preserved",
+      "passed": true
+    },
+    {
+      "name": "multiome_GEX_gene_IDs_complete_and_unique",
+      "passed": true
+    },
+    {
+      "name": "multiome_duplicate_names_not_collapsed",
+      "passed": true
+    },
+    {
+      "name": "multiome_obs_GEX_pct_counts_mt_missingness",
+      "passed": true
+    },
+    {
+      "name": "multiome_obs_GEX_n_counts_missingness",
+      "passed": true
+    },
+    {
+      "name": "multiome_obs_GEX_n_genes_missingness",
+      "passed": true
+    },
+    {
+      "name": "multiome_obs_GEX_size_factors_missingness",
+      "passed": true
+    },
+    {
+      "name": "multiome_obs_GEX_phase_missingness",
+      "passed": true
+    },
+    {
+      "name": "multiome_obs_ATAC_nCount_peaks_missingness",
+      "passed": true
+    },
+    {
+      "name": "multiome_obs_ATAC_atac_fragments_missingness",
+      "passed": true
+    },
+    {
+      "name": "multiome_obs_ATAC_reads_in_peaks_frac_missingness",
+      "passed": true
+    },
+    {
+      "name": "multiome_obs_ATAC_blacklist_fraction_missingness",
+      "passed": true
+    },
+    {
+      "name": "multiome_obs_ATAC_nucleosome_signal_missingness",
+      "passed": true
+    },
+    {
+      "name": "multiome_obs_cell_type_missingness",
+      "passed": true
+    },
+    {
+      "name": "multiome_obs_batch_missingness",
+      "passed": true
+    },
+    {
+      "name": "multiome_obs_ATAC_pseudotime_order_missingness",
+      "passed": true
+    },
+    {
+      "name": "multiome_obs_GEX_pseudotime_order_missingness",
+      "passed": true
+    },
+    {
+      "name": "multiome_obs_Samplename_missingness",
+      "passed": true
+    },
+    {
+      "name": "multiome_obs_Site_missingness",
+      "passed": true
+    },
+    {
+      "name": "multiome_obs_DonorNumber_missingness",
+      "passed": true
+    },
+    {
+      "name": "multiome_obs_Modality_missingness",
+      "passed": true
+    },
+    {
+      "name": "multiome_obs_VendorLot_missingness",
+      "passed": true
+    },
+    {
+      "name": "multiome_obs_DonorID_missingness",
+      "passed": true
+    },
+    {
+      "name": "multiome_obs_DonorAge_missingness",
+      "passed": true
+    },
+    {
+      "name": "multiome_obs_DonorBMI_missingness",
+      "passed": true
+    },
+    {
+      "name": "multiome_obs_DonorBloodType_missingness",
+      "passed": true
+    },
+    {
+      "name": "multiome_obs_DonorRace_missingness",
+      "passed": true
+    },
+    {
+      "name": "multiome_obs_Ethnicity_missingness",
+      "passed": true
+    },
+    {
+      "name": "multiome_obs_DonorGender_missingness",
+      "passed": true
+    },
+    {
+      "name": "multiome_obs_QCMeds_missingness",
+      "passed": true
+    },
+    {
+      "name": "multiome_obs_DonorSmoker_missingness",
+      "passed": true
+    },
+    {
+      "name": "multiome_var_feature_types_missingness",
+      "passed": true
+    },
+    {
+      "name": "multiome_var_gene_id_missingness",
+      "passed": true
+    },
+    {
+      "name": "multiome_every_auxiliary_assay_covered",
+      "passed": true
+    },
+    {
+      "name": "/X_sparse_pointer",
+      "passed": true
+    },
+    {
+      "name": "/X_index_bounds_0",
+      "passed": true
+    },
+    {
+      "name": "/X_index_bounds_4000000",
+      "passed": true
+    },
+    {
+      "name": "/X_index_bounds_8000000",
+      "passed": true
+    },
+    {
+      "name": "/X_index_bounds_12000000",
+      "passed": true
+    },
+    {
+      "name": "/X_index_bounds_16000000",
+      "passed": true
+    },
+    {
+      "name": "/X_index_bounds_20000000",
+      "passed": true
+    },
+    {
+      "name": "/X_index_bounds_24000000",
+      "passed": true
+    },
+    {
+      "name": "/X_index_bounds_28000000",
+      "passed": true
+    },
+    {
+      "name": "/X_index_bounds_32000000",
+      "passed": true
+    },
+    {
+      "name": "/X_index_bounds_36000000",
+      "passed": true
+    },
+    {
+      "name": "/X_index_bounds_40000000",
+      "passed": true
+    },
+    {
+      "name": "/X_index_bounds_44000000",
+      "passed": true
+    },
+    {
+      "name": "/X_index_bounds_48000000",
+      "passed": true
+    },
+    {
+      "name": "/X_index_bounds_52000000",
+      "passed": true
+    },
+    {
+      "name": "/X_index_bounds_56000000",
+      "passed": true
+    },
+    {
+      "name": "/X_index_bounds_60000000",
+      "passed": true
+    },
+    {
+      "name": "/X_index_bounds_64000000",
+      "passed": true
+    },
+    {
+      "name": "/X_index_bounds_68000000",
+      "passed": true
+    },
+    {
+      "name": "/X_index_bounds_72000000",
+      "passed": true
+    },
+    {
+      "name": "/X_index_bounds_76000000",
+      "passed": true
+    },
+    {
+      "name": "/X_index_bounds_80000000",
+      "passed": true
+    },
+    {
+      "name": "/X_index_bounds_84000000",
+      "passed": true
+    },
+    {
+      "name": "/X_index_bounds_88000000",
+      "passed": true
+    },
+    {
+      "name": "/X_index_bounds_92000000",
+      "passed": true
+    },
+    {
+      "name": "/X_index_bounds_96000000",
+      "passed": true
+    },
+    {
+      "name": "/X_index_bounds_100000000",
+      "passed": true
+    },
+    {
+      "name": "/X_index_bounds_104000000",
+      "passed": true
+    },
+    {
+      "name": "/X_index_bounds_108000000",
+      "passed": true
+    },
+    {
+      "name": "/X_index_bounds_112000000",
+      "passed": true
+    },
+    {
+      "name": "/X_index_bounds_116000000",
+      "passed": true
+    },
+    {
+      "name": "/X_index_bounds_120000000",
+      "passed": true
+    },
+    {
+      "name": "/X_index_bounds_124000000",
+      "passed": true
+    },
+    {
+      "name": "/X_index_bounds_128000000",
+      "passed": true
+    },
+    {
+      "name": "/X_index_bounds_132000000",
+      "passed": true
+    },
+    {
+      "name": "/X_index_bounds_136000000",
+      "passed": true
+    },
+    {
+      "name": "/X_index_bounds_140000000",
+      "passed": true
+    },
+    {
+      "name": "/X_index_bounds_144000000",
+      "passed": true
+    },
+    {
+      "name": "/X_index_bounds_148000000",
+      "passed": true
+    },
+    {
+      "name": "/X_index_bounds_152000000",
+      "passed": true
+    },
+    {
+      "name": "/X_index_bounds_156000000",
+      "passed": true
+    },
+    {
+      "name": "/X_index_bounds_160000000",
+      "passed": true
+    },
+    {
+      "name": "/X_index_bounds_164000000",
+      "passed": true
+    },
+    {
+      "name": "/X_index_bounds_168000000",
+      "passed": true
+    },
+    {
+      "name": "/X_index_bounds_172000000",
+      "passed": true
+    },
+    {
+      "name": "/X_index_bounds_176000000",
+      "passed": true
+    },
+    {
+      "name": "/X_index_bounds_180000000",
+      "passed": true
+    },
+    {
+      "name": "/X_index_bounds_184000000",
+      "passed": true
+    },
+    {
+      "name": "/X_index_bounds_188000000",
+      "passed": true
+    },
+    {
+      "name": "/X_index_bounds_192000000",
+      "passed": true
+    },
+    {
+      "name": "/X_index_bounds_196000000",
+      "passed": true
+    },
+    {
+      "name": "/X_index_bounds_200000000",
+      "passed": true
+    },
+    {
+      "name": "/X_index_bounds_204000000",
+      "passed": true
+    },
+    {
+      "name": "/X_index_bounds_208000000",
+      "passed": true
+    },
+    {
+      "name": "/X_index_bounds_212000000",
+      "passed": true
+    },
+    {
+      "name": "/X_index_bounds_216000000",
+      "passed": true
+    },
+    {
+      "name": "/X_index_bounds_220000000",
+      "passed": true
+    },
+    {
+      "name": "/X_index_bounds_224000000",
+      "passed": true
+    },
+    {
+      "name": "/X_index_bounds_228000000",
+      "passed": true
+    },
+    {
+      "name": "/X_index_bounds_232000000",
+      "passed": true
+    },
+    {
+      "name": "/X_index_bounds_236000000",
+      "passed": true
+    },
+    {
+      "name": "/X_index_bounds_240000000",
+      "passed": true
+    },
+    {
+      "name": "/X_index_bounds_244000000",
+      "passed": true
+    },
+    {
+      "name": "/X_index_bounds_248000000",
+      "passed": true
+    },
+    {
+      "name": "/X_index_bounds_252000000",
+      "passed": true
+    },
+    {
+      "name": "/X_index_bounds_256000000",
+      "passed": true
+    },
+    {
+      "name": "/X_index_bounds_260000000",
+      "passed": true
+    },
+    {
+      "name": "/X_index_bounds_264000000",
+      "passed": true
+    },
+    {
+      "name": "/X_index_bounds_268000000",
+      "passed": true
+    },
+    {
+      "name": "/X_index_bounds_272000000",
+      "passed": true
+    },
+    {
+      "name": "/X_index_bounds_276000000",
+      "passed": true
+    },
+    {
+      "name": "/X_index_bounds_280000000",
+      "passed": true
+    },
+    {
+      "name": "/X_index_bounds_284000000",
+      "passed": true
+    },
+    {
+      "name": "/X_index_bounds_288000000",
+      "passed": true
+    },
+    {
+      "name": "/X_index_bounds_292000000",
+      "passed": true
+    },
+    {
+      "name": "/X_index_bounds_296000000",
+      "passed": true
+    },
+    {
+      "name": "/X_index_bounds_300000000",
+      "passed": true
+    },
+    {
+      "name": "/X_index_bounds_304000000",
+      "passed": true
+    },
+    {
+      "name": "/X_index_bounds_308000000",
+      "passed": true
+    },
+    {
+      "name": "/X_index_bounds_312000000",
+      "passed": true
+    },
+    {
+      "name": "/X_index_bounds_316000000",
+      "passed": true
+    },
+    {
+      "name": "/X_index_bounds_320000000",
+      "passed": true
+    },
+    {
+      "name": "/X_index_bounds_324000000",
+      "passed": true
+    },
+    {
+      "name": "multiome_X_role",
+      "passed": true
+    },
+    {
+      "name": "multiome_X_rows",
+      "passed": true
+    },
+    {
+      "name": "multiome_X_features",
+      "passed": true
+    },
+    {
+      "name": "multiome_X_finite_nonzero_values",
+      "passed": true
+    },
+    {
+      "name": "multiome_X_nonfinite_values",
+      "passed": true
+    },
+    {
+      "name": "multiome_X_nonfinite_rows",
+      "passed": true
+    },
+    {
+      "name": "multiome_X_nonfinite_columns",
+      "passed": true
+    },
+    {
+      "name": "multiome_X_negative_values",
+      "passed": true
+    },
+    {
+      "name": "multiome_X_fractional_values",
+      "passed": true
+    },
+    {
+      "name": "multiome_X_minimum_finite_stored_value",
+      "passed": true
+    },
+    {
+      "name": "multiome_X_maximum_finite_stored_value",
+      "passed": true
+    },
+    {
+      "name": "multiome_X_zero_information_finite_rows",
+      "passed": true
+    },
+    {
+      "name": "multiome_X_all_zero_finite_columns",
+      "passed": true
+    },
+    {
+      "name": "multiome_X_finite_row_sum_total",
+      "passed": true
+    },
+    {
+      "name": "multiome_X_source_cell_axis",
+      "passed": true
+    },
+    {
+      "name": "multiome_X_source_feature_axis",
+      "passed": true
+    },
+    {
+      "name": "/layers/counts_sparse_pointer",
+      "passed": true
+    },
+    {
+      "name": "/layers/counts_index_bounds_0",
+      "passed": true
+    },
+    {
+      "name": "/layers/counts_index_bounds_4000000",
+      "passed": true
+    },
+    {
+      "name": "/layers/counts_index_bounds_8000000",
+      "passed": true
+    },
+    {
+      "name": "/layers/counts_index_bounds_12000000",
+      "passed": true
+    },
+    {
+      "name": "/layers/counts_index_bounds_16000000",
+      "passed": true
+    },
+    {
+      "name": "/layers/counts_index_bounds_20000000",
+      "passed": true
+    },
+    {
+      "name": "/layers/counts_index_bounds_24000000",
+      "passed": true
+    },
+    {
+      "name": "/layers/counts_index_bounds_28000000",
+      "passed": true
+    },
+    {
+      "name": "/layers/counts_index_bounds_32000000",
+      "passed": true
+    },
+    {
+      "name": "/layers/counts_index_bounds_36000000",
+      "passed": true
+    },
+    {
+      "name": "/layers/counts_index_bounds_40000000",
+      "passed": true
+    },
+    {
+      "name": "/layers/counts_index_bounds_44000000",
+      "passed": true
+    },
+    {
+      "name": "/layers/counts_index_bounds_48000000",
+      "passed": true
+    },
+    {
+      "name": "/layers/counts_index_bounds_52000000",
+      "passed": true
+    },
+    {
+      "name": "/layers/counts_index_bounds_56000000",
+      "passed": true
+    },
+    {
+      "name": "/layers/counts_index_bounds_60000000",
+      "passed": true
+    },
+    {
+      "name": "/layers/counts_index_bounds_64000000",
+      "passed": true
+    },
+    {
+      "name": "/layers/counts_index_bounds_68000000",
+      "passed": true
+    },
+    {
+      "name": "/layers/counts_index_bounds_72000000",
+      "passed": true
+    },
+    {
+      "name": "/layers/counts_index_bounds_76000000",
+      "passed": true
+    },
+    {
+      "name": "/layers/counts_index_bounds_80000000",
+      "passed": true
+    },
+    {
+      "name": "/layers/counts_index_bounds_84000000",
+      "passed": true
+    },
+    {
+      "name": "/layers/counts_index_bounds_88000000",
+      "passed": true
+    },
+    {
+      "name": "/layers/counts_index_bounds_92000000",
+      "passed": true
+    },
+    {
+      "name": "/layers/counts_index_bounds_96000000",
+      "passed": true
+    },
+    {
+      "name": "/layers/counts_index_bounds_100000000",
+      "passed": true
+    },
+    {
+      "name": "/layers/counts_index_bounds_104000000",
+      "passed": true
+    },
+    {
+      "name": "/layers/counts_index_bounds_108000000",
+      "passed": true
+    },
+    {
+      "name": "/layers/counts_index_bounds_112000000",
+      "passed": true
+    },
+    {
+      "name": "/layers/counts_index_bounds_116000000",
+      "passed": true
+    },
+    {
+      "name": "/layers/counts_index_bounds_120000000",
+      "passed": true
+    },
+    {
+      "name": "/layers/counts_index_bounds_124000000",
+      "passed": true
+    },
+    {
+      "name": "/layers/counts_index_bounds_128000000",
+      "passed": true
+    },
+    {
+      "name": "/layers/counts_index_bounds_132000000",
+      "passed": true
+    },
+    {
+      "name": "/layers/counts_index_bounds_136000000",
+      "passed": true
+    },
+    {
+      "name": "/layers/counts_index_bounds_140000000",
+      "passed": true
+    },
+    {
+      "name": "/layers/counts_index_bounds_144000000",
+      "passed": true
+    },
+    {
+      "name": "/layers/counts_index_bounds_148000000",
+      "passed": true
+    },
+    {
+      "name": "/layers/counts_index_bounds_152000000",
+      "passed": true
+    },
+    {
+      "name": "/layers/counts_index_bounds_156000000",
+      "passed": true
+    },
+    {
+      "name": "/layers/counts_index_bounds_160000000",
+      "passed": true
+    },
+    {
+      "name": "/layers/counts_index_bounds_164000000",
+      "passed": true
+    },
+    {
+      "name": "/layers/counts_index_bounds_168000000",
+      "passed": true
+    },
+    {
+      "name": "/layers/counts_index_bounds_172000000",
+      "passed": true
+    },
+    {
+      "name": "/layers/counts_index_bounds_176000000",
+      "passed": true
+    },
+    {
+      "name": "/layers/counts_index_bounds_180000000",
+      "passed": true
+    },
+    {
+      "name": "/layers/counts_index_bounds_184000000",
+      "passed": true
+    },
+    {
+      "name": "/layers/counts_index_bounds_188000000",
+      "passed": true
+    },
+    {
+      "name": "/layers/counts_index_bounds_192000000",
+      "passed": true
+    },
+    {
+      "name": "/layers/counts_index_bounds_196000000",
+      "passed": true
+    },
+    {
+      "name": "/layers/counts_index_bounds_200000000",
+      "passed": true
+    },
+    {
+      "name": "/layers/counts_index_bounds_204000000",
+      "passed": true
+    },
+    {
+      "name": "/layers/counts_index_bounds_208000000",
+      "passed": true
+    },
+    {
+      "name": "/layers/counts_index_bounds_212000000",
+      "passed": true
+    },
+    {
+      "name": "/layers/counts_index_bounds_216000000",
+      "passed": true
+    },
+    {
+      "name": "/layers/counts_index_bounds_220000000",
+      "passed": true
+    },
+    {
+      "name": "/layers/counts_index_bounds_224000000",
+      "passed": true
+    },
+    {
+      "name": "/layers/counts_index_bounds_228000000",
+      "passed": true
+    },
+    {
+      "name": "/layers/counts_index_bounds_232000000",
+      "passed": true
+    },
+    {
+      "name": "/layers/counts_index_bounds_236000000",
+      "passed": true
+    },
+    {
+      "name": "/layers/counts_index_bounds_240000000",
+      "passed": true
+    },
+    {
+      "name": "/layers/counts_index_bounds_244000000",
+      "passed": true
+    },
+    {
+      "name": "/layers/counts_index_bounds_248000000",
+      "passed": true
+    },
+    {
+      "name": "/layers/counts_index_bounds_252000000",
+      "passed": true
+    },
+    {
+      "name": "/layers/counts_index_bounds_256000000",
+      "passed": true
+    },
+    {
+      "name": "/layers/counts_index_bounds_260000000",
+      "passed": true
+    },
+    {
+      "name": "/layers/counts_index_bounds_264000000",
+      "passed": true
+    },
+    {
+      "name": "/layers/counts_index_bounds_268000000",
+      "passed": true
+    },
+    {
+      "name": "/layers/counts_index_bounds_272000000",
+      "passed": true
+    },
+    {
+      "name": "/layers/counts_index_bounds_276000000",
+      "passed": true
+    },
+    {
+      "name": "/layers/counts_index_bounds_280000000",
+      "passed": true
+    },
+    {
+      "name": "/layers/counts_index_bounds_284000000",
+      "passed": true
+    },
+    {
+      "name": "/layers/counts_index_bounds_288000000",
+      "passed": true
+    },
+    {
+      "name": "/layers/counts_index_bounds_292000000",
+      "passed": true
+    },
+    {
+      "name": "/layers/counts_index_bounds_296000000",
+      "passed": true
+    },
+    {
+      "name": "/layers/counts_index_bounds_300000000",
+      "passed": true
+    },
+    {
+      "name": "/layers/counts_index_bounds_304000000",
+      "passed": true
+    },
+    {
+      "name": "/layers/counts_index_bounds_308000000",
+      "passed": true
+    },
+    {
+      "name": "/layers/counts_index_bounds_312000000",
+      "passed": true
+    },
+    {
+      "name": "/layers/counts_index_bounds_316000000",
+      "passed": true
+    },
+    {
+      "name": "/layers/counts_index_bounds_320000000",
+      "passed": true
+    },
+    {
+      "name": "/layers/counts_index_bounds_324000000",
+      "passed": true
+    },
+    {
+      "name": "multiome_layers/counts_role",
+      "passed": true
+    },
+    {
+      "name": "multiome_layers/counts_rows",
+      "passed": true
+    },
+    {
+      "name": "multiome_layers/counts_features",
+      "passed": true
+    },
+    {
+      "name": "multiome_layers/counts_finite_nonzero_values",
+      "passed": true
+    },
+    {
+      "name": "multiome_layers/counts_nonfinite_values",
+      "passed": true
+    },
+    {
+      "name": "multiome_layers/counts_nonfinite_rows",
+      "passed": true
+    },
+    {
+      "name": "multiome_layers/counts_nonfinite_columns",
+      "passed": true
+    },
+    {
+      "name": "multiome_layers/counts_negative_values",
+      "passed": true
+    },
+    {
+      "name": "multiome_layers/counts_fractional_values",
+      "passed": true
+    },
+    {
+      "name": "multiome_layers/counts_minimum_finite_stored_value",
+      "passed": true
+    },
+    {
+      "name": "multiome_layers/counts_maximum_finite_stored_value",
+      "passed": true
+    },
+    {
+      "name": "multiome_layers/counts_zero_information_finite_rows",
+      "passed": true
+    },
+    {
+      "name": "multiome_layers/counts_all_zero_finite_columns",
+      "passed": true
+    },
+    {
+      "name": "multiome_layers/counts_finite_row_sum_total",
+      "passed": true
+    },
+    {
+      "name": "multiome_layers/counts_source_cell_axis",
+      "passed": true
+    },
+    {
+      "name": "multiome_layers/counts_source_feature_axis",
+      "passed": true
+    },
+    {
+      "name": "/obsm/ATAC_gene_activity_sparse_pointer",
+      "passed": true
+    },
+    {
+      "name": "/obsm/ATAC_gene_activity_index_bounds_0",
+      "passed": true
+    },
+    {
+      "name": "/obsm/ATAC_gene_activity_index_bounds_4000000",
+      "passed": true
+    },
+    {
+      "name": "/obsm/ATAC_gene_activity_index_bounds_8000000",
+      "passed": true
+    },
+    {
+      "name": "/obsm/ATAC_gene_activity_index_bounds_12000000",
+      "passed": true
+    },
+    {
+      "name": "/obsm/ATAC_gene_activity_index_bounds_16000000",
+      "passed": true
+    },
+    {
+      "name": "/obsm/ATAC_gene_activity_index_bounds_20000000",
+      "passed": true
+    },
+    {
+      "name": "/obsm/ATAC_gene_activity_index_bounds_24000000",
+      "passed": true
+    },
+    {
+      "name": "/obsm/ATAC_gene_activity_index_bounds_28000000",
+      "passed": true
+    },
+    {
+      "name": "/obsm/ATAC_gene_activity_index_bounds_32000000",
+      "passed": true
+    },
+    {
+      "name": "/obsm/ATAC_gene_activity_index_bounds_36000000",
+      "passed": true
+    },
+    {
+      "name": "/obsm/ATAC_gene_activity_index_bounds_40000000",
+      "passed": true
+    },
+    {
+      "name": "/obsm/ATAC_gene_activity_index_bounds_44000000",
+      "passed": true
+    },
+    {
+      "name": "/obsm/ATAC_gene_activity_index_bounds_48000000",
+      "passed": true
+    },
+    {
+      "name": "/obsm/ATAC_gene_activity_index_bounds_52000000",
+      "passed": true
+    },
+    {
+      "name": "/obsm/ATAC_gene_activity_index_bounds_56000000",
+      "passed": true
+    },
+    {
+      "name": "/obsm/ATAC_gene_activity_index_bounds_60000000",
+      "passed": true
+    },
+    {
+      "name": "/obsm/ATAC_gene_activity_index_bounds_64000000",
+      "passed": true
+    },
+    {
+      "name": "/obsm/ATAC_gene_activity_index_bounds_68000000",
+      "passed": true
+    },
+    {
+      "name": "/obsm/ATAC_gene_activity_index_bounds_72000000",
+      "passed": true
+    },
+    {
+      "name": "/obsm/ATAC_gene_activity_index_bounds_76000000",
+      "passed": true
+    },
+    {
+      "name": "/obsm/ATAC_gene_activity_index_bounds_80000000",
+      "passed": true
+    },
+    {
+      "name": "/obsm/ATAC_gene_activity_index_bounds_84000000",
+      "passed": true
+    },
+    {
+      "name": "/obsm/ATAC_gene_activity_index_bounds_88000000",
+      "passed": true
+    },
+    {
+      "name": "/obsm/ATAC_gene_activity_index_bounds_92000000",
+      "passed": true
+    },
+    {
+      "name": "/obsm/ATAC_gene_activity_index_bounds_96000000",
+      "passed": true
+    },
+    {
+      "name": "/obsm/ATAC_gene_activity_index_bounds_100000000",
+      "passed": true
+    },
+    {
+      "name": "/obsm/ATAC_gene_activity_index_bounds_104000000",
+      "passed": true
+    },
+    {
+      "name": "/obsm/ATAC_gene_activity_index_bounds_108000000",
+      "passed": true
+    },
+    {
+      "name": "/obsm/ATAC_gene_activity_index_bounds_112000000",
+      "passed": true
+    },
+    {
+      "name": "/obsm/ATAC_gene_activity_index_bounds_116000000",
+      "passed": true
+    },
+    {
+      "name": "/obsm/ATAC_gene_activity_index_bounds_120000000",
+      "passed": true
+    },
+    {
+      "name": "/obsm/ATAC_gene_activity_index_bounds_124000000",
+      "passed": true
+    },
+    {
+      "name": "/obsm/ATAC_gene_activity_index_bounds_128000000",
+      "passed": true
+    },
+    {
+      "name": "/obsm/ATAC_gene_activity_index_bounds_132000000",
+      "passed": true
+    },
+    {
+      "name": "/obsm/ATAC_gene_activity_index_bounds_136000000",
+      "passed": true
+    },
+    {
+      "name": "/obsm/ATAC_gene_activity_index_bounds_140000000",
+      "passed": true
+    },
+    {
+      "name": "/obsm/ATAC_gene_activity_index_bounds_144000000",
+      "passed": true
+    },
+    {
+      "name": "/obsm/ATAC_gene_activity_index_bounds_148000000",
+      "passed": true
+    },
+    {
+      "name": "/obsm/ATAC_gene_activity_index_bounds_152000000",
+      "passed": true
+    },
+    {
+      "name": "/obsm/ATAC_gene_activity_index_bounds_156000000",
+      "passed": true
+    },
+    {
+      "name": "/obsm/ATAC_gene_activity_index_bounds_160000000",
+      "passed": true
+    },
+    {
+      "name": "/obsm/ATAC_gene_activity_index_bounds_164000000",
+      "passed": true
+    },
+    {
+      "name": "/obsm/ATAC_gene_activity_index_bounds_168000000",
+      "passed": true
+    },
+    {
+      "name": "/obsm/ATAC_gene_activity_index_bounds_172000000",
+      "passed": true
+    },
+    {
+      "name": "/obsm/ATAC_gene_activity_index_bounds_176000000",
+      "passed": true
+    },
+    {
+      "name": "/obsm/ATAC_gene_activity_index_bounds_180000000",
+      "passed": true
+    },
+    {
+      "name": "/obsm/ATAC_gene_activity_index_bounds_184000000",
+      "passed": true
+    },
+    {
+      "name": "/obsm/ATAC_gene_activity_index_bounds_188000000",
+      "passed": true
+    },
+    {
+      "name": "/obsm/ATAC_gene_activity_index_bounds_192000000",
+      "passed": true
+    },
+    {
+      "name": "/obsm/ATAC_gene_activity_index_bounds_196000000",
+      "passed": true
+    },
+    {
+      "name": "/obsm/ATAC_gene_activity_index_bounds_200000000",
+      "passed": true
+    },
+    {
+      "name": "/obsm/ATAC_gene_activity_index_bounds_204000000",
+      "passed": true
+    },
+    {
+      "name": "/obsm/ATAC_gene_activity_index_bounds_208000000",
+      "passed": true
+    },
+    {
+      "name": "/obsm/ATAC_gene_activity_index_bounds_212000000",
+      "passed": true
+    },
+    {
+      "name": "/obsm/ATAC_gene_activity_index_bounds_216000000",
+      "passed": true
+    },
+    {
+      "name": "/obsm/ATAC_gene_activity_index_bounds_220000000",
+      "passed": true
+    },
+    {
+      "name": "/obsm/ATAC_gene_activity_index_bounds_224000000",
+      "passed": true
+    },
+    {
+      "name": "/obsm/ATAC_gene_activity_index_bounds_228000000",
+      "passed": true
+    },
+    {
+      "name": "/obsm/ATAC_gene_activity_index_bounds_232000000",
+      "passed": true
+    },
+    {
+      "name": "/obsm/ATAC_gene_activity_index_bounds_236000000",
+      "passed": true
+    },
+    {
+      "name": "/obsm/ATAC_gene_activity_index_bounds_240000000",
+      "passed": true
+    },
+    {
+      "name": "/obsm/ATAC_gene_activity_index_bounds_244000000",
+      "passed": true
+    },
+    {
+      "name": "/obsm/ATAC_gene_activity_index_bounds_248000000",
+      "passed": true
+    },
+    {
+      "name": "/obsm/ATAC_gene_activity_index_bounds_252000000",
+      "passed": true
+    },
+    {
+      "name": "/obsm/ATAC_gene_activity_index_bounds_256000000",
+      "passed": true
+    },
+    {
+      "name": "/obsm/ATAC_gene_activity_index_bounds_260000000",
+      "passed": true
+    },
+    {
+      "name": "/obsm/ATAC_gene_activity_index_bounds_264000000",
+      "passed": true
+    },
+    {
+      "name": "/obsm/ATAC_gene_activity_index_bounds_268000000",
+      "passed": true
+    },
+    {
+      "name": "/obsm/ATAC_gene_activity_index_bounds_272000000",
+      "passed": true
+    },
+    {
+      "name": "/obsm/ATAC_gene_activity_index_bounds_276000000",
+      "passed": true
+    },
+    {
+      "name": "/obsm/ATAC_gene_activity_index_bounds_280000000",
+      "passed": true
+    },
+    {
+      "name": "/obsm/ATAC_gene_activity_index_bounds_284000000",
+      "passed": true
+    },
+    {
+      "name": "/obsm/ATAC_gene_activity_index_bounds_288000000",
+      "passed": true
+    },
+    {
+      "name": "/obsm/ATAC_gene_activity_index_bounds_292000000",
+      "passed": true
+    },
+    {
+      "name": "/obsm/ATAC_gene_activity_index_bounds_296000000",
+      "passed": true
+    },
+    {
+      "name": "/obsm/ATAC_gene_activity_index_bounds_300000000",
+      "passed": true
+    },
+    {
+      "name": "/obsm/ATAC_gene_activity_index_bounds_304000000",
+      "passed": true
+    },
+    {
+      "name": "/obsm/ATAC_gene_activity_index_bounds_308000000",
+      "passed": true
+    },
+    {
+      "name": "/obsm/ATAC_gene_activity_index_bounds_312000000",
+      "passed": true
+    },
+    {
+      "name": "/obsm/ATAC_gene_activity_index_bounds_316000000",
+      "passed": true
+    },
+    {
+      "name": "/obsm/ATAC_gene_activity_index_bounds_320000000",
+      "passed": true
+    },
+    {
+      "name": "/obsm/ATAC_gene_activity_index_bounds_324000000",
+      "passed": true
+    },
+    {
+      "name": "/obsm/ATAC_gene_activity_index_bounds_328000000",
+      "passed": true
+    },
+    {
+      "name": "/obsm/ATAC_gene_activity_index_bounds_332000000",
+      "passed": true
+    },
+    {
+      "name": "/obsm/ATAC_gene_activity_index_bounds_336000000",
+      "passed": true
+    },
+    {
+      "name": "/obsm/ATAC_gene_activity_index_bounds_340000000",
+      "passed": true
+    },
+    {
+      "name": "/obsm/ATAC_gene_activity_index_bounds_344000000",
+      "passed": true
+    },
+    {
+      "name": "/obsm/ATAC_gene_activity_index_bounds_348000000",
+      "passed": true
+    },
+    {
+      "name": "/obsm/ATAC_gene_activity_index_bounds_352000000",
+      "passed": true
+    },
+    {
+      "name": "/obsm/ATAC_gene_activity_index_bounds_356000000",
+      "passed": true
+    },
+    {
+      "name": "/obsm/ATAC_gene_activity_index_bounds_360000000",
+      "passed": true
+    },
+    {
+      "name": "/obsm/ATAC_gene_activity_index_bounds_364000000",
+      "passed": true
+    },
+    {
+      "name": "/obsm/ATAC_gene_activity_index_bounds_368000000",
+      "passed": true
+    },
+    {
+      "name": "/obsm/ATAC_gene_activity_index_bounds_372000000",
+      "passed": true
+    },
+    {
+      "name": "multiome_obsm/ATAC_gene_activity_role",
+      "passed": true
+    },
+    {
+      "name": "multiome_obsm/ATAC_gene_activity_rows",
+      "passed": true
+    },
+    {
+      "name": "multiome_obsm/ATAC_gene_activity_features",
+      "passed": true
+    },
+    {
+      "name": "multiome_obsm/ATAC_gene_activity_finite_nonzero_values",
+      "passed": true
+    },
+    {
+      "name": "multiome_obsm/ATAC_gene_activity_nonfinite_values",
+      "passed": true
+    },
+    {
+      "name": "multiome_obsm/ATAC_gene_activity_nonfinite_rows",
+      "passed": true
+    },
+    {
+      "name": "multiome_obsm/ATAC_gene_activity_nonfinite_columns",
+      "passed": true
+    },
+    {
+      "name": "multiome_obsm/ATAC_gene_activity_negative_values",
+      "passed": true
+    },
+    {
+      "name": "multiome_obsm/ATAC_gene_activity_fractional_values",
+      "passed": true
+    },
+    {
+      "name": "multiome_obsm/ATAC_gene_activity_minimum_finite_stored_value",
+      "passed": true
+    },
+    {
+      "name": "multiome_obsm/ATAC_gene_activity_maximum_finite_stored_value",
+      "passed": true
+    },
+    {
+      "name": "multiome_obsm/ATAC_gene_activity_zero_information_finite_rows",
+      "passed": true
+    },
+    {
+      "name": "multiome_obsm/ATAC_gene_activity_all_zero_finite_columns",
+      "passed": true
+    },
+    {
+      "name": "multiome_obsm/ATAC_gene_activity_finite_row_sum_total",
+      "passed": true
+    },
+    {
+      "name": "multiome_obsm/ATAC_gene_activity_source_cell_axis",
+      "passed": true
+    },
+    {
+      "name": "multiome_obsm/ATAC_gene_activity_all_derived_columns_indexed",
+      "passed": true
+    },
+    {
+      "name": "multiome_obsm/ATAC_gene_activity_nonfinite_per_column",
+      "passed": true
+    },
+    {
+      "name": "multiome_obsm/ATAC_gene_activity_nonzero_per_column",
+      "passed": true
+    },
+    {
+      "name": "multiome_obsm/ATAC_gene_activity_usable_coordinate_rule",
+      "passed": true
+    },
+    {
+      "name": "multiome_obsm/ATAC_gene_activity_coordinate_reasons",
+      "passed": true
+    },
+    {
+      "name": "multiome_obsm/ATAC_gene_activity_exact_nonfinite_rows",
+      "passed": true
+    },
+    {
+      "name": "multiome_obsm/ATAC_gene_activity_exact_derived_feature_axis",
+      "passed": true
+    },
+    {
+      "name": "multiome_obsm/ATAC_lsi_full_role",
+      "passed": true
+    },
+    {
+      "name": "multiome_obsm/ATAC_lsi_full_rows",
+      "passed": true
+    },
+    {
+      "name": "multiome_obsm/ATAC_lsi_full_features",
+      "passed": true
+    },
+    {
+      "name": "multiome_obsm/ATAC_lsi_full_finite_nonzero_values",
+      "passed": true
+    },
+    {
+      "name": "multiome_obsm/ATAC_lsi_full_nonfinite_values",
+      "passed": true
+    },
+    {
+      "name": "multiome_obsm/ATAC_lsi_full_nonfinite_rows",
+      "passed": true
+    },
+    {
+      "name": "multiome_obsm/ATAC_lsi_full_nonfinite_columns",
+      "passed": true
+    },
+    {
+      "name": "multiome_obsm/ATAC_lsi_full_negative_values",
+      "passed": true
+    },
+    {
+      "name": "multiome_obsm/ATAC_lsi_full_fractional_values",
+      "passed": true
+    },
+    {
+      "name": "multiome_obsm/ATAC_lsi_full_minimum_finite_stored_value",
+      "passed": true
+    },
+    {
+      "name": "multiome_obsm/ATAC_lsi_full_maximum_finite_stored_value",
+      "passed": true
+    },
+    {
+      "name": "multiome_obsm/ATAC_lsi_full_zero_information_finite_rows",
+      "passed": true
+    },
+    {
+      "name": "multiome_obsm/ATAC_lsi_full_all_zero_finite_columns",
+      "passed": true
+    },
+    {
+      "name": "multiome_obsm/ATAC_lsi_full_finite_row_sum_total",
+      "passed": true
+    },
+    {
+      "name": "multiome_obsm/ATAC_lsi_full_source_cell_axis",
+      "passed": true
+    },
+    {
+      "name": "multiome_obsm/ATAC_lsi_full_all_derived_columns_indexed",
+      "passed": true
+    },
+    {
+      "name": "multiome_obsm/ATAC_lsi_full_nonfinite_per_column",
+      "passed": true
+    },
+    {
+      "name": "multiome_obsm/ATAC_lsi_full_nonzero_per_column",
+      "passed": true
+    },
+    {
+      "name": "multiome_obsm/ATAC_lsi_full_usable_coordinate_rule",
+      "passed": true
+    },
+    {
+      "name": "multiome_obsm/ATAC_lsi_full_coordinate_reasons",
+      "passed": true
+    },
+    {
+      "name": "multiome_obsm/ATAC_lsi_full_exact_nonfinite_rows",
+      "passed": true
+    },
+    {
+      "name": "multiome_obsm/ATAC_lsi_full_exact_derived_feature_axis",
+      "passed": true
+    },
+    {
+      "name": "multiome_obsm/ATAC_lsi_red_role",
+      "passed": true
+    },
+    {
+      "name": "multiome_obsm/ATAC_lsi_red_rows",
+      "passed": true
+    },
+    {
+      "name": "multiome_obsm/ATAC_lsi_red_features",
+      "passed": true
+    },
+    {
+      "name": "multiome_obsm/ATAC_lsi_red_finite_nonzero_values",
+      "passed": true
+    },
+    {
+      "name": "multiome_obsm/ATAC_lsi_red_nonfinite_values",
+      "passed": true
+    },
+    {
+      "name": "multiome_obsm/ATAC_lsi_red_nonfinite_rows",
+      "passed": true
+    },
+    {
+      "name": "multiome_obsm/ATAC_lsi_red_nonfinite_columns",
+      "passed": true
+    },
+    {
+      "name": "multiome_obsm/ATAC_lsi_red_negative_values",
+      "passed": true
+    },
+    {
+      "name": "multiome_obsm/ATAC_lsi_red_fractional_values",
+      "passed": true
+    },
+    {
+      "name": "multiome_obsm/ATAC_lsi_red_minimum_finite_stored_value",
+      "passed": true
+    },
+    {
+      "name": "multiome_obsm/ATAC_lsi_red_maximum_finite_stored_value",
+      "passed": true
+    },
+    {
+      "name": "multiome_obsm/ATAC_lsi_red_zero_information_finite_rows",
+      "passed": true
+    },
+    {
+      "name": "multiome_obsm/ATAC_lsi_red_all_zero_finite_columns",
+      "passed": true
+    },
+    {
+      "name": "multiome_obsm/ATAC_lsi_red_finite_row_sum_total",
+      "passed": true
+    },
+    {
+      "name": "multiome_obsm/ATAC_lsi_red_source_cell_axis",
+      "passed": true
+    },
+    {
+      "name": "multiome_obsm/ATAC_lsi_red_all_derived_columns_indexed",
+      "passed": true
+    },
+    {
+      "name": "multiome_obsm/ATAC_lsi_red_nonfinite_per_column",
+      "passed": true
+    },
+    {
+      "name": "multiome_obsm/ATAC_lsi_red_nonzero_per_column",
+      "passed": true
+    },
+    {
+      "name": "multiome_obsm/ATAC_lsi_red_usable_coordinate_rule",
+      "passed": true
+    },
+    {
+      "name": "multiome_obsm/ATAC_lsi_red_coordinate_reasons",
+      "passed": true
+    },
+    {
+      "name": "multiome_obsm/ATAC_lsi_red_exact_nonfinite_rows",
+      "passed": true
+    },
+    {
+      "name": "multiome_obsm/ATAC_lsi_red_exact_derived_feature_axis",
+      "passed": true
+    },
+    {
+      "name": "multiome_obsm/ATAC_umap_role",
+      "passed": true
+    },
+    {
+      "name": "multiome_obsm/ATAC_umap_rows",
+      "passed": true
+    },
+    {
+      "name": "multiome_obsm/ATAC_umap_features",
+      "passed": true
+    },
+    {
+      "name": "multiome_obsm/ATAC_umap_finite_nonzero_values",
+      "passed": true
+    },
+    {
+      "name": "multiome_obsm/ATAC_umap_nonfinite_values",
+      "passed": true
+    },
+    {
+      "name": "multiome_obsm/ATAC_umap_nonfinite_rows",
+      "passed": true
+    },
+    {
+      "name": "multiome_obsm/ATAC_umap_nonfinite_columns",
+      "passed": true
+    },
+    {
+      "name": "multiome_obsm/ATAC_umap_negative_values",
+      "passed": true
+    },
+    {
+      "name": "multiome_obsm/ATAC_umap_fractional_values",
+      "passed": true
+    },
+    {
+      "name": "multiome_obsm/ATAC_umap_minimum_finite_stored_value",
+      "passed": true
+    },
+    {
+      "name": "multiome_obsm/ATAC_umap_maximum_finite_stored_value",
+      "passed": true
+    },
+    {
+      "name": "multiome_obsm/ATAC_umap_zero_information_finite_rows",
+      "passed": true
+    },
+    {
+      "name": "multiome_obsm/ATAC_umap_all_zero_finite_columns",
+      "passed": true
+    },
+    {
+      "name": "multiome_obsm/ATAC_umap_finite_row_sum_total",
+      "passed": true
+    },
+    {
+      "name": "multiome_obsm/ATAC_umap_source_cell_axis",
+      "passed": true
+    },
+    {
+      "name": "multiome_obsm/ATAC_umap_all_derived_columns_indexed",
+      "passed": true
+    },
+    {
+      "name": "multiome_obsm/ATAC_umap_nonfinite_per_column",
+      "passed": true
+    },
+    {
+      "name": "multiome_obsm/ATAC_umap_nonzero_per_column",
+      "passed": true
+    },
+    {
+      "name": "multiome_obsm/ATAC_umap_usable_coordinate_rule",
+      "passed": true
+    },
+    {
+      "name": "multiome_obsm/ATAC_umap_coordinate_reasons",
+      "passed": true
+    },
+    {
+      "name": "multiome_obsm/ATAC_umap_exact_nonfinite_rows",
+      "passed": true
+    },
+    {
+      "name": "multiome_obsm/ATAC_umap_exact_derived_feature_axis",
+      "passed": true
+    },
+    {
+      "name": "multiome_obsm/GEX_X_pca_role",
+      "passed": true
+    },
+    {
+      "name": "multiome_obsm/GEX_X_pca_rows",
+      "passed": true
+    },
+    {
+      "name": "multiome_obsm/GEX_X_pca_features",
+      "passed": true
+    },
+    {
+      "name": "multiome_obsm/GEX_X_pca_finite_nonzero_values",
+      "passed": true
+    },
+    {
+      "name": "multiome_obsm/GEX_X_pca_nonfinite_values",
+      "passed": true
+    },
+    {
+      "name": "multiome_obsm/GEX_X_pca_nonfinite_rows",
+      "passed": true
+    },
+    {
+      "name": "multiome_obsm/GEX_X_pca_nonfinite_columns",
+      "passed": true
+    },
+    {
+      "name": "multiome_obsm/GEX_X_pca_negative_values",
+      "passed": true
+    },
+    {
+      "name": "multiome_obsm/GEX_X_pca_fractional_values",
+      "passed": true
+    },
+    {
+      "name": "multiome_obsm/GEX_X_pca_minimum_finite_stored_value",
+      "passed": true
+    },
+    {
+      "name": "multiome_obsm/GEX_X_pca_maximum_finite_stored_value",
+      "passed": true
+    },
+    {
+      "name": "multiome_obsm/GEX_X_pca_zero_information_finite_rows",
+      "passed": true
+    },
+    {
+      "name": "multiome_obsm/GEX_X_pca_all_zero_finite_columns",
+      "passed": true
+    },
+    {
+      "name": "multiome_obsm/GEX_X_pca_finite_row_sum_total",
+      "passed": true
+    },
+    {
+      "name": "multiome_obsm/GEX_X_pca_source_cell_axis",
+      "passed": true
+    },
+    {
+      "name": "multiome_obsm/GEX_X_pca_all_derived_columns_indexed",
+      "passed": true
+    },
+    {
+      "name": "multiome_obsm/GEX_X_pca_nonfinite_per_column",
+      "passed": true
+    },
+    {
+      "name": "multiome_obsm/GEX_X_pca_nonzero_per_column",
+      "passed": true
+    },
+    {
+      "name": "multiome_obsm/GEX_X_pca_usable_coordinate_rule",
+      "passed": true
+    },
+    {
+      "name": "multiome_obsm/GEX_X_pca_coordinate_reasons",
+      "passed": true
+    },
+    {
+      "name": "multiome_obsm/GEX_X_pca_exact_nonfinite_rows",
+      "passed": true
+    },
+    {
+      "name": "multiome_obsm/GEX_X_pca_exact_derived_feature_axis",
+      "passed": true
+    },
+    {
+      "name": "multiome_obsm/GEX_X_umap_role",
+      "passed": true
+    },
+    {
+      "name": "multiome_obsm/GEX_X_umap_rows",
+      "passed": true
+    },
+    {
+      "name": "multiome_obsm/GEX_X_umap_features",
+      "passed": true
+    },
+    {
+      "name": "multiome_obsm/GEX_X_umap_finite_nonzero_values",
+      "passed": true
+    },
+    {
+      "name": "multiome_obsm/GEX_X_umap_nonfinite_values",
+      "passed": true
+    },
+    {
+      "name": "multiome_obsm/GEX_X_umap_nonfinite_rows",
+      "passed": true
+    },
+    {
+      "name": "multiome_obsm/GEX_X_umap_nonfinite_columns",
+      "passed": true
+    },
+    {
+      "name": "multiome_obsm/GEX_X_umap_negative_values",
+      "passed": true
+    },
+    {
+      "name": "multiome_obsm/GEX_X_umap_fractional_values",
+      "passed": true
+    },
+    {
+      "name": "multiome_obsm/GEX_X_umap_minimum_finite_stored_value",
+      "passed": true
+    },
+    {
+      "name": "multiome_obsm/GEX_X_umap_maximum_finite_stored_value",
+      "passed": true
+    },
+    {
+      "name": "multiome_obsm/GEX_X_umap_zero_information_finite_rows",
+      "passed": true
+    },
+    {
+      "name": "multiome_obsm/GEX_X_umap_all_zero_finite_columns",
+      "passed": true
+    },
+    {
+      "name": "multiome_obsm/GEX_X_umap_finite_row_sum_total",
+      "passed": true
+    },
+    {
+      "name": "multiome_obsm/GEX_X_umap_source_cell_axis",
+      "passed": true
+    },
+    {
+      "name": "multiome_obsm/GEX_X_umap_all_derived_columns_indexed",
+      "passed": true
+    },
+    {
+      "name": "multiome_obsm/GEX_X_umap_nonfinite_per_column",
+      "passed": true
+    },
+    {
+      "name": "multiome_obsm/GEX_X_umap_nonzero_per_column",
+      "passed": true
+    },
+    {
+      "name": "multiome_obsm/GEX_X_umap_usable_coordinate_rule",
+      "passed": true
+    },
+    {
+      "name": "multiome_obsm/GEX_X_umap_coordinate_reasons",
+      "passed": true
+    },
+    {
+      "name": "multiome_obsm/GEX_X_umap_exact_nonfinite_rows",
+      "passed": true
+    },
+    {
+      "name": "multiome_obsm/GEX_X_umap_exact_derived_feature_axis",
+      "passed": true
+    },
+    {
+      "name": "multiome_required_metadata_rule",
+      "passed": true
+    },
+    {
+      "name": "multiome_ATAC_all_row_totals_exact",
+      "passed": true
+    },
+    {
+      "name": "multiome_ATAC_all_row_detected_counts_exact",
+      "passed": true
+    },
+    {
+      "name": "multiome_ATAC_nonzero_flag",
+      "passed": true
+    },
+    {
+      "name": "multiome_ATAC_assay_loader_index",
+      "passed": true
+    },
+    {
+      "name": "multiome_GEX_all_row_totals_exact",
+      "passed": true
+    },
+    {
+      "name": "multiome_GEX_all_row_detected_counts_exact",
+      "passed": true
+    },
+    {
+      "name": "multiome_GEX_nonzero_flag",
+      "passed": true
+    },
+    {
+      "name": "multiome_GEX_assay_loader_index",
+      "passed": true
+    },
+    {
+      "name": "multiome_all_feature_totals_exact",
+      "passed": true
+    },
+    {
+      "name": "multiome_all_feature_detection_counts_exact",
+      "passed": true
+    },
+    {
+      "name": "multiome_usable_feature_rule",
+      "passed": true
+    },
+    {
+      "name": "multiome_all_MT_sums_exact",
+      "passed": true
+    },
+    {
+      "name": "multiome_published_axis_MT_percentage",
+      "passed": true
+    },
+    {
+      "name": "multiome_usable_pair_rule",
+      "passed": true
+    },
+    {
+      "name": "multiome_exact_usable_rows",
+      "passed": true
+    },
+    {
+      "name": "multiome_exact_quarantine_rows",
+      "passed": true
+    },
+    {
+      "name": "multiome_exact_quarantine_reasons",
+      "passed": true
+    },
+    {
+      "name": "multiome_paired_cells_have_both_modalities",
+      "passed": true
+    },
+    {
+      "name": "multiome_no_HCM_labels_created",
+      "passed": true
+    },
+    {
+      "name": "multiome_absent_official_split_not_invented",
+      "passed": true
+    },
+    {
+      "name": "multiome_unit_summary",
+      "passed": true
+    },
+    {
+      "name": "exact_all_fifteen_native_matrices",
+      "passed": true
+    },
+    {
+      "name": "exact_four_assay_indices",
+      "passed": true
+    },
+    {
+      "name": "global_cell_UIDs_do_not_pair_separate_assays",
+      "passed": true
+    },
+    {
+      "name": "all_donor_site_split_group_rows",
+      "passed": true
+    },
+    {
+      "name": "cross_site_and_modality_donors_bound",
+      "passed": true
+    },
+    {
+      "name": "source_donor_demographics_consistent",
+      "passed": true
+    },
+    {
+      "name": "scope_preserves_counts_and_avoids_HCM_rules",
+      "passed": true
+    },
+    {
+      "name": "output_bytes_ASSAY_INDEX.tsv",
+      "passed": true
+    },
+    {
+      "name": "output_MD5_ASSAY_INDEX.tsv",
+      "passed": true
+    },
+    {
+      "name": "output_SHA256_ASSAY_INDEX.tsv",
+      "passed": true
+    },
+    {
+      "name": "output_bytes_DERIVED_COORDINATE_QC.tsv.gz",
+      "passed": true
+    },
+    {
+      "name": "output_MD5_DERIVED_COORDINATE_QC.tsv.gz",
+      "passed": true
+    },
+    {
+      "name": "output_SHA256_DERIVED_COORDINATE_QC.tsv.gz",
+      "passed": true
+    },
+    {
+      "name": "output_bytes_DERIVED_NONFINITE_ROWS.tsv.gz",
+      "passed": true
+    },
+    {
+      "name": "output_MD5_DERIVED_NONFINITE_ROWS.tsv.gz",
+      "passed": true
+    },
+    {
+      "name": "output_SHA256_DERIVED_NONFINITE_ROWS.tsv.gz",
+      "passed": true
+    },
+    {
+      "name": "output_bytes_DONOR_AUDIT.tsv",
+      "passed": true
+    },
+    {
+      "name": "output_MD5_DONOR_AUDIT.tsv",
+      "passed": true
+    },
+    {
+      "name": "output_SHA256_DONOR_AUDIT.tsv",
+      "passed": true
+    },
+    {
+      "name": "output_bytes_DONOR_SITE_SPLIT_SUMMARY.tsv",
+      "passed": true
+    },
+    {
+      "name": "output_MD5_DONOR_SITE_SPLIT_SUMMARY.tsv",
+      "passed": true
+    },
+    {
+      "name": "output_SHA256_DONOR_SITE_SPLIT_SUMMARY.tsv",
+      "passed": true
+    },
+    {
+      "name": "output_bytes_GEO_SOURCE.txt",
+      "passed": true
+    },
+    {
+      "name": "output_MD5_GEO_SOURCE.txt",
+      "passed": true
+    },
+    {
+      "name": "output_SHA256_GEO_SOURCE.txt",
+      "passed": true
+    },
+    {
+      "name": "output_bytes_IDENTIFIER_AUDIT.json",
+      "passed": true
+    },
+    {
+      "name": "output_MD5_IDENTIFIER_AUDIT.json",
+      "passed": true
+    },
+    {
+      "name": "output_SHA256_IDENTIFIER_AUDIT.json",
+      "passed": true
+    },
+    {
+      "name": "output_bytes_INPUT_INSPECTION.json",
+      "passed": true
+    },
+    {
+      "name": "output_MD5_INPUT_INSPECTION.json",
+      "passed": true
+    },
+    {
+      "name": "output_SHA256_INPUT_INSPECTION.json",
+      "passed": true
+    },
+    {
+      "name": "output_bytes_MATRIX_QC_SUMMARY.tsv",
+      "passed": true
+    },
+    {
+      "name": "output_MD5_MATRIX_QC_SUMMARY.tsv",
+      "passed": true
+    },
+    {
+      "name": "output_SHA256_MATRIX_QC_SUMMARY.tsv",
+      "passed": true
+    },
+    {
+      "name": "output_bytes_ORIGINAL_FILES.tsv",
+      "passed": true
+    },
+    {
+      "name": "output_MD5_ORIGINAL_FILES.tsv",
+      "passed": true
+    },
+    {
+      "name": "output_SHA256_ORIGINAL_FILES.tsv",
+      "passed": true
+    },
+    {
+      "name": "output_bytes_REPORT.md",
+      "passed": true
+    },
+    {
+      "name": "output_MD5_REPORT.md",
+      "passed": true
+    },
+    {
+      "name": "output_SHA256_REPORT.md",
+      "passed": true
+    },
+    {
+      "name": "output_bytes_SOURCE_LOOKUP.json",
+      "passed": true
+    },
+    {
+      "name": "output_MD5_SOURCE_LOOKUP.json",
+      "passed": true
+    },
+    {
+      "name": "output_SHA256_SOURCE_LOOKUP.json",
+      "passed": true
+    },
+    {
+      "name": "output_bytes_SOURCE_METADATA_DTYPES.json",
+      "passed": true
+    },
+    {
+      "name": "output_MD5_SOURCE_METADATA_DTYPES.json",
+      "passed": true
+    },
+    {
+      "name": "output_SHA256_SOURCE_METADATA_DTYPES.json",
+      "passed": true
+    },
+    {
+      "name": "output_bytes_SOURCE_METADATA_MISSING.tsv",
+      "passed": true
+    },
+    {
+      "name": "output_MD5_SOURCE_METADATA_MISSING.tsv",
+      "passed": true
+    },
+    {
+      "name": "output_SHA256_SOURCE_METADATA_MISSING.tsv",
+      "passed": true
+    },
+    {
+      "name": "output_bytes_STAGED_INPUTS.json",
+      "passed": true
+    },
+    {
+      "name": "output_MD5_STAGED_INPUTS.json",
+      "passed": true
+    },
+    {
+      "name": "output_SHA256_STAGED_INPUTS.json",
+      "passed": true
+    },
+    {
+      "name": "output_bytes_TARGETED_INSPECTION.json",
+      "passed": true
+    },
+    {
+      "name": "output_MD5_TARGETED_INSPECTION.json",
+      "passed": true
+    },
+    {
+      "name": "output_SHA256_TARGETED_INSPECTION.json",
+      "passed": true
+    },
+    {
+      "name": "output_bytes_UNIT_QC_SUMMARY.tsv",
+      "passed": true
+    },
+    {
+      "name": "output_MD5_UNIT_QC_SUMMARY.tsv",
+      "passed": true
+    },
+    {
+      "name": "output_SHA256_UNIT_QC_SUMMARY.tsv",
+      "passed": true
+    },
+    {
+      "name": "output_bytes_cite_feature_QC.tsv.gz",
+      "passed": true
+    },
+    {
+      "name": "output_MD5_cite_feature_QC.tsv.gz",
+      "passed": true
+    },
+    {
+      "name": "output_SHA256_cite_feature_QC.tsv.gz",
+      "passed": true
+    },
+    {
+      "name": "output_bytes_cite_observation_QC.tsv.gz",
+      "passed": true
+    },
+    {
+      "name": "output_MD5_cite_observation_QC.tsv.gz",
+      "passed": true
+    },
+    {
+      "name": "output_SHA256_cite_observation_QC.tsv.gz",
+      "passed": true
+    },
+    {
+      "name": "output_bytes_cite_quarantine.tsv.gz",
+      "passed": true
+    },
+    {
+      "name": "output_MD5_cite_quarantine.tsv.gz",
+      "passed": true
+    },
+    {
+      "name": "output_SHA256_cite_quarantine.tsv.gz",
+      "passed": true
+    },
+    {
+      "name": "output_bytes_cite_usable_pairs.tsv.gz",
+      "passed": true
+    },
+    {
+      "name": "output_MD5_cite_usable_pairs.tsv.gz",
+      "passed": true
+    },
+    {
+      "name": "output_SHA256_cite_usable_pairs.tsv.gz",
+      "passed": true
+    },
+    {
+      "name": "output_bytes_multiome_feature_QC.tsv.gz",
+      "passed": true
+    },
+    {
+      "name": "output_MD5_multiome_feature_QC.tsv.gz",
+      "passed": true
+    },
+    {
+      "name": "output_SHA256_multiome_feature_QC.tsv.gz",
+      "passed": true
+    },
+    {
+      "name": "output_bytes_multiome_observation_QC.tsv.gz",
+      "passed": true
+    },
+    {
+      "name": "output_MD5_multiome_observation_QC.tsv.gz",
+      "passed": true
+    },
+    {
+      "name": "output_SHA256_multiome_observation_QC.tsv.gz",
+      "passed": true
+    },
+    {
+      "name": "output_bytes_multiome_quarantine.tsv.gz",
+      "passed": true
+    },
+    {
+      "name": "output_MD5_multiome_quarantine.tsv.gz",
+      "passed": true
+    },
+    {
+      "name": "output_SHA256_multiome_quarantine.tsv.gz",
+      "passed": true
+    },
+    {
+      "name": "output_bytes_multiome_usable_pairs.tsv.gz",
+      "passed": true
+    },
+    {
+      "name": "output_MD5_multiome_usable_pairs.tsv.gz",
+      "passed": true
+    },
+    {
+      "name": "output_SHA256_multiome_usable_pairs.tsv.gz",
+      "passed": true
+    },
+    {
+      "name": "output_bytes_qc_policy.json",
+      "passed": true
+    },
+    {
+      "name": "output_MD5_qc_policy.json",
+      "passed": true
+    },
+    {
+      "name": "output_SHA256_qc_policy.json",
+      "passed": true
+    }
+  ]
+}

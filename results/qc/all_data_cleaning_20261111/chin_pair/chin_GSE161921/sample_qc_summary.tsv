@@ -1,0 +1,5 @@
+sample_id	raw_droplets	called	model_nuclei	model_min_genes	strict_nuclei	emptydrops_iterations	expected_doublet_rate_per1k	expected_loading_rate	emptydrops_limited	donor_id	disease	numeric_before_calling	cell_called_ge500	called_500to5000	core_CM	pending_CM	suspected_doublets	algorithmic_doublet_calls	median_genes_strict	median_MT_strict
+GSM4923401	737280	4347	1912	500	1048	10000	0.008	0.015296	4240	Chin_2867	Control	1055	1912	1910	492	38	33	33	668.0	1.6796104536489151
+GSM4923402	737280	8486	975	500	566	10000	0.008	0.0078	7778	Chin_2879	Control	566	975	975	533	22	3	19	748.0	2.609531613700062
+GSM4923403	737280	59580	3890	500	1819	10000	0.008	0.03112	29189	Chin_2880	Control	1819	3890	3890	1622	102	59	117	766.0	2.308580223162755
+GSM4923404	737280	69564	3523	500	2460	10000	0.008	0.028184	49648	Chin_2884	Control	2460	3523	3487	887	304	144	144	752.0	1.8785993848495006

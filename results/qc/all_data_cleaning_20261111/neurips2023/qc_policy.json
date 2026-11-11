@@ -1,0 +1,36 @@
+{
+  "dataset": "NeurIPS2023",
+  "version": "curated_release_validation_v1",
+  "source_context": "PBMC small-molecule treatment for24hours and paired baseline RNA/ATAC from the same3 healthy donors; not HCM or cardiomyocytes.",
+  "primary_sources": [
+    "https://github.com/openproblems-bio/task_perturbation_prediction",
+    "https://www.kaggle.com/competitions/open-problems-single-cell-perturbations"
+  ],
+  "count_sources": {
+    "sc_original": "layers/counts",
+    "sc_reannotated": "raw/X",
+    "baseline_rna": "mod/rna/raw/X"
+  },
+  "processed_expression": "All X expression arrays kept at their native paths and fully scanned; fractional published X is not relabelled as counts or overwritten.",
+  "ATAC_boundary": "X is processed accessibility; layers/binarized is binary accessible peaks, not raw fragment counts. Source fragment-count/TSS/nucleosome metadata preserved; no invented raw matrix or fragment files.",
+  "hashing_boundary": "obsm/protein_counts contains12 CMO cell-hashing tags, not disease labels or a biological ADT protein panel. HTO_clr is signed transformed hashing signal.",
+  "DE_boundary": "X=sign(logFC)*-log10(P.Value) on positive-P entries, signed values are legitimate; rows are cell-type/compound/dose conditions, not individual cells. Keep all5 source layers and official public/private test split. Zero P entries, if any, are explicitly counted without inventing the publisher floor.",
+  "annotation_versions": "sc_reannotated is a298087-cell subset of301785 original cells. Shared canonical counts and CMO counts checked exactly, release metadata differences kept; original six-type annotations link official DE. Do not concatenate the versions as independent cells.",
+  "technical_QC": "Retain curated release; nonzero information and required source metadata for assay cells. Zero DE response remains valid. All genes/peaks retained, including zero features; no effect-dependent selection.",
+  "splits_and_donors": "Preserve original train/control/public_test/private_test. Official split is not a held-out-donor split; baseline shares the3 donors. Positive low-dose controls must not be collapsed into DMSO. No disease0/1 assignment.",
+  "not_applied": [
+    "HCM_gene500to5000",
+    "MT_lt5percent",
+    "EmptyDrops",
+    "doublet_recalling",
+    "CM_identity",
+    "normalization",
+    "imputation",
+    "integration",
+    "HVG_truncation",
+    "new_DE",
+    "tokenization",
+    "model_training"
+  ],
+  "delivery": "Validated original H5AD/H5MU read-only plus real usable/feature/paired/release indices; no redundant large expression copies. Biological response efficacy, original droplet calling and donor independence across other studies are not certified."
+}

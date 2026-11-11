@@ -1,0 +1,7 @@
+unit	assay	observations	features	usable_observations	quarantined_observations	zero_information_rows	all_zero_features_preserved	donors	primary_matrix_slot	primary_sum_semantics
+sc_original	RNA_counts	301785	21265	301785	0	0	6	3.0	layers/counts	unnormalized_RNA_UMI_counts
+sc_reannotated	RNA_counts	298087	21265	298087	0	0	6	3.0	raw/X	unnormalized_RNA_UMI_counts
+baseline_rna	RNA_counts	26335	17438	26335	0	0	0	3.0	raw/X	unnormalized_RNA_UMI_counts
+baseline_atac	ATAC_binary_accessibility	26335	135418	26335	0	0	0	3.0	layers/binarized	binary_accessible_peak_count
+de_train	signed_DE_score	614	18211	614	0	0	0		X	signed_score_sum_not_UMI
+de_test	signed_DE_score	255	18211	255	0	0	0		X	signed_score_sum_not_UMI

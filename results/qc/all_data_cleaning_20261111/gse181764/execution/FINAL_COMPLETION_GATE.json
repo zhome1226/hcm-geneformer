@@ -1,0 +1,23 @@
+{
+  "dataset": "chin_GSE181764",
+  "status": "passed",
+  "checked_utc": "2026-11-11T12:15:29.1295741Z",
+  "checks_passed": 620,
+  "source_files_matching": 10,
+  "verifier_sha256": "79785d4a3bcc387eb2b4a7ec5a9c509ba2635278d38c456c166df04753f84ab3",
+  "resume_exit_code": 0,
+  "input_released_barcodes": 333892,
+  "strict_candidates": 9855,
+  "all_cells_qc": 9821,
+  "core_CM": 8227,
+  "pending_CM": 1562,
+  "suspected_doublets": 34,
+  "core_disease_counts": {
+    "Control": 5,
+    "HCM": 8222
+  },
+  "core_donors": 8,
+  "input_donors": 9,
+  "genes": 37944,
+  "suitability": "Limited: no reconstructed ambient-based nucleus calls, severe Control attrition, one HCM donor absent after numeric QC; not an independent balanced binary cohort"
+}

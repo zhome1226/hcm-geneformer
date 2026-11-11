@@ -1,0 +1,305 @@
+"""Independently reopen delivered objects and compare every count with original GEO matrices."""
+from datetime import datetime, timezone
+from pathlib import Path
+import gzip
+import hashlib
+import json
+
+import anndata as ad
+import numpy as np
+import pandas as pd
+from scipy.io import mmread
+from threadpoolctl import threadpool_limits
+
+ROOT = Path.home() / 'xiaoe-internship-data'
+WORK = ROOT / '_processing/all_data_cleaning_20261111/gse181764'
+samples = pd.read_csv(WORK / 'samples.tsv', sep='\t')
+official = []
+for line in (ROOT / 'validation/chin_GSE181764/sample_metadata.soft').read_text().splitlines():
+    if line.startswith('^SAMPLE = '):
+        record = {'accession': line.split(' = ',1)[1]}; official.append(record)
+    elif line.startswith('!Sample_') and ' = ' in line:
+        key,value=line.removeprefix('!Sample_').split(' = ',1)
+        record.setdefault(key,[]).append(value)
+
+
+def check(checks, name, result):
+    checks[name] = bool(result)
+
+
+def exact(left, right):
+    return left.shape == right.shape and (left != right).nnz == 0
+
+
+summary = []
+for dataset, group in samples.groupby('dataset', sort=True):
+    output = ROOT / f'processed/{dataset}_qc_20261111'
+    checks = {}
+    exports = json.loads((output / 'EXPORT_SUCCESS.json').read_text())
+    policy = json.loads((output / 'qc_policy.json').read_text())
+    names = ['all_cells_qc.h5ad', 'cm_qc_full.h5ad', 'cm_qc_light.h5ad',
+             'cm_review_pending.h5ad', 'suspected_doublets.h5ad']
+    objects = {name: ad.read_h5ad(output / name) for name in names}
+    allcell = objects['all_cells_qc.h5ad']
+    dbl = objects['suspected_doublets.h5ad']
+    core = objects['cm_qc_full.h5ad']
+    pending = objects['cm_review_pending.h5ad']
+    light = objects['cm_qc_light.h5ad']
+    identity = pd.read_csv(output / 'cell_identity_audit.tsv.gz', sep='\t', index_col='barcode', low_memory=False)
+    check(checks, 'policy_strict_limits', policy['min_genes'] == 500 and policy['max_genes'] == 5000 and policy['mt_percent_exclusive_max'] == 5)
+    check(checks, 'core_all_identity_retained', core.obs.review_action.eq('retain_CM').all())
+    check(checks, 'core_best_and_pruned_reference_CM', core.obs.reference_label.eq('Cardiomyocyte').all() and core.obs.reference_pruned.eq('Cardiomyocyte').all())
+    check(checks, 'core_multigene_and_program_support', core.obs.Cardiomyocyte_markers.ge(2).all() and core.obs.cm_program_dominates.all())
+    check(checks, 'core_no_strong_mixed_program', not core.obs.coherent_mixed_panel_flag.any())
+    check(checks, 'core_reference_tail_or_context_support', (core.obs.reference_tail_pass | (core.obs.Cardiomyocyte_markers.ge(3) & core.obs.cm_anchor_neighbor_fraction.ge(.5))).all())
+    check(checks, 'pending_explicit_and_disjoint_core', pending.obs.review_action.eq('pending_CM').all() and not pending.obs_names.isin(core.obs_names).any())
+    check(checks, 'doublet_exclusions_have_two_evidence_sources', dbl.obs.scDblFinder_class.eq('doublet').all() and dbl.obs.coherent_mixed_panel_flag.all())
+    check(checks, 'allcell_no_excluded_doublets', not allcell.obs.exclude_suspected_doublet.any())
+    check(checks, 'core_matches_audit_membership', set(core.obs_names) == set(identity.index[identity.review_action.eq('retain_CM')]))
+    check(checks, 'pending_matches_audit_membership', set(pending.obs_names) == set(identity.index[identity.review_action.eq('pending_CM')]))
+    check(checks, 'all_strict_audit_members_exported', set(identity.index) == set(allcell.obs_names) | set(dbl.obs_names))
+    check(checks, 'doublets_disjoint_allcell', not dbl.obs_names.isin(allcell.obs_names).any())
+    combined = ad.concat([allcell, dbl], join='inner', merge='same')[identity.index].copy()
+    refdir = ROOT / 'processed/SCP1303_review_20261111/identity'
+    rmeta = pd.read_csv(refdir / 'reference_metadata.tsv', sep='\t')
+    cmeta = pd.read_csv(refdir / 'calibration_metadata.tsv', sep='\t')
+    check(checks, 'reference_training_and_holdout_donors_disjoint', not rmeta.donor_id.isin(cmeta.donor_id).any())
+    rg = pd.read_csv(refdir / 'reference_genes.tsv', sep='\t')
+    with threadpool_limits(limits=2):
+        reference_counts = mmread(refdir / 'calibration_counts.mtx.gz').T.tocsr()
+    reference_totals = np.asarray(reference_counts.sum(axis=1)).ravel()
+    reference_truth = cmeta.broad_type.replace({'Pericyte': 'Mural', 'Smooth_muscle': 'Mural'})
+    count_total = np.asarray(combined.X.sum(axis=1)).ravel()
+    programs, detected, repeated, bounds = {}, {}, {}, {}
+    for lineage, geneset in policy['panels'].items():
+        vals = combined.X[:, combined.var.gene_symbol.isin(geneset).to_numpy()].toarray()
+        detected[lineage] = (vals > 0).sum(axis=1)
+        repeated[lineage] = (vals >= 2).sum(axis=1)
+        programs[lineage] = np.log1p(vals * (10000 / np.maximum(count_total, 1))[:, None]).mean(axis=1)
+        check(checks, lineage + '_markers_recomputed', np.array_equal(detected[lineage], combined.obs[lineage + '_markers']) and np.array_equal(repeated[lineage], combined.obs[lineage + '_markers_ge2_UMI']))
+        check(checks, lineage + '_program_recomputed', np.allclose(programs[lineage], combined.obs[lineage + '_program']))
+        if lineage in policy['mixed_program_bounds']:
+            rv = reference_counts[:, rg.gene_symbol.isin(geneset).to_numpy()].toarray()
+            rs = np.log1p(rv * (10000 / np.maximum(reference_totals, 1))[:, None]).mean(axis=1)
+            threshold = max(np.quantile(rs[reference_truth.eq(lineage)], .1), np.quantile(rs[reference_truth.ne(lineage)], .99))
+            bounds[lineage] = threshold
+            check(checks, lineage + '_strong_threshold_from_reference', np.isclose(threshold, policy['mixed_program_bounds'][lineage]['threshold']))
+    weak = np.zeros(combined.n_obs, dtype=bool)
+    strong = weak.copy()
+    for left, right in policy['doublet_pairs']:
+        ratio = np.minimum(programs[left], programs[right]) / np.maximum(np.maximum(programs[left], programs[right]), 1e-12)
+        pair = (detected[left] >= 3) & (detected[right] >= 3) & (ratio >= .25)
+        weak |= pair
+        strong |= pair & (repeated[left] >= 3) & (repeated[right] >= 3) & (programs[left] >= bounds[left]) & (programs[right] >= bounds[right])
+    check(checks, 'weak_flags_diagnostic_only', np.array_equal(weak, combined.obs.weak_coherent_mixed_panel_flag))
+    check(checks, 'strong_mixed_flags_recomputed', np.array_equal(strong, combined.obs.coherent_mixed_panel_flag))
+    check(checks, 'doublet_exclusion_rule_recomputed', np.array_equal(strong & combined.obs.scDblFinder_class.eq('doublet'), combined.obs.exclude_suspected_doublet))
+    dominates = programs['Cardiomyocyte'] >= np.max(np.vstack([v for k, v in programs.items() if k != 'Cardiomyocyte']), axis=0)
+    check(checks, 'CM_program_dominance_recomputed', np.array_equal(dominates, combined.obs.cm_program_dominates))
+    ctable = pd.read_csv(WORK / 'reference_calibration.tsv', sep='\t', keep_default_na=False)
+    check(checks, 'reference_truth_traceable_to_heldout', np.array_equal(ctable.truth, cmeta.set_index('reference_barcode').loc[ctable.barcode, 'broad_type']))
+    tail = np.zeros(combined.n_obs, dtype=bool)
+    for lineage, frame in ctable.groupby('truth'):
+        correct = frame[frame.reference_label.eq(lineage)]
+        if len(correct) >= 30:
+            tail |= (combined.obs.reference_label.eq(lineage) & combined.obs.reference_pruned.eq(lineage) & combined.obs.reference_delta.ge(correct.reference_delta.quantile(.05)) & combined.obs.reference_delta_next.ge(correct.reference_delta_next.quantile(.05))).to_numpy()
+    check(checks, 'reference_tail_flags_recomputed', np.array_equal(tail, combined.obs.reference_tail_pass))
+    core_rule = combined.obs.reference_label.eq('Cardiomyocyte') & combined.obs.reference_pruned.eq('Cardiomyocyte') & (detected['Cardiomyocyte'] >= 2) & dominates & ~strong
+    core_rule &= tail | ((detected['Cardiomyocyte'] >= 3) & combined.obs.cm_anchor_neighbor_fraction.ge(.5))
+    check(checks, 'core_rule_complete_membership', set(combined.obs_names[core_rule]) == set(core.obs_names))
+    candidate = combined.obs.reference_label.eq('Cardiomyocyte') | ((detected['Cardiomyocyte'] >= 3) & dominates)
+    pending_rule = candidate & ~core_rule & ~combined.obs.exclude_suspected_doublet
+    check(checks, 'pending_rule_complete_membership', set(combined.obs_names[pending_rule]) == set(pending.obs_names))
+    diagnostic = ad.read_h5ad(output / 'diagnostic_normalized.h5ad')
+    check(checks, 'diagnostic_explicitly_analysis_only', diagnostic.uns.get('analysis_only', False) and 'Diagnostic log1p CP10k' in diagnostic.uns.get('count_source', ''))
+    check(checks, 'diagnostic_full_strict_axes', set(diagnostic.obs_names) == set(identity.index) and diagnostic.var_names.equals(allcell.var_names))
+    original_diagnostic = ad.concat([allcell, dbl], join='inner', merge='same')[diagnostic.obs_names].X.astype(float).tocsr()
+    size = np.asarray(original_diagnostic.sum(axis=1)).ravel()
+    expected_diagnostic = original_diagnostic.multiply((10000 / np.maximum(size, 1))[:, None]).tocsr()
+    expected_diagnostic.data = np.log1p(expected_diagnostic.data)
+    diagnostic_difference = expected_diagnostic - diagnostic.X
+    check(checks, 'diagnostic_values_match_declared_log_CP10k', np.max(np.abs(diagnostic_difference.data), initial=0) < 1e-5)
+    check(checks, 'light_unique_no_padding', light.obs_names.is_unique and light.n_obs == min(20000, core.n_obs))
+    check(checks, 'light_subset_core', light.obs_names.isin(core.obs_names).all())
+    for name in ['cm_qc_full.h5ad', 'cm_qc_light.h5ad', 'cm_review_pending.h5ad']:
+        obj = objects[name]
+        check(checks, name + '_matches_allcell_X', exact(obj.X, allcell[obj.obs_names].X))
+    for name, obj in objects.items():
+        for score_col in ['reference_delta', 'reference_delta_next', 'reference_best_score', 'scDblFinder_score']:
+            check(checks, name + '_' + score_col + '_numeric_dtype', pd.api.types.is_numeric_dtype(obj.obs[score_col]))
+        check(checks, name + '_identity_scores_finite', np.isfinite(obj.obs[['reference_delta', 'reference_delta_next', 'reference_best_score']].to_numpy(dtype=float)).all())
+        check(checks, name + '_unique_axes', obj.obs_names.is_unique and obj.var_names.is_unique)
+        check(checks, name + '_strict_bounds', obj.obs.n_genes_by_counts.between(500,5000).all() and obj.obs.pct_counts_mt.lt(5).all())
+        check(checks, name + '_cell_calling_uncertainty_explicit', obj.obs.cell_calling_status.eq('unverified_released_candidate_no_ambient_pool').all() and 'no independent EmptyDrops' in obj.uns.get('cell_calling_status',''))
+        check(checks, name + '_finite_integer_nonnegative', np.isfinite(obj.X.data).all() and (obj.X.data >= 0).all() and (obj.X.data == np.round(obj.X.data)).all())
+        check(checks, name + '_X_equals_counts', exact(obj.X, obj.layers['counts']))
+        check(checks, name + '_no_training_split', 'split' not in obj.obs)
+    strict_expected = set()
+    all_source_features = {}
+    release_total = 0
+    for row in group.itertuples():
+        sample = row.sample_id
+        stage = json.loads((WORK / sample / 'STAGED.json').read_text())
+        for feature, record in stage['sources'].items():
+            source = Path(record['path'])
+            with source.open('rb') as handle:
+                sha = hashlib.file_digest(handle, 'sha256').hexdigest()
+            check(checks, sample + '_' + feature + '_source_unchanged', source.stat().st_size == record['bytes'] and sha == record['sha256'])
+        prefix = row.source_prefix
+        var = pd.read_csv(prefix + '_features.tsv.gz', sep='\t', header=None, dtype=str, keep_default_na=False)
+        barcodes = pd.read_csv(prefix + '_barcodes.tsv.gz', sep='\t', header=None, dtype=str)[0]
+        with gzip.open(prefix + '_matrix.mtx.gz', 'rb') as handle, threadpool_limits(limits=2):
+            raw = mmread(handle).T.tocsr()
+        raw.sum_duplicates(); raw.eliminate_zeros()
+        counts = np.asarray(raw.sum(axis=1)).ravel()
+        genes = np.diff(raw.indptr)
+        mt_counts = np.asarray(raw[:, var[1].str.startswith('MT-').to_numpy()].sum(axis=1)).ravel()
+        mt = 100 * mt_counts / np.maximum(counts, 1)
+        release_total += len(barcodes)
+        source_space = hashlib.sha256(var.to_csv(sep='\t', header=False, index=False).encode()).hexdigest()[:12]
+        all_source_features[source_space] = var
+        check(checks, sample + '_feature_space_hash_from_original', source_space == row.feature_space_id)
+        prefixed = pd.Index(sample + ':' + barcodes)
+        check(checks, sample + '_no_standard_ambient_pool', not ((counts>0)&(counts<=100)).any())
+        strict = (genes >= 500) & (genes <= 5000) & (mt < 5)
+        strict_expected.update(prefixed[strict])
+        pred = pd.read_csv(WORK / sample / 'identity.tsv', sep='\t', index_col='barcode', keep_default_na=False)
+        part_identity = identity.loc[identity.sample_id.eq(sample)]
+        check(checks, sample + '_reference_predictions_cover_strict', set(pred.index) == set(prefixed[strict]))
+        for col in ['reference_label', 'reference_pruned']:
+            check(checks, sample + '_' + col + '_prediction_trace', np.array_equal(part_identity[col].fillna('').astype(str), pred.loc[part_identity.index, col]))
+        model = pd.read_csv(WORK / sample / 'doublets_v2.tsv', sep='\t')
+        check(checks, sample + '_doublet_model_complete_ge500_capture', set(model.barcode) == set(prefixed[genes >= 500]) and model.barcode.is_unique)
+        if (genes>=500).sum()>=100:
+            check(checks, sample + '_doublet_scores_finite', np.isfinite(model.scDblFinder_score).all() and model.scDblFinder_class.isin(['singlet', 'doublet']).all())
+        else:
+            check(checks, sample + '_small_input_explicitly_unscored', model.scDblFinder_score.isna().all() and model.scDblFinder_class.eq('not_scored_insufficient_nuclei').all())
+        audit = pd.read_csv(output / f'{sample}_released_barcode_audit.tsv.gz', sep='\t', index_col='barcode')
+        check(checks, sample + '_complete_droplet_audit', audit.index.equals(prefixed) and np.array_equal(audit.total_counts, counts) and np.array_equal(audit.n_genes_by_counts, genes) and np.allclose(audit.pct_counts_mt, mt))
+        check(checks, sample + '_numeric_exclusions_accounted', np.array_equal(audit.pass_strict_numeric, strict) and audit.loc[~strict, 'final_action'].eq('outside_strict_numeric').all())
+        original_record = [r for r in official if r['accession'] == sample]
+        check(checks, sample + '_unique_official_record', len(original_record) == 1)
+        original_donor = original_record[0]['title'][0].split(':')[0].strip()
+        check(checks, sample + '_donor_matches_official', str(row.donor_original) == original_donor)
+        characteristic = dict(v.split(': ',1) for v in original_record[0]['characteristics_ch1'])
+        expected_subtype = characteristic['disease status']
+        expected_disease = 'Control' if expected_subtype == 'Normal' else 'HCM'
+        expected_label = 0 if expected_disease == 'Control' else 1
+        feature_axis = pd.read_csv(output / 'feature_axes' / (row.feature_space_id + '.tsv'),sep='\t',header=None,dtype=str,keep_default_na=False)
+        check(checks, sample + '_original_feature_axis_preserved', feature_axis.equals(var))
+        for name, obj in objects.items():
+            part = obj[obj.obs.sample_id.eq(sample)]
+            positions = barcodes.to_numpy()
+            positions = pd.Index(positions).get_indexer(part.obs.barcode_original.astype(str))
+            stem = sample + '_' + name
+            union_positions = obj.var_names.get_indexer(var[0])
+            native_present = obj.var_names.isin(var[0])
+            capture_positions = list(obj.uns['feature_availability_captures']).index(sample)
+            check(checks, stem + '_all_original_genes_retained', (union_positions>=0).all() and len(union_positions)==len(var))
+            check(checks, stem + '_missingness_mask_exact', np.array_equal(obj.varm['feature_available_by_capture'][:,capture_positions],native_present))
+            check(checks, stem + '_unavailable_zero_padding_only', part.X[:,~native_present].nnz==0)
+            check(checks, stem + '_all_barcodes_original', (positions >= 0).all() and np.array_equal(part.obs_names.astype(str), sample + ':' + part.obs.barcode_original.astype(str)))
+            check(checks, stem + '_all_counts_original', exact(part.X[:,union_positions], raw[positions]))
+            check(checks, stem + '_recomputed_QC', np.array_equal(part.obs.total_counts, counts[positions]) and np.array_equal(part.obs.n_genes_by_counts, genes[positions]) and np.allclose(part.obs.pct_counts_mt, mt[positions]))
+            check(checks, stem + '_source_metadata', part.obs.donor_id.eq('Chin_' + original_donor).all() and part.obs.disease.eq(expected_disease).all() and part.obs.label.eq(expected_label).all() and part.obs.capture_id.eq(sample).all() and part.obs.disease_subtype.eq(expected_subtype).all() and part.obs.feature_space_id.eq(row.feature_space_id).all())
+            expected_stage = 'end_stage_heart_failure_explant' if expected_subtype == 'Non-Obstructive HCM' else ('unused_donor_heart' if expected_disease == 'Control' else 'obstructive_myectomy')
+            check(checks, stem + '_age_sex_and_clinical_stage', part.obs.age_years.eq(int(characteristic['age'])).all() and part.obs.sex.eq(characteristic['gender']).all() and part.obs.clinical_stage.eq(expected_stage).all())
+        print('Verified original count values: ' + sample, flush=True)
+    check(checks, 'every_original_strict_candidate_accounted_for', strict_expected == set(allcell.obs_names) | set(dbl.obs_names))
+    check(checks, 'study_not_merged', all(obj.obs.dataset.eq(dataset).all() for obj in objects.values()))
+    check(checks, 'expected_original_sample_count', len(group) == 9 and group.donor_id.nunique()==9)
+    union_ids = sorted(set.union(*[set(v[0]) for v in all_source_features.values()]))
+    common_ids = set.intersection(*[set(v[0]) for v in all_source_features.values()])
+    check(checks, 'all_union_genes_no_inner_loss', len(union_ids) == 37944 and all(np.array_equal(x.var_names, union_ids) for x in objects.values()))
+    check(checks, 'shared_gene_mask_from_original', len(common_ids) == 32351 and np.array_equal(diagnostic.var.present_in_all_captures, diagnostic.var_names.isin(common_ids)))
+    check(checks, 'graph_uses_shared_nonMT_features_only', not (diagnostic.var.highly_variable & (~diagnostic.var.present_in_all_captures | diagnostic.var.mt)).any())
+    symbols = {}
+    for key in reversed(sorted(all_source_features, key=lambda k: (-len(all_source_features[k]), k))):
+        symbols.update(dict(zip(all_source_features[key][0], all_source_features[key][1])))
+    check(checks, 'canonical_symbols_recomputed', np.array_equal(allcell.var.gene_symbol.astype(str), [symbols[g] for g in allcell.var_names]))
+    anchor = combined.obs.reference_pruned.eq('Cardiomyocyte') & (detected['Cardiomyocyte'] >= 3) & dominates & ~strong
+    anchor_series = pd.Series(anchor.to_numpy(dtype=float), index=combined.obs_names).loc[diagnostic.obs_names]
+    graph = diagnostic.obsp['connectivities'].tocsr()
+    support = np.asarray(graph @ anchor_series.to_numpy()).ravel() / np.maximum(np.asarray(graph.sum(axis=1)).ravel(), 1e-12)
+    check(checks, 'CM_neighborhood_support_recomputed', np.allclose(pd.Series(support, index=diagnostic.obs_names).loc[combined.obs_names], combined.obs.cm_anchor_neighbor_fraction))
+    preflight = json.loads((WORK / 'PREFLIGHT.json').read_text())
+    for source_name, source_record in preflight['originals'].items():
+        source = ROOT / 'validation/chin_GSE181764' / source_name
+        with source.open('rb') as stream:
+            actual_sha = hashlib.file_digest(stream, 'sha256').hexdigest()
+        check(checks, 'original_' + source_name + '_unchanged', source.stat().st_size == source_record['bytes'] and actual_sha == source_record['sha256'])
+    hashes = {}
+    for name, record in exports['hashes'].items():
+        path = output / name
+        md5 = hashlib.md5(); sha = hashlib.sha256()
+        with path.open('rb') as handle:
+            while chunk := handle.read(32 * 1024**2):
+                md5.update(chunk); sha.update(chunk)
+        hashes[name] = {'bytes': path.stat().st_size, 'md5': md5.hexdigest(), 'sha256': sha.hexdigest()}
+        check(checks, name + '_size_and_export_hash', hashes[name]['bytes'] == record['bytes'] and hashes[name]['sha256'] == record['sha256'])
+    status = 'passed' if all(checks.values()) else 'failed'
+    result = {'status': status, 'dataset': dataset, 'verified_utc': datetime.now(timezone.utc).isoformat(),
+              'checks': checks, 'hashes': hashes, 'all_cells_qc': allcell.n_obs, 'core_CM': core.n_obs,
+              'light_CM': light.n_obs, 'pending_CM': pending.n_obs, 'suspected_doublets': dbl.n_obs,
+              'input_donors': len(group), 'core_donors': int(core.obs.donor_id.nunique()), 'genes': core.n_vars,
+              'input_released_barcodes': release_total, 'strict_candidates': len(strict_expected),
+              'core_disease_counts': {d: int(core.obs.disease.eq(d).sum()) for d in ['Control','HCM']},
+              'allcell_disease_counts': {d: int(allcell.obs.disease.eq(d).sum()) for d in ['Control','HCM']},
+              'clinical_stage_core': core.obs.groupby('clinical_stage', observed=True).size().to_dict(),
+              'feature_spaces': {key: len(value) for key, value in all_source_features.items()},
+              'suitability': 'Limited: no reconstructed ambient-based nucleus calls, severe Control attrition, one HCM donor absent after numeric QC; not an independent balanced binary cohort',
+              'verifier_sha256': hashlib.sha256(Path(__file__).read_bytes()).hexdigest()}
+    (output / 'INDEPENDENT_VERIFICATION.json').write_text(json.dumps(result, indent=2) + '\n')
+    if status != 'passed':
+        raise AssertionError([k for k, v in checks.items() if not v])
+    for algorithm in ['md5', 'sha256']:
+        (output / ('MD5SUMS' if algorithm == 'md5' else 'SHA256SUMS')).write_text(''.join(f"{r[algorithm]}  {n}\n" for n, r in hashes.items()))
+    coverage = pd.read_csv(output / 'sample_qc_summary.tsv', sep='\t')
+    donor_warning = '; '.join(coverage.loc[coverage.core_CM.eq(0), 'donor_id']) or '无'
+    report = f'''# GSE181764 严格QC与验收完成：用途受限
+
+时间：{result['verified_utc']}；{len(checks)}项检查通过。
+服务器：`{output}/`。
+
+| 对象 | 条码/候选核数 |
+| --- | ---: |
+| 原发布条码 | {release_total} |
+| 严格数值候选 | {len(strict_expected)} |
+| 全类型QC候选（扣除联合疑似双细胞） | {allcell.n_obs} |
+| 心肌身份核心 / 轻量 | {core.n_obs} / {light.n_obs} |
+| 心肌身份待定，另存 | {pending.n_obs} |
+| 联合证据疑似双细胞，另存 | {dbl.n_obs} |
+
+核心疾病分布：{result['core_disease_counts']}；全类型疾病分布：{result['allcell_disease_counts']}。
+核心覆盖{result['core_donors']}/9位供体；无核心候选供体：{donor_warning}。严格QC之前9位来源供体仍在样本表和完整条码审计中，不为补齐覆盖或20k目标复制细胞、改变阈值。
+
+## 来源与关键限制
+
+GEO GSE181764：2 unused donor hearts、1梗阻性HCM切肌、6非梗阻性HCM。PMC9555339/PMID36237479明确非梗阻性病例来自终末期心衰心脏移植切除标本；不能当作疾病阶段一致的一般HCM队列。每个样本保存疾病亚型、临床阶段、年龄、性别、平台和测序run。共享测序run不等于同一个10x捕获。9位Chin来源供体ID与先前13位Chin样本表未见相同ID；这不证明所有研究之间的生物供体完全独立。
+
+每个发布矩阵均无0<UMI≤100的背景条码，不能可靠运行标准EmptyDrops估计背景；本轮没有运行EmptyDrops，没有伪造FDR、细胞调用或真实加载率。交付对象是来源可追溯、数值和身份筛选后的发布候选条码，不能声称均经过独立液滴识别。缺少完整低UMI分布还限制去背景评估，未修改/推断去背景计数。
+
+原文描述核基因计数与200–2000基因筛选；实际发布矩阵仍包含MT计数、许多<200基因和>2000基因条码，因此不能假定论文的后处理已应用。本轮原样重算500≤检测基因≤5000、MT<5%的约定项目基线，不先删除MT规避该规则。两个对照样本合计仅5个数值候选；Chin_2930数值候选为0。该版本不适合单独支持充分的HCM/Control模型比较，终末期状态、测序run和基因空间亦可能混杂；该限制与代码/计数验收通过是不同结论。
+
+## 基因空间与输出语义
+
+原始两种基因空间分别33694和36601基因；计数对象保留Ensembl并集37944基因，原生轴完整另存feature_axes/。varm.feature_available_by_capture与uns.feature_availability_captures明确每个来源样本测量了哪些基因：稀疏补零的缺测基因不是观测零，后续训练目标必须遵守掩码。union_feature_metadata.tsv保存并集与每基因空间可用性。
+
+SingleR仅用共同且参考匹配的基因；诊断HVG/PCA/邻域仅使用32351个所有来源共有ID内的非MT基因，避免直接以缺测基因区分样本。诊断X为明确标注的log1p(CP10k)副本，计数交付X/counts全基因原始整数未改变，不做插补、整合或HVG裁切。
+
+## 身份与疑似双细胞
+
+成人左心室单核参考SingleR、多心肌标记程序及参考尾部/必要邻域共同支持核心；强混合程序冲突者保留待定。正常参考训练/留出供体分开；参考分数不是概率，尾部阈值和表观性能共享同一留出集，不能当独立HCM验证。
+
+每样本对全部≥500基因候选（含各类型、高MT、>5000基因）进行scDblFinder筛查，少于100个模型候选则明确不评分。其默认加载假设不能代表真实捕获率。只有调用doublet并有强混合谱系程序（两个谱系各≥3基因各≥2 UMI、两程序达固定正常参考max(本类q10,其他类q99)、双程序比例≥.25）才另存疑似双细胞。弱跨谱系表达或算法单独调用不删除；不能实验确证或排除所有同型/异型双细胞。
+
+## 验收与使用
+
+独立读取9个原MTX，逐值核对全部5个计数对象在各来源原生基因轴的计数、条码、QC和疾病/供体/临床标签；确认原始基因没有被inner join丢弃、缺测掩码与原始features一致、补零仅限缺测位置。核对全部发布条码审计、严格候选分区、参考阈值/身份/邻域规则、诊断副本数值以及原件和交付物摘要。MD5SUMS/SHA256SUMS覆盖6个H5AD。
+
+sample_qc_summary.tsv与clinical_stage_retention.tsv报告选择偏差和供体缺失。Control=0/HCM=1来自来源供体诊断，不是逐核实验病理标签。未指定训练/验证划分，不把本队列自动加入训练，不进行虚拟细胞模型训练、tokenization、差异表达或靶点排序。
+'''
+    (output / 'REPORT.md').write_text(report)
+    summary.append({k: v for k, v in result.items() if k not in ['checks', 'hashes']})
+    print(f'VERIFIED {dataset}: {len(checks)} checks, core={core.n_obs}', flush=True)
+(WORK / 'VERIFICATION_SUMMARY.json').write_text(json.dumps(summary, indent=2) + '\n')

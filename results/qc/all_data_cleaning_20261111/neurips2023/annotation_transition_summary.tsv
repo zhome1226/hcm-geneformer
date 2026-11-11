@@ -1,0 +1,23 @@
+original_cell_type	author_reannotated_cell_type	cells
+B cells	B cells	46299
+B cells	Myeloid cells	4
+B cells	NK cells	10
+B cells	T cells	40
+Myeloid cells	B cells	1
+Myeloid cells	Myeloid cells	46031
+Myeloid cells	NK cells	1
+Myeloid cells	T cells	1443
+NK cells	B cells	1
+NK cells	Myeloid cells	40
+NK cells	NK cells	20252
+NK cells	T cells	38865
+T cells CD4+	B cells	6
+T cells CD4+	Myeloid cells	5
+T cells CD4+	NK cells	120
+T cells CD4+	T cells	122423
+T cells CD8+	B cells	1
+T cells CD8+	NK cells	24
+T cells CD8+	T cells	14747
+T regulatory cells	B cells	78
+T regulatory cells	NK cells	12
+T regulatory cells	T cells	7684

@@ -1,0 +1,3139 @@
+{
+  "dataset": "GSE138262",
+  "status": "complete_verified",
+  "checked_utc": "2026-11-11T13:19:30.643913+00:00",
+  "checks_passed": 735,
+  "source_cells": 7537,
+  "genes": 28663,
+  "strict_cells": 8,
+  "core_CM": 6,
+  "core_HCM": 6,
+  "core_Control": 0,
+  "core_donors": 2,
+  "pending_identity": 2,
+  "author_count_comparisons": 48,
+  "source_files_unchanged": 53,
+  "author_MT_count_comparisons": [
+    {
+      "sample_id": "GSM4103885",
+      "cells": 113,
+      "max_absolute_count_difference": 0.0
+    },
+    {
+      "sample_id": "GSM4103886",
+      "cells": 121,
+      "max_absolute_count_difference": 0.0
+    },
+    {
+      "sample_id": "GSM4103887",
+      "cells": 100,
+      "max_absolute_count_difference": 0.0
+    },
+    {
+      "sample_id": "GSM4103888",
+      "cells": 137,
+      "max_absolute_count_difference": 0.0
+    },
+    {
+      "sample_id": "GSM4103889",
+      "cells": 131,
+      "max_absolute_count_difference": 0.0
+    },
+    {
+      "sample_id": "GSM4103890",
+      "cells": 153,
+      "max_absolute_count_difference": 0.0
+    },
+    {
+      "sample_id": "GSM4103891",
+      "cells": 105,
+      "max_absolute_count_difference": 0.0
+    },
+    {
+      "sample_id": "GSM4103892",
+      "cells": 218,
+      "max_absolute_count_difference": 0.0
+    },
+    {
+      "sample_id": "GSM4103893",
+      "cells": 192,
+      "max_absolute_count_difference": 0.0
+    },
+    {
+      "sample_id": "GSM4103894",
+      "cells": 172,
+      "max_absolute_count_difference": 0.0
+    },
+    {
+      "sample_id": "GSM4103895",
+      "cells": 147,
+      "max_absolute_count_difference": 0.0
+    },
+    {
+      "sample_id": "GSM4103896",
+      "cells": 115,
+      "max_absolute_count_difference": 0.0
+    },
+    {
+      "sample_id": "GSM4103897",
+      "cells": 74,
+      "max_absolute_count_difference": 0.0
+    },
+    {
+      "sample_id": "GSM4103898",
+      "cells": 68,
+      "max_absolute_count_difference": 0.0
+    },
+    {
+      "sample_id": "GSM4762107",
+      "cells": 201,
+      "max_absolute_count_difference": 0.0
+    },
+    {
+      "sample_id": "GSM4762108",
+      "cells": 245,
+      "max_absolute_count_difference": 0.0
+    },
+    {
+      "sample_id": "Wang_N1.97474.a",
+      "cells": 130,
+      "max_absolute_count_difference": 0.0
+    },
+    {
+      "sample_id": "Wang_N1.97474.b",
+      "cells": 124,
+      "max_absolute_count_difference": 0.0
+    },
+    {
+      "sample_id": "Wang_N2.97452.a",
+      "cells": 128,
+      "max_absolute_count_difference": 0.0
+    },
+    {
+      "sample_id": "Wang_N2.97452.b",
+      "cells": 128,
+      "max_absolute_count_difference": 0.0
+    },
+    {
+      "sample_id": "Wang_N2.97493.a",
+      "cells": 20,
+      "max_absolute_count_difference": 0.0
+    },
+    {
+      "sample_id": "Wang_N2.97493.b",
+      "cells": 20,
+      "max_absolute_count_difference": 0.0
+    },
+    {
+      "sample_id": "Wang_N3.97438.a",
+      "cells": 180,
+      "max_absolute_count_difference": 0.0
+    },
+    {
+      "sample_id": "Wang_N3.97438.b",
+      "cells": 180,
+      "max_absolute_count_difference": 0.0
+    },
+    {
+      "sample_id": "Wang_N4.97461.a",
+      "cells": 34,
+      "max_absolute_count_difference": 0.0
+    },
+    {
+      "sample_id": "Wang_N4.97461.b",
+      "cells": 34,
+      "max_absolute_count_difference": 0.0
+    },
+    {
+      "sample_id": "Wang_N5.97458.a",
+      "cells": 169,
+      "max_absolute_count_difference": 0.0
+    },
+    {
+      "sample_id": "Wang_N5.97458.b",
+      "cells": 169,
+      "max_absolute_count_difference": 0.0
+    },
+    {
+      "sample_id": "Wang_N13.100355.a",
+      "cells": 30,
+      "max_absolute_count_difference": 0.0
+    },
+    {
+      "sample_id": "Wang_N13.100355.b",
+      "cells": 27,
+      "max_absolute_count_difference": 0.0
+    },
+    {
+      "sample_id": "Wang_N14.104720.a",
+      "cells": 13,
+      "max_absolute_count_difference": 0.0
+    },
+    {
+      "sample_id": "Wang_N14.104720.b",
+      "cells": 14,
+      "max_absolute_count_difference": 0.0
+    }
+  ],
+  "training_use": "NOT APPROVED: severe strict whole-cell attrition; no Control; protocol/design and overlap review required",
+  "all_checks": [
+    {
+      "name": "author_corrected_record_version",
+      "passed": true
+    },
+    {
+      "name": "five_real_download_files",
+      "passed": true
+    },
+    {
+      "name": "download_bytes_H5_RHL_SeuratObject_nM_sel_ALL.SP_btypSel_RID2l_clExtended.Rds",
+      "passed": true
+    },
+    {
+      "name": "download_MD5_H5_RHL_SeuratObject_nM_sel_ALL.SP_btypSel_RID2l_clExtended.Rds",
+      "passed": true
+    },
+    {
+      "name": "download_bytes_counttables-HU.zip",
+      "passed": true
+    },
+    {
+      "name": "download_MD5_counttables-HU.zip",
+      "passed": true
+    },
+    {
+      "name": "download_bytes_H5_RHL_SeuratObject_nM_sel_ROOIJonly.sp.bt_RID2l_clExtended.Rds",
+      "passed": true
+    },
+    {
+      "name": "download_MD5_H5_RHL_SeuratObject_nM_sel_ROOIJonly.sp.bt_RID2l_clExtended.Rds",
+      "passed": true
+    },
+    {
+      "name": "download_bytes_counttables-ROOIJ.zip",
+      "passed": true
+    },
+    {
+      "name": "download_MD5_counttables-ROOIJ.zip",
+      "passed": true
+    },
+    {
+      "name": "download_bytes_FACS_INDEX_data.zip",
+      "passed": true
+    },
+    {
+      "name": "download_MD5_FACS_INDEX_data.zip",
+      "passed": true
+    },
+    {
+      "name": "all_53_original_download_records_retained",
+      "passed": true
+    },
+    {
+      "name": "original_unchanged_GSE138262_RAW.tar",
+      "passed": true
+    },
+    {
+      "name": "original_unchanged_GSM4103885_Patient1Plate1.BarcodeCounts.tsv.gz",
+      "passed": true
+    },
+    {
+      "name": "original_unchanged_GSM4103885_Patient1Plate1.ReadCounts.tsv.gz",
+      "passed": true
+    },
+    {
+      "name": "original_unchanged_GSM4103885_Patient1Plate1.TranscriptCounts.tsv.gz",
+      "passed": true
+    },
+    {
+      "name": "original_unchanged_GSM4103886_Patient1Plate2.BarcodeCounts.tsv.gz",
+      "passed": true
+    },
+    {
+      "name": "original_unchanged_GSM4103886_Patient1Plate2.ReadCounts.tsv.gz",
+      "passed": true
+    },
+    {
+      "name": "original_unchanged_GSM4103886_Patient1Plate2.TranscriptCounts.tsv.gz",
+      "passed": true
+    },
+    {
+      "name": "original_unchanged_GSM4103887_Patient1Plate3.BarcodeCounts.tsv.gz",
+      "passed": true
+    },
+    {
+      "name": "original_unchanged_GSM4103887_Patient1Plate3.ReadCounts.tsv.gz",
+      "passed": true
+    },
+    {
+      "name": "original_unchanged_GSM4103887_Patient1Plate3.TranscriptCounts.tsv.gz",
+      "passed": true
+    },
+    {
+      "name": "original_unchanged_GSM4103888_Patient1Plate4.BarcodeCounts.tsv.gz",
+      "passed": true
+    },
+    {
+      "name": "original_unchanged_GSM4103888_Patient1Plate4.ReadCounts.tsv.gz",
+      "passed": true
+    },
+    {
+      "name": "original_unchanged_GSM4103888_Patient1Plate4.TranscriptCounts.tsv.gz",
+      "passed": true
+    },
+    {
+      "name": "original_unchanged_GSM4103889_Patient2Plate1.BarcodeCounts.tsv.gz",
+      "passed": true
+    },
+    {
+      "name": "original_unchanged_GSM4103889_Patient2Plate1.ReadCounts.tsv.gz",
+      "passed": true
+    },
+    {
+      "name": "original_unchanged_GSM4103889_Patient2Plate1.TranscriptCounts.tsv.gz",
+      "passed": true
+    },
+    {
+      "name": "original_unchanged_GSM4103890_Patient2Plate2.BarcodeCounts.tsv.gz",
+      "passed": true
+    },
+    {
+      "name": "original_unchanged_GSM4103890_Patient2Plate2.ReadCounts.tsv.gz",
+      "passed": true
+    },
+    {
+      "name": "original_unchanged_GSM4103890_Patient2Plate2.TranscriptCounts.tsv.gz",
+      "passed": true
+    },
+    {
+      "name": "original_unchanged_GSM4103891_Patient2Plate3.BarcodeCounts.tsv.gz",
+      "passed": true
+    },
+    {
+      "name": "original_unchanged_GSM4103891_Patient2Plate3.ReadCounts.tsv.gz",
+      "passed": true
+    },
+    {
+      "name": "original_unchanged_GSM4103891_Patient2Plate3.TranscriptCounts.tsv.gz",
+      "passed": true
+    },
+    {
+      "name": "original_unchanged_GSM4103892_Patient2Plate4.BarcodeCounts.tsv.gz",
+      "passed": true
+    },
+    {
+      "name": "original_unchanged_GSM4103892_Patient2Plate4.ReadCounts.tsv.gz",
+      "passed": true
+    },
+    {
+      "name": "original_unchanged_GSM4103892_Patient2Plate4.TranscriptCounts.tsv.gz",
+      "passed": true
+    },
+    {
+      "name": "original_unchanged_GSM4103893_Patient3Plate1.BarcodeCounts.tsv.gz",
+      "passed": true
+    },
+    {
+      "name": "original_unchanged_GSM4103893_Patient3Plate1.ReadCounts.tsv.gz",
+      "passed": true
+    },
+    {
+      "name": "original_unchanged_GSM4103893_Patient3Plate1.TranscriptCounts.tsv.gz",
+      "passed": true
+    },
+    {
+      "name": "original_unchanged_GSM4103894_Patient3Plate2.BarcodeCounts.tsv.gz",
+      "passed": true
+    },
+    {
+      "name": "original_unchanged_GSM4103894_Patient3Plate2.ReadCounts.tsv.gz",
+      "passed": true
+    },
+    {
+      "name": "original_unchanged_GSM4103894_Patient3Plate2.TranscriptCounts.tsv.gz",
+      "passed": true
+    },
+    {
+      "name": "original_unchanged_GSM4103895_Patient3Plate3.BarcodeCounts.tsv.gz",
+      "passed": true
+    },
+    {
+      "name": "original_unchanged_GSM4103895_Patient3Plate3.ReadCounts.tsv.gz",
+      "passed": true
+    },
+    {
+      "name": "original_unchanged_GSM4103895_Patient3Plate3.TranscriptCounts.tsv.gz",
+      "passed": true
+    },
+    {
+      "name": "original_unchanged_GSM4103896_Patient3Plate4.BarcodeCounts.tsv.gz",
+      "passed": true
+    },
+    {
+      "name": "original_unchanged_GSM4103896_Patient3Plate4.ReadCounts.tsv.gz",
+      "passed": true
+    },
+    {
+      "name": "original_unchanged_GSM4103896_Patient3Plate4.TranscriptCounts.tsv.gz",
+      "passed": true
+    },
+    {
+      "name": "original_unchanged_GSM4103897_indexdata_patient4-plate1__2018-244_exp_cardiologie_plate2.csv.gz",
+      "passed": true
+    },
+    {
+      "name": "original_unchanged_GSM4103897_Patient4Plate1.BarcodeCounts.tsv.gz",
+      "passed": true
+    },
+    {
+      "name": "original_unchanged_GSM4103897_Patient4Plate1.ReadCounts.tsv.gz",
+      "passed": true
+    },
+    {
+      "name": "original_unchanged_GSM4103897_Patient4Plate1.TranscriptCounts.tsv.gz",
+      "passed": true
+    },
+    {
+      "name": "original_unchanged_GSM4103898_indexdata_patient4-plate2__2018-244_exp_cardiologie_plate3merged.csv.gz",
+      "passed": true
+    },
+    {
+      "name": "original_unchanged_GSM4103898_Patient4Plate2.BarcodeCounts.tsv.gz",
+      "passed": true
+    },
+    {
+      "name": "original_unchanged_GSM4103898_Patient4Plate2.ReadCounts.tsv.gz",
+      "passed": true
+    },
+    {
+      "name": "original_unchanged_GSM4103898_Patient4Plate2.TranscriptCounts.tsv.gz",
+      "passed": true
+    },
+    {
+      "name": "original_unchanged_GSM4762107_AL1_TranscriptCounts.tsv.gz",
+      "passed": true
+    },
+    {
+      "name": "original_unchanged_GSM4762107_HUB-AL-s001_HG25TBGXF_S5_R2.BarcodeCounts.tsv.gz",
+      "passed": true
+    },
+    {
+      "name": "original_unchanged_GSM4762107_HUB-AL-s001_HG25TBGXF_S5_R2.ReadCounts.tsv.gz",
+      "passed": true
+    },
+    {
+      "name": "original_unchanged_GSM4762107_indexdata_patient5-plate1_AL1.csv.gz",
+      "passed": true
+    },
+    {
+      "name": "original_unchanged_GSM4762108_AL2_TranscriptCounts.tsv.gz",
+      "passed": true
+    },
+    {
+      "name": "original_unchanged_GSM4762108_HUB-AL-s002_HG25TBGXF_S6_R2.BarcodeCounts.tsv.gz",
+      "passed": true
+    },
+    {
+      "name": "original_unchanged_GSM4762108_HUB-AL-s002_HG25TBGXF_S6_R2.ReadCounts.tsv.gz",
+      "passed": true
+    },
+    {
+      "name": "original_unchanged_GSM4762108_indexdata_patient5-plate2_AL2.csv.gz",
+      "passed": true
+    },
+    {
+      "name": "union_identity_unique",
+      "passed": true
+    },
+    {
+      "name": "full_union_axes_preserved",
+      "passed": true
+    },
+    {
+      "name": "full_union_counts_preserved",
+      "passed": true
+    },
+    {
+      "name": "integer_finite_nonnegative_raw",
+      "passed": true
+    },
+    {
+      "name": "sample_and_donor_scope",
+      "passed": true
+    },
+    {
+      "name": "GSM4103885_source_SHA256",
+      "passed": true
+    },
+    {
+      "name": "GSM4103885_native_unique_axes",
+      "passed": true
+    },
+    {
+      "name": "GSM4103885_native_axes",
+      "passed": true
+    },
+    {
+      "name": "GSM4103885_native_all_values",
+      "passed": true
+    },
+    {
+      "name": "GSM4103885_union_every_value_and_missing_zeros",
+      "passed": true
+    },
+    {
+      "name": "GSM4103885_native_feature_presence_mask",
+      "passed": true
+    },
+    {
+      "name": "GSM4103885_authoritative_gene_mapping",
+      "passed": true
+    },
+    {
+      "name": "GSM4103885_MT_genes_are_endogenous",
+      "passed": true
+    },
+    {
+      "name": "GSM4103885_QC_metrics",
+      "passed": true
+    },
+    {
+      "name": "GSM4103885_strict_baseline",
+      "passed": true
+    },
+    {
+      "name": "GSM4103885_author_cell_relation",
+      "passed": true
+    },
+    {
+      "name": "GSM4103885_source_disease_metadata",
+      "passed": true
+    },
+    {
+      "name": "GSM4103885_official_diagnosis",
+      "passed": true
+    },
+    {
+      "name": "GSM4103885_ALL_has_shared_counts",
+      "passed": true
+    },
+    {
+      "name": "GSM4103885_ALL_every_shared_RNA_value",
+      "passed": true
+    },
+    {
+      "name": "GSM4103885_ROOIJonly_has_shared_counts",
+      "passed": true
+    },
+    {
+      "name": "GSM4103885_ROOIJonly_every_shared_RNA_value",
+      "passed": true
+    },
+    {
+      "name": "GSM4103885_author_original_study_and_condition",
+      "passed": true
+    },
+    {
+      "name": "GSM4103885_author_mitochondrial_counts",
+      "passed": true
+    },
+    {
+      "name": "GSM4103886_source_SHA256",
+      "passed": true
+    },
+    {
+      "name": "GSM4103886_native_unique_axes",
+      "passed": true
+    },
+    {
+      "name": "GSM4103886_native_axes",
+      "passed": true
+    },
+    {
+      "name": "GSM4103886_native_all_values",
+      "passed": true
+    },
+    {
+      "name": "GSM4103886_union_every_value_and_missing_zeros",
+      "passed": true
+    },
+    {
+      "name": "GSM4103886_native_feature_presence_mask",
+      "passed": true
+    },
+    {
+      "name": "GSM4103886_authoritative_gene_mapping",
+      "passed": true
+    },
+    {
+      "name": "GSM4103886_MT_genes_are_endogenous",
+      "passed": true
+    },
+    {
+      "name": "GSM4103886_QC_metrics",
+      "passed": true
+    },
+    {
+      "name": "GSM4103886_strict_baseline",
+      "passed": true
+    },
+    {
+      "name": "GSM4103886_author_cell_relation",
+      "passed": true
+    },
+    {
+      "name": "GSM4103886_source_disease_metadata",
+      "passed": true
+    },
+    {
+      "name": "GSM4103886_official_diagnosis",
+      "passed": true
+    },
+    {
+      "name": "GSM4103886_ALL_has_shared_counts",
+      "passed": true
+    },
+    {
+      "name": "GSM4103886_ALL_every_shared_RNA_value",
+      "passed": true
+    },
+    {
+      "name": "GSM4103886_ROOIJonly_has_shared_counts",
+      "passed": true
+    },
+    {
+      "name": "GSM4103886_ROOIJonly_every_shared_RNA_value",
+      "passed": true
+    },
+    {
+      "name": "GSM4103886_author_original_study_and_condition",
+      "passed": true
+    },
+    {
+      "name": "GSM4103886_author_mitochondrial_counts",
+      "passed": true
+    },
+    {
+      "name": "GSM4103887_source_SHA256",
+      "passed": true
+    },
+    {
+      "name": "GSM4103887_native_unique_axes",
+      "passed": true
+    },
+    {
+      "name": "GSM4103887_native_axes",
+      "passed": true
+    },
+    {
+      "name": "GSM4103887_native_all_values",
+      "passed": true
+    },
+    {
+      "name": "GSM4103887_union_every_value_and_missing_zeros",
+      "passed": true
+    },
+    {
+      "name": "GSM4103887_native_feature_presence_mask",
+      "passed": true
+    },
+    {
+      "name": "GSM4103887_authoritative_gene_mapping",
+      "passed": true
+    },
+    {
+      "name": "GSM4103887_MT_genes_are_endogenous",
+      "passed": true
+    },
+    {
+      "name": "GSM4103887_QC_metrics",
+      "passed": true
+    },
+    {
+      "name": "GSM4103887_strict_baseline",
+      "passed": true
+    },
+    {
+      "name": "GSM4103887_author_cell_relation",
+      "passed": true
+    },
+    {
+      "name": "GSM4103887_source_disease_metadata",
+      "passed": true
+    },
+    {
+      "name": "GSM4103887_official_diagnosis",
+      "passed": true
+    },
+    {
+      "name": "GSM4103887_ALL_has_shared_counts",
+      "passed": true
+    },
+    {
+      "name": "GSM4103887_ALL_every_shared_RNA_value",
+      "passed": true
+    },
+    {
+      "name": "GSM4103887_ROOIJonly_has_shared_counts",
+      "passed": true
+    },
+    {
+      "name": "GSM4103887_ROOIJonly_every_shared_RNA_value",
+      "passed": true
+    },
+    {
+      "name": "GSM4103887_author_original_study_and_condition",
+      "passed": true
+    },
+    {
+      "name": "GSM4103887_author_mitochondrial_counts",
+      "passed": true
+    },
+    {
+      "name": "GSM4103888_source_SHA256",
+      "passed": true
+    },
+    {
+      "name": "GSM4103888_native_unique_axes",
+      "passed": true
+    },
+    {
+      "name": "GSM4103888_native_axes",
+      "passed": true
+    },
+    {
+      "name": "GSM4103888_native_all_values",
+      "passed": true
+    },
+    {
+      "name": "GSM4103888_union_every_value_and_missing_zeros",
+      "passed": true
+    },
+    {
+      "name": "GSM4103888_native_feature_presence_mask",
+      "passed": true
+    },
+    {
+      "name": "GSM4103888_authoritative_gene_mapping",
+      "passed": true
+    },
+    {
+      "name": "GSM4103888_MT_genes_are_endogenous",
+      "passed": true
+    },
+    {
+      "name": "GSM4103888_QC_metrics",
+      "passed": true
+    },
+    {
+      "name": "GSM4103888_strict_baseline",
+      "passed": true
+    },
+    {
+      "name": "GSM4103888_author_cell_relation",
+      "passed": true
+    },
+    {
+      "name": "GSM4103888_source_disease_metadata",
+      "passed": true
+    },
+    {
+      "name": "GSM4103888_official_diagnosis",
+      "passed": true
+    },
+    {
+      "name": "GSM4103888_ALL_has_shared_counts",
+      "passed": true
+    },
+    {
+      "name": "GSM4103888_ALL_every_shared_RNA_value",
+      "passed": true
+    },
+    {
+      "name": "GSM4103888_ROOIJonly_has_shared_counts",
+      "passed": true
+    },
+    {
+      "name": "GSM4103888_ROOIJonly_every_shared_RNA_value",
+      "passed": true
+    },
+    {
+      "name": "GSM4103888_author_original_study_and_condition",
+      "passed": true
+    },
+    {
+      "name": "GSM4103888_author_mitochondrial_counts",
+      "passed": true
+    },
+    {
+      "name": "GSM4103889_source_SHA256",
+      "passed": true
+    },
+    {
+      "name": "GSM4103889_native_unique_axes",
+      "passed": true
+    },
+    {
+      "name": "GSM4103889_native_axes",
+      "passed": true
+    },
+    {
+      "name": "GSM4103889_native_all_values",
+      "passed": true
+    },
+    {
+      "name": "GSM4103889_union_every_value_and_missing_zeros",
+      "passed": true
+    },
+    {
+      "name": "GSM4103889_native_feature_presence_mask",
+      "passed": true
+    },
+    {
+      "name": "GSM4103889_authoritative_gene_mapping",
+      "passed": true
+    },
+    {
+      "name": "GSM4103889_MT_genes_are_endogenous",
+      "passed": true
+    },
+    {
+      "name": "GSM4103889_QC_metrics",
+      "passed": true
+    },
+    {
+      "name": "GSM4103889_strict_baseline",
+      "passed": true
+    },
+    {
+      "name": "GSM4103889_author_cell_relation",
+      "passed": true
+    },
+    {
+      "name": "GSM4103889_source_disease_metadata",
+      "passed": true
+    },
+    {
+      "name": "GSM4103889_official_diagnosis",
+      "passed": true
+    },
+    {
+      "name": "GSM4103889_ALL_has_shared_counts",
+      "passed": true
+    },
+    {
+      "name": "GSM4103889_ALL_every_shared_RNA_value",
+      "passed": true
+    },
+    {
+      "name": "GSM4103889_ROOIJonly_has_shared_counts",
+      "passed": true
+    },
+    {
+      "name": "GSM4103889_ROOIJonly_every_shared_RNA_value",
+      "passed": true
+    },
+    {
+      "name": "GSM4103889_author_original_study_and_condition",
+      "passed": true
+    },
+    {
+      "name": "GSM4103889_author_mitochondrial_counts",
+      "passed": true
+    },
+    {
+      "name": "GSM4103890_source_SHA256",
+      "passed": true
+    },
+    {
+      "name": "GSM4103890_native_unique_axes",
+      "passed": true
+    },
+    {
+      "name": "GSM4103890_native_axes",
+      "passed": true
+    },
+    {
+      "name": "GSM4103890_native_all_values",
+      "passed": true
+    },
+    {
+      "name": "GSM4103890_union_every_value_and_missing_zeros",
+      "passed": true
+    },
+    {
+      "name": "GSM4103890_native_feature_presence_mask",
+      "passed": true
+    },
+    {
+      "name": "GSM4103890_authoritative_gene_mapping",
+      "passed": true
+    },
+    {
+      "name": "GSM4103890_MT_genes_are_endogenous",
+      "passed": true
+    },
+    {
+      "name": "GSM4103890_QC_metrics",
+      "passed": true
+    },
+    {
+      "name": "GSM4103890_strict_baseline",
+      "passed": true
+    },
+    {
+      "name": "GSM4103890_author_cell_relation",
+      "passed": true
+    },
+    {
+      "name": "GSM4103890_source_disease_metadata",
+      "passed": true
+    },
+    {
+      "name": "GSM4103890_official_diagnosis",
+      "passed": true
+    },
+    {
+      "name": "GSM4103890_ALL_has_shared_counts",
+      "passed": true
+    },
+    {
+      "name": "GSM4103890_ALL_every_shared_RNA_value",
+      "passed": true
+    },
+    {
+      "name": "GSM4103890_ROOIJonly_has_shared_counts",
+      "passed": true
+    },
+    {
+      "name": "GSM4103890_ROOIJonly_every_shared_RNA_value",
+      "passed": true
+    },
+    {
+      "name": "GSM4103890_author_original_study_and_condition",
+      "passed": true
+    },
+    {
+      "name": "GSM4103890_author_mitochondrial_counts",
+      "passed": true
+    },
+    {
+      "name": "GSM4103891_source_SHA256",
+      "passed": true
+    },
+    {
+      "name": "GSM4103891_native_unique_axes",
+      "passed": true
+    },
+    {
+      "name": "GSM4103891_native_axes",
+      "passed": true
+    },
+    {
+      "name": "GSM4103891_native_all_values",
+      "passed": true
+    },
+    {
+      "name": "GSM4103891_union_every_value_and_missing_zeros",
+      "passed": true
+    },
+    {
+      "name": "GSM4103891_native_feature_presence_mask",
+      "passed": true
+    },
+    {
+      "name": "GSM4103891_authoritative_gene_mapping",
+      "passed": true
+    },
+    {
+      "name": "GSM4103891_MT_genes_are_endogenous",
+      "passed": true
+    },
+    {
+      "name": "GSM4103891_QC_metrics",
+      "passed": true
+    },
+    {
+      "name": "GSM4103891_strict_baseline",
+      "passed": true
+    },
+    {
+      "name": "GSM4103891_author_cell_relation",
+      "passed": true
+    },
+    {
+      "name": "GSM4103891_source_disease_metadata",
+      "passed": true
+    },
+    {
+      "name": "GSM4103891_official_diagnosis",
+      "passed": true
+    },
+    {
+      "name": "GSM4103891_ALL_has_shared_counts",
+      "passed": true
+    },
+    {
+      "name": "GSM4103891_ALL_every_shared_RNA_value",
+      "passed": true
+    },
+    {
+      "name": "GSM4103891_ROOIJonly_has_shared_counts",
+      "passed": true
+    },
+    {
+      "name": "GSM4103891_ROOIJonly_every_shared_RNA_value",
+      "passed": true
+    },
+    {
+      "name": "GSM4103891_author_original_study_and_condition",
+      "passed": true
+    },
+    {
+      "name": "GSM4103891_author_mitochondrial_counts",
+      "passed": true
+    },
+    {
+      "name": "GSM4103892_source_SHA256",
+      "passed": true
+    },
+    {
+      "name": "GSM4103892_native_unique_axes",
+      "passed": true
+    },
+    {
+      "name": "GSM4103892_native_axes",
+      "passed": true
+    },
+    {
+      "name": "GSM4103892_native_all_values",
+      "passed": true
+    },
+    {
+      "name": "GSM4103892_union_every_value_and_missing_zeros",
+      "passed": true
+    },
+    {
+      "name": "GSM4103892_native_feature_presence_mask",
+      "passed": true
+    },
+    {
+      "name": "GSM4103892_authoritative_gene_mapping",
+      "passed": true
+    },
+    {
+      "name": "GSM4103892_MT_genes_are_endogenous",
+      "passed": true
+    },
+    {
+      "name": "GSM4103892_QC_metrics",
+      "passed": true
+    },
+    {
+      "name": "GSM4103892_strict_baseline",
+      "passed": true
+    },
+    {
+      "name": "GSM4103892_author_cell_relation",
+      "passed": true
+    },
+    {
+      "name": "GSM4103892_source_disease_metadata",
+      "passed": true
+    },
+    {
+      "name": "GSM4103892_official_diagnosis",
+      "passed": true
+    },
+    {
+      "name": "GSM4103892_ALL_has_shared_counts",
+      "passed": true
+    },
+    {
+      "name": "GSM4103892_ALL_every_shared_RNA_value",
+      "passed": true
+    },
+    {
+      "name": "GSM4103892_ROOIJonly_has_shared_counts",
+      "passed": true
+    },
+    {
+      "name": "GSM4103892_ROOIJonly_every_shared_RNA_value",
+      "passed": true
+    },
+    {
+      "name": "GSM4103892_author_original_study_and_condition",
+      "passed": true
+    },
+    {
+      "name": "GSM4103892_author_mitochondrial_counts",
+      "passed": true
+    },
+    {
+      "name": "GSM4103893_source_SHA256",
+      "passed": true
+    },
+    {
+      "name": "GSM4103893_native_unique_axes",
+      "passed": true
+    },
+    {
+      "name": "GSM4103893_native_axes",
+      "passed": true
+    },
+    {
+      "name": "GSM4103893_native_all_values",
+      "passed": true
+    },
+    {
+      "name": "GSM4103893_union_every_value_and_missing_zeros",
+      "passed": true
+    },
+    {
+      "name": "GSM4103893_native_feature_presence_mask",
+      "passed": true
+    },
+    {
+      "name": "GSM4103893_authoritative_gene_mapping",
+      "passed": true
+    },
+    {
+      "name": "GSM4103893_MT_genes_are_endogenous",
+      "passed": true
+    },
+    {
+      "name": "GSM4103893_QC_metrics",
+      "passed": true
+    },
+    {
+      "name": "GSM4103893_strict_baseline",
+      "passed": true
+    },
+    {
+      "name": "GSM4103893_author_cell_relation",
+      "passed": true
+    },
+    {
+      "name": "GSM4103893_source_disease_metadata",
+      "passed": true
+    },
+    {
+      "name": "GSM4103893_official_diagnosis",
+      "passed": true
+    },
+    {
+      "name": "GSM4103893_ALL_has_shared_counts",
+      "passed": true
+    },
+    {
+      "name": "GSM4103893_ALL_every_shared_RNA_value",
+      "passed": true
+    },
+    {
+      "name": "GSM4103893_ROOIJonly_has_shared_counts",
+      "passed": true
+    },
+    {
+      "name": "GSM4103893_ROOIJonly_every_shared_RNA_value",
+      "passed": true
+    },
+    {
+      "name": "GSM4103893_author_original_study_and_condition",
+      "passed": true
+    },
+    {
+      "name": "GSM4103893_author_mitochondrial_counts",
+      "passed": true
+    },
+    {
+      "name": "GSM4103894_source_SHA256",
+      "passed": true
+    },
+    {
+      "name": "GSM4103894_native_unique_axes",
+      "passed": true
+    },
+    {
+      "name": "GSM4103894_native_axes",
+      "passed": true
+    },
+    {
+      "name": "GSM4103894_native_all_values",
+      "passed": true
+    },
+    {
+      "name": "GSM4103894_union_every_value_and_missing_zeros",
+      "passed": true
+    },
+    {
+      "name": "GSM4103894_native_feature_presence_mask",
+      "passed": true
+    },
+    {
+      "name": "GSM4103894_authoritative_gene_mapping",
+      "passed": true
+    },
+    {
+      "name": "GSM4103894_MT_genes_are_endogenous",
+      "passed": true
+    },
+    {
+      "name": "GSM4103894_QC_metrics",
+      "passed": true
+    },
+    {
+      "name": "GSM4103894_strict_baseline",
+      "passed": true
+    },
+    {
+      "name": "GSM4103894_author_cell_relation",
+      "passed": true
+    },
+    {
+      "name": "GSM4103894_source_disease_metadata",
+      "passed": true
+    },
+    {
+      "name": "GSM4103894_official_diagnosis",
+      "passed": true
+    },
+    {
+      "name": "GSM4103894_ALL_has_shared_counts",
+      "passed": true
+    },
+    {
+      "name": "GSM4103894_ALL_every_shared_RNA_value",
+      "passed": true
+    },
+    {
+      "name": "GSM4103894_ROOIJonly_has_shared_counts",
+      "passed": true
+    },
+    {
+      "name": "GSM4103894_ROOIJonly_every_shared_RNA_value",
+      "passed": true
+    },
+    {
+      "name": "GSM4103894_author_original_study_and_condition",
+      "passed": true
+    },
+    {
+      "name": "GSM4103894_author_mitochondrial_counts",
+      "passed": true
+    },
+    {
+      "name": "GSM4103895_source_SHA256",
+      "passed": true
+    },
+    {
+      "name": "GSM4103895_native_unique_axes",
+      "passed": true
+    },
+    {
+      "name": "GSM4103895_native_axes",
+      "passed": true
+    },
+    {
+      "name": "GSM4103895_native_all_values",
+      "passed": true
+    },
+    {
+      "name": "GSM4103895_union_every_value_and_missing_zeros",
+      "passed": true
+    },
+    {
+      "name": "GSM4103895_native_feature_presence_mask",
+      "passed": true
+    },
+    {
+      "name": "GSM4103895_authoritative_gene_mapping",
+      "passed": true
+    },
+    {
+      "name": "GSM4103895_MT_genes_are_endogenous",
+      "passed": true
+    },
+    {
+      "name": "GSM4103895_QC_metrics",
+      "passed": true
+    },
+    {
+      "name": "GSM4103895_strict_baseline",
+      "passed": true
+    },
+    {
+      "name": "GSM4103895_author_cell_relation",
+      "passed": true
+    },
+    {
+      "name": "GSM4103895_source_disease_metadata",
+      "passed": true
+    },
+    {
+      "name": "GSM4103895_official_diagnosis",
+      "passed": true
+    },
+    {
+      "name": "GSM4103895_ALL_has_shared_counts",
+      "passed": true
+    },
+    {
+      "name": "GSM4103895_ALL_every_shared_RNA_value",
+      "passed": true
+    },
+    {
+      "name": "GSM4103895_ROOIJonly_has_shared_counts",
+      "passed": true
+    },
+    {
+      "name": "GSM4103895_ROOIJonly_every_shared_RNA_value",
+      "passed": true
+    },
+    {
+      "name": "GSM4103895_author_original_study_and_condition",
+      "passed": true
+    },
+    {
+      "name": "GSM4103895_author_mitochondrial_counts",
+      "passed": true
+    },
+    {
+      "name": "GSM4103896_source_SHA256",
+      "passed": true
+    },
+    {
+      "name": "GSM4103896_native_unique_axes",
+      "passed": true
+    },
+    {
+      "name": "GSM4103896_native_axes",
+      "passed": true
+    },
+    {
+      "name": "GSM4103896_native_all_values",
+      "passed": true
+    },
+    {
+      "name": "GSM4103896_union_every_value_and_missing_zeros",
+      "passed": true
+    },
+    {
+      "name": "GSM4103896_native_feature_presence_mask",
+      "passed": true
+    },
+    {
+      "name": "GSM4103896_authoritative_gene_mapping",
+      "passed": true
+    },
+    {
+      "name": "GSM4103896_MT_genes_are_endogenous",
+      "passed": true
+    },
+    {
+      "name": "GSM4103896_QC_metrics",
+      "passed": true
+    },
+    {
+      "name": "GSM4103896_strict_baseline",
+      "passed": true
+    },
+    {
+      "name": "GSM4103896_author_cell_relation",
+      "passed": true
+    },
+    {
+      "name": "GSM4103896_source_disease_metadata",
+      "passed": true
+    },
+    {
+      "name": "GSM4103896_official_diagnosis",
+      "passed": true
+    },
+    {
+      "name": "GSM4103896_ALL_has_shared_counts",
+      "passed": true
+    },
+    {
+      "name": "GSM4103896_ALL_every_shared_RNA_value",
+      "passed": true
+    },
+    {
+      "name": "GSM4103896_ROOIJonly_has_shared_counts",
+      "passed": true
+    },
+    {
+      "name": "GSM4103896_ROOIJonly_every_shared_RNA_value",
+      "passed": true
+    },
+    {
+      "name": "GSM4103896_author_original_study_and_condition",
+      "passed": true
+    },
+    {
+      "name": "GSM4103896_author_mitochondrial_counts",
+      "passed": true
+    },
+    {
+      "name": "GSM4103897_source_SHA256",
+      "passed": true
+    },
+    {
+      "name": "GSM4103897_native_unique_axes",
+      "passed": true
+    },
+    {
+      "name": "GSM4103897_native_axes",
+      "passed": true
+    },
+    {
+      "name": "GSM4103897_native_all_values",
+      "passed": true
+    },
+    {
+      "name": "GSM4103897_union_every_value_and_missing_zeros",
+      "passed": true
+    },
+    {
+      "name": "GSM4103897_native_feature_presence_mask",
+      "passed": true
+    },
+    {
+      "name": "GSM4103897_authoritative_gene_mapping",
+      "passed": true
+    },
+    {
+      "name": "GSM4103897_MT_genes_are_endogenous",
+      "passed": true
+    },
+    {
+      "name": "GSM4103897_QC_metrics",
+      "passed": true
+    },
+    {
+      "name": "GSM4103897_strict_baseline",
+      "passed": true
+    },
+    {
+      "name": "GSM4103897_author_cell_relation",
+      "passed": true
+    },
+    {
+      "name": "GSM4103897_source_disease_metadata",
+      "passed": true
+    },
+    {
+      "name": "GSM4103897_official_diagnosis",
+      "passed": true
+    },
+    {
+      "name": "GSM4103897_ALL_has_shared_counts",
+      "passed": true
+    },
+    {
+      "name": "GSM4103897_ALL_every_shared_RNA_value",
+      "passed": true
+    },
+    {
+      "name": "GSM4103897_ROOIJonly_has_shared_counts",
+      "passed": true
+    },
+    {
+      "name": "GSM4103897_ROOIJonly_every_shared_RNA_value",
+      "passed": true
+    },
+    {
+      "name": "GSM4103897_author_original_study_and_condition",
+      "passed": true
+    },
+    {
+      "name": "GSM4103897_author_mitochondrial_counts",
+      "passed": true
+    },
+    {
+      "name": "GSM4103898_source_SHA256",
+      "passed": true
+    },
+    {
+      "name": "GSM4103898_native_unique_axes",
+      "passed": true
+    },
+    {
+      "name": "GSM4103898_native_axes",
+      "passed": true
+    },
+    {
+      "name": "GSM4103898_native_all_values",
+      "passed": true
+    },
+    {
+      "name": "GSM4103898_union_every_value_and_missing_zeros",
+      "passed": true
+    },
+    {
+      "name": "GSM4103898_native_feature_presence_mask",
+      "passed": true
+    },
+    {
+      "name": "GSM4103898_authoritative_gene_mapping",
+      "passed": true
+    },
+    {
+      "name": "GSM4103898_MT_genes_are_endogenous",
+      "passed": true
+    },
+    {
+      "name": "GSM4103898_QC_metrics",
+      "passed": true
+    },
+    {
+      "name": "GSM4103898_strict_baseline",
+      "passed": true
+    },
+    {
+      "name": "GSM4103898_author_cell_relation",
+      "passed": true
+    },
+    {
+      "name": "GSM4103898_source_disease_metadata",
+      "passed": true
+    },
+    {
+      "name": "GSM4103898_official_diagnosis",
+      "passed": true
+    },
+    {
+      "name": "GSM4103898_ALL_has_shared_counts",
+      "passed": true
+    },
+    {
+      "name": "GSM4103898_ALL_every_shared_RNA_value",
+      "passed": true
+    },
+    {
+      "name": "GSM4103898_ROOIJonly_has_shared_counts",
+      "passed": true
+    },
+    {
+      "name": "GSM4103898_ROOIJonly_every_shared_RNA_value",
+      "passed": true
+    },
+    {
+      "name": "GSM4103898_author_original_study_and_condition",
+      "passed": true
+    },
+    {
+      "name": "GSM4103898_author_mitochondrial_counts",
+      "passed": true
+    },
+    {
+      "name": "GSM4762107_source_SHA256",
+      "passed": true
+    },
+    {
+      "name": "GSM4762107_native_unique_axes",
+      "passed": true
+    },
+    {
+      "name": "GSM4762107_native_axes",
+      "passed": true
+    },
+    {
+      "name": "GSM4762107_native_all_values",
+      "passed": true
+    },
+    {
+      "name": "GSM4762107_union_every_value_and_missing_zeros",
+      "passed": true
+    },
+    {
+      "name": "GSM4762107_native_feature_presence_mask",
+      "passed": true
+    },
+    {
+      "name": "GSM4762107_authoritative_gene_mapping",
+      "passed": true
+    },
+    {
+      "name": "GSM4762107_MT_genes_are_endogenous",
+      "passed": true
+    },
+    {
+      "name": "GSM4762107_QC_metrics",
+      "passed": true
+    },
+    {
+      "name": "GSM4762107_strict_baseline",
+      "passed": true
+    },
+    {
+      "name": "GSM4762107_author_cell_relation",
+      "passed": true
+    },
+    {
+      "name": "GSM4762107_source_disease_metadata",
+      "passed": true
+    },
+    {
+      "name": "GSM4762107_official_diagnosis",
+      "passed": true
+    },
+    {
+      "name": "GSM4762107_ALL_has_shared_counts",
+      "passed": true
+    },
+    {
+      "name": "GSM4762107_ALL_every_shared_RNA_value",
+      "passed": true
+    },
+    {
+      "name": "GSM4762107_ROOIJonly_has_shared_counts",
+      "passed": true
+    },
+    {
+      "name": "GSM4762107_ROOIJonly_every_shared_RNA_value",
+      "passed": true
+    },
+    {
+      "name": "GSM4762107_author_original_study_and_condition",
+      "passed": true
+    },
+    {
+      "name": "GSM4762107_author_mitochondrial_counts",
+      "passed": true
+    },
+    {
+      "name": "GSM4762108_source_SHA256",
+      "passed": true
+    },
+    {
+      "name": "GSM4762108_native_unique_axes",
+      "passed": true
+    },
+    {
+      "name": "GSM4762108_native_axes",
+      "passed": true
+    },
+    {
+      "name": "GSM4762108_native_all_values",
+      "passed": true
+    },
+    {
+      "name": "GSM4762108_union_every_value_and_missing_zeros",
+      "passed": true
+    },
+    {
+      "name": "GSM4762108_native_feature_presence_mask",
+      "passed": true
+    },
+    {
+      "name": "GSM4762108_authoritative_gene_mapping",
+      "passed": true
+    },
+    {
+      "name": "GSM4762108_MT_genes_are_endogenous",
+      "passed": true
+    },
+    {
+      "name": "GSM4762108_QC_metrics",
+      "passed": true
+    },
+    {
+      "name": "GSM4762108_strict_baseline",
+      "passed": true
+    },
+    {
+      "name": "GSM4762108_author_cell_relation",
+      "passed": true
+    },
+    {
+      "name": "GSM4762108_source_disease_metadata",
+      "passed": true
+    },
+    {
+      "name": "GSM4762108_official_diagnosis",
+      "passed": true
+    },
+    {
+      "name": "GSM4762108_ALL_has_shared_counts",
+      "passed": true
+    },
+    {
+      "name": "GSM4762108_ALL_every_shared_RNA_value",
+      "passed": true
+    },
+    {
+      "name": "GSM4762108_ROOIJonly_has_shared_counts",
+      "passed": true
+    },
+    {
+      "name": "GSM4762108_ROOIJonly_every_shared_RNA_value",
+      "passed": true
+    },
+    {
+      "name": "GSM4762108_author_original_study_and_condition",
+      "passed": true
+    },
+    {
+      "name": "GSM4762108_author_mitochondrial_counts",
+      "passed": true
+    },
+    {
+      "name": "Wang_N1.97474.a_source_SHA256",
+      "passed": true
+    },
+    {
+      "name": "Wang_N1.97474.a_native_unique_axes",
+      "passed": true
+    },
+    {
+      "name": "Wang_N1.97474.a_native_axes",
+      "passed": true
+    },
+    {
+      "name": "Wang_N1.97474.a_native_all_values",
+      "passed": true
+    },
+    {
+      "name": "Wang_N1.97474.a_union_every_value_and_missing_zeros",
+      "passed": true
+    },
+    {
+      "name": "Wang_N1.97474.a_native_feature_presence_mask",
+      "passed": true
+    },
+    {
+      "name": "Wang_N1.97474.a_authoritative_gene_mapping",
+      "passed": true
+    },
+    {
+      "name": "Wang_N1.97474.a_MT_genes_are_endogenous",
+      "passed": true
+    },
+    {
+      "name": "Wang_N1.97474.a_QC_metrics",
+      "passed": true
+    },
+    {
+      "name": "Wang_N1.97474.a_strict_baseline",
+      "passed": true
+    },
+    {
+      "name": "Wang_N1.97474.a_author_cell_relation",
+      "passed": true
+    },
+    {
+      "name": "Wang_N1.97474.a_source_disease_metadata",
+      "passed": true
+    },
+    {
+      "name": "Wang_N1.97474.a_Wang_donor_binding",
+      "passed": true
+    },
+    {
+      "name": "Wang_N1.97474.a_ALL_has_shared_counts",
+      "passed": true
+    },
+    {
+      "name": "Wang_N1.97474.a_ALL_every_shared_RNA_value",
+      "passed": true
+    },
+    {
+      "name": "Wang_N1.97474.a_author_original_study_and_condition",
+      "passed": true
+    },
+    {
+      "name": "Wang_N1.97474.a_author_mitochondrial_counts",
+      "passed": true
+    },
+    {
+      "name": "Wang_N1.97474.b_source_SHA256",
+      "passed": true
+    },
+    {
+      "name": "Wang_N1.97474.b_native_unique_axes",
+      "passed": true
+    },
+    {
+      "name": "Wang_N1.97474.b_native_axes",
+      "passed": true
+    },
+    {
+      "name": "Wang_N1.97474.b_native_all_values",
+      "passed": true
+    },
+    {
+      "name": "Wang_N1.97474.b_union_every_value_and_missing_zeros",
+      "passed": true
+    },
+    {
+      "name": "Wang_N1.97474.b_native_feature_presence_mask",
+      "passed": true
+    },
+    {
+      "name": "Wang_N1.97474.b_authoritative_gene_mapping",
+      "passed": true
+    },
+    {
+      "name": "Wang_N1.97474.b_MT_genes_are_endogenous",
+      "passed": true
+    },
+    {
+      "name": "Wang_N1.97474.b_QC_metrics",
+      "passed": true
+    },
+    {
+      "name": "Wang_N1.97474.b_strict_baseline",
+      "passed": true
+    },
+    {
+      "name": "Wang_N1.97474.b_author_cell_relation",
+      "passed": true
+    },
+    {
+      "name": "Wang_N1.97474.b_source_disease_metadata",
+      "passed": true
+    },
+    {
+      "name": "Wang_N1.97474.b_Wang_donor_binding",
+      "passed": true
+    },
+    {
+      "name": "Wang_N1.97474.b_ALL_has_shared_counts",
+      "passed": true
+    },
+    {
+      "name": "Wang_N1.97474.b_ALL_every_shared_RNA_value",
+      "passed": true
+    },
+    {
+      "name": "Wang_N1.97474.b_author_original_study_and_condition",
+      "passed": true
+    },
+    {
+      "name": "Wang_N1.97474.b_author_mitochondrial_counts",
+      "passed": true
+    },
+    {
+      "name": "Wang_N2.97452.a_source_SHA256",
+      "passed": true
+    },
+    {
+      "name": "Wang_N2.97452.a_native_unique_axes",
+      "passed": true
+    },
+    {
+      "name": "Wang_N2.97452.a_native_axes",
+      "passed": true
+    },
+    {
+      "name": "Wang_N2.97452.a_native_all_values",
+      "passed": true
+    },
+    {
+      "name": "Wang_N2.97452.a_union_every_value_and_missing_zeros",
+      "passed": true
+    },
+    {
+      "name": "Wang_N2.97452.a_native_feature_presence_mask",
+      "passed": true
+    },
+    {
+      "name": "Wang_N2.97452.a_authoritative_gene_mapping",
+      "passed": true
+    },
+    {
+      "name": "Wang_N2.97452.a_MT_genes_are_endogenous",
+      "passed": true
+    },
+    {
+      "name": "Wang_N2.97452.a_QC_metrics",
+      "passed": true
+    },
+    {
+      "name": "Wang_N2.97452.a_strict_baseline",
+      "passed": true
+    },
+    {
+      "name": "Wang_N2.97452.a_author_cell_relation",
+      "passed": true
+    },
+    {
+      "name": "Wang_N2.97452.a_source_disease_metadata",
+      "passed": true
+    },
+    {
+      "name": "Wang_N2.97452.a_Wang_donor_binding",
+      "passed": true
+    },
+    {
+      "name": "Wang_N2.97452.a_ALL_has_shared_counts",
+      "passed": true
+    },
+    {
+      "name": "Wang_N2.97452.a_ALL_every_shared_RNA_value",
+      "passed": true
+    },
+    {
+      "name": "Wang_N2.97452.a_author_original_study_and_condition",
+      "passed": true
+    },
+    {
+      "name": "Wang_N2.97452.a_author_mitochondrial_counts",
+      "passed": true
+    },
+    {
+      "name": "Wang_N2.97452.b_source_SHA256",
+      "passed": true
+    },
+    {
+      "name": "Wang_N2.97452.b_native_unique_axes",
+      "passed": true
+    },
+    {
+      "name": "Wang_N2.97452.b_native_axes",
+      "passed": true
+    },
+    {
+      "name": "Wang_N2.97452.b_native_all_values",
+      "passed": true
+    },
+    {
+      "name": "Wang_N2.97452.b_union_every_value_and_missing_zeros",
+      "passed": true
+    },
+    {
+      "name": "Wang_N2.97452.b_native_feature_presence_mask",
+      "passed": true
+    },
+    {
+      "name": "Wang_N2.97452.b_authoritative_gene_mapping",
+      "passed": true
+    },
+    {
+      "name": "Wang_N2.97452.b_MT_genes_are_endogenous",
+      "passed": true
+    },
+    {
+      "name": "Wang_N2.97452.b_QC_metrics",
+      "passed": true
+    },
+    {
+      "name": "Wang_N2.97452.b_strict_baseline",
+      "passed": true
+    },
+    {
+      "name": "Wang_N2.97452.b_author_cell_relation",
+      "passed": true
+    },
+    {
+      "name": "Wang_N2.97452.b_source_disease_metadata",
+      "passed": true
+    },
+    {
+      "name": "Wang_N2.97452.b_Wang_donor_binding",
+      "passed": true
+    },
+    {
+      "name": "Wang_N2.97452.b_ALL_has_shared_counts",
+      "passed": true
+    },
+    {
+      "name": "Wang_N2.97452.b_ALL_every_shared_RNA_value",
+      "passed": true
+    },
+    {
+      "name": "Wang_N2.97452.b_author_original_study_and_condition",
+      "passed": true
+    },
+    {
+      "name": "Wang_N2.97452.b_author_mitochondrial_counts",
+      "passed": true
+    },
+    {
+      "name": "Wang_N2.97493.a_source_SHA256",
+      "passed": true
+    },
+    {
+      "name": "Wang_N2.97493.a_native_unique_axes",
+      "passed": true
+    },
+    {
+      "name": "Wang_N2.97493.a_native_axes",
+      "passed": true
+    },
+    {
+      "name": "Wang_N2.97493.a_native_all_values",
+      "passed": true
+    },
+    {
+      "name": "Wang_N2.97493.a_union_every_value_and_missing_zeros",
+      "passed": true
+    },
+    {
+      "name": "Wang_N2.97493.a_native_feature_presence_mask",
+      "passed": true
+    },
+    {
+      "name": "Wang_N2.97493.a_authoritative_gene_mapping",
+      "passed": true
+    },
+    {
+      "name": "Wang_N2.97493.a_MT_genes_are_endogenous",
+      "passed": true
+    },
+    {
+      "name": "Wang_N2.97493.a_QC_metrics",
+      "passed": true
+    },
+    {
+      "name": "Wang_N2.97493.a_strict_baseline",
+      "passed": true
+    },
+    {
+      "name": "Wang_N2.97493.a_author_cell_relation",
+      "passed": true
+    },
+    {
+      "name": "Wang_N2.97493.a_source_disease_metadata",
+      "passed": true
+    },
+    {
+      "name": "Wang_N2.97493.a_Wang_donor_binding",
+      "passed": true
+    },
+    {
+      "name": "Wang_N2.97493.a_ALL_has_shared_counts",
+      "passed": true
+    },
+    {
+      "name": "Wang_N2.97493.a_ALL_every_shared_RNA_value",
+      "passed": true
+    },
+    {
+      "name": "Wang_N2.97493.a_author_original_study_and_condition",
+      "passed": true
+    },
+    {
+      "name": "Wang_N2.97493.a_author_mitochondrial_counts",
+      "passed": true
+    },
+    {
+      "name": "Wang_N2.97493.b_source_SHA256",
+      "passed": true
+    },
+    {
+      "name": "Wang_N2.97493.b_native_unique_axes",
+      "passed": true
+    },
+    {
+      "name": "Wang_N2.97493.b_native_axes",
+      "passed": true
+    },
+    {
+      "name": "Wang_N2.97493.b_native_all_values",
+      "passed": true
+    },
+    {
+      "name": "Wang_N2.97493.b_union_every_value_and_missing_zeros",
+      "passed": true
+    },
+    {
+      "name": "Wang_N2.97493.b_native_feature_presence_mask",
+      "passed": true
+    },
+    {
+      "name": "Wang_N2.97493.b_authoritative_gene_mapping",
+      "passed": true
+    },
+    {
+      "name": "Wang_N2.97493.b_MT_genes_are_endogenous",
+      "passed": true
+    },
+    {
+      "name": "Wang_N2.97493.b_QC_metrics",
+      "passed": true
+    },
+    {
+      "name": "Wang_N2.97493.b_strict_baseline",
+      "passed": true
+    },
+    {
+      "name": "Wang_N2.97493.b_author_cell_relation",
+      "passed": true
+    },
+    {
+      "name": "Wang_N2.97493.b_source_disease_metadata",
+      "passed": true
+    },
+    {
+      "name": "Wang_N2.97493.b_Wang_donor_binding",
+      "passed": true
+    },
+    {
+      "name": "Wang_N2.97493.b_ALL_has_shared_counts",
+      "passed": true
+    },
+    {
+      "name": "Wang_N2.97493.b_ALL_every_shared_RNA_value",
+      "passed": true
+    },
+    {
+      "name": "Wang_N2.97493.b_author_original_study_and_condition",
+      "passed": true
+    },
+    {
+      "name": "Wang_N2.97493.b_author_mitochondrial_counts",
+      "passed": true
+    },
+    {
+      "name": "Wang_N3.97438.a_source_SHA256",
+      "passed": true
+    },
+    {
+      "name": "Wang_N3.97438.a_native_unique_axes",
+      "passed": true
+    },
+    {
+      "name": "Wang_N3.97438.a_native_axes",
+      "passed": true
+    },
+    {
+      "name": "Wang_N3.97438.a_native_all_values",
+      "passed": true
+    },
+    {
+      "name": "Wang_N3.97438.a_union_every_value_and_missing_zeros",
+      "passed": true
+    },
+    {
+      "name": "Wang_N3.97438.a_native_feature_presence_mask",
+      "passed": true
+    },
+    {
+      "name": "Wang_N3.97438.a_authoritative_gene_mapping",
+      "passed": true
+    },
+    {
+      "name": "Wang_N3.97438.a_MT_genes_are_endogenous",
+      "passed": true
+    },
+    {
+      "name": "Wang_N3.97438.a_QC_metrics",
+      "passed": true
+    },
+    {
+      "name": "Wang_N3.97438.a_strict_baseline",
+      "passed": true
+    },
+    {
+      "name": "Wang_N3.97438.a_author_cell_relation",
+      "passed": true
+    },
+    {
+      "name": "Wang_N3.97438.a_source_disease_metadata",
+      "passed": true
+    },
+    {
+      "name": "Wang_N3.97438.a_Wang_donor_binding",
+      "passed": true
+    },
+    {
+      "name": "Wang_N3.97438.a_ALL_has_shared_counts",
+      "passed": true
+    },
+    {
+      "name": "Wang_N3.97438.a_ALL_every_shared_RNA_value",
+      "passed": true
+    },
+    {
+      "name": "Wang_N3.97438.a_author_original_study_and_condition",
+      "passed": true
+    },
+    {
+      "name": "Wang_N3.97438.a_author_mitochondrial_counts",
+      "passed": true
+    },
+    {
+      "name": "Wang_N3.97438.b_source_SHA256",
+      "passed": true
+    },
+    {
+      "name": "Wang_N3.97438.b_native_unique_axes",
+      "passed": true
+    },
+    {
+      "name": "Wang_N3.97438.b_native_axes",
+      "passed": true
+    },
+    {
+      "name": "Wang_N3.97438.b_native_all_values",
+      "passed": true
+    },
+    {
+      "name": "Wang_N3.97438.b_union_every_value_and_missing_zeros",
+      "passed": true
+    },
+    {
+      "name": "Wang_N3.97438.b_native_feature_presence_mask",
+      "passed": true
+    },
+    {
+      "name": "Wang_N3.97438.b_authoritative_gene_mapping",
+      "passed": true
+    },
+    {
+      "name": "Wang_N3.97438.b_MT_genes_are_endogenous",
+      "passed": true
+    },
+    {
+      "name": "Wang_N3.97438.b_QC_metrics",
+      "passed": true
+    },
+    {
+      "name": "Wang_N3.97438.b_strict_baseline",
+      "passed": true
+    },
+    {
+      "name": "Wang_N3.97438.b_author_cell_relation",
+      "passed": true
+    },
+    {
+      "name": "Wang_N3.97438.b_source_disease_metadata",
+      "passed": true
+    },
+    {
+      "name": "Wang_N3.97438.b_Wang_donor_binding",
+      "passed": true
+    },
+    {
+      "name": "Wang_N3.97438.b_ALL_has_shared_counts",
+      "passed": true
+    },
+    {
+      "name": "Wang_N3.97438.b_ALL_every_shared_RNA_value",
+      "passed": true
+    },
+    {
+      "name": "Wang_N3.97438.b_author_original_study_and_condition",
+      "passed": true
+    },
+    {
+      "name": "Wang_N3.97438.b_author_mitochondrial_counts",
+      "passed": true
+    },
+    {
+      "name": "Wang_N4.97461.a_source_SHA256",
+      "passed": true
+    },
+    {
+      "name": "Wang_N4.97461.a_native_unique_axes",
+      "passed": true
+    },
+    {
+      "name": "Wang_N4.97461.a_native_axes",
+      "passed": true
+    },
+    {
+      "name": "Wang_N4.97461.a_native_all_values",
+      "passed": true
+    },
+    {
+      "name": "Wang_N4.97461.a_union_every_value_and_missing_zeros",
+      "passed": true
+    },
+    {
+      "name": "Wang_N4.97461.a_native_feature_presence_mask",
+      "passed": true
+    },
+    {
+      "name": "Wang_N4.97461.a_authoritative_gene_mapping",
+      "passed": true
+    },
+    {
+      "name": "Wang_N4.97461.a_MT_genes_are_endogenous",
+      "passed": true
+    },
+    {
+      "name": "Wang_N4.97461.a_QC_metrics",
+      "passed": true
+    },
+    {
+      "name": "Wang_N4.97461.a_strict_baseline",
+      "passed": true
+    },
+    {
+      "name": "Wang_N4.97461.a_author_cell_relation",
+      "passed": true
+    },
+    {
+      "name": "Wang_N4.97461.a_source_disease_metadata",
+      "passed": true
+    },
+    {
+      "name": "Wang_N4.97461.a_Wang_donor_binding",
+      "passed": true
+    },
+    {
+      "name": "Wang_N4.97461.a_ALL_has_shared_counts",
+      "passed": true
+    },
+    {
+      "name": "Wang_N4.97461.a_ALL_every_shared_RNA_value",
+      "passed": true
+    },
+    {
+      "name": "Wang_N4.97461.a_author_original_study_and_condition",
+      "passed": true
+    },
+    {
+      "name": "Wang_N4.97461.a_author_mitochondrial_counts",
+      "passed": true
+    },
+    {
+      "name": "Wang_N4.97461.b_source_SHA256",
+      "passed": true
+    },
+    {
+      "name": "Wang_N4.97461.b_native_unique_axes",
+      "passed": true
+    },
+    {
+      "name": "Wang_N4.97461.b_native_axes",
+      "passed": true
+    },
+    {
+      "name": "Wang_N4.97461.b_native_all_values",
+      "passed": true
+    },
+    {
+      "name": "Wang_N4.97461.b_union_every_value_and_missing_zeros",
+      "passed": true
+    },
+    {
+      "name": "Wang_N4.97461.b_native_feature_presence_mask",
+      "passed": true
+    },
+    {
+      "name": "Wang_N4.97461.b_authoritative_gene_mapping",
+      "passed": true
+    },
+    {
+      "name": "Wang_N4.97461.b_MT_genes_are_endogenous",
+      "passed": true
+    },
+    {
+      "name": "Wang_N4.97461.b_QC_metrics",
+      "passed": true
+    },
+    {
+      "name": "Wang_N4.97461.b_strict_baseline",
+      "passed": true
+    },
+    {
+      "name": "Wang_N4.97461.b_author_cell_relation",
+      "passed": true
+    },
+    {
+      "name": "Wang_N4.97461.b_source_disease_metadata",
+      "passed": true
+    },
+    {
+      "name": "Wang_N4.97461.b_Wang_donor_binding",
+      "passed": true
+    },
+    {
+      "name": "Wang_N4.97461.b_ALL_has_shared_counts",
+      "passed": true
+    },
+    {
+      "name": "Wang_N4.97461.b_ALL_every_shared_RNA_value",
+      "passed": true
+    },
+    {
+      "name": "Wang_N4.97461.b_author_original_study_and_condition",
+      "passed": true
+    },
+    {
+      "name": "Wang_N4.97461.b_author_mitochondrial_counts",
+      "passed": true
+    },
+    {
+      "name": "Wang_N5.97458.a_source_SHA256",
+      "passed": true
+    },
+    {
+      "name": "Wang_N5.97458.a_native_unique_axes",
+      "passed": true
+    },
+    {
+      "name": "Wang_N5.97458.a_native_axes",
+      "passed": true
+    },
+    {
+      "name": "Wang_N5.97458.a_native_all_values",
+      "passed": true
+    },
+    {
+      "name": "Wang_N5.97458.a_union_every_value_and_missing_zeros",
+      "passed": true
+    },
+    {
+      "name": "Wang_N5.97458.a_native_feature_presence_mask",
+      "passed": true
+    },
+    {
+      "name": "Wang_N5.97458.a_authoritative_gene_mapping",
+      "passed": true
+    },
+    {
+      "name": "Wang_N5.97458.a_MT_genes_are_endogenous",
+      "passed": true
+    },
+    {
+      "name": "Wang_N5.97458.a_QC_metrics",
+      "passed": true
+    },
+    {
+      "name": "Wang_N5.97458.a_strict_baseline",
+      "passed": true
+    },
+    {
+      "name": "Wang_N5.97458.a_author_cell_relation",
+      "passed": true
+    },
+    {
+      "name": "Wang_N5.97458.a_source_disease_metadata",
+      "passed": true
+    },
+    {
+      "name": "Wang_N5.97458.a_Wang_donor_binding",
+      "passed": true
+    },
+    {
+      "name": "Wang_N5.97458.a_ALL_has_shared_counts",
+      "passed": true
+    },
+    {
+      "name": "Wang_N5.97458.a_ALL_every_shared_RNA_value",
+      "passed": true
+    },
+    {
+      "name": "Wang_N5.97458.a_author_original_study_and_condition",
+      "passed": true
+    },
+    {
+      "name": "Wang_N5.97458.a_author_mitochondrial_counts",
+      "passed": true
+    },
+    {
+      "name": "Wang_N5.97458.b_source_SHA256",
+      "passed": true
+    },
+    {
+      "name": "Wang_N5.97458.b_native_unique_axes",
+      "passed": true
+    },
+    {
+      "name": "Wang_N5.97458.b_native_axes",
+      "passed": true
+    },
+    {
+      "name": "Wang_N5.97458.b_native_all_values",
+      "passed": true
+    },
+    {
+      "name": "Wang_N5.97458.b_union_every_value_and_missing_zeros",
+      "passed": true
+    },
+    {
+      "name": "Wang_N5.97458.b_native_feature_presence_mask",
+      "passed": true
+    },
+    {
+      "name": "Wang_N5.97458.b_authoritative_gene_mapping",
+      "passed": true
+    },
+    {
+      "name": "Wang_N5.97458.b_MT_genes_are_endogenous",
+      "passed": true
+    },
+    {
+      "name": "Wang_N5.97458.b_QC_metrics",
+      "passed": true
+    },
+    {
+      "name": "Wang_N5.97458.b_strict_baseline",
+      "passed": true
+    },
+    {
+      "name": "Wang_N5.97458.b_author_cell_relation",
+      "passed": true
+    },
+    {
+      "name": "Wang_N5.97458.b_source_disease_metadata",
+      "passed": true
+    },
+    {
+      "name": "Wang_N5.97458.b_Wang_donor_binding",
+      "passed": true
+    },
+    {
+      "name": "Wang_N5.97458.b_ALL_has_shared_counts",
+      "passed": true
+    },
+    {
+      "name": "Wang_N5.97458.b_ALL_every_shared_RNA_value",
+      "passed": true
+    },
+    {
+      "name": "Wang_N5.97458.b_author_original_study_and_condition",
+      "passed": true
+    },
+    {
+      "name": "Wang_N5.97458.b_author_mitochondrial_counts",
+      "passed": true
+    },
+    {
+      "name": "Wang_N13.100355.a_source_SHA256",
+      "passed": true
+    },
+    {
+      "name": "Wang_N13.100355.a_native_unique_axes",
+      "passed": true
+    },
+    {
+      "name": "Wang_N13.100355.a_native_axes",
+      "passed": true
+    },
+    {
+      "name": "Wang_N13.100355.a_native_all_values",
+      "passed": true
+    },
+    {
+      "name": "Wang_N13.100355.a_union_every_value_and_missing_zeros",
+      "passed": true
+    },
+    {
+      "name": "Wang_N13.100355.a_native_feature_presence_mask",
+      "passed": true
+    },
+    {
+      "name": "Wang_N13.100355.a_authoritative_gene_mapping",
+      "passed": true
+    },
+    {
+      "name": "Wang_N13.100355.a_MT_genes_are_endogenous",
+      "passed": true
+    },
+    {
+      "name": "Wang_N13.100355.a_QC_metrics",
+      "passed": true
+    },
+    {
+      "name": "Wang_N13.100355.a_strict_baseline",
+      "passed": true
+    },
+    {
+      "name": "Wang_N13.100355.a_author_cell_relation",
+      "passed": true
+    },
+    {
+      "name": "Wang_N13.100355.a_source_disease_metadata",
+      "passed": true
+    },
+    {
+      "name": "Wang_N13.100355.a_Wang_donor_binding",
+      "passed": true
+    },
+    {
+      "name": "Wang_N13.100355.a_ALL_has_shared_counts",
+      "passed": true
+    },
+    {
+      "name": "Wang_N13.100355.a_ALL_every_shared_RNA_value",
+      "passed": true
+    },
+    {
+      "name": "Wang_N13.100355.a_author_original_study_and_condition",
+      "passed": true
+    },
+    {
+      "name": "Wang_N13.100355.a_author_mitochondrial_counts",
+      "passed": true
+    },
+    {
+      "name": "Wang_N13.100355.b_source_SHA256",
+      "passed": true
+    },
+    {
+      "name": "Wang_N13.100355.b_native_unique_axes",
+      "passed": true
+    },
+    {
+      "name": "Wang_N13.100355.b_native_axes",
+      "passed": true
+    },
+    {
+      "name": "Wang_N13.100355.b_native_all_values",
+      "passed": true
+    },
+    {
+      "name": "Wang_N13.100355.b_union_every_value_and_missing_zeros",
+      "passed": true
+    },
+    {
+      "name": "Wang_N13.100355.b_native_feature_presence_mask",
+      "passed": true
+    },
+    {
+      "name": "Wang_N13.100355.b_authoritative_gene_mapping",
+      "passed": true
+    },
+    {
+      "name": "Wang_N13.100355.b_MT_genes_are_endogenous",
+      "passed": true
+    },
+    {
+      "name": "Wang_N13.100355.b_QC_metrics",
+      "passed": true
+    },
+    {
+      "name": "Wang_N13.100355.b_strict_baseline",
+      "passed": true
+    },
+    {
+      "name": "Wang_N13.100355.b_author_cell_relation",
+      "passed": true
+    },
+    {
+      "name": "Wang_N13.100355.b_source_disease_metadata",
+      "passed": true
+    },
+    {
+      "name": "Wang_N13.100355.b_Wang_donor_binding",
+      "passed": true
+    },
+    {
+      "name": "Wang_N13.100355.b_ALL_has_shared_counts",
+      "passed": true
+    },
+    {
+      "name": "Wang_N13.100355.b_ALL_every_shared_RNA_value",
+      "passed": true
+    },
+    {
+      "name": "Wang_N13.100355.b_author_original_study_and_condition",
+      "passed": true
+    },
+    {
+      "name": "Wang_N13.100355.b_author_mitochondrial_counts",
+      "passed": true
+    },
+    {
+      "name": "Wang_N14.104720.a_source_SHA256",
+      "passed": true
+    },
+    {
+      "name": "Wang_N14.104720.a_native_unique_axes",
+      "passed": true
+    },
+    {
+      "name": "Wang_N14.104720.a_native_axes",
+      "passed": true
+    },
+    {
+      "name": "Wang_N14.104720.a_native_all_values",
+      "passed": true
+    },
+    {
+      "name": "Wang_N14.104720.a_union_every_value_and_missing_zeros",
+      "passed": true
+    },
+    {
+      "name": "Wang_N14.104720.a_native_feature_presence_mask",
+      "passed": true
+    },
+    {
+      "name": "Wang_N14.104720.a_authoritative_gene_mapping",
+      "passed": true
+    },
+    {
+      "name": "Wang_N14.104720.a_MT_genes_are_endogenous",
+      "passed": true
+    },
+    {
+      "name": "Wang_N14.104720.a_QC_metrics",
+      "passed": true
+    },
+    {
+      "name": "Wang_N14.104720.a_strict_baseline",
+      "passed": true
+    },
+    {
+      "name": "Wang_N14.104720.a_author_cell_relation",
+      "passed": true
+    },
+    {
+      "name": "Wang_N14.104720.a_source_disease_metadata",
+      "passed": true
+    },
+    {
+      "name": "Wang_N14.104720.a_Wang_donor_binding",
+      "passed": true
+    },
+    {
+      "name": "Wang_N14.104720.a_ALL_has_shared_counts",
+      "passed": true
+    },
+    {
+      "name": "Wang_N14.104720.a_ALL_every_shared_RNA_value",
+      "passed": true
+    },
+    {
+      "name": "Wang_N14.104720.a_author_original_study_and_condition",
+      "passed": true
+    },
+    {
+      "name": "Wang_N14.104720.a_author_mitochondrial_counts",
+      "passed": true
+    },
+    {
+      "name": "Wang_N14.104720.b_source_SHA256",
+      "passed": true
+    },
+    {
+      "name": "Wang_N14.104720.b_native_unique_axes",
+      "passed": true
+    },
+    {
+      "name": "Wang_N14.104720.b_native_axes",
+      "passed": true
+    },
+    {
+      "name": "Wang_N14.104720.b_native_all_values",
+      "passed": true
+    },
+    {
+      "name": "Wang_N14.104720.b_union_every_value_and_missing_zeros",
+      "passed": true
+    },
+    {
+      "name": "Wang_N14.104720.b_native_feature_presence_mask",
+      "passed": true
+    },
+    {
+      "name": "Wang_N14.104720.b_authoritative_gene_mapping",
+      "passed": true
+    },
+    {
+      "name": "Wang_N14.104720.b_MT_genes_are_endogenous",
+      "passed": true
+    },
+    {
+      "name": "Wang_N14.104720.b_QC_metrics",
+      "passed": true
+    },
+    {
+      "name": "Wang_N14.104720.b_strict_baseline",
+      "passed": true
+    },
+    {
+      "name": "Wang_N14.104720.b_author_cell_relation",
+      "passed": true
+    },
+    {
+      "name": "Wang_N14.104720.b_source_disease_metadata",
+      "passed": true
+    },
+    {
+      "name": "Wang_N14.104720.b_Wang_donor_binding",
+      "passed": true
+    },
+    {
+      "name": "Wang_N14.104720.b_ALL_has_shared_counts",
+      "passed": true
+    },
+    {
+      "name": "Wang_N14.104720.b_ALL_every_shared_RNA_value",
+      "passed": true
+    },
+    {
+      "name": "Wang_N14.104720.b_author_original_study_and_condition",
+      "passed": true
+    },
+    {
+      "name": "Wang_N14.104720.b_author_mitochondrial_counts",
+      "passed": true
+    },
+    {
+      "name": "every_input_cell_read_directly_from_corrected_sources",
+      "passed": true
+    },
+    {
+      "name": "all_48_author_object_plate_comparisons_repeated",
+      "passed": true
+    },
+    {
+      "name": "all_native_genes_retained",
+      "passed": true
+    },
+    {
+      "name": "reference_training_and_holdout_donors_disjoint",
+      "passed": true
+    },
+    {
+      "name": "reference_adapted_to_authoritative_Ensembl_genes",
+      "passed": true
+    },
+    {
+      "name": "identity_only_unchanged_strict_query",
+      "passed": true
+    },
+    {
+      "name": "SingleR_query_is_unnormalized_corrected_counts",
+      "passed": true
+    },
+    {
+      "name": "all_strict_cells_retained_without_loading_model_exclusion",
+      "passed": true
+    },
+    {
+      "name": "strict_counts_exact",
+      "passed": true
+    },
+    {
+      "name": "frozen_project_numeric_rules",
+      "passed": true
+    },
+    {
+      "name": "reference_predictions_preserved",
+      "passed": true
+    },
+    {
+      "name": "calibration_uses_all_fixed_holdout_cells",
+      "passed": true
+    },
+    {
+      "name": "reference_tail_Adipocyte",
+      "passed": true
+    },
+    {
+      "name": "reference_tail_Cardiomyocyte",
+      "passed": true
+    },
+    {
+      "name": "reference_tail_Endothelial",
+      "passed": true
+    },
+    {
+      "name": "reference_tail_Fibroblast",
+      "passed": true
+    },
+    {
+      "name": "reference_tail_Immune",
+      "passed": true
+    },
+    {
+      "name": "reference_tail_Neural",
+      "passed": true
+    },
+    {
+      "name": "reference_tail_Pericyte",
+      "passed": true
+    },
+    {
+      "name": "reference_tail_Smooth_muscle",
+      "passed": true
+    },
+    {
+      "name": "reference_tail_flags_recomputed",
+      "passed": true
+    },
+    {
+      "name": "independent_marker_evidence_Cardiomyocyte",
+      "passed": true
+    },
+    {
+      "name": "fixed_reference_mixed_bound_Cardiomyocyte",
+      "passed": true
+    },
+    {
+      "name": "independent_marker_evidence_Fibroblast",
+      "passed": true
+    },
+    {
+      "name": "fixed_reference_mixed_bound_Fibroblast",
+      "passed": true
+    },
+    {
+      "name": "independent_marker_evidence_Endothelial",
+      "passed": true
+    },
+    {
+      "name": "fixed_reference_mixed_bound_Endothelial",
+      "passed": true
+    },
+    {
+      "name": "independent_marker_evidence_Immune",
+      "passed": true
+    },
+    {
+      "name": "fixed_reference_mixed_bound_Immune",
+      "passed": true
+    },
+    {
+      "name": "independent_marker_evidence_Mural",
+      "passed": true
+    },
+    {
+      "name": "fixed_reference_mixed_bound_Mural",
+      "passed": true
+    },
+    {
+      "name": "independent_marker_evidence_Neural",
+      "passed": true
+    },
+    {
+      "name": "independent_marker_evidence_Adipocyte",
+      "passed": true
+    },
+    {
+      "name": "independent_marker_evidence_Mesothelial",
+      "passed": true
+    },
+    {
+      "name": "strong_mixed_flags_recomputed",
+      "passed": true
+    },
+    {
+      "name": "CM_program_dominance_recomputed",
+      "passed": true
+    },
+    {
+      "name": "no_small_cohort_graph_rescue",
+      "passed": true
+    },
+    {
+      "name": "CM_core_identity_recomputed",
+      "passed": true
+    },
+    {
+      "name": "strict_candidates_partition_without_loss",
+      "passed": true
+    },
+    {
+      "name": "all_cells_qc.h5ad_file_digest",
+      "passed": true
+    },
+    {
+      "name": "all_cells_qc.h5ad_entire_count_matrix_preserved",
+      "passed": true
+    },
+    {
+      "name": "all_cells_qc.h5ad_unique_cells_and_disease_labels",
+      "passed": true
+    },
+    {
+      "name": "all_source_counts.h5ad_file_digest",
+      "passed": true
+    },
+    {
+      "name": "all_source_counts.h5ad_entire_count_matrix_preserved",
+      "passed": true
+    },
+    {
+      "name": "all_source_counts.h5ad_unique_cells_and_disease_labels",
+      "passed": true
+    },
+    {
+      "name": "cm_qc_full.h5ad_file_digest",
+      "passed": true
+    },
+    {
+      "name": "cm_qc_full.h5ad_entire_count_matrix_preserved",
+      "passed": true
+    },
+    {
+      "name": "cm_qc_full.h5ad_unique_cells_and_disease_labels",
+      "passed": true
+    },
+    {
+      "name": "cm_qc_light.h5ad_file_digest",
+      "passed": true
+    },
+    {
+      "name": "cm_qc_light.h5ad_entire_count_matrix_preserved",
+      "passed": true
+    },
+    {
+      "name": "cm_qc_light.h5ad_unique_cells_and_disease_labels",
+      "passed": true
+    },
+    {
+      "name": "cm_review_pending.h5ad_file_digest",
+      "passed": true
+    },
+    {
+      "name": "cm_review_pending.h5ad_entire_count_matrix_preserved",
+      "passed": true
+    },
+    {
+      "name": "cm_review_pending.h5ad_unique_cells_and_disease_labels",
+      "passed": true
+    },
+    {
+      "name": "diagnostic_Wehrens2022.h5ad_file_digest",
+      "passed": true
+    },
+    {
+      "name": "diagnostic_Wehrens2022.h5ad_explicit_log_CP10k_only",
+      "passed": true
+    },
+    {
+      "name": "mixed_lineage_review.h5ad_file_digest",
+      "passed": true
+    },
+    {
+      "name": "mixed_lineage_review.h5ad_entire_count_matrix_preserved",
+      "passed": true
+    },
+    {
+      "name": "mixed_lineage_review.h5ad_unique_cells_and_disease_labels",
+      "passed": true
+    },
+    {
+      "name": "outside_strict_numeric.h5ad_file_digest",
+      "passed": true
+    },
+    {
+      "name": "outside_strict_numeric.h5ad_entire_count_matrix_preserved",
+      "passed": true
+    },
+    {
+      "name": "outside_strict_numeric.h5ad_unique_cells_and_disease_labels",
+      "passed": true
+    },
+    {
+      "name": "outside_strict_cells_retained_exactly",
+      "passed": true
+    },
+    {
+      "name": "light_unique_and_not_inflated",
+      "passed": true
+    },
+    {
+      "name": "no_training_approval_from_severely_selected_data",
+      "passed": true
+    },
+    {
+      "name": "all_32_samples_including_zero_survivors_reported",
+      "passed": true
+    },
+    {
+      "name": "author_external_cells_inventoried_not_reused_as_independent_controls",
+      "passed": true
+    },
+    {
+      "name": "executed_source_SHA256_calibrate_mixed.py",
+      "passed": true
+    },
+    {
+      "name": "executed_source_SHA256_download_corrected.py",
+      "passed": true
+    },
+    {
+      "name": "executed_source_SHA256_finalize_gse138262.py",
+      "passed": true
+    },
+    {
+      "name": "executed_source_SHA256_inspect_author.R",
+      "passed": true
+    },
+    {
+      "name": "executed_source_SHA256_inspect_axes.py",
+      "passed": true
+    },
+    {
+      "name": "executed_source_SHA256_inspect_state.py",
+      "passed": true
+    },
+    {
+      "name": "executed_source_SHA256_run_download.sh",
+      "passed": true
+    },
+    {
+      "name": "executed_source_SHA256_run_finalize.sh",
+      "passed": true
+    },
+    {
+      "name": "executed_source_SHA256_run_identity.R",
+      "passed": true
+    },
+    {
+      "name": "executed_source_SHA256_run_identity.sh",
+      "passed": true
+    },
+    {
+      "name": "executed_source_SHA256_run_inspect.sh",
+      "passed": true
+    },
+    {
+      "name": "executed_source_SHA256_run_preflight.sh",
+      "passed": true
+    },
+    {
+      "name": "executed_source_SHA256_run_stage.sh",
+      "passed": true
+    },
+    {
+      "name": "executed_source_SHA256_run_verify.sh",
+      "passed": true
+    },
+    {
+      "name": "executed_source_SHA256_stage_gse138262.py",
+      "passed": true
+    },
+    {
+      "name": "executed_source_SHA256_verify_gse138262.py",
+      "passed": true
+    },
+    {
+      "name": "job_exit_download",
+      "passed": true
+    },
+    {
+      "name": "job_exit_inspect",
+      "passed": true
+    },
+    {
+      "name": "job_exit_stage",
+      "passed": true
+    },
+    {
+      "name": "job_exit_identity",
+      "passed": true
+    },
+    {
+      "name": "job_exit_finalize",
+      "passed": true
+    }
+  ],
+  "verified_code_sha256": {
+    "calibrate_mixed.py": "d8ca8cde4345a231ed536319c615dce41bb7d11e19e5c79161ebbf76f6aa509e",
+    "download_corrected.py": "ca3787264ee8bf4db43175f5fb6cf13ba6d42e8d16342b2a10c4542b9e5c6f7e",
+    "finalize_gse138262.py": "0424a52c07d4924d20f75deeea7b8ecc9b1b82183dd223ca2fa1b2e6be205bef",
+    "inspect_author.R": "422de92b774649f228f1f47da2ddcc8b01c44d8175e39cdb3b523044ebd478c5",
+    "inspect_axes.py": "a9edc714c5a976c5589e792c41d66f4b6f074132d9ec6a61523c173b0668b797",
+    "inspect_state.py": "f19c9238953e07e7f6dd9f75300ab482061322c5a4149279471952c6db6442c6",
+    "run_download.sh": "49591070d539e4e185534030b35ab931ff31d9758b5ced7df24b12a213acaa2d",
+    "run_finalize.sh": "61f290d8859227e9f2a6fd1092897e9479ea7f2bbfc113a1b82df39089bb8b09",
+    "run_identity.R": "a8e1f492346d97795fb405407dc604fc72640c1fa9856f89f3a5c23eb46337e7",
+    "run_identity.sh": "ea8d1c6454fadb34c2ad18bf13989e2c053c5900bb148fff6f90110194e0154d",
+    "run_inspect.sh": "55a4b618e4c40db261346ca249ce8fe544b077df6a2b7a6fbcf49bfa90b4795e",
+    "run_preflight.sh": "6410b2d3749a423e45c7c11fe3c665ea79609dfdb8a64404d37a010a543a4c2b",
+    "run_stage.sh": "cc36570d6d8bb9fbb0b2a64407306f99328e8daaf4d1b4b06d78d25debf98ddd",
+    "run_verify.sh": "0449993555c44751137ee01b416b10c1ad47afc882e375071b88be982b31be5c",
+    "stage_gse138262.py": "da5e556e7c795cd177e1543f0f5c4ccea66042355dbf5076f1188608d81c8b0b",
+    "verify_gse138262.py": "231e82beafa2df486c7b346b4ed590b4bc12c357c469989fe7624585ad6504ba"
+  }
+}

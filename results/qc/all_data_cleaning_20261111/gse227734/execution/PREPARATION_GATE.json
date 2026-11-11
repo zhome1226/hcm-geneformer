@@ -1,0 +1,16 @@
+{
+  "audit_status": "passed",
+  "dataset_cleaning_status": "blocked_missing_gene_annotation",
+  "dataset_cleaning_complete": false,
+  "checked_utc": "2026-11-11T12:34:17.0325976Z",
+  "preparation_checks_passed": 60,
+  "matching_source_files": 4,
+  "verifier_sha256": "c06cf987f2998ef18b5db316ef94d06a2eca0c9308acca8134e7a22b1d72ee66",
+  "verification_v2_exit_code": 0,
+  "published_cells": 338,
+  "source_patients": 5,
+  "anonymous_features": 9760,
+  "gene_bound_candidates_only": 240,
+  "training_eligible_cells": 0,
+  "missing_requirement": "authoritative ordered gene annotation for original 9760 columns"
+}

@@ -1,0 +1,1564 @@
+{
+  "dataset": "NeurIPS2023",
+  "status": "complete_verified",
+  "verified_utc": "2026-11-11T15:52:10.915075+00:00",
+  "checks_passed": 383,
+  "checks_failed": 0,
+  "checks": [
+    {
+      "name": "all_eight_originals_accounted_for",
+      "passed": true
+    },
+    {
+      "name": "source_bytes_2023-09-12_de_by_cell_type_test.h5ad",
+      "passed": true
+    },
+    {
+      "name": "source_MD5_2023-09-12_de_by_cell_type_test.h5ad",
+      "passed": true
+    },
+    {
+      "name": "source_SHA256_2023-09-12_de_by_cell_type_test.h5ad",
+      "passed": true
+    },
+    {
+      "name": "source_bytes_2023-09-12_de_by_cell_type_train.h5ad",
+      "passed": true
+    },
+    {
+      "name": "source_MD5_2023-09-12_de_by_cell_type_train.h5ad",
+      "passed": true
+    },
+    {
+      "name": "source_SHA256_2023-09-12_de_by_cell_type_train.h5ad",
+      "passed": true
+    },
+    {
+      "name": "source_bytes_moa_annotations.csv",
+      "passed": true
+    },
+    {
+      "name": "source_MD5_moa_annotations.csv",
+      "passed": true
+    },
+    {
+      "name": "source_SHA256_moa_annotations.csv",
+      "passed": true
+    },
+    {
+      "name": "source_bytes_multiome_counts.h5mu",
+      "passed": true
+    },
+    {
+      "name": "source_MD5_multiome_counts.h5mu",
+      "passed": true
+    },
+    {
+      "name": "source_SHA256_multiome_counts.h5mu",
+      "passed": true
+    },
+    {
+      "name": "source_bytes_sc_counts_reannotated_with_counts.h5ad",
+      "passed": true
+    },
+    {
+      "name": "source_MD5_sc_counts_reannotated_with_counts.h5ad",
+      "passed": true
+    },
+    {
+      "name": "source_SHA256_sc_counts_reannotated_with_counts.h5ad",
+      "passed": true
+    },
+    {
+      "name": "source_bytes_sc_counts.h5ad",
+      "passed": true
+    },
+    {
+      "name": "source_MD5_sc_counts.h5ad",
+      "passed": true
+    },
+    {
+      "name": "source_SHA256_sc_counts.h5ad",
+      "passed": true
+    },
+    {
+      "name": "source_bytes_dataset_info.yaml",
+      "passed": true
+    },
+    {
+      "name": "source_MD5_dataset_info.yaml",
+      "passed": true
+    },
+    {
+      "name": "source_SHA256_dataset_info.yaml",
+      "passed": true
+    },
+    {
+      "name": "source_bytes_id_map.csv",
+      "passed": true
+    },
+    {
+      "name": "source_MD5_id_map.csv",
+      "passed": true
+    },
+    {
+      "name": "source_SHA256_id_map.csv",
+      "passed": true
+    },
+    {
+      "name": "exact_six_assay_units_and_unique_matrix_slots",
+      "passed": true
+    },
+    {
+      "name": "sc_original_unique_unmodified_source_axes",
+      "passed": true
+    },
+    {
+      "name": "sc_original_every_author_observation_field_preserved",
+      "passed": true
+    },
+    {
+      "name": "sc_original_every_author_feature_field_preserved",
+      "passed": true
+    },
+    {
+      "name": "sc_original_exact_read_only_count_or_score_locations",
+      "passed": true
+    },
+    {
+      "name": "sc_original_X_all_values_and_sparse_structure_checked",
+      "passed": true
+    },
+    {
+      "name": "sc_original_X_full_numeric_summary_recomputed",
+      "passed": true
+    },
+    {
+      "name": "sc_original_X_full_gene_axis_shape",
+      "passed": true
+    },
+    {
+      "name": "sc_original_layers/counts_all_values_and_sparse_structure_checked",
+      "passed": true
+    },
+    {
+      "name": "sc_original_layers/counts_full_numeric_summary_recomputed",
+      "passed": true
+    },
+    {
+      "name": "sc_original_layers/counts_full_gene_axis_shape",
+      "passed": true
+    },
+    {
+      "name": "sc_original_obsm/HTO_clr_native_table_alignment",
+      "passed": true
+    },
+    {
+      "name": "sc_original_obsm/HTO_clr_all_values_and_sparse_structure_checked",
+      "passed": true
+    },
+    {
+      "name": "sc_original_obsm/HTO_clr_full_numeric_summary_recomputed",
+      "passed": true
+    },
+    {
+      "name": "sc_original_obsm/X_pca_all_values_and_sparse_structure_checked",
+      "passed": true
+    },
+    {
+      "name": "sc_original_obsm/X_pca_full_numeric_summary_recomputed",
+      "passed": true
+    },
+    {
+      "name": "sc_original_obsm/X_umap_all_values_and_sparse_structure_checked",
+      "passed": true
+    },
+    {
+      "name": "sc_original_obsm/X_umap_full_numeric_summary_recomputed",
+      "passed": true
+    },
+    {
+      "name": "sc_original_obsm/protein_counts_native_table_alignment",
+      "passed": true
+    },
+    {
+      "name": "sc_original_CMO_tags_are_hashing_not_protein_ADT",
+      "passed": true
+    },
+    {
+      "name": "sc_original_obsm/protein_counts_all_values_and_sparse_structure_checked",
+      "passed": true
+    },
+    {
+      "name": "sc_original_obsm/protein_counts_full_numeric_summary_recomputed",
+      "passed": true
+    },
+    {
+      "name": "sc_original_every_primary_row_sum_and_detection",
+      "passed": true
+    },
+    {
+      "name": "sc_original_every_primary_feature_sum_and_detection",
+      "passed": true
+    },
+    {
+      "name": "sc_original_original_splits_preserved",
+      "passed": true
+    },
+    {
+      "name": "sc_original_stable_shared_release_cellUID",
+      "passed": true
+    },
+    {
+      "name": "sc_original_every_CMO_total_and_nonzero_count",
+      "passed": true
+    },
+    {
+      "name": "sc_original_fixed_metadata_and_information_QC_only",
+      "passed": true
+    },
+    {
+      "name": "sc_original_training_test_reference_roles_exact",
+      "passed": true
+    },
+    {
+      "name": "sc_original_usable_index_every_row_and_metadata_exact",
+      "passed": true
+    },
+    {
+      "name": "sc_original_quarantine_exact_not_placeholder",
+      "passed": true
+    },
+    {
+      "name": "sc_original_every_count_row_canonical_fingerprint_verified",
+      "passed": true
+    },
+    {
+      "name": "sc_original_every_MT_value_recomputed_on_released_genes",
+      "passed": true
+    },
+    {
+      "name": "sc_original_dataset_index_points_to_real_originals_and_indices",
+      "passed": true
+    },
+    {
+      "name": "sc_original_unit_summary_recomputed",
+      "passed": true
+    },
+    {
+      "name": "sc_reannotated_unique_unmodified_source_axes",
+      "passed": true
+    },
+    {
+      "name": "sc_reannotated_every_author_observation_field_preserved",
+      "passed": true
+    },
+    {
+      "name": "sc_reannotated_every_author_feature_field_preserved",
+      "passed": true
+    },
+    {
+      "name": "sc_reannotated_exact_read_only_count_or_score_locations",
+      "passed": true
+    },
+    {
+      "name": "sc_reannotated_raw_count_gene_axis_matches_native_var",
+      "passed": true
+    },
+    {
+      "name": "sc_reannotated_X_all_values_and_sparse_structure_checked",
+      "passed": true
+    },
+    {
+      "name": "sc_reannotated_X_full_numeric_summary_recomputed",
+      "passed": true
+    },
+    {
+      "name": "sc_reannotated_X_full_gene_axis_shape",
+      "passed": true
+    },
+    {
+      "name": "sc_reannotated_raw/X_all_values_and_sparse_structure_checked",
+      "passed": true
+    },
+    {
+      "name": "sc_reannotated_raw/X_full_numeric_summary_recomputed",
+      "passed": true
+    },
+    {
+      "name": "sc_reannotated_raw/X_full_gene_axis_shape",
+      "passed": true
+    },
+    {
+      "name": "sc_reannotated_obsm/HTO_clr_native_table_alignment",
+      "passed": true
+    },
+    {
+      "name": "sc_reannotated_obsm/HTO_clr_all_values_and_sparse_structure_checked",
+      "passed": true
+    },
+    {
+      "name": "sc_reannotated_obsm/HTO_clr_full_numeric_summary_recomputed",
+      "passed": true
+    },
+    {
+      "name": "sc_reannotated_obsm/X_pca_all_values_and_sparse_structure_checked",
+      "passed": true
+    },
+    {
+      "name": "sc_reannotated_obsm/X_pca_full_numeric_summary_recomputed",
+      "passed": true
+    },
+    {
+      "name": "sc_reannotated_obsm/X_umap_all_values_and_sparse_structure_checked",
+      "passed": true
+    },
+    {
+      "name": "sc_reannotated_obsm/X_umap_full_numeric_summary_recomputed",
+      "passed": true
+    },
+    {
+      "name": "sc_reannotated_obsm/protein_counts_native_table_alignment",
+      "passed": true
+    },
+    {
+      "name": "sc_reannotated_CMO_tags_are_hashing_not_protein_ADT",
+      "passed": true
+    },
+    {
+      "name": "sc_reannotated_obsm/protein_counts_all_values_and_sparse_structure_checked",
+      "passed": true
+    },
+    {
+      "name": "sc_reannotated_obsm/protein_counts_full_numeric_summary_recomputed",
+      "passed": true
+    },
+    {
+      "name": "sc_reannotated_every_primary_row_sum_and_detection",
+      "passed": true
+    },
+    {
+      "name": "sc_reannotated_every_primary_feature_sum_and_detection",
+      "passed": true
+    },
+    {
+      "name": "sc_reannotated_original_splits_preserved",
+      "passed": true
+    },
+    {
+      "name": "sc_reannotated_stable_shared_release_cellUID",
+      "passed": true
+    },
+    {
+      "name": "sc_reannotated_every_CMO_total_and_nonzero_count",
+      "passed": true
+    },
+    {
+      "name": "sc_reannotated_fixed_metadata_and_information_QC_only",
+      "passed": true
+    },
+    {
+      "name": "sc_reannotated_training_test_reference_roles_exact",
+      "passed": true
+    },
+    {
+      "name": "sc_reannotated_usable_index_every_row_and_metadata_exact",
+      "passed": true
+    },
+    {
+      "name": "sc_reannotated_quarantine_exact_not_placeholder",
+      "passed": true
+    },
+    {
+      "name": "sc_reannotated_every_count_row_canonical_fingerprint_verified",
+      "passed": true
+    },
+    {
+      "name": "sc_reannotated_every_MT_value_recomputed_on_released_genes",
+      "passed": true
+    },
+    {
+      "name": "sc_reannotated_dataset_index_points_to_real_originals_and_indices",
+      "passed": true
+    },
+    {
+      "name": "sc_reannotated_unit_summary_recomputed",
+      "passed": true
+    },
+    {
+      "name": "baseline_rna_unique_unmodified_source_axes",
+      "passed": true
+    },
+    {
+      "name": "baseline_rna_every_author_observation_field_preserved",
+      "passed": true
+    },
+    {
+      "name": "baseline_rna_every_author_feature_field_preserved",
+      "passed": true
+    },
+    {
+      "name": "baseline_rna_exact_read_only_count_or_score_locations",
+      "passed": true
+    },
+    {
+      "name": "baseline_rna_raw_count_gene_axis_matches_native_var",
+      "passed": true
+    },
+    {
+      "name": "baseline_rna_X_all_values_and_sparse_structure_checked",
+      "passed": true
+    },
+    {
+      "name": "baseline_rna_X_full_numeric_summary_recomputed",
+      "passed": true
+    },
+    {
+      "name": "baseline_rna_X_full_gene_axis_shape",
+      "passed": true
+    },
+    {
+      "name": "baseline_rna_raw/X_all_values_and_sparse_structure_checked",
+      "passed": true
+    },
+    {
+      "name": "baseline_rna_raw/X_full_numeric_summary_recomputed",
+      "passed": true
+    },
+    {
+      "name": "baseline_rna_raw/X_full_gene_axis_shape",
+      "passed": true
+    },
+    {
+      "name": "baseline_rna_obsm/X_pca_all_values_and_sparse_structure_checked",
+      "passed": true
+    },
+    {
+      "name": "baseline_rna_obsm/X_pca_full_numeric_summary_recomputed",
+      "passed": true
+    },
+    {
+      "name": "baseline_rna_obsm/X_umap_all_values_and_sparse_structure_checked",
+      "passed": true
+    },
+    {
+      "name": "baseline_rna_obsm/X_umap_full_numeric_summary_recomputed",
+      "passed": true
+    },
+    {
+      "name": "baseline_rna_obsm/ora_estimate_native_table_alignment",
+      "passed": true
+    },
+    {
+      "name": "baseline_rna_obsm/ora_estimate_all_values_and_sparse_structure_checked",
+      "passed": true
+    },
+    {
+      "name": "baseline_rna_obsm/ora_estimate_full_numeric_summary_recomputed",
+      "passed": true
+    },
+    {
+      "name": "baseline_rna_obsm/ora_pvals_native_table_alignment",
+      "passed": true
+    },
+    {
+      "name": "baseline_rna_obsm/ora_pvals_all_values_and_sparse_structure_checked",
+      "passed": true
+    },
+    {
+      "name": "baseline_rna_obsm/ora_pvals_full_numeric_summary_recomputed",
+      "passed": true
+    },
+    {
+      "name": "baseline_rna_every_primary_row_sum_and_detection",
+      "passed": true
+    },
+    {
+      "name": "baseline_rna_every_primary_feature_sum_and_detection",
+      "passed": true
+    },
+    {
+      "name": "baseline_rna_paired_root_donors_exact",
+      "passed": true
+    },
+    {
+      "name": "baseline_rna_baseline_role_not_invented_holdout_or_patient",
+      "passed": true
+    },
+    {
+      "name": "baseline_rna_fixed_metadata_and_information_QC_only",
+      "passed": true
+    },
+    {
+      "name": "baseline_rna_training_test_reference_roles_exact",
+      "passed": true
+    },
+    {
+      "name": "baseline_rna_usable_index_every_row_and_metadata_exact",
+      "passed": true
+    },
+    {
+      "name": "baseline_rna_quarantine_exact_not_placeholder",
+      "passed": true
+    },
+    {
+      "name": "baseline_rna_every_count_row_canonical_fingerprint_verified",
+      "passed": true
+    },
+    {
+      "name": "baseline_rna_every_MT_value_recomputed_on_released_genes",
+      "passed": true
+    },
+    {
+      "name": "baseline_rna_dataset_index_points_to_real_originals_and_indices",
+      "passed": true
+    },
+    {
+      "name": "baseline_rna_unit_summary_recomputed",
+      "passed": true
+    },
+    {
+      "name": "baseline_atac_unique_unmodified_source_axes",
+      "passed": true
+    },
+    {
+      "name": "baseline_atac_every_author_observation_field_preserved",
+      "passed": true
+    },
+    {
+      "name": "baseline_atac_every_author_feature_field_preserved",
+      "passed": true
+    },
+    {
+      "name": "baseline_atac_exact_read_only_count_or_score_locations",
+      "passed": true
+    },
+    {
+      "name": "baseline_atac_X_all_values_and_sparse_structure_checked",
+      "passed": true
+    },
+    {
+      "name": "baseline_atac_X_full_numeric_summary_recomputed",
+      "passed": true
+    },
+    {
+      "name": "baseline_atac_X_full_gene_axis_shape",
+      "passed": true
+    },
+    {
+      "name": "baseline_atac_layers/binarized_all_values_and_sparse_structure_checked",
+      "passed": true
+    },
+    {
+      "name": "baseline_atac_layers/binarized_full_numeric_summary_recomputed",
+      "passed": true
+    },
+    {
+      "name": "baseline_atac_layers/binarized_full_gene_axis_shape",
+      "passed": true
+    },
+    {
+      "name": "baseline_atac_obsm/X_lsi_all_values_and_sparse_structure_checked",
+      "passed": true
+    },
+    {
+      "name": "baseline_atac_obsm/X_lsi_full_numeric_summary_recomputed",
+      "passed": true
+    },
+    {
+      "name": "baseline_atac_obsm/X_lsi_corrRemoved_all_values_and_sparse_structure_checked",
+      "passed": true
+    },
+    {
+      "name": "baseline_atac_obsm/X_lsi_corrRemoved_full_numeric_summary_recomputed",
+      "passed": true
+    },
+    {
+      "name": "baseline_atac_obsm/X_umap_all_values_and_sparse_structure_checked",
+      "passed": true
+    },
+    {
+      "name": "baseline_atac_obsm/X_umap_full_numeric_summary_recomputed",
+      "passed": true
+    },
+    {
+      "name": "baseline_atac_obsm/X_umap_allcomps_all_values_and_sparse_structure_checked",
+      "passed": true
+    },
+    {
+      "name": "baseline_atac_obsm/X_umap_allcomps_full_numeric_summary_recomputed",
+      "passed": true
+    },
+    {
+      "name": "baseline_atac_obsm/X_umap_corrRemoved_all_values_and_sparse_structure_checked",
+      "passed": true
+    },
+    {
+      "name": "baseline_atac_obsm/X_umap_corrRemoved_full_numeric_summary_recomputed",
+      "passed": true
+    },
+    {
+      "name": "baseline_atac_every_primary_row_sum_and_detection",
+      "passed": true
+    },
+    {
+      "name": "baseline_atac_every_primary_feature_sum_and_detection",
+      "passed": true
+    },
+    {
+      "name": "baseline_atac_paired_root_donors_exact",
+      "passed": true
+    },
+    {
+      "name": "baseline_atac_baseline_role_not_invented_holdout_or_patient",
+      "passed": true
+    },
+    {
+      "name": "every_ATAC_peak_coordinate_preserved_and_valid",
+      "passed": true
+    },
+    {
+      "name": "baseline_atac_fixed_metadata_and_information_QC_only",
+      "passed": true
+    },
+    {
+      "name": "baseline_atac_training_test_reference_roles_exact",
+      "passed": true
+    },
+    {
+      "name": "baseline_atac_usable_index_every_row_and_metadata_exact",
+      "passed": true
+    },
+    {
+      "name": "baseline_atac_quarantine_exact_not_placeholder",
+      "passed": true
+    },
+    {
+      "name": "baseline_atac_dataset_index_points_to_real_originals_and_indices",
+      "passed": true
+    },
+    {
+      "name": "baseline_atac_unit_summary_recomputed",
+      "passed": true
+    },
+    {
+      "name": "de_train_unique_unmodified_source_axes",
+      "passed": true
+    },
+    {
+      "name": "de_train_every_author_observation_field_preserved",
+      "passed": true
+    },
+    {
+      "name": "de_train_every_author_feature_field_preserved",
+      "passed": true
+    },
+    {
+      "name": "de_train_exact_read_only_count_or_score_locations",
+      "passed": true
+    },
+    {
+      "name": "de_train_X_all_values_and_sparse_structure_checked",
+      "passed": true
+    },
+    {
+      "name": "de_train_X_full_numeric_summary_recomputed",
+      "passed": true
+    },
+    {
+      "name": "de_train_X_full_gene_axis_shape",
+      "passed": true
+    },
+    {
+      "name": "de_train_layers/P.Value_all_values_and_sparse_structure_checked",
+      "passed": true
+    },
+    {
+      "name": "de_train_layers/P.Value_full_numeric_summary_recomputed",
+      "passed": true
+    },
+    {
+      "name": "de_train_layers/P.Value_full_gene_axis_shape",
+      "passed": true
+    },
+    {
+      "name": "de_train_layers/adj.P.Val_all_values_and_sparse_structure_checked",
+      "passed": true
+    },
+    {
+      "name": "de_train_layers/adj.P.Val_full_numeric_summary_recomputed",
+      "passed": true
+    },
+    {
+      "name": "de_train_layers/adj.P.Val_full_gene_axis_shape",
+      "passed": true
+    },
+    {
+      "name": "de_train_layers/is_de_all_values_and_sparse_structure_checked",
+      "passed": true
+    },
+    {
+      "name": "de_train_layers/is_de_full_numeric_summary_recomputed",
+      "passed": true
+    },
+    {
+      "name": "de_train_layers/is_de_full_gene_axis_shape",
+      "passed": true
+    },
+    {
+      "name": "de_train_layers/is_de_adj_all_values_and_sparse_structure_checked",
+      "passed": true
+    },
+    {
+      "name": "de_train_layers/is_de_adj_full_numeric_summary_recomputed",
+      "passed": true
+    },
+    {
+      "name": "de_train_layers/is_de_adj_full_gene_axis_shape",
+      "passed": true
+    },
+    {
+      "name": "de_train_layers/logFC_all_values_and_sparse_structure_checked",
+      "passed": true
+    },
+    {
+      "name": "de_train_layers/logFC_full_numeric_summary_recomputed",
+      "passed": true
+    },
+    {
+      "name": "de_train_layers/logFC_full_gene_axis_shape",
+      "passed": true
+    },
+    {
+      "name": "de_train_every_primary_row_sum_and_detection",
+      "passed": true
+    },
+    {
+      "name": "de_train_every_primary_feature_sum_and_detection",
+      "passed": true
+    },
+    {
+      "name": "de_train_condition_units_and_official_splits_exact",
+      "passed": true
+    },
+    {
+      "name": "de_train_published_signed_P_statistic_on_every_positive_P",
+      "passed": true
+    },
+    {
+      "name": "de_train_reported_DE_score_formula_error_exact",
+      "passed": true
+    },
+    {
+      "name": "de_train_no_guessed_P_zero_floor_or_DE_flag_rule",
+      "passed": true
+    },
+    {
+      "name": "de_train_fixed_metadata_and_information_QC_only",
+      "passed": true
+    },
+    {
+      "name": "de_train_training_test_reference_roles_exact",
+      "passed": true
+    },
+    {
+      "name": "de_train_usable_index_every_row_and_metadata_exact",
+      "passed": true
+    },
+    {
+      "name": "de_train_quarantine_exact_not_placeholder",
+      "passed": true
+    },
+    {
+      "name": "de_train_dataset_index_points_to_real_originals_and_indices",
+      "passed": true
+    },
+    {
+      "name": "de_train_unit_summary_recomputed",
+      "passed": true
+    },
+    {
+      "name": "de_test_unique_unmodified_source_axes",
+      "passed": true
+    },
+    {
+      "name": "de_test_every_author_observation_field_preserved",
+      "passed": true
+    },
+    {
+      "name": "de_test_every_author_feature_field_preserved",
+      "passed": true
+    },
+    {
+      "name": "de_test_exact_read_only_count_or_score_locations",
+      "passed": true
+    },
+    {
+      "name": "de_test_X_all_values_and_sparse_structure_checked",
+      "passed": true
+    },
+    {
+      "name": "de_test_X_full_numeric_summary_recomputed",
+      "passed": true
+    },
+    {
+      "name": "de_test_X_full_gene_axis_shape",
+      "passed": true
+    },
+    {
+      "name": "de_test_layers/P.Value_all_values_and_sparse_structure_checked",
+      "passed": true
+    },
+    {
+      "name": "de_test_layers/P.Value_full_numeric_summary_recomputed",
+      "passed": true
+    },
+    {
+      "name": "de_test_layers/P.Value_full_gene_axis_shape",
+      "passed": true
+    },
+    {
+      "name": "de_test_layers/adj.P.Val_all_values_and_sparse_structure_checked",
+      "passed": true
+    },
+    {
+      "name": "de_test_layers/adj.P.Val_full_numeric_summary_recomputed",
+      "passed": true
+    },
+    {
+      "name": "de_test_layers/adj.P.Val_full_gene_axis_shape",
+      "passed": true
+    },
+    {
+      "name": "de_test_layers/is_de_all_values_and_sparse_structure_checked",
+      "passed": true
+    },
+    {
+      "name": "de_test_layers/is_de_full_numeric_summary_recomputed",
+      "passed": true
+    },
+    {
+      "name": "de_test_layers/is_de_full_gene_axis_shape",
+      "passed": true
+    },
+    {
+      "name": "de_test_layers/is_de_adj_all_values_and_sparse_structure_checked",
+      "passed": true
+    },
+    {
+      "name": "de_test_layers/is_de_adj_full_numeric_summary_recomputed",
+      "passed": true
+    },
+    {
+      "name": "de_test_layers/is_de_adj_full_gene_axis_shape",
+      "passed": true
+    },
+    {
+      "name": "de_test_layers/logFC_all_values_and_sparse_structure_checked",
+      "passed": true
+    },
+    {
+      "name": "de_test_layers/logFC_full_numeric_summary_recomputed",
+      "passed": true
+    },
+    {
+      "name": "de_test_layers/logFC_full_gene_axis_shape",
+      "passed": true
+    },
+    {
+      "name": "de_test_every_primary_row_sum_and_detection",
+      "passed": true
+    },
+    {
+      "name": "de_test_every_primary_feature_sum_and_detection",
+      "passed": true
+    },
+    {
+      "name": "de_test_condition_units_and_official_splits_exact",
+      "passed": true
+    },
+    {
+      "name": "de_test_published_signed_P_statistic_on_every_positive_P",
+      "passed": true
+    },
+    {
+      "name": "de_test_reported_DE_score_formula_error_exact",
+      "passed": true
+    },
+    {
+      "name": "de_test_no_guessed_P_zero_floor_or_DE_flag_rule",
+      "passed": true
+    },
+    {
+      "name": "de_test_fixed_metadata_and_information_QC_only",
+      "passed": true
+    },
+    {
+      "name": "de_test_training_test_reference_roles_exact",
+      "passed": true
+    },
+    {
+      "name": "de_test_usable_index_every_row_and_metadata_exact",
+      "passed": true
+    },
+    {
+      "name": "de_test_quarantine_exact_not_placeholder",
+      "passed": true
+    },
+    {
+      "name": "de_test_dataset_index_points_to_real_originals_and_indices",
+      "passed": true
+    },
+    {
+      "name": "de_test_unit_summary_recomputed",
+      "passed": true
+    },
+    {
+      "name": "all_source_assay_and_obsm_matrices_accounted_for",
+      "passed": true
+    },
+    {
+      "name": "release_size_subset_and_unmodified_gene_axes",
+      "passed": true
+    },
+    {
+      "name": "every_shared_count_row_identical_across_release_versions",
+      "passed": true
+    },
+    {
+      "name": "every_shared_CMO_count_identical_across_release_versions",
+      "passed": true
+    },
+    {
+      "name": "shared_source_field_preserved_split",
+      "passed": true
+    },
+    {
+      "name": "shared_source_field_preserved_donor_id",
+      "passed": true
+    },
+    {
+      "name": "shared_source_field_preserved_dose_uM",
+      "passed": true
+    },
+    {
+      "name": "shared_source_field_preserved_timepoint_hr",
+      "passed": true
+    },
+    {
+      "name": "shared_source_field_preserved_plate_name",
+      "passed": true
+    },
+    {
+      "name": "shared_source_field_preserved_well",
+      "passed": true
+    },
+    {
+      "name": "shared_source_field_preserved_sm_name",
+      "passed": true
+    },
+    {
+      "name": "release_correspondence_every_row_exact",
+      "passed": true
+    },
+    {
+      "name": "release_correspondence_preserves_both_annotations",
+      "passed": true
+    },
+    {
+      "name": "author_removed3698_are_traceable_without_deleting_originals",
+      "passed": true
+    },
+    {
+      "name": "every_annotation_transition_count_recomputed",
+      "passed": true
+    },
+    {
+      "name": "baseline_and_perturbation_share_same_three_publisher_donorIDs",
+      "passed": true
+    },
+    {
+      "name": "baseline_pair26335_native_root_metadata_exact",
+      "passed": true
+    },
+    {
+      "name": "rna_every_native_cell_pair_map_exact",
+      "passed": true
+    },
+    {
+      "name": "rna_every_native_feature_map_exact",
+      "passed": true
+    },
+    {
+      "name": "rna_paired_QC_exact",
+      "passed": true
+    },
+    {
+      "name": "atac_every_native_cell_pair_map_exact",
+      "passed": true
+    },
+    {
+      "name": "atac_every_native_feature_map_exact",
+      "passed": true
+    },
+    {
+      "name": "atac_paired_QC_exact",
+      "passed": true
+    },
+    {
+      "name": "both_modalities_same_cell_identity_and_annotation",
+      "passed": true
+    },
+    {
+      "name": "paired_usable_exact_and_reference_role_explicit",
+      "passed": true
+    },
+    {
+      "name": "869_disjoint_DE_condition_units_and_fixed18211_genes",
+      "passed": true
+    },
+    {
+      "name": "official_test_idmap_all255_rows_and_fields_exact",
+      "passed": true
+    },
+    {
+      "name": "every_DE_condition_link_uses_original_six_type_labels",
+      "passed": true
+    },
+    {
+      "name": "all147_source_compound_annotations_preserved",
+      "passed": true
+    },
+    {
+      "name": "missing_and_ambiguous_drug_annotations_flagged_not_invented",
+      "passed": true
+    },
+    {
+      "name": "publisher_control_split_keeps_all_drug_dose_definitions",
+      "passed": true
+    },
+    {
+      "name": "modality_count_and_disease_boundaries_documented",
+      "passed": true
+    },
+    {
+      "name": "unrequested_processing_not_applied",
+      "passed": true
+    },
+    {
+      "name": "source_baseline_copy_exact",
+      "passed": true
+    },
+    {
+      "name": "export_counts_are_honest_and_not_double_counted",
+      "passed": true
+    },
+    {
+      "name": "payload_bytes_DATASET_INDEX.tsv",
+      "passed": true
+    },
+    {
+      "name": "payload_MD5_DATASET_INDEX.tsv",
+      "passed": true
+    },
+    {
+      "name": "payload_SHA256_DATASET_INDEX.tsv",
+      "passed": true
+    },
+    {
+      "name": "payload_bytes_DE_condition_source_summary.tsv",
+      "passed": true
+    },
+    {
+      "name": "payload_MD5_DE_condition_source_summary.tsv",
+      "passed": true
+    },
+    {
+      "name": "payload_SHA256_DE_condition_source_summary.tsv",
+      "passed": true
+    },
+    {
+      "name": "payload_bytes_INPUT_INSPECTION.json",
+      "passed": true
+    },
+    {
+      "name": "payload_MD5_INPUT_INSPECTION.json",
+      "passed": true
+    },
+    {
+      "name": "payload_SHA256_INPUT_INSPECTION.json",
+      "passed": true
+    },
+    {
+      "name": "payload_bytes_MATRIX_QC_SUMMARY.tsv",
+      "passed": true
+    },
+    {
+      "name": "payload_MD5_MATRIX_QC_SUMMARY.tsv",
+      "passed": true
+    },
+    {
+      "name": "payload_SHA256_MATRIX_QC_SUMMARY.tsv",
+      "passed": true
+    },
+    {
+      "name": "payload_bytes_ORIGINAL_DOWNLOAD_BASELINE.json",
+      "passed": true
+    },
+    {
+      "name": "payload_MD5_ORIGINAL_DOWNLOAD_BASELINE.json",
+      "passed": true
+    },
+    {
+      "name": "payload_SHA256_ORIGINAL_DOWNLOAD_BASELINE.json",
+      "passed": true
+    },
+    {
+      "name": "payload_bytes_ORIGINAL_FILES.tsv",
+      "passed": true
+    },
+    {
+      "name": "payload_MD5_ORIGINAL_FILES.tsv",
+      "passed": true
+    },
+    {
+      "name": "payload_SHA256_ORIGINAL_FILES.tsv",
+      "passed": true
+    },
+    {
+      "name": "payload_bytes_UNIT_QC_SUMMARY.tsv",
+      "passed": true
+    },
+    {
+      "name": "payload_MD5_UNIT_QC_SUMMARY.tsv",
+      "passed": true
+    },
+    {
+      "name": "payload_SHA256_UNIT_QC_SUMMARY.tsv",
+      "passed": true
+    },
+    {
+      "name": "payload_bytes_annotation_transition_summary.tsv",
+      "passed": true
+    },
+    {
+      "name": "payload_MD5_annotation_transition_summary.tsv",
+      "passed": true
+    },
+    {
+      "name": "payload_SHA256_annotation_transition_summary.tsv",
+      "passed": true
+    },
+    {
+      "name": "payload_bytes_baseline_atac_feature_QC.tsv.gz",
+      "passed": true
+    },
+    {
+      "name": "payload_MD5_baseline_atac_feature_QC.tsv.gz",
+      "passed": true
+    },
+    {
+      "name": "payload_SHA256_baseline_atac_feature_QC.tsv.gz",
+      "passed": true
+    },
+    {
+      "name": "payload_bytes_baseline_atac_observation_QC.tsv.gz",
+      "passed": true
+    },
+    {
+      "name": "payload_MD5_baseline_atac_observation_QC.tsv.gz",
+      "passed": true
+    },
+    {
+      "name": "payload_SHA256_baseline_atac_observation_QC.tsv.gz",
+      "passed": true
+    },
+    {
+      "name": "payload_bytes_baseline_atac_quarantine_index.tsv",
+      "passed": true
+    },
+    {
+      "name": "payload_MD5_baseline_atac_quarantine_index.tsv",
+      "passed": true
+    },
+    {
+      "name": "payload_SHA256_baseline_atac_quarantine_index.tsv",
+      "passed": true
+    },
+    {
+      "name": "payload_bytes_baseline_atac_usable_index.tsv.gz",
+      "passed": true
+    },
+    {
+      "name": "payload_MD5_baseline_atac_usable_index.tsv.gz",
+      "passed": true
+    },
+    {
+      "name": "payload_SHA256_baseline_atac_usable_index.tsv.gz",
+      "passed": true
+    },
+    {
+      "name": "payload_bytes_baseline_rna_feature_QC.tsv.gz",
+      "passed": true
+    },
+    {
+      "name": "payload_MD5_baseline_rna_feature_QC.tsv.gz",
+      "passed": true
+    },
+    {
+      "name": "payload_SHA256_baseline_rna_feature_QC.tsv.gz",
+      "passed": true
+    },
+    {
+      "name": "payload_bytes_baseline_rna_observation_QC.tsv.gz",
+      "passed": true
+    },
+    {
+      "name": "payload_MD5_baseline_rna_observation_QC.tsv.gz",
+      "passed": true
+    },
+    {
+      "name": "payload_SHA256_baseline_rna_observation_QC.tsv.gz",
+      "passed": true
+    },
+    {
+      "name": "payload_bytes_baseline_rna_quarantine_index.tsv",
+      "passed": true
+    },
+    {
+      "name": "payload_MD5_baseline_rna_quarantine_index.tsv",
+      "passed": true
+    },
+    {
+      "name": "payload_SHA256_baseline_rna_quarantine_index.tsv",
+      "passed": true
+    },
+    {
+      "name": "payload_bytes_baseline_rna_usable_index.tsv.gz",
+      "passed": true
+    },
+    {
+      "name": "payload_MD5_baseline_rna_usable_index.tsv.gz",
+      "passed": true
+    },
+    {
+      "name": "payload_SHA256_baseline_rna_usable_index.tsv.gz",
+      "passed": true
+    },
+    {
+      "name": "payload_bytes_compound_annotation_QC.tsv",
+      "passed": true
+    },
+    {
+      "name": "payload_MD5_compound_annotation_QC.tsv",
+      "passed": true
+    },
+    {
+      "name": "payload_SHA256_compound_annotation_QC.tsv",
+      "passed": true
+    },
+    {
+      "name": "payload_bytes_de_test_feature_QC.tsv.gz",
+      "passed": true
+    },
+    {
+      "name": "payload_MD5_de_test_feature_QC.tsv.gz",
+      "passed": true
+    },
+    {
+      "name": "payload_SHA256_de_test_feature_QC.tsv.gz",
+      "passed": true
+    },
+    {
+      "name": "payload_bytes_de_test_observation_QC.tsv.gz",
+      "passed": true
+    },
+    {
+      "name": "payload_MD5_de_test_observation_QC.tsv.gz",
+      "passed": true
+    },
+    {
+      "name": "payload_SHA256_de_test_observation_QC.tsv.gz",
+      "passed": true
+    },
+    {
+      "name": "payload_bytes_de_test_quarantine_index.tsv",
+      "passed": true
+    },
+    {
+      "name": "payload_MD5_de_test_quarantine_index.tsv",
+      "passed": true
+    },
+    {
+      "name": "payload_SHA256_de_test_quarantine_index.tsv",
+      "passed": true
+    },
+    {
+      "name": "payload_bytes_de_test_usable_index.tsv.gz",
+      "passed": true
+    },
+    {
+      "name": "payload_MD5_de_test_usable_index.tsv.gz",
+      "passed": true
+    },
+    {
+      "name": "payload_SHA256_de_test_usable_index.tsv.gz",
+      "passed": true
+    },
+    {
+      "name": "payload_bytes_de_train_feature_QC.tsv.gz",
+      "passed": true
+    },
+    {
+      "name": "payload_MD5_de_train_feature_QC.tsv.gz",
+      "passed": true
+    },
+    {
+      "name": "payload_SHA256_de_train_feature_QC.tsv.gz",
+      "passed": true
+    },
+    {
+      "name": "payload_bytes_de_train_observation_QC.tsv.gz",
+      "passed": true
+    },
+    {
+      "name": "payload_MD5_de_train_observation_QC.tsv.gz",
+      "passed": true
+    },
+    {
+      "name": "payload_SHA256_de_train_observation_QC.tsv.gz",
+      "passed": true
+    },
+    {
+      "name": "payload_bytes_de_train_quarantine_index.tsv",
+      "passed": true
+    },
+    {
+      "name": "payload_MD5_de_train_quarantine_index.tsv",
+      "passed": true
+    },
+    {
+      "name": "payload_SHA256_de_train_quarantine_index.tsv",
+      "passed": true
+    },
+    {
+      "name": "payload_bytes_de_train_usable_index.tsv.gz",
+      "passed": true
+    },
+    {
+      "name": "payload_MD5_de_train_usable_index.tsv.gz",
+      "passed": true
+    },
+    {
+      "name": "payload_SHA256_de_train_usable_index.tsv.gz",
+      "passed": true
+    },
+    {
+      "name": "payload_bytes_multiome_paired_index.tsv.gz",
+      "passed": true
+    },
+    {
+      "name": "payload_MD5_multiome_paired_index.tsv.gz",
+      "passed": true
+    },
+    {
+      "name": "payload_SHA256_multiome_paired_index.tsv.gz",
+      "passed": true
+    },
+    {
+      "name": "payload_bytes_official_test_id_mapping.tsv",
+      "passed": true
+    },
+    {
+      "name": "payload_MD5_official_test_id_mapping.tsv",
+      "passed": true
+    },
+    {
+      "name": "payload_SHA256_official_test_id_mapping.tsv",
+      "passed": true
+    },
+    {
+      "name": "payload_bytes_original_only_after_author_reannotation.tsv.gz",
+      "passed": true
+    },
+    {
+      "name": "payload_MD5_original_only_after_author_reannotation.tsv.gz",
+      "passed": true
+    },
+    {
+      "name": "payload_SHA256_original_only_after_author_reannotation.tsv.gz",
+      "passed": true
+    },
+    {
+      "name": "payload_bytes_published_DE_consistency.tsv",
+      "passed": true
+    },
+    {
+      "name": "payload_MD5_published_DE_consistency.tsv",
+      "passed": true
+    },
+    {
+      "name": "payload_SHA256_published_DE_consistency.tsv",
+      "passed": true
+    },
+    {
+      "name": "payload_bytes_publisher_control_definition.tsv",
+      "passed": true
+    },
+    {
+      "name": "payload_MD5_publisher_control_definition.tsv",
+      "passed": true
+    },
+    {
+      "name": "payload_SHA256_publisher_control_definition.tsv",
+      "passed": true
+    },
+    {
+      "name": "payload_bytes_qc_policy.json",
+      "passed": true
+    },
+    {
+      "name": "payload_MD5_qc_policy.json",
+      "passed": true
+    },
+    {
+      "name": "payload_SHA256_qc_policy.json",
+      "passed": true
+    },
+    {
+      "name": "payload_bytes_sc_original_feature_QC.tsv.gz",
+      "passed": true
+    },
+    {
+      "name": "payload_MD5_sc_original_feature_QC.tsv.gz",
+      "passed": true
+    },
+    {
+      "name": "payload_SHA256_sc_original_feature_QC.tsv.gz",
+      "passed": true
+    },
+    {
+      "name": "payload_bytes_sc_original_observation_QC.tsv.gz",
+      "passed": true
+    },
+    {
+      "name": "payload_MD5_sc_original_observation_QC.tsv.gz",
+      "passed": true
+    },
+    {
+      "name": "payload_SHA256_sc_original_observation_QC.tsv.gz",
+      "passed": true
+    },
+    {
+      "name": "payload_bytes_sc_original_quarantine_index.tsv",
+      "passed": true
+    },
+    {
+      "name": "payload_MD5_sc_original_quarantine_index.tsv",
+      "passed": true
+    },
+    {
+      "name": "payload_SHA256_sc_original_quarantine_index.tsv",
+      "passed": true
+    },
+    {
+      "name": "payload_bytes_sc_original_usable_index.tsv.gz",
+      "passed": true
+    },
+    {
+      "name": "payload_MD5_sc_original_usable_index.tsv.gz",
+      "passed": true
+    },
+    {
+      "name": "payload_SHA256_sc_original_usable_index.tsv.gz",
+      "passed": true
+    },
+    {
+      "name": "payload_bytes_sc_reannotated_feature_QC.tsv.gz",
+      "passed": true
+    },
+    {
+      "name": "payload_MD5_sc_reannotated_feature_QC.tsv.gz",
+      "passed": true
+    },
+    {
+      "name": "payload_SHA256_sc_reannotated_feature_QC.tsv.gz",
+      "passed": true
+    },
+    {
+      "name": "payload_bytes_sc_reannotated_observation_QC.tsv.gz",
+      "passed": true
+    },
+    {
+      "name": "payload_MD5_sc_reannotated_observation_QC.tsv.gz",
+      "passed": true
+    },
+    {
+      "name": "payload_SHA256_sc_reannotated_observation_QC.tsv.gz",
+      "passed": true
+    },
+    {
+      "name": "payload_bytes_sc_reannotated_quarantine_index.tsv",
+      "passed": true
+    },
+    {
+      "name": "payload_MD5_sc_reannotated_quarantine_index.tsv",
+      "passed": true
+    },
+    {
+      "name": "payload_SHA256_sc_reannotated_quarantine_index.tsv",
+      "passed": true
+    },
+    {
+      "name": "payload_bytes_sc_reannotated_usable_index.tsv.gz",
+      "passed": true
+    },
+    {
+      "name": "payload_MD5_sc_reannotated_usable_index.tsv.gz",
+      "passed": true
+    },
+    {
+      "name": "payload_SHA256_sc_reannotated_usable_index.tsv.gz",
+      "passed": true
+    },
+    {
+      "name": "payload_bytes_sc_release_correspondence.tsv.gz",
+      "passed": true
+    },
+    {
+      "name": "payload_MD5_sc_release_correspondence.tsv.gz",
+      "passed": true
+    },
+    {
+      "name": "payload_SHA256_sc_release_correspondence.tsv.gz",
+      "passed": true
+    },
+    {
+      "name": "prepare_exited_successfully",
+      "passed": true
+    }
+  ],
+  "scope": "All8 source hashes, all native assay/raw/layer/obsm matrix values, full row/feature metrics and source metadata, official splits, author release correspondence, every multiome pair/feature map and source DE layer semantics. Publisher biological QC is retained, not recertified.",
+  "primary_unique_perturbation_cells": 301785,
+  "paired_baseline_cells": 26335,
+  "author_reannotated_subset_cells_not_additional_cells": 298087,
+  "DE_condition_rows_not_cells": 869,
+  "published_matrix_components": 37,
+  "source_metadata_differences_preserved": {
+    "RNA_author_total_counts_vs_published_gene_total_differences": 26167,
+    "RNA_author_n_counts_vs_published_gene_total_differences": 0,
+    "RNA_author_n_genes_vs_published_detection_differences": 26167,
+    "ATAC_author_feature_count_vs_published_binary_differences": 0,
+    "shared_cells_with_changed_author_cell_type": 185505,
+    "reannotated_cell_type_orig_vs_original_release_differences": 0
+  },
+  "metadata_numeric_comparison": "exact_after_restoring_source_dtype_not_tolerance_relaxation",
+  "quarantined_by_unit": {
+    "sc_original": 0,
+    "sc_reannotated": 0,
+    "baseline_rna": 0,
+    "baseline_atac": 0,
+    "de_train": 0,
+    "de_test": 0
+  }
+}

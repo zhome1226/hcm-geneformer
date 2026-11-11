@@ -1,0 +1,14 @@
+{
+  "version": "GSE227734_partial_audit_v1",
+  "dataset_cleaning_complete": false,
+  "dataset_status": "blocked_missing_gene_annotation",
+  "project_numeric_rule": "500<=detected genes<=5000 and MT<5%; only anonymous detected-feature count can currently be checked",
+  "gene_mapping": "Official HDF5 has only X/obs/var; var has 9760 positional identifiers 0..9759 and no columns. No raw/uns/layers gene annotation is present. Do not map columns by guessing alphabetical or reference-genome order.",
+  "MT": "Uncomputable; NaN means missing measurement, never 0% or passing MT QC",
+  "identity": "CM is an author/source annotation; marker/reference verification unavailable without gene names",
+  "doublets": "No 10x loading-rate assumption, EmptyDrops, or gene-count-only doublet exclusion. Reused 8-base sample barcodes do not uniquely identify cells; preserve original patient-prefixed cell IDs.",
+  "disease": "Five HCM patients, no published healthy cell group; area_class Large/Small is morphology and is never recoded as disease or perturbation",
+  "counts": "All 338 rows/9760 anonymous features, exact published integer-valued RNA counts; no normalization, imputation, gene deletion or integration",
+  "scope": "Validated preparation/quarantine only, not a clean training/validation object. No core/light CM placeholder files. Full molecular QC remains incomplete.",
+  "required_recovery": "Obtain an authoritative ordered 9760-column gene mapping or corrected matching matrix and validate exact axes/count values before MT, identity and appropriate doublet review"
+}

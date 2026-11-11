@@ -1,0 +1,112 @@
+{
+  "completed_utc": "2026-11-11T09:31:36.396306+00:00",
+  "accuracy": 0.948905109489051,
+  "per_label": [
+    {
+      "label": "Adipocyte",
+      "truth_nuclei": 89,
+      "predicted_nuclei": 84,
+      "recall": 0.9438202247191011,
+      "precision": 1.0
+    },
+    {
+      "label": "Cardiomyocyte",
+      "truth_nuclei": 400,
+      "predicted_nuclei": 445,
+      "recall": 1.0,
+      "precision": 0.898876404494382
+    },
+    {
+      "label": "Endothelial",
+      "truth_nuclei": 400,
+      "predicted_nuclei": 377,
+      "recall": 0.93,
+      "precision": 0.986737400530504
+    },
+    {
+      "label": "Fibroblast",
+      "truth_nuclei": 400,
+      "predicted_nuclei": 406,
+      "recall": 0.965,
+      "precision": 0.9507389162561576
+    },
+    {
+      "label": "Immune",
+      "truth_nuclei": 400,
+      "predicted_nuclei": 397,
+      "recall": 0.9925,
+      "precision": 1.0
+    },
+    {
+      "label": "Mesothelial",
+      "truth_nuclei": 8,
+      "predicted_nuclei": 8,
+      "recall": 1.0,
+      "precision": 1.0
+    },
+    {
+      "label": "Neural",
+      "truth_nuclei": 180,
+      "predicted_nuclei": 151,
+      "recall": 0.8388888888888889,
+      "precision": 1.0
+    },
+    {
+      "label": "Pericyte",
+      "truth_nuclei": 400,
+      "predicted_nuclei": 433,
+      "recall": 0.9475,
+      "precision": 0.8752886836027713
+    },
+    {
+      "label": "Smooth_muscle",
+      "truth_nuclei": 326,
+      "predicted_nuclei": 302,
+      "recall": 0.8987730061349694,
+      "precision": 0.9701986754966887
+    }
+  ],
+  "empirical_tail_thresholds": {
+    "Adipocyte": {
+      "correct_calibration_nuclei": 84,
+      "delta_q05": 0.2648014405370658,
+      "delta_next_q05": 0.1791404009724378
+    },
+    "Cardiomyocyte": {
+      "correct_calibration_nuclei": 400,
+      "delta_q05": 0.31227191007380406,
+      "delta_next_q05": 0.2507914755039195
+    },
+    "Endothelial": {
+      "correct_calibration_nuclei": 372,
+      "delta_q05": 0.1876361439985765,
+      "delta_next_q05": 0.13002088751991836
+    },
+    "Fibroblast": {
+      "correct_calibration_nuclei": 386,
+      "delta_q05": 0.17375840435876125,
+      "delta_next_q05": 0.12166491663441426
+    },
+    "Immune": {
+      "correct_calibration_nuclei": 397,
+      "delta_q05": 0.1692490253614272,
+      "delta_next_q05": 0.12465539621993979
+    },
+    "Neural": {
+      "correct_calibration_nuclei": 151,
+      "delta_q05": 0.20565415350855298,
+      "delta_next_q05": 0.0844051580559209
+    },
+    "Pericyte": {
+      "correct_calibration_nuclei": 379,
+      "delta_q05": 0.21627992496252751,
+      "delta_next_q05": 0.051974297792410085
+    },
+    "Smooth_muscle": {
+      "correct_calibration_nuclei": 293,
+      "delta_q05": 0.1565324072432476,
+      "delta_next_q05": 0.05120124856515954
+    }
+  },
+  "interpretation": "Thresholds flag lower tails of correctly annotated reference-donor holdout nuclei. They do not estimate posterior confidence or validate disease classification. No disease labels used."
+}

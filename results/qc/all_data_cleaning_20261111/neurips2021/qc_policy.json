@@ -1,0 +1,27 @@
+{
+  "dataset": "NeurIPS2021_GSE194122",
+  "source": "GSE194122 curated BMMC CITEseq and Multiome releases",
+  "counts_location": "layers/counts; X and all obsm representations retain their published processed meaning",
+  "originals_read_only": true,
+  "primary_delivery": "original/expanded H5AD plus exact usable row/column indices, no duplicated large matrices",
+  "count_requirements": [
+    "finite",
+    "nonnegative",
+    "integer valued",
+    "nonzero per paired modality",
+    "required source identity fields present"
+  ],
+  "features": "Every source column retained; all-zero columns marked outside usable-feature indices; same names in GEX and ADT are distinct",
+  "missing_gene_IDs": "Do not guess or fill; required Ensembl IDs checked for GEX only, ADT and peaks retain native identifiers",
+  "derived_nonfinite": "Preserve original values; exclude any derived column with nonfinite entries from usable coordinate indices; never fill zeros or delete cells solely for missing embeddings",
+  "missing_pseudotime": "Preserve missingness; optional author annotations are not mandatory cell quality criteria",
+  "pairing": "RNA/ADT or RNA/ATAC share rows within a source object; CITE and Multiome objects are separate cells and not paired by matching barcode text",
+  "split": "Preserve cite is_train train/test/iid_holdout exactly; no official row-level split supplied in this multiome object, do not invent one",
+  "independence": "Same donor across sites/modalities remains one donor; official challenge split is not claimed donor-independent",
+  "HCM_rules_applied": false,
+  "HCM_labels_assigned": false,
+  "new_normalization": false,
+  "new_doublet_filter": false,
+  "imputation": false,
+  "model_training": false
+}

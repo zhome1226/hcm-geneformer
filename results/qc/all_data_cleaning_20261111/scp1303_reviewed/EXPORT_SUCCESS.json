@@ -1,0 +1,41 @@
+{
+  "status": "exported_pending_independent_verification",
+  "completed_utc": "2026-11-11T10:09:03.118807+00:00",
+  "full_nuclei": 114711,
+  "light_nuclei": 20000,
+  "genes": 36601,
+  "full_by_disease": {
+    "NF": 60367,
+    "HCM": 54344
+  },
+  "pending_nuclei": 144,
+  "core_donors": 31,
+  "light_replacements": 44,
+  "actions_strict_baseline": {
+    "retain_author_qc_no_new_signal": 109150,
+    "retain_supported_cm": 5561,
+    "pending": 144,
+    "exclude_suspected_doublet": 67,
+    "exclude_noncm": 5
+  },
+  "actions_high_gene_identity": {
+    "retain_supported_cm": 5031,
+    "exclude_suspected_doublet": 10,
+    "pending": 2
+  },
+  "candidate_decision_rows": 119970,
+  "hashes": {
+    "cm_qc_full.h5ad": {
+      "bytes": 1729940710,
+      "sha256": "975f3b5cc658b579997321b0118731407d6254523628ba564cf9dd9d0acf3efe"
+    },
+    "cm_qc_light.h5ad": {
+      "bytes": 335152770,
+      "sha256": "f06ede84ddac47c41a8b562d65d4b3fb2728349a2a54438ffe096e47809ab466"
+    },
+    "cm_review_pending.h5ad": {
+      "bytes": 7773734,
+      "sha256": "86c406a43edc753a9703a46807d0fa1617cffb727e1e10aa243eb891fb3a11a7"
+    }
+  }
+}

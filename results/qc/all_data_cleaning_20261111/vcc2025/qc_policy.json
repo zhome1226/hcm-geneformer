@@ -1,0 +1,32 @@
+{
+  "dataset": "VCC2025",
+  "version": "official_release_QC_v1",
+  "context": "H1 human embryonic stem cell, dual-guide CRISPRi, 10x Flex",
+  "count_semantics": "Official AnnData X count matrices, float32 storage but every stored value checked finite, nonnegative and integer-valued. No layers/raw; matrices retained read-only at original source paths.",
+  "source_gene_space": "Official gene_names.csv18080 symbols, exact same order in all three releases. Native train var gene_id supplies traceable mapping only; source val/test QC annotations preserved, not overwritten.",
+  "primary_sources": [
+    "https://github.com/ArcInstitute/arc-virtual-cell-atlas/blob/main/virtual-cell-challenge/README.md",
+    "https://arcinstitute.org/news/behind-the-data-virtual-cell-challenge"
+  ],
+  "official_splits": "150 train/50 validation/100 test target genes. Perturbed cells and target sets disjoint. Preserve release split; validation/test labels used only for integrity checks, never threshold selection/training.",
+  "shared_controls": "Same38176 non-targeting cells repeated in all3 official files; identity, source metadata and canonical count-rowSHA256 must all agree. Count once for unique-cell statistics; shared reference is not independent held-out outcomes. Single canonical read source is train copy.",
+  "cell_QC": "Structural validity, finite/nonnegative integer counts, nonzero information and complete target_gene/guide_id/batch. Index/quarantine only; no disease-dependent thresholds, no deletion for weak knockdown or large genuine response.",
+  "feature_QC": "All18080 release features retained, including any zero features; duplicate/missing identifiers audited. No HVG truncation or gene aggregation.",
+  "gene_panel_MT": "MT metrics apply only to published Flex probe panel and are descriptive; no MT threshold.",
+  "modality_boundary": "H1 hESC CRISPRi perturbation benchmark, not HCM, not cardiomyocytes; non-targeting is experimental negative control, not healthy patient. No disease0/1 labels or invented donors.",
+  "not_applied": [
+    "HCM500to5000_gene_filter",
+    "MT_lt5pct",
+    "EmptyDrops",
+    "doublet_caller",
+    "CM_identity_filter",
+    "renormalization",
+    "imputation",
+    "batch_integration",
+    "DE_analysis",
+    "tokenization",
+    "training"
+  ],
+  "publisher_QC_limit": "Retain curated publisher release; original FASTQ/droplet screening and per-cell knockdown QC are not re-established. Clean guide annotation does not independently prove single-cell singlets or biological knockdown efficacy.",
+  "delivery": "Validated original count files plus explicit row/feature/role indices; no34GB redundant copies, no synthetic or placeholder matrices. Per-cell QC, unique controls and official held-out perturbation indices remain on server."
+}

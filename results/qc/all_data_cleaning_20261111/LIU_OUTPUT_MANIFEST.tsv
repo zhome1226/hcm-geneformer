@@ -1,0 +1,7 @@
+"dataset"	"file"	"server_path"	"nuclei"	"genes"	"bytes"	"md5"	"sha256"
+"liu2023"	"all_cells_qc.h5ad"	"/home/zhome/xiaoe-internship-data/processed/liu2023_qc_20261111/all_cells_qc.h5ad"	"53532"	"31944"	"684093219"	"dac18fbad799e27d077421d7ab441d03"	"6e403848abe63d6e78bea411b88e21bc0d50c733d228c6e89e612fce52cad43a"
+"liu2023"	"cm_qc_full.h5ad"	"/home/zhome/xiaoe-internship-data/processed/liu2023_qc_20261111/cm_qc_full.h5ad"	"8547"	"31944"	"149065216"	"c83e8f0161ddba608e3c3c2f5789c26c"	"03612584111dbb84d0f4f941408f9311a9897ec44507542000689f28bc1f7e74"
+"liu2023"	"cm_qc_light.h5ad"	"/home/zhome/xiaoe-internship-data/processed/liu2023_qc_20261111/cm_qc_light.h5ad"	"8547"	"31944"	"149065216"	"c83e8f0161ddba608e3c3c2f5789c26c"	"03612584111dbb84d0f4f941408f9311a9897ec44507542000689f28bc1f7e74"
+"liu2023"	"cm_review_pending.h5ad"	"/home/zhome/xiaoe-internship-data/processed/liu2023_qc_20261111/cm_review_pending.h5ad"	"7918"	"31944"	"69712812"	"11f2ee39bbb3ccaf15d4d66f345d0870"	"e76f1f0ee318574e0dcefadc430e72f505bc457c10a988b0779c57bb2bed14df"
+"liu2023"	"diagnostic_normalized.h5ad"	"/home/zhome/xiaoe-internship-data/processed/liu2023_qc_20261111/diagnostic_normalized.h5ad"	"53538"	"31944"	"357630801"	"ce4cdaa91661e702d927d81fdf988e15"	"799115eb7db5b174349edaf1985dcc61fd3a0d1b4957a4c9f266ea63212b8d3a"
+"liu2023"	"suspected_doublets.h5ad"	"/home/zhome/xiaoe-internship-data/processed/liu2023_qc_20261111/suspected_doublets.h5ad"	"6"	"31944"	"2381464"	"e6b6f93e4dde3af8a46aa8c5cf73183c"	"a5d13d29427652b829579175aaec7f73e44dff65860e86ee6fc9751162f66a15"

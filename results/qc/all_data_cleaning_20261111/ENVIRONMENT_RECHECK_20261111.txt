@@ -1,0 +1,23 @@
+checked_utc	2026-11-11T16:04:46Z
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/sda2       879G  650G  185G  78% /
+python_import	scanpy	1.12.5	OK
+python_import	anndata	0.13.4	OK
+python_import	numpy	2.5.4	OK
+python_import	scipy	1.18.1	OK
+python_import	pandas	3.1.1	OK
+python_import	h5py	3.16.0	OK
+python_import	scikit-learn	1.9.1	OK
+reference_file	/home/zhome/xiaoe-internship-data/references/Litvinukova2020/heart_atlas_49312f8c.h5ad	2953098273
+NeurIPS2021_marker	stage_exit_code.txt	0	process_exists=
+NeurIPS2021_marker	stage_launcher_pid.txt	772091	process_exists=False
+NeurIPS2021_marker	stage_pid.txt	772091	process_exists=False
+R_version	R version 4.5.3 (2026-03-11)
+R_namespace	Matrix	1.7.6	TRUE
+R_namespace	SeuratObject	5.4.0	TRUE
+R_namespace	Seurat	5.5.1	TRUE
+R_namespace	rhdf5	2.54.1	TRUE
+R_namespace	SingleR	2.12.0	TRUE
+R_namespace	scDblFinder	1.24.10	TRUE
+R_namespace	DropletUtils	1.30.0	TRUE
+R_namespace	SingleCellExperiment	1.32.0	TRUE

@@ -1,0 +1,3 @@
+disease	samples	usable	total_expression_min	total_expression_max	detected_min	detected_max	MAD_total_flags	MAD_detected_flags	exact_expression_duplicates
+Control	23	23	46830741	61371455	26019	29619	0	0	0
+HCM	97	97	42135002	109606788	25390	32339	2	0	0

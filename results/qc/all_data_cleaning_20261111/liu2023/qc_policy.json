@@ -1,0 +1,153 @@
+{
+  "version": "Liu2023_strict_v2",
+  "seed": 20261111,
+  "min_genes": 500,
+  "max_genes": 5000,
+  "mt_percent_exclusive_max": 5,
+  "count_source": "Author-released post-QC integer RNA counts, exactly matched to all 13 released MTX matrices; not integrated assay or log expression. All 31944 released genes retained; author-excluded nuclei/genes cannot be recovered.",
+  "cell_calling": "Reuse author released nuclei; input is already post-QC, not full raw droplets. No EmptyDrops, new ambient correction, normalization, imputation or integration applied to delivered counts.",
+  "author_QC": "Published methods: UMI (500,50000), detected genes (300,7000), mitochondrial and ribosomal fractions <.05, genes detected in >=3 nuclei; author percent.mito is a fraction. Existing restrictions inherited, not claimed as newly applied.",
+  "doublet_model": "Author Scrublet >.35 and mixed-lineage filtering inherited. Supplemental scDblFinder only when a released sample has >=10 AND >=1% strict candidates with coherent mixed panels (same explicit multi-panel rule below). Model input: all released >=500-gene nuclei, including >5000 and high MT. dbr=NULL, dbr.per1k=.008 is a residual-screening heuristic; original capture loading/removals unavailable. Untriggered samples marked not_rerun_author_QC, missing scores explicitly allowed.",
+  "doublet_exclusion": "scDblFinder doublet AND strong distinct-lineage pair: >=3 genes each with >=2 UMIs in both panels, both panel means log1p(CP10k) >= max(reference positive q10, negative q99), smaller/larger panel mean >=.25. Reference-derived project heuristic, not validated doublet probability. Weak >=1-UMI pairs are diagnostic/trigger only and do not exclude cells.",
+  "mixed_program_bounds": {
+    "Cardiomyocyte": {
+      "positive_q10": 2.0177177872310743,
+      "negative_q99": 2.2061581613486987,
+      "threshold": 2.2061581613486987
+    },
+    "Fibroblast": {
+      "positive_q10": 0.49856167763108883,
+      "negative_q99": 1.1492012336489958,
+      "threshold": 1.1492012336489958
+    },
+    "Endothelial": {
+      "positive_q10": 0.5477254824204757,
+      "negative_q99": 0.5916536880035794,
+      "threshold": 0.5916536880035794
+    },
+    "Immune": {
+      "positive_q10": 0.0,
+      "negative_q99": 0.0,
+      "threshold": 0.0
+    },
+    "Mural": {
+      "positive_q10": 0.47403376034313566,
+      "negative_q99": 0.9780136147441695,
+      "threshold": 0.9780136147441695
+    }
+  },
+  "mixed_program_revision": "Weak >=1-UMI pairs flagged 23815/53538 released strict nuclei and 307/2603 reference nuclei; cannot interpret those as doublets. Strong reference-derived programs flag 14 released strict nuclei, none author-CM. Superseded attempt1 outputs are archived, not accepted as final.",
+  "doublet_pairs": [
+    [
+      "Cardiomyocyte",
+      "Fibroblast"
+    ],
+    [
+      "Cardiomyocyte",
+      "Endothelial"
+    ],
+    [
+      "Cardiomyocyte",
+      "Immune"
+    ],
+    [
+      "Cardiomyocyte",
+      "Mural"
+    ],
+    [
+      "Fibroblast",
+      "Endothelial"
+    ],
+    [
+      "Fibroblast",
+      "Immune"
+    ],
+    [
+      "Endothelial",
+      "Immune"
+    ],
+    [
+      "Immune",
+      "Mural"
+    ]
+  ],
+  "panels": {
+    "Cardiomyocyte": [
+      "TNNT2",
+      "TTN",
+      "TNNI3",
+      "ACTC1",
+      "MYH7",
+      "MYBPC3",
+      "MYL2",
+      "TNNC1",
+      "RYR2",
+      "PLN",
+      "ACTN2",
+      "MYH6"
+    ],
+    "Fibroblast": [
+      "COL1A1",
+      "COL1A2",
+      "DCN",
+      "LUM",
+      "PDGFRA"
+    ],
+    "Endothelial": [
+      "PECAM1",
+      "VWF",
+      "KDR",
+      "EMCN",
+      "CLDN5"
+    ],
+    "Immune": [
+      "PTPRC",
+      "LST1",
+      "TYROBP",
+      "CD3D",
+      "CD79A"
+    ],
+    "Mural": [
+      "RGS5",
+      "PDGFRB",
+      "CSPG4",
+      "MYH11",
+      "ACTA2",
+      "TAGLN"
+    ],
+    "Neural": [
+      "NRXN1",
+      "SNAP25",
+      "SYT1",
+      "SLC1A3",
+      "PLP1"
+    ],
+    "Adipocyte": [
+      "ADIPOQ",
+      "FABP4",
+      "PLIN1",
+      "LPL",
+      "CIDEC"
+    ],
+    "Mesothelial": [
+      "WT1",
+      "MSLN",
+      "UPK3B",
+      "KRT8",
+      "KRT18"
+    ]
+  },
+  "identity": "SingleR trained on adapted common genes from adult LV nuclear reference; fixed reference donors held out. Cell type assigned only with pruned reference label and >=2 matched panel genes; otherwise Unknown.",
+  "CM_core": "Author CM plus pruned and best reference label both Cardiomyocyte, >=2 CM panel genes, CM mean log1p(CP10k) >= every other panel, and (empirical reference-tail pass OR >=3 CM genes and >=.5 weighted CM-anchor neighbor support). Conflicting author/reference identities or coherent mixed programs remain pending unless supplemental caller also supports doublet exclusion.",
+  "CM_pending": "Strict numeric, no strong doublet exclusion; author CM OR best reference CM OR >=3 CM panel genes and CM program dominates, but core identity rule fails. No forced relabeling of author/reference disagreements.",
+  "graph": "Each cohort separately; log-CP10k diagnostic copy, 3000 HVGs, up to 40 PCs, 15 neighbors; no disease labels or test labels used. CM anchors require pruned CM plus >=3 CM panel genes and panel dominance. Neighborhood evidence is correlated contextual support, not independent confidence.",
+  "light": "At most 20000 unique core nuclei, balanced allocations across available donors with fixed seed, never duplicated to fill a target",
+  "disease_map": {
+    "Control": 0,
+    "HCM": 1
+  },
+  "split_status": "No train/test split assigned; external cohort status pending donor-overlap audit",
+  "replicate_policy": "CL0412A and CL0412B share author Subject=CL0412. Treat as two released samples of one donor, not independent donors; never split across partitions. Exact technical versus tissue replicate mechanism not established.",
+  "author_annotation": "Preserved as author_* metadata and compared with new identity calls; not a ground truth. Conflicting author CM labels remain in pending review when not supported as core.",
+  "scope": "Each study saved separately. No disease differential expression, tokenization or training."
+}
