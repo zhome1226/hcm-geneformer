@@ -18,7 +18,7 @@
 
 | 候选及来源 | 原因 |
 | --- | --- |
-| [SCP1303 / Chaffin et al. 2022](https://www.nature.com/articles/s41586-022-04817-8) | 15 HCM、11 DCM、16 非衰竭心脏，计划中的主训练来源（#1），不是新增独立验证集；不重复下载或绕过门户登录。 |
+| [SCP1303 / Chaffin et al. 2022](https://www.nature.com/articles/s41586-022-04817-8) | 15 HCM、11 DCM、16 非衰竭心脏，主训练来源（#1）；用户后续已授权下载，范围与清单见 [training/README.md](../training/README.md)，不计为独立验证集。 |
 | [GSE203274](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE203274) | 儿童先心病/心肌病混合研究。GEO 原始单核提交中 P86 为 11 岁 HCM 患者，GSM6165807/5808 为 rep1/rep2；供体亦含技术重复及左右心室取样。“2 HCM 样本”不能直接解释为两名独立患者。处理矩阵是否整合额外外部样本尚未核实，本次不作为成人独立验证集下载；未下载 scaled、PBMC、空间或其他模态。 |
 | [GSE138262](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE138262) | 官方设计为 5 份 HCM 室间隔切除标本，没有同批健康单细胞对照；本轮已有体积更小的 GSE227734 承担疾病组补充用途，暂不继续扩充同类数据。 |
 | [EGA EGAD50000002046](https://ega-archive.org/datasets/EGAD50000002046) | 较新的 HCM 单核资源，84 个样本来自 55 人；页面为受控访问 BAM，需要数据访问申请。不是今晚可直接下载的计数矩阵，不发起申请。 |

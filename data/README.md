@@ -1,6 +1,6 @@
 # 数据
 
-- 主训练来源：[SCP1303 / Chaffin et al., Nature 2022](https://singlecell.broadinstitute.org/single_cell/study/SCP1303)，15 HCM、11 DCM、16 非衰竭心脏，详见 [#1](https://github.com/zhome1226/xiaoe-internship/issues/1)。旧推荐 GSE145154 无 HCM，GSE130652 是小鼠 ChIP-seq，均不用于本任务。
+- 主训练来源：[SCP1303 / Chaffin et al., Nature 2022](https://singlecell.broadinstitute.org/single_cell/study/SCP1303)，15 HCM、11 DCM、16 非衰竭心脏，下载范围、原始计数层和完整性清单见 [training/README.md](training/README.md)，任务背景见 [#1](https://github.com/zhome1226/xiaoe-internship/issues/1)。旧推荐 GSE145154 无 HCM，GSE130652 是小鼠 ChIP-seq，均不用于本任务。
 - 已下载的验证数据见 [validation/README.md](validation/README.md)，新增候选的适用范围和排除原因见 [validation/CANDIDATES.md](validation/CANDIDATES.md)。
 - 可学习的比赛数据、获奖代码及评估工具见 [benchmarks/README.md](benchmarks/README.md)；与 HCM 临床验证数据分开管理。
 - 质控：线粒体基因比例 < 5%，检测到的基因数 500–5000。
