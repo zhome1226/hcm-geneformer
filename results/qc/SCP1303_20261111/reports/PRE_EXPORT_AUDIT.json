@@ -1,0 +1,36 @@
+{
+  "count_matrices": {
+    "cellbender": {
+      "nnz": 809409073,
+      "dtype": "float32",
+      "fractional_nonzero_values": 0
+    },
+    "cellranger": {
+      "nnz": 867305011,
+      "dtype": "float32",
+      "fractional_nonzero_values": 0
+    }
+  },
+  "mitochondrial_genes": 13,
+  "markers": {
+    "present": [
+      "TNNT2",
+      "TTN",
+      "ACTC1",
+      "TNNI3",
+      "MYH7",
+      "COL1A1",
+      "DCN",
+      "PECAM1",
+      "VWF",
+      "PTPRC"
+    ],
+    "missing": [],
+    "mixed_warning_policy": "diagnostic only; ambient RNA and marker dropout preclude a hard single-gene rule"
+  },
+  "dropped_target_donors": [],
+  "kept_donors": 31,
+  "split_ratio_is_provisional": true,
+  "new_doublet_calls": false,
+  "light_marker_mixed_warnings": 121
+}

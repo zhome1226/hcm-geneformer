@@ -1,0 +1,16 @@
+disease	nuclei	stage
+DCM	171996	00_author_qc_input
+HCM	235252	00_author_qc_input
+NF	185441	00_author_qc_input
+HCM	235252	01_target_disease
+NF	185441	01_target_disease
+HCM	196485	02_min_genes
+NF	171012	02_min_genes
+HCM	193065	03_max_genes
+NF	169352	03_max_genes
+HCM	193065	04_raw_mito
+NF	169352	04_raw_mito
+HCM	54485	05_author_cm
+NF	60442	05_author_cm
+HCM	54485	06_author_subcluster
+NF	60442	06_author_subcluster

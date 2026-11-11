@@ -1,0 +1,92 @@
+{
+  "status": "complete",
+  "dataset": "SCP1303",
+  "input_nuclei": 592689,
+  "full_nuclei": 114927,
+  "light_nuclei": 20000,
+  "genes": 36601,
+  "donors": 31,
+  "full_by_disease": {
+    "NF": 60442,
+    "HCM": 54485,
+    "DCM": 0
+  },
+  "light_by_disease": {
+    "HCM": 10000,
+    "NF": 10000
+  },
+  "parameters": {
+    "min_genes_inclusive": 500,
+    "max_genes_inclusive": 5000,
+    "mt_percent_strict_upper": 5.0,
+    "gene_count_source": "CellBender-adjusted X",
+    "mt_count_source": "layers['cellranger_raw']; recomputed from MT- symbols",
+    "seed": 20261111,
+    "light_target": 20000,
+    "doublet_qc": "reuse author per-sample Scrublet QC; no new global threshold or new call",
+    "annotation": "author cell_type_leiden0.6 containing cardiomyocyte; require nonmissing SubCluster",
+    "split_status": "provisional_70_15_15_by_donor; repository ratio pending confirmation",
+    "cross_study_donor_overlap": "not yet resolved; external validation not merged",
+    "feature_policy": "all original genes retained; no imputation, HVG restriction or normalization of saved X"
+  },
+  "source_comparison": {
+    "author_mito_to_percent_scale_median_abs_errors": {
+      "1": 0.24924470484256744,
+      "100": 0.0
+    },
+    "best_supported_scale": "100",
+    "comparison_note": "Recomputed raw count fraction is used; author field units are audited, never assumed.",
+    "author_cb_ngenes_mismatches": 0
+  },
+  "validation": {
+    "count_matrices": {
+      "cellbender": {
+        "nnz": 809409073,
+        "dtype": "float32",
+        "fractional_nonzero_values": 0
+      },
+      "cellranger": {
+        "nnz": 867305011,
+        "dtype": "float32",
+        "fractional_nonzero_values": 0
+      }
+    },
+    "mitochondrial_genes": 13,
+    "markers": {
+      "present": [
+        "TNNT2",
+        "TTN",
+        "ACTC1",
+        "TNNI3",
+        "MYH7",
+        "COL1A1",
+        "DCN",
+        "PECAM1",
+        "VWF",
+        "PTPRC"
+      ],
+      "missing": [],
+      "mixed_warning_policy": "diagnostic only; ambient RNA and marker dropout preclude a hard single-gene rule"
+    },
+    "dropped_target_donors": [],
+    "kept_donors": 31,
+    "split_ratio_is_provisional": true,
+    "new_doublet_calls": false,
+    "light_marker_mixed_warnings": 121
+  },
+  "completed_utc": "2026-11-11T06:59:41.421208+00:00",
+  "outputs": [
+    {
+      "file": "cm_qc_full.h5ad",
+      "bytes": 1689068475,
+      "md5": "16456fea621116003b7f6e35039e2d7e",
+      "sha256": "cb6cabee0bd56c255d4067e7979d8e479140db563d950af86493bf7645c24e65"
+    },
+    {
+      "file": "cm_qc_light.h5ad",
+      "bytes": 329161962,
+      "md5": "5517c21c2595bc42394bb1af3f09a949",
+      "sha256": "627eacdde75ab10c5e52ac9f7e890441ee02cbef665037859da32f1db728662b"
+    }
+  ]
+}

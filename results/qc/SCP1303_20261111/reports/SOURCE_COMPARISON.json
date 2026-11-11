@@ -1,0 +1,9 @@
+{
+  "author_mito_to_percent_scale_median_abs_errors": {
+    "1": 0.24924470484256744,
+    "100": 0.0
+  },
+  "best_supported_scale": "100",
+  "comparison_note": "Recomputed raw count fraction is used; author field units are audited, never assumed.",
+  "author_cb_ngenes_mismatches": 0
+}

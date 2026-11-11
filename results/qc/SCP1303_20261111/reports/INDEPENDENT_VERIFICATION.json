@@ -1,0 +1,60 @@
+{
+  "status": "passed",
+  "verified_utc": "2026-11-11T07:05:23.762378+00:00",
+  "independent_source_membership": "exact match across all target cardiomyocytes",
+  "full_shape": [
+    114927,
+    36601
+  ],
+  "light_shape": [
+    20000,
+    36601
+  ],
+  "full_by_disease": {
+    "NF": 60442,
+    "HCM": 54485,
+    "DCM": 0
+  },
+  "light_by_disease": {
+    "HCM": 10000,
+    "NF": 10000
+  },
+  "donors": 31,
+  "full_marker_mixed_warnings": 784,
+  "light_marker_mixed_warnings": 121,
+  "full_no_panel_cm_marker": 245,
+  "donor_retention_pct_range": [
+    56.04838709677419,
+    100.0
+  ],
+  "source_count_comparison": "128 seeded rows, both matrices, every gene; exact",
+  "light_count_comparison": "all 20,000 rows, all three matrices; exact",
+  "thresholds_recomputed_from_exported_counts": true,
+  "donor_leakage": false,
+  "checked_files": [
+    {
+      "file": "cm_qc_full.h5ad",
+      "bytes": 1689068475,
+      "md5": "16456fea621116003b7f6e35039e2d7e",
+      "sha256": "cb6cabee0bd56c255d4067e7979d8e479140db563d950af86493bf7645c24e65"
+    },
+    {
+      "file": "cm_qc_light.h5ad",
+      "bytes": 329161962,
+      "md5": "5517c21c2595bc42394bb1af3f09a949",
+      "sha256": "627eacdde75ab10c5e52ac9f7e890441ee02cbef665037859da32f1db728662b"
+    }
+  ],
+  "processing_script_sha256": {
+    "bootstrap_scp1303.sh": "085f0b211978a78e6963b0ef1bde4ef9b281bd546faf9b3eb301d17c8c338204",
+    "environment.freeze.txt": "c7367747647ab6da41919d2db7485f4c8878b2b685e3dc10b671d967c73696ae",
+    "inspect_metadata.py": "ea186aa3003ac13c678535f506e9bd702659a8a4840ab31ecf93d81da054a815",
+    "launch_scp1303_qc.sh": "6e09fd5dca0f2a6c7d90f3ab2818c2ea3796ad37b3acab1ea5fce95fe8b62049",
+    "launch_scp1303_verification.sh": "2ac830ac3b8ea1874db543611818b9a49fb7b52d85f86e6ee475339e1d96c3ec",
+    "prepare_input.py": "9dd45f448331aa15099594417bc6698046a0e3113b894e5c5f38fc2b362517c4",
+    "qc_core.py": "882ddadf48f890ca795ccfa3d239ce08aef69312d23b63f0600877541a6a76ca",
+    "run_scp1303_qc.py": "479f4b0cb27ecb84c13095e3b42b03348935f138868ee8efb2e15ae888b91785",
+    "test_qc_core.py": "7ddca782103815849120635d3fc76ac2a1aca20a3c4b4ba599dddad1fad61965",
+    "verify_scp1303_qc.py": "209fee38fbd709996a57a5fad35e8358c71fe7b77c231ac1c779d776dfe0a8ee"
+  }
+}

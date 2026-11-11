@@ -1,0 +1,14 @@
+{
+  "min_genes_inclusive": 500,
+  "max_genes_inclusive": 5000,
+  "mt_percent_strict_upper": 5.0,
+  "gene_count_source": "CellBender-adjusted X",
+  "mt_count_source": "layers['cellranger_raw']; recomputed from MT- symbols",
+  "seed": 20261111,
+  "light_target": 20000,
+  "doublet_qc": "reuse author per-sample Scrublet QC; no new global threshold or new call",
+  "annotation": "author cell_type_leiden0.6 containing cardiomyocyte; require nonmissing SubCluster",
+  "split_status": "provisional_70_15_15_by_donor; repository ratio pending confirmation",
+  "cross_study_donor_overlap": "not yet resolved; external validation not merged",
+  "feature_policy": "all original genes retained; no imputation, HVG restriction or normalization of saved X"
+}
