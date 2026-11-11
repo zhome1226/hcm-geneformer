@@ -55,6 +55,15 @@ def main():
                 result = subprocess.run(cmd, stdout=log, stderr=log)
                 if result.returncode == 0:
                     break
+                if result.returncode == 33 and path.exists() and path.stat().st_size:
+                    # Some public endpoints do not support Range requests.
+                    # Preserve the partial payload and retry from byte zero.
+                    saved = work/'unsupported_resume'
+                    saved.mkdir(exist_ok=True)
+                    backup = saved/(key+'.'+str(time.time_ns())+'.partial')
+                    path.rename(backup)
+                    print('RESTART_RANGE_UNSUPPORTED '+a['path']+' saved='+str(backup),
+                          flush=True)
                 print(f'RESUME {a["path"]} attempt {attempt+1}', flush=True)
                 if attempt == 11:
                     result.check_returncode()
