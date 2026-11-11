@@ -1,0 +1,8 @@
+"competition"	"object"	"bytes"	"upstream_md5_base64"	"source_url"	"selection"
+"VCC2025"	"virtual-cell-challenge/2025/gene_names.csv"	"116023"	"PnSuaCYgIvYvcHAb7FolCQ=="	"https://storage.googleapis.com/arc-institute-virtual-cell-atlas/virtual-cell-challenge/2025/gene_names.csv"	"downloaded_metadata"
+"VCC2025"	"virtual-cell-challenge/2025/test/adata_Test.h5ad"	"11950739168"		"https://storage.googleapis.com/arc-institute-virtual-cell-atlas/virtual-cell-challenge/2025/test/adata_Test.h5ad"	"not_downloaded_expression_matrix"
+"VCC2025"	"virtual-cell-challenge/2025/test/pert_counts_Test.csv"	"1894"	"uN65ffyTEiKmM/RBiukicA=="	"https://storage.googleapis.com/arc-institute-virtual-cell-atlas/virtual-cell-challenge/2025/test/pert_counts_Test.csv"	"downloaded_metadata"
+"VCC2025"	"virtual-cell-challenge/2025/train/adata_Training.h5ad"	"15482497461"		"https://storage.googleapis.com/arc-institute-virtual-cell-atlas/virtual-cell-challenge/2025/train/adata_Training.h5ad"	"not_downloaded_expression_matrix"
+"VCC2025"	"virtual-cell-challenge/2025/train/pert_counts_Training.csv"	"2824"	"bh3NLwtPpGQowaNqmLiQdA=="	"https://storage.googleapis.com/arc-institute-virtual-cell-atlas/virtual-cell-challenge/2025/train/pert_counts_Training.csv"	"downloaded_metadata"
+"VCC2025"	"virtual-cell-challenge/2025/validation/adata_Validation.h5ad"	"6928967541"		"https://storage.googleapis.com/arc-institute-virtual-cell-atlas/virtual-cell-challenge/2025/validation/adata_Validation.h5ad"	"not_downloaded_expression_matrix"
+"VCC2025"	"virtual-cell-challenge/2025/validation/pert_counts_Validation.csv"	"978"	"GxyJJsYNW+VZ2fyzHbfbEA=="	"https://storage.googleapis.com/arc-institute-virtual-cell-atlas/virtual-cell-challenge/2025/validation/pert_counts_Validation.csv"	"downloaded_metadata"

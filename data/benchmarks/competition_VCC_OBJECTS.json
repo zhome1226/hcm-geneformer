@@ -1,0 +1,34 @@
+[
+  {
+    "name": "virtual-cell-challenge/2025/gene_names.csv",
+    "size": "116023",
+    "md5Hash": "PnSuaCYgIvYvcHAb7FolCQ=="
+  },
+  {
+    "name": "virtual-cell-challenge/2025/test/adata_Test.h5ad",
+    "size": "11950739168"
+  },
+  {
+    "name": "virtual-cell-challenge/2025/test/pert_counts_Test.csv",
+    "size": "1894",
+    "md5Hash": "uN65ffyTEiKmM/RBiukicA=="
+  },
+  {
+    "name": "virtual-cell-challenge/2025/train/adata_Training.h5ad",
+    "size": "15482497461"
+  },
+  {
+    "name": "virtual-cell-challenge/2025/train/pert_counts_Training.csv",
+    "size": "2824",
+    "md5Hash": "bh3NLwtPpGQowaNqmLiQdA=="
+  },
+  {
+    "name": "virtual-cell-challenge/2025/validation/adata_Validation.h5ad",
+    "size": "6928967541"
+  },
+  {
+    "name": "virtual-cell-challenge/2025/validation/pert_counts_Validation.csv",
+    "size": "978",
+    "md5Hash": "GxyJJsYNW+VZ2fyzHbfbEA=="
+  }
+]

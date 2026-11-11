@@ -1,0 +1,50 @@
+[
+  {
+    "repository": "ArcInstitute/arc-virtual-cell-atlas",
+    "sha": "fae0c04a95ce2e175d6ab6301535136377cb1629",
+    "license": null,
+    "html_url": "https://github.com/ArcInstitute/arc-virtual-cell-atlas",
+    "source_archive": "https://codeload.github.com/ArcInstitute/arc-virtual-cell-atlas/tar.gz/fae0c04a95ce2e175d6ab6301535136377cb1629",
+    "github_size_kb": 5997
+  },
+  {
+    "repository": "ArcInstitute/cell-eval",
+    "sha": "6928cf8bd7a706040ccfd13119e4085726dee64a",
+    "license": "MIT",
+    "html_url": "https://github.com/ArcInstitute/cell-eval",
+    "source_archive": "https://codeload.github.com/ArcInstitute/cell-eval/tar.gz/6928cf8bd7a706040ccfd13119e4085726dee64a",
+    "github_size_kb": 559
+  },
+  {
+    "repository": "Jean-KOUAGOU/1st-place-solution-single-cell-pbs",
+    "sha": "78344dac529bff2cd2686fc09712c2bc3cdbcb41",
+    "license": "MIT",
+    "html_url": "https://github.com/Jean-KOUAGOU/1st-place-solution-single-cell-pbs",
+    "source_archive": "https://codeload.github.com/Jean-KOUAGOU/1st-place-solution-single-cell-pbs/tar.gz/78344dac529bff2cd2686fc09712c2bc3cdbcb41",
+    "github_size_kb": 80
+  },
+  {
+    "repository": "causalbench/causalbench",
+    "sha": "1a2143cffdc85f835b41ce8d52034be1bf903e71",
+    "license": "Apache-2.0",
+    "html_url": "https://github.com/causalbench/causalbench",
+    "source_archive": "https://codeload.github.com/causalbench/causalbench/tar.gz/1a2143cffdc85f835b41ce8d52034be1bf903e71",
+    "github_size_kb": 14215
+  },
+  {
+    "repository": "GuanLab/CausalBench2023_Challenge",
+    "sha": "2d048a9e18ffc4ff57fe4bc7940591e445ba58ba",
+    "license": "MIT",
+    "html_url": "https://github.com/GuanLab/CausalBench2023_Challenge",
+    "source_archive": "https://codeload.github.com/GuanLab/CausalBench2023_Challenge/tar.gz/2d048a9e18ffc4ff57fe4bc7940591e445ba58ba",
+    "github_size_kb": 236
+  },
+  {
+    "repository": "openproblems-bio/neurips2021_multimodal_topmethods",
+    "sha": "5782a87a3bb46b30eb264d85cca999724aaaf7d2",
+    "license": "MIT",
+    "html_url": "https://github.com/openproblems-bio/neurips2021_multimodal_topmethods",
+    "source_archive": "https://codeload.github.com/openproblems-bio/neurips2021_multimodal_topmethods/tar.gz/5782a87a3bb46b30eb264d85cca999724aaaf7d2",
+    "github_size_kb": 11799
+  }
+]
