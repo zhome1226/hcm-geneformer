@@ -1,6 +1,7 @@
 param(
     [string]$LocalDirectory = 'D:\VirtualCell\sources\expansion',
-    [string]$Remote = 'zhome@10.158.203.133'
+    [string]$Remote = 'zhome@10.158.203.133',
+    [int]$ExistingTunnelProcessId = 0
 )
 # One-off transport helper for the currently running download batch.
 # Keeps SSH forwarding alive; on completion copies factual reports, then exits.
@@ -12,6 +13,9 @@ $common = @('-o','BatchMode=yes','-o','ConnectTimeout=15','-o','IPQoS=none',
             '-o','ServerAliveInterval=10','-o','ServerAliveCountMax=3')
 $stopFile = Join-Path $LocalDirectory 'STOP_DOWNLOAD_MONITOR'
 $tunnel = $null
+if ($ExistingTunnelProcessId -gt 0) {
+    try { $tunnel = Get-Process -Id $ExistingTunnelProcessId } catch { $tunnel = $null }
+}
 try {
     while (-not (Test-Path -LiteralPath $stopFile)) {
         if ($null -eq $tunnel -or $tunnel.HasExited) {
@@ -23,12 +27,20 @@ try {
             if ($tunnel.HasExited) { Start-Sleep -Seconds 10; continue }
         }
         try {
-            $raw = & $ssh @common $Remote 'cat ~/xiaoe-internship-data/_download_expansion/STATUS.json' `
-                2>> (Join-Path $LocalDirectory 'monitor.stderr.log')
-            if ($LASTEXITCODE -ne 0) { throw 'Status SSH failed' }
-            $state = ($raw -join "`n") | ConvertFrom-Json
-            $state | ConvertTo-Json -Depth 10 | Set-Content -Encoding utf8 `
-                (Join-Path $LocalDirectory 'LIVE_STATUS.json')
+            $queryArguments = @('-n','-T') + $common + @('-o','ClearAllForwardings=yes',
+                $Remote,'cat ~/xiaoe-internship-data/_download_expansion/STATUS.json')
+            $rawPath = Join-Path $LocalDirectory 'status.raw.json'
+            $query = Start-Process -FilePath $ssh -ArgumentList $queryArguments -PassThru `
+                -WindowStyle Hidden -RedirectStandardOutput $rawPath `
+                -RedirectStandardError (Join-Path $LocalDirectory 'status.stderr.log')
+            if (-not $query.WaitForExit(30000)) {
+                Stop-Process -Id $query.Id
+                throw 'Status SSH timed out after 30 seconds'
+            }
+            if ($query.ExitCode -ne 0) { throw 'Status SSH failed' }
+            $raw = Get-Content -LiteralPath $rawPath -Raw
+            $state = $raw | ConvertFrom-Json
+            $raw | Set-Content -Encoding utf8 (Join-Path $LocalDirectory 'LIVE_STATUS.json')
             if ($state.status -in @('complete','partial_failure')) {
                 $destination = Join-Path $LocalDirectory 'final'
                 New-Item -ItemType Directory -Force -Path $destination | Out-Null
