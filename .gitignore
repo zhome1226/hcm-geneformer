@@ -2,6 +2,9 @@
 data/raw/
 data/processed/
 *.h5ad
+*.h5mu
+*.zip
+*.nii
 *.h5
 *.loom
 *.mtx

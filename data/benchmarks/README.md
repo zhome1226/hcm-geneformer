@@ -4,6 +4,8 @@
 
 核查日期：2026-11-11（Asia/Shanghai）。详细取舍、官方数据及获奖代码入口见 [比赛资源报告](../../docs/competition-resources.md)。
 
+用户随后已授权补齐完整比赛数据；新批次范围、许可、实时状态与已验证文件清单见 [expansion/README.md](../expansion/README.md)。下列 9 文件清单记录首轮代码/元数据存档。
+
 - 服务器：`zhome@10.158.203.133:/home/zhome/xiaoe-internship-data/benchmarks/competitions/`。
 - 已下载资源：[competition_MANIFEST.tsv](competition_MANIFEST.tsv)，包括 5 份固定 commit 的代码存档和 VCC 2025 的 4 份数据索引 CSV。
 - 已核实可用的 VCC 对象：[competition_DATA_CATALOG.tsv](competition_DATA_CATALOG.tsv)，明确区分已下载元数据和未下载表达矩阵。

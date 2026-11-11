@@ -4,6 +4,8 @@
 
 这些比赛多数不以 HCM 为研究对象：VCC2025 为胚胎干细胞，NeurIPS2023 为外周血细胞，CausalBench 为细胞系，NeurIPS2021 为骨髓。ACDC 确实含 HCM，但属于 MRI。它们用于学习方法与评估，HCM 转录组训练仍采用 [SCP1303](../data/training/README.md) 等临床研究数据。
 
+后续用户已授权先保存完整公开数据，下载批次已启动，范围与实际状态见 [expansion/README.md](../data/expansion/README.md)。本文以下“本轮”指首轮代码与元数据存档，不能作为后续完整数据的下载状态；以新批次 STATUS/MANIFEST 为准。
+
 ## 推荐顺序
 
 | 优先级 | 比赛与状态 | 数据、代码现状 | 对我们最有用的部分 |
