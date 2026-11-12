@@ -1,0 +1,17 @@
+{
+  "status": "passed",
+  "checked_utc": "2026-11-12T00:48:44.994364+00:00",
+  "datasets_in_scope": 13,
+  "excluded": {
+    "dataset": "cox7b_GSE227734",
+    "reason": "User excluded from cleaning; missing authoritative gene mapping; no author contact authorized."
+  },
+  "unique_files_rehashed": 1125,
+  "total_bytes_rehashed": 95727396503,
+  "historical_independent_checks_confirmed": 21002,
+  "fresh_checks_passed": 1200,
+  "fresh_checks_failed": 0,
+  "elapsed_seconds": 240.74,
+  "errors": [],
+  "scope": "Integrity, exact independent-verification records, HDF5 structure and index targets; no recleaning or training-eligibility certification."
+}

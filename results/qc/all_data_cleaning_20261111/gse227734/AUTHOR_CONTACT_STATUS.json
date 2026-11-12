@@ -1,0 +1,13 @@
+{
+  "updated_at": "2026-11-12T00:49:39.327765+00:00",
+  "timezone": "UTC",
+  "recipient": "wangkui.nk@gmail.com",
+  "draft_file": "AUTHOR_MAPPING_REQUEST_DRAFT.md",
+  "status": "not_sent_dataset_excluded_by_user",
+  "current_authorization_to_send": false,
+  "authorization_history": "User first approved the prepared draft, then said 算了 先不发了 before any mail send action.",
+  "send_action_called": false,
+  "message_sent": false,
+  "instruction": "Do not send unless the user explicitly authorizes it again.",
+  "dataset_scope": "excluded_by_user; do not continue cleaning or author contact"
+}

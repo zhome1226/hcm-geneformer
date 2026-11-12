@@ -1,0 +1,246 @@
+[
+  {
+    "dataset": "SCP1303",
+    "current_exit_records": []
+  },
+  {
+    "dataset": "chin_GSE174691",
+    "current_exit_records": [
+      {
+        "file": "/home/zhome/xiaoe-internship-data/_processing/all_data_cleaning_20261111/chin_pair/exit_code.txt",
+        "code": "0"
+      },
+      {
+        "file": "/home/zhome/xiaoe-internship-data/_processing/all_data_cleaning_20261111/chin_pair/export_exit_code.txt",
+        "code": "0"
+      },
+      {
+        "file": "/home/zhome/xiaoe-internship-data/_processing/all_data_cleaning_20261111/chin_pair/final_verification_exit_code.txt",
+        "code": "0"
+      },
+      {
+        "file": "/home/zhome/xiaoe-internship-data/_processing/all_data_cleaning_20261111/chin_pair/v2_exit_code.txt",
+        "code": "1"
+      }
+    ]
+  },
+  {
+    "dataset": "chin_GSE161921",
+    "current_exit_records": [
+      {
+        "file": "/home/zhome/xiaoe-internship-data/_processing/all_data_cleaning_20261111/chin_pair/exit_code.txt",
+        "code": "0"
+      },
+      {
+        "file": "/home/zhome/xiaoe-internship-data/_processing/all_data_cleaning_20261111/chin_pair/export_exit_code.txt",
+        "code": "0"
+      },
+      {
+        "file": "/home/zhome/xiaoe-internship-data/_processing/all_data_cleaning_20261111/chin_pair/final_verification_exit_code.txt",
+        "code": "0"
+      },
+      {
+        "file": "/home/zhome/xiaoe-internship-data/_processing/all_data_cleaning_20261111/chin_pair/v2_exit_code.txt",
+        "code": "1"
+      }
+    ]
+  },
+  {
+    "dataset": "liu2023",
+    "current_exit_records": [
+      {
+        "file": "/home/zhome/xiaoe-internship-data/_processing/all_data_cleaning_20261111/liu2023/cleaning_exit_code.txt",
+        "code": "0"
+      },
+      {
+        "file": "/home/zhome/xiaoe-internship-data/_processing/all_data_cleaning_20261111/liu2023/final_v2_exit_code.txt",
+        "code": "0"
+      },
+      {
+        "file": "/home/zhome/xiaoe-internship-data/_processing/all_data_cleaning_20261111/liu2023/preflight_attempt1_exit_code.txt",
+        "code": "1"
+      },
+      {
+        "file": "/home/zhome/xiaoe-internship-data/_processing/all_data_cleaning_20261111/liu2023/preflight_exit_code.txt",
+        "code": "0"
+      }
+    ]
+  },
+  {
+    "dataset": "chin_GSE181764",
+    "current_exit_records": [
+      {
+        "file": "/home/zhome/xiaoe-internship-data/_processing/all_data_cleaning_20261111/gse181764/R_exit_code.txt",
+        "code": "0"
+      },
+      {
+        "file": "/home/zhome/xiaoe-internship-data/_processing/all_data_cleaning_20261111/gse181764/final_exit_code.txt",
+        "code": "1"
+      },
+      {
+        "file": "/home/zhome/xiaoe-internship-data/_processing/all_data_cleaning_20261111/gse181764/resume_exit_code.txt",
+        "code": "0"
+      },
+      {
+        "file": "/home/zhome/xiaoe-internship-data/_processing/all_data_cleaning_20261111/gse181764/stage_attempt1_exit_code.txt",
+        "code": "1"
+      },
+      {
+        "file": "/home/zhome/xiaoe-internship-data/_processing/all_data_cleaning_20261111/gse181764/stage_exit_code.txt",
+        "code": "0"
+      }
+    ]
+  },
+  {
+    "dataset": "GSE138262",
+    "current_exit_records": [
+      {
+        "file": "/home/zhome/xiaoe-internship-data/_processing/all_data_cleaning_20261111/gse138262/download_exit_code.txt",
+        "code": "0"
+      },
+      {
+        "file": "/home/zhome/xiaoe-internship-data/_processing/all_data_cleaning_20261111/gse138262/finalize_exit_code.txt",
+        "code": "0"
+      },
+      {
+        "file": "/home/zhome/xiaoe-internship-data/_processing/all_data_cleaning_20261111/gse138262/identity_exit_code.txt",
+        "code": "0"
+      },
+      {
+        "file": "/home/zhome/xiaoe-internship-data/_processing/all_data_cleaning_20261111/gse138262/inspect_exit_code.txt",
+        "code": "0"
+      },
+      {
+        "file": "/home/zhome/xiaoe-internship-data/_processing/all_data_cleaning_20261111/gse138262/preflight_exit_code.txt",
+        "code": "1"
+      },
+      {
+        "file": "/home/zhome/xiaoe-internship-data/_processing/all_data_cleaning_20261111/gse138262/stage_exit_code.txt",
+        "code": "0"
+      },
+      {
+        "file": "/home/zhome/xiaoe-internship-data/_processing/all_data_cleaning_20261111/gse138262/verify_exit_code.txt",
+        "code": "0"
+      }
+    ]
+  },
+  {
+    "dataset": "GSE203274",
+    "current_exit_records": [
+      {
+        "file": "/home/zhome/xiaoe-internship-data/_processing/all_data_cleaning_20261111/GSE203274/R_exit_code.txt",
+        "code": "0"
+      },
+      {
+        "file": "/home/zhome/xiaoe-internship-data/_processing/all_data_cleaning_20261111/GSE203274/finalize_exit_code.txt",
+        "code": "0"
+      },
+      {
+        "file": "/home/zhome/xiaoe-internship-data/_processing/all_data_cleaning_20261111/GSE203274/repair_metadata_exit_code.txt",
+        "code": "0"
+      },
+      {
+        "file": "/home/zhome/xiaoe-internship-data/_processing/all_data_cleaning_20261111/GSE203274/stage_exit_code.txt",
+        "code": "0"
+      },
+      {
+        "file": "/home/zhome/xiaoe-internship-data/_processing/all_data_cleaning_20261111/GSE203274/verify_exit_code.txt",
+        "code": "0"
+      }
+    ]
+  },
+  {
+    "dataset": "bulk_GSE249925",
+    "current_exit_records": [
+      {
+        "file": "/home/zhome/xiaoe-internship-data/_processing/all_data_cleaning_20261111/GSE249925/prepare_exit_code.txt",
+        "code": "0"
+      },
+      {
+        "file": "/home/zhome/xiaoe-internship-data/_processing/all_data_cleaning_20261111/GSE249925/verify_exit_code.txt",
+        "code": "0"
+      }
+    ]
+  },
+  {
+    "dataset": "VCC2025",
+    "current_exit_records": [
+      {
+        "file": "/home/zhome/xiaoe-internship-data/_processing/all_data_cleaning_20261111/VCC2025/prepare_exit_code.txt",
+        "code": "0"
+      },
+      {
+        "file": "/home/zhome/xiaoe-internship-data/_processing/all_data_cleaning_20261111/VCC2025/verify_exit_code.txt",
+        "code": "0"
+      }
+    ]
+  },
+  {
+    "dataset": "NeurIPS2023",
+    "current_exit_records": [
+      {
+        "file": "/home/zhome/xiaoe-internship-data/_processing/all_data_cleaning_20261111/NeurIPS2023/inspect_exit_code.txt",
+        "code": "0"
+      },
+      {
+        "file": "/home/zhome/xiaoe-internship-data/_processing/all_data_cleaning_20261111/NeurIPS2023/prepare_exit_code.txt",
+        "code": "0"
+      },
+      {
+        "file": "/home/zhome/xiaoe-internship-data/_processing/all_data_cleaning_20261111/NeurIPS2023/verify_exit_code.txt",
+        "code": "0"
+      }
+    ]
+  },
+  {
+    "dataset": "NeurIPS2021",
+    "current_exit_records": [
+      {
+        "file": "/home/zhome/xiaoe-internship-data/_processing/all_data_cleaning_20261111/NeurIPS2021/prepare_exit_code.txt",
+        "code": "0"
+      },
+      {
+        "file": "/home/zhome/xiaoe-internship-data/_processing/all_data_cleaning_20261111/NeurIPS2021/stage_exit_code.txt",
+        "code": "0"
+      },
+      {
+        "file": "/home/zhome/xiaoe-internship-data/_processing/all_data_cleaning_20261111/NeurIPS2021/verify_exit_code.txt",
+        "code": "0"
+      }
+    ]
+  },
+  {
+    "dataset": "CausalBench2023",
+    "current_exit_records": [
+      {
+        "file": "/home/zhome/xiaoe-internship-data/_processing/all_data_cleaning_20261111/CausalBench2023/prepare_exit_code.txt",
+        "code": "0"
+      },
+      {
+        "file": "/home/zhome/xiaoe-internship-data/_processing/all_data_cleaning_20261111/CausalBench2023/remaining_exit_code.txt",
+        "code": "0"
+      },
+      {
+        "file": "/home/zhome/xiaoe-internship-data/_processing/all_data_cleaning_20261111/CausalBench2023/verify_exit_code.txt",
+        "code": "0"
+      }
+    ]
+  },
+  {
+    "dataset": "ACDC2017",
+    "current_exit_records": [
+      {
+        "file": "/home/zhome/xiaoe-internship-data/_processing/all_data_cleaning_20261111/ACDC2017/geometry_exit_code.txt",
+        "code": "0"
+      },
+      {
+        "file": "/home/zhome/xiaoe-internship-data/_processing/all_data_cleaning_20261111/ACDC2017/prepare_exit_code.txt",
+        "code": "0"
+      },
+      {
+        "file": "/home/zhome/xiaoe-internship-data/_processing/all_data_cleaning_20261111/ACDC2017/verify_exit_code.txt",
+        "code": "0"
+      }
+    ]
+  }
+]

@@ -1,0 +1,1808 @@
+{
+  "datasets": {
+    "SCP1303": {
+      "output": "/home/zhome/xiaoe-internship-data/processed/SCP1303_qc_reviewed_final_20261111",
+      "execution": "/home/zhome/xiaoe-internship-data/_processing/SCP1303_20261111",
+      "verification_sha256": "c492ab3ad5ca06226c838cd0d0bdcdb1631267f9edd5266038f6df29e11e6f55",
+      "independent_checks": 82
+    },
+    "chin_GSE174691": {
+      "output": "/home/zhome/xiaoe-internship-data/processed/chin_GSE174691_qc_20261111",
+      "execution": "/home/zhome/xiaoe-internship-data/_processing/all_data_cleaning_20261111/chin_pair",
+      "verification_sha256": "7efc07342e27ecdac0ff8fa2bf70dbe2a1df09f381d326ffd8d1bc8e6f88a2e3",
+      "independent_checks": 374
+    },
+    "chin_GSE161921": {
+      "output": "/home/zhome/xiaoe-internship-data/processed/chin_GSE161921_qc_20261111",
+      "execution": "/home/zhome/xiaoe-internship-data/_processing/all_data_cleaning_20261111/chin_pair",
+      "verification_sha256": "7b5a9b313a5792fd44bc61464eea7866b1f7da8d2cb99decb1a2f9ec6802bb35",
+      "independent_checks": 199
+    },
+    "liu2023": {
+      "output": "/home/zhome/xiaoe-internship-data/processed/liu2023_qc_20261111",
+      "execution": "/home/zhome/xiaoe-internship-data/_processing/all_data_cleaning_20261111/liu2023",
+      "verification_sha256": "ba345df3e6a58db281102bc38e8fff8fb30179d183b220cec445c0a89c0860fe",
+      "independent_checks": 674
+    },
+    "chin_GSE181764": {
+      "output": "/home/zhome/xiaoe-internship-data/processed/chin_GSE181764_qc_20261111",
+      "execution": "/home/zhome/xiaoe-internship-data/_processing/all_data_cleaning_20261111/gse181764",
+      "verification_sha256": "a8e7c19289cef0c745c3ac7f403076f0c686be9ac4857e15b3cb89de2e076e11",
+      "independent_checks": 620
+    },
+    "GSE138262": {
+      "output": "/home/zhome/xiaoe-internship-data/processed/wehrens_GSE138262_qc_20261111",
+      "execution": "/home/zhome/xiaoe-internship-data/_processing/all_data_cleaning_20261111/gse138262",
+      "verification_sha256": "cf11b644b634d6c7a7e01cc4d2d182ac3a953be13554e3e14715ffd83669b68a",
+      "independent_checks": 735
+    },
+    "GSE203274": {
+      "output": "/home/zhome/xiaoe-internship-data/processed/pediatric_GSE203274_qc_20261111",
+      "execution": "/home/zhome/xiaoe-internship-data/_processing/all_data_cleaning_20261111/GSE203274",
+      "verification_sha256": "783e16f10fa95831c4de28424709137d188048e7285ddcef25e1089222d8d935",
+      "independent_checks": 490
+    },
+    "bulk_GSE249925": {
+      "output": "/home/zhome/xiaoe-internship-data/processed/bulk_GSE249925_qc_20261111",
+      "execution": "/home/zhome/xiaoe-internship-data/_processing/all_data_cleaning_20261111/GSE249925",
+      "verification_sha256": "1d7b4021fd71c3002d3b4dbf1f615c9b3c1cef0776bba1737d8f21e4b8ba34a2",
+      "independent_checks": 430
+    },
+    "VCC2025": {
+      "output": "/home/zhome/xiaoe-internship-data/processed/VCC2025_qc_20261111",
+      "execution": "/home/zhome/xiaoe-internship-data/_processing/all_data_cleaning_20261111/VCC2025",
+      "verification_sha256": "037d00a423a7d84b96055a3935daf541788e976bbc00f3afcf12c33dcfc28867",
+      "independent_checks": 1141
+    },
+    "NeurIPS2023": {
+      "output": "/home/zhome/xiaoe-internship-data/processed/NeurIPS2023_qc_20261111",
+      "execution": "/home/zhome/xiaoe-internship-data/_processing/all_data_cleaning_20261111/NeurIPS2023",
+      "verification_sha256": "76e01463710f5cf6b76cb68a6e311fbbfdd136c2fa4839776466db658d22db02",
+      "independent_checks": 383
+    },
+    "NeurIPS2021": {
+      "output": "/home/zhome/xiaoe-internship-data/processed/NeurIPS2021_qc_20261111",
+      "execution": "/home/zhome/xiaoe-internship-data/_processing/all_data_cleaning_20261111/NeurIPS2021",
+      "verification_sha256": "e12fdcb114cbb3083c61697db9833963f54fbf9f862fc1518941b63aaf024148",
+      "independent_checks": 880
+    },
+    "CausalBench2023": {
+      "output": "/home/zhome/xiaoe-internship-data/processed/CausalBench2023_qc_20261111",
+      "execution": "/home/zhome/xiaoe-internship-data/_processing/all_data_cleaning_20261111/CausalBench2023",
+      "verification_sha256": "bda945f1b7869229283af49a0349dfea7495d1fe48900c1699ff82ea9f6c9f50",
+      "independent_checks": 1287
+    },
+    "ACDC2017": {
+      "output": "/home/zhome/xiaoe-internship-data/processed/ACDC2017_qc_20261111",
+      "execution": "/home/zhome/xiaoe-internship-data/_processing/all_data_cleaning_20261111/ACDC2017",
+      "verification_sha256": "a0496ad2171b070133417328e874ca978572fd12ff0996de0a99f53fce51955e",
+      "independent_checks": 13707
+    }
+  },
+  "artifacts": [
+    {
+      "dataset": "ACDC2017",
+      "path": "/home/zhome/xiaoe-internship-data/processed/ACDC2017_qc_20261111/EXPORT_SUCCESS.json",
+      "bytes": 132,
+      "md5": "c36b5b9e30ce239a5ebda837a58b5cbe",
+      "sha256": "3c05ed335d1926d3a5c5ce42fc872920dd0bd2e451bc01e3f0c2811a5153f507",
+      "baseline": "ACDC2017_OUTPUT_MANIFEST.tsv"
+    },
+    {
+      "dataset": "ACDC2017",
+      "path": "/home/zhome/xiaoe-internship-data/processed/ACDC2017_qc_20261111/FINAL_COMPLETION_GATE.json",
+      "bytes": 448,
+      "md5": "6041e1e65fec245699d2f9ad56b6b8af",
+      "sha256": "7e6f7cb2b7e16ed4ca860041f75867f321f58473a59786125a90b8e1bcd2a685",
+      "baseline": "ACDC2017_OUTPUT_MANIFEST.tsv"
+    },
+    {
+      "dataset": "ACDC2017",
+      "path": "/home/zhome/xiaoe-internship-data/processed/ACDC2017_qc_20261111/GROUP_SPLIT_SUMMARY.tsv",
+      "bytes": 292,
+      "md5": "e1e2a1327d4c2896ab5ce69b66ead40f",
+      "sha256": "f7b8bcbb6158f295407b1de60ebbef596df5a2e9c58f15210015bc76a9470e32",
+      "baseline": "ACDC2017_OUTPUT_MANIFEST.tsv"
+    },
+    {
+      "dataset": "ACDC2017",
+      "path": "/home/zhome/xiaoe-internship-data/processed/ACDC2017_qc_20261111/IMAGE_MASK_PAIR_QC.tsv",
+      "bytes": 165277,
+      "md5": "85742bf6a201957257d87828381746bb",
+      "sha256": "e628cf46775eef98334a7d9a8d60ea1f8127dcc394c0ade5cf6b457eb6327b93",
+      "baseline": "ACDC2017_OUTPUT_MANIFEST.tsv"
+    },
+    {
+      "dataset": "ACDC2017",
+      "path": "/home/zhome/xiaoe-internship-data/processed/ACDC2017_qc_20261111/INDEPENDENT_VERIFICATION.json",
+      "bytes": 1357077,
+      "md5": "0e1c8547eb700f978f6c3f92b5eccd55",
+      "sha256": "a0496ad2171b070133417328e874ca978572fd12ff0996de0a99f53fce51955e",
+      "baseline": "ACDC2017_OUTPUT_MANIFEST.tsv"
+    },
+    {
+      "dataset": "ACDC2017",
+      "path": "/home/zhome/xiaoe-internship-data/processed/ACDC2017_qc_20261111/LICENSE_TERMS.md",
+      "bytes": 758,
+      "md5": "34e8cc5e237d619963cd17122527659d",
+      "sha256": "7bcd6e544e0b367e91539f80393af751cbb3450f4629308a6eb257ca4944732d",
+      "baseline": "ACDC2017_OUTPUT_MANIFEST.tsv"
+    },
+    {
+      "dataset": "ACDC2017",
+      "path": "/home/zhome/xiaoe-internship-data/processed/ACDC2017_qc_20261111/MANDATORY_CITATION.md",
+      "bytes": 361,
+      "md5": "ecb55f5683ce83df967516d04d46193e",
+      "sha256": "ea4a16defa44b80fdd822b5c3de02f3d939d1d1db5439248aa546cb6c81c0be5",
+      "baseline": "ACDC2017_OUTPUT_MANIFEST.tsv"
+    },
+    {
+      "dataset": "ACDC2017",
+      "path": "/home/zhome/xiaoe-internship-data/processed/ACDC2017_qc_20261111/NIFTI_FILE_QC.tsv",
+      "bytes": 303395,
+      "md5": "84975441296f30098d37c7fb07baa833",
+      "sha256": "ef7680f1b3b163743a6867ee44c6a8e97338589280869f0f26d8230d69eed0ac",
+      "baseline": "ACDC2017_OUTPUT_MANIFEST.tsv"
+    },
+    {
+      "dataset": "ACDC2017",
+      "path": "/home/zhome/xiaoe-internship-data/processed/ACDC2017_qc_20261111/ORIGINAL_FILES.tsv",
+      "bytes": 325334,
+      "md5": "6726b9c3cf08e3a3b72e01871cf3fa88",
+      "sha256": "c29ab33c689a245b00be8c25be5db25fa19459d33efd07f826b747ea179f7ce2",
+      "baseline": "ACDC2017_OUTPUT_MANIFEST.tsv"
+    },
+    {
+      "dataset": "ACDC2017",
+      "path": "/home/zhome/xiaoe-internship-data/processed/ACDC2017_qc_20261111/OUTPUT_MANIFEST.tsv",
+      "bytes": 2336,
+      "md5": "6ae9f05862a90d6a5a51779594c64cbe",
+      "sha256": "b1bb8402ff093d497ae7ae62c000b56dc5be1dd3a5e7992fdd558ba637d0f73b",
+      "baseline": "ACDC2017_OUTPUT_MANIFEST.tsv"
+    },
+    {
+      "dataset": "ACDC2017",
+      "path": "/home/zhome/xiaoe-internship-data/processed/ACDC2017_qc_20261111/PATIENT_QC.tsv",
+      "bytes": 38051,
+      "md5": "c48d02c9539934428031051a9ec721d2",
+      "sha256": "5451892b494d2423f39be8a02cff7eaca294600ad57f80055b6f52a3d25745e4",
+      "baseline": "ACDC2017_OUTPUT_MANIFEST.tsv"
+    },
+    {
+      "dataset": "ACDC2017",
+      "path": "/home/zhome/xiaoe-internship-data/processed/ACDC2017_qc_20261111/QUARANTINED_IMAGE_MASK_PAIRS.tsv",
+      "bytes": 40951,
+      "md5": "c9717f6404e04274bd76c565abf74e12",
+      "sha256": "b255ed13d47a61af75bb6b974f8189f35644ee75e939ce934f585e3d82cf620a",
+      "baseline": "ACDC2017_OUTPUT_MANIFEST.tsv"
+    },
+    {
+      "dataset": "ACDC2017",
+      "path": "/home/zhome/xiaoe-internship-data/processed/ACDC2017_qc_20261111/REPORT.md",
+      "bytes": 878,
+      "md5": "3884c6ce0767d3021496d7680cf83197",
+      "sha256": "466b10790efd46fdc36a7953dbe4b3e12f4e3538d185f600536ed7bcbd5adf96",
+      "baseline": "ACDC2017_OUTPUT_MANIFEST.tsv"
+    },
+    {
+      "dataset": "ACDC2017",
+      "path": "/home/zhome/xiaoe-internship-data/processed/ACDC2017_qc_20261111/USABLE_IMAGE_MASK_PAIRS.tsv",
+      "bytes": 124667,
+      "md5": "2f0a19a3da891bef72a06297367d538a",
+      "sha256": "d54deb5c92ac7aca2a0fd4c02d4e7b0add6b2fa4667ad3ab2e2e5c32bb7dca59",
+      "baseline": "ACDC2017_OUTPUT_MANIFEST.tsv"
+    },
+    {
+      "dataset": "ACDC2017",
+      "path": "/home/zhome/xiaoe-internship-data/processed/ACDC2017_qc_20261111/qc_policy.json",
+      "bytes": 1158,
+      "md5": "daaf5d45c478801c16d20f67ddf8d069",
+      "sha256": "fea164fb632709d5b7fb571de3a2c6ef332ada0e8b5407977a9bf7a63b9912da",
+      "baseline": "ACDC2017_OUTPUT_MANIFEST.tsv"
+    },
+    {
+      "dataset": "ACDC2017",
+      "path": "/home/zhome/xiaoe-internship-data/processed/ACDC2017_qc_20261111/VOXEL_GRID_PAIR_QC.tsv",
+      "bytes": 193304,
+      "md5": "41e0515b5bbb7b9b3a1341ce47cd97b9",
+      "sha256": "4f91cc3f422bd1240da23796beebb7ca8ff7a9c5f970633f3c286af0e05dfaa6",
+      "baseline": "ACDC2017_OUTPUT_MANIFEST.tsv"
+    },
+    {
+      "dataset": "ACDC2017",
+      "path": "/home/zhome/xiaoe-internship-data/processed/ACDC2017_qc_20261111/USABLE_VOXEL_GRID_IMAGE_MASK_PAIRS.tsv",
+      "bytes": 193304,
+      "md5": "41e0515b5bbb7b9b3a1341ce47cd97b9",
+      "sha256": "4f91cc3f422bd1240da23796beebb7ca8ff7a9c5f970633f3c286af0e05dfaa6",
+      "baseline": "ACDC2017_OUTPUT_MANIFEST.tsv"
+    },
+    {
+      "dataset": "ACDC2017",
+      "path": "/home/zhome/xiaoe-internship-data/processed/ACDC2017_qc_20261111/QUARANTINED_VOXEL_GRID_PAIRS.tsv",
+      "bytes": 468,
+      "md5": "6ae9e246d3f442758ef0d4da338548b1",
+      "sha256": "0f441c72392f4aceef3460daa529724c48e7a27723d67ffc0fe4d1858e16b607",
+      "baseline": "ACDC2017_OUTPUT_MANIFEST.tsv"
+    },
+    {
+      "dataset": "ACDC2017",
+      "path": "/home/zhome/xiaoe-internship-data/processed/ACDC2017_qc_20261111/GEOMETRY_CONFLICT_AUDIT.tsv",
+      "bytes": 56308,
+      "md5": "eaf9075afa2a6b1d3ecfd8cf7e116aba",
+      "sha256": "5c672a7c891ab9120fa2b52404a967e63b357a5c9c3cc3b7df5f50c23e8b2cd4",
+      "baseline": "ACDC2017_OUTPUT_MANIFEST.tsv"
+    },
+    {
+      "dataset": "ACDC2017",
+      "path": "/home/zhome/xiaoe-internship-data/processed/ACDC2017_qc_20261111/GEOMETRY_POLICY.md",
+      "bytes": 755,
+      "md5": "137e9977fe1603381b1455cf1daa83ee",
+      "sha256": "5aba7c2490d0b66b47aee12a0672b7a38a9df0fe5e4ee94f9d708933cce9c8fb",
+      "baseline": "ACDC2017_OUTPUT_MANIFEST.tsv"
+    },
+    {
+      "dataset": "ACDC2017",
+      "path": "/home/zhome/xiaoe-internship-data/processed/ACDC2017_qc_20261111/GEOMETRY_VIEWS_VERIFICATION.json",
+      "bytes": 206472,
+      "md5": "172a011d19f77bf8fcda905e6539bc8f",
+      "sha256": "d30d473de5e722075c5dff7372e7afd4d4578ff5c396fa3ef43825b14d9d7c6b",
+      "baseline": "ACDC2017_OUTPUT_MANIFEST.tsv"
+    },
+    {
+      "dataset": "CausalBench2023",
+      "path": "/home/zhome/xiaoe-internship-data/processed/CausalBench2023_qc_20261111/DATASET_QC_SUMMARY.tsv",
+      "bytes": 549,
+      "md5": "a5c9e1cb17dc01444de95644e2b96a4c",
+      "sha256": "90a9a74104ba99ae2175ac09e3a67f28edf3431b0d32f4a4c691409372a6b198",
+      "baseline": "CAUSALBENCH2023_OUTPUT_MANIFEST.tsv"
+    },
+    {
+      "dataset": "CausalBench2023",
+      "path": "/home/zhome/xiaoe-internship-data/processed/CausalBench2023_qc_20261111/EXPORT_SUCCESS.json",
+      "bytes": 1190,
+      "md5": "f3096173ffdde58813039fe8089be23f",
+      "sha256": "bf8399387f9de43dc9311ce7bb4d78300feea188f55817299913314a73fc66c6",
+      "baseline": "CAUSALBENCH2023_OUTPUT_MANIFEST.tsv"
+    },
+    {
+      "dataset": "CausalBench2023",
+      "path": "/home/zhome/xiaoe-internship-data/processed/CausalBench2023_qc_20261111/FINAL_COMPLETION_GATE.json",
+      "bytes": 505,
+      "md5": "78c5028de1103aee513f8ea0c4033fda",
+      "sha256": "59e7ea0ff9b4dd08ba168a1618258e5c6ad5621eb44e2d3ebbb64f0f8353d353",
+      "baseline": "CAUSALBENCH2023_OUTPUT_MANIFEST.tsv"
+    },
+    {
+      "dataset": "CausalBench2023",
+      "path": "/home/zhome/xiaoe-internship-data/processed/CausalBench2023_qc_20261111/INDEPENDENT_VERIFICATION.json",
+      "bytes": 121330,
+      "md5": "ea349377208ed4533cad4a73a4b3ef78",
+      "sha256": "bda945f1b7869229283af49a0349dfea7495d1fe48900c1699ff82ea9f6c9f50",
+      "baseline": "CAUSALBENCH2023_OUTPUT_MANIFEST.tsv"
+    },
+    {
+      "dataset": "CausalBench2023",
+      "path": "/home/zhome/xiaoe-internship-data/processed/CausalBench2023_qc_20261111/K562_CAPTURE_SUMMARY.tsv",
+      "bytes": 2197,
+      "md5": "3cc22731a8ee419e5d9564232973768f",
+      "sha256": "96793686e9eb96132fae1a9a7ae8c36b34daf2a7e70a38438c82166d1178e684",
+      "baseline": "CAUSALBENCH2023_OUTPUT_MANIFEST.tsv"
+    },
+    {
+      "dataset": "CausalBench2023",
+      "path": "/home/zhome/xiaoe-internship-data/processed/CausalBench2023_qc_20261111/K562_PERTURBATION_SUMMARY.tsv",
+      "bytes": 282635,
+      "md5": "526c35f3152355103619de919c009e9d",
+      "sha256": "fdf91a2b16f76765ca94bc9b5f7a4e7e95432d332006c0d3b1a080942aa42308",
+      "baseline": "CAUSALBENCH2023_OUTPUT_MANIFEST.tsv"
+    },
+    {
+      "dataset": "CausalBench2023",
+      "path": "/home/zhome/xiaoe-internship-data/processed/CausalBench2023_qc_20261111/K562_feature_QC.tsv.gz",
+      "bytes": 519488,
+      "md5": "9462131242bcf9179a5cb1d18fb931dd",
+      "sha256": "0698a1382d9ba9de1085faadaaeb866cc6e1c3bb75eb50e8770d3504ba1569c2",
+      "baseline": "CAUSALBENCH2023_OUTPUT_MANIFEST.tsv"
+    },
+    {
+      "dataset": "CausalBench2023",
+      "path": "/home/zhome/xiaoe-internship-data/processed/CausalBench2023_qc_20261111/K562_observation_QC.tsv.gz",
+      "bytes": 31666969,
+      "md5": "0e0ef5a4d176084d75284ab328ca317a",
+      "sha256": "00d8af873271a8c395b1087d323bf6a4e3396565c1702298af1e3ac5d7c4e1e5",
+      "baseline": "CAUSALBENCH2023_OUTPUT_MANIFEST.tsv"
+    },
+    {
+      "dataset": "CausalBench2023",
+      "path": "/home/zhome/xiaoe-internship-data/processed/CausalBench2023_qc_20261111/K562_quarantine.tsv.gz",
+      "bytes": 342,
+      "md5": "2c81c5df8fac468766d169999002775b",
+      "sha256": "de28688f2e46d5304a408b573f5ecb72549458ed321e59d573adee89ceab2566",
+      "baseline": "CAUSALBENCH2023_OUTPUT_MANIFEST.tsv"
+    },
+    {
+      "dataset": "CausalBench2023",
+      "path": "/home/zhome/xiaoe-internship-data/processed/CausalBench2023_qc_20261111/K562_usable_rows.tsv.gz",
+      "bytes": 5911451,
+      "md5": "ffb5428bbc57e8c60f0b6ccbf4b9b2ab",
+      "sha256": "ab3cb03f0db628df76e767d8d74682254403b4150d5e1d110465cbadacb8645c",
+      "baseline": "CAUSALBENCH2023_OUTPUT_MANIFEST.tsv"
+    },
+    {
+      "dataset": "CausalBench2023",
+      "path": "/home/zhome/xiaoe-internship-data/processed/CausalBench2023_qc_20261111/MATRIX_QC_SUMMARY.tsv",
+      "bytes": 280,
+      "md5": "027899089afe294788d97c24fe6425a5",
+      "sha256": "cd37e577746ef20466ca65e7d661aa659d8f2c672a70c3f48f2e274e6e8118e2",
+      "baseline": "CAUSALBENCH2023_OUTPUT_MANIFEST.tsv"
+    },
+    {
+      "dataset": "CausalBench2023",
+      "path": "/home/zhome/xiaoe-internship-data/processed/CausalBench2023_qc_20261111/ORIGINAL_FILES.tsv",
+      "bytes": 649,
+      "md5": "2e334d84b2994e0433efba6d08448e74",
+      "sha256": "937514b07aa05f6f497c3b061567f4e823d1636428b00ecb83ce4027e62e8287",
+      "baseline": "CAUSALBENCH2023_OUTPUT_MANIFEST.tsv"
+    },
+    {
+      "dataset": "CausalBench2023",
+      "path": "/home/zhome/xiaoe-internship-data/processed/CausalBench2023_qc_20261111/OUTPUT_MANIFEST.tsv",
+      "bytes": 5211,
+      "md5": "805d3d04f1c9311194de31ae0e223d97",
+      "sha256": "a822a6ce66872b3ffa66576c00950b0df655db28876bdf0658fdcbc626a4cb79",
+      "baseline": "CAUSALBENCH2023_OUTPUT_MANIFEST.tsv"
+    },
+    {
+      "dataset": "CausalBench2023",
+      "path": "/home/zhome/xiaoe-internship-data/processed/CausalBench2023_qc_20261111/REPORT.md",
+      "bytes": 1205,
+      "md5": "20740d0849b99adb6a5141e81b839ad9",
+      "sha256": "95f84b37cf651756e1798cfcf68267402365b3c9703418e5e51141bce8e87d4f",
+      "baseline": "CAUSALBENCH2023_OUTPUT_MANIFEST.tsv"
+    },
+    {
+      "dataset": "CausalBench2023",
+      "path": "/home/zhome/xiaoe-internship-data/processed/CausalBench2023_qc_20261111/RPE1_CAPTURE_SUMMARY.tsv",
+      "bytes": 2557,
+      "md5": "9cb9c7d560fa0223abddadb107eaa7b8",
+      "sha256": "f3cf7aa560b6603290dbf269f203d4256b0f24d2beae6f2c453b02c661fdb81b",
+      "baseline": "CAUSALBENCH2023_OUTPUT_MANIFEST.tsv"
+    },
+    {
+      "dataset": "CausalBench2023",
+      "path": "/home/zhome/xiaoe-internship-data/processed/CausalBench2023_qc_20261111/RPE1_PERTURBATION_SUMMARY.tsv",
+      "bytes": 329467,
+      "md5": "c62dd81c7100b7831c01fc0e95a21fa4",
+      "sha256": "fb090533e88b427ccf64b23d0f373f234821e9aa24fb04e7b22f9f8a31972c8d",
+      "baseline": "CAUSALBENCH2023_OUTPUT_MANIFEST.tsv"
+    },
+    {
+      "dataset": "CausalBench2023",
+      "path": "/home/zhome/xiaoe-internship-data/processed/CausalBench2023_qc_20261111/RPE1_feature_QC.tsv.gz",
+      "bytes": 530601,
+      "md5": "35331d8f01f4e6286dbfa4c73b347bf3",
+      "sha256": "ea4995dbe1982df3caa6ba3577b0ee9130b3783e93d5413759fadd3bd98cf568",
+      "baseline": "CAUSALBENCH2023_OUTPUT_MANIFEST.tsv"
+    },
+    {
+      "dataset": "CausalBench2023",
+      "path": "/home/zhome/xiaoe-internship-data/processed/CausalBench2023_qc_20261111/RPE1_observation_QC.tsv.gz",
+      "bytes": 25227513,
+      "md5": "f8d3298167033a08651661a0218da077",
+      "sha256": "f304f42522359caabe3976c9ddf462116a51f167ab67f5f57ef02cf3da301874",
+      "baseline": "CAUSALBENCH2023_OUTPUT_MANIFEST.tsv"
+    },
+    {
+      "dataset": "CausalBench2023",
+      "path": "/home/zhome/xiaoe-internship-data/processed/CausalBench2023_qc_20261111/RPE1_quarantine.tsv.gz",
+      "bytes": 342,
+      "md5": "d9e317c37599a9e73d3a4e4dd0345ccf",
+      "sha256": "bac2d06fac3827ef763801e5c2f2f32bb81f838e669cbd839ff06cb1e88be859",
+      "baseline": "CAUSALBENCH2023_OUTPUT_MANIFEST.tsv"
+    },
+    {
+      "dataset": "CausalBench2023",
+      "path": "/home/zhome/xiaoe-internship-data/processed/CausalBench2023_qc_20261111/RPE1_usable_rows.tsv.gz",
+      "bytes": 4775685,
+      "md5": "c0e1a72b643294ed08f68df81f8d2954",
+      "sha256": "2820c0fe48dad8781c9813cb0a62e5ecadc34cd339358972c48a90ad3c4e6bc0",
+      "baseline": "CAUSALBENCH2023_OUTPUT_MANIFEST.tsv"
+    },
+    {
+      "dataset": "CausalBench2023",
+      "path": "/home/zhome/xiaoe-internship-data/processed/CausalBench2023_qc_20261111/SOURCE_EVIDENCE.json",
+      "bytes": 958,
+      "md5": "c228d4eb364fe8b9d981b4cf6a6dd43a",
+      "sha256": "7d7965d19759868cc09c4cbfa77e851de62359ac8e1374cdfde23bfcee144c1f",
+      "baseline": "CAUSALBENCH2023_OUTPUT_MANIFEST.tsv"
+    },
+    {
+      "dataset": "CausalBench2023",
+      "path": "/home/zhome/xiaoe-internship-data/processed/CausalBench2023_qc_20261111/SOURCE_METADATA_DTYPES.json",
+      "bytes": 1443,
+      "md5": "394863c3789cd8c55c86c016aac40df5",
+      "sha256": "626e6f0be1e9011d21ea9f63f79aa0f8af4a17cb282f8e4b263086d139043e55",
+      "baseline": "CAUSALBENCH2023_OUTPUT_MANIFEST.tsv"
+    },
+    {
+      "dataset": "CausalBench2023",
+      "path": "/home/zhome/xiaoe-internship-data/processed/CausalBench2023_qc_20261111/qc_policy.json",
+      "bytes": 1826,
+      "md5": "5b5c1a518cdeea0ed2aea5f089cc7787",
+      "sha256": "97c3a5b8ae1f3aa57424dae5272333658c2cbb8884f7dc0e214d52aa9a6eab60",
+      "baseline": "CAUSALBENCH2023_OUTPUT_MANIFEST.tsv"
+    },
+    {
+      "dataset": "CausalBench2023",
+      "path": "/home/zhome/xiaoe-internship-data/processed/CausalBench2023_qc_20261111/source_lookup/create_dataset.py",
+      "bytes": 2593,
+      "md5": "a0496e48dcb6702bbb654c01adc25a37",
+      "sha256": "121f033c445ab4d766706fbdf9cc43a9634b931900b8d4c9bd89de41ac28f4f5",
+      "baseline": "CAUSALBENCH2023_OUTPUT_MANIFEST.tsv"
+    },
+    {
+      "dataset": "CausalBench2023",
+      "path": "/home/zhome/xiaoe-internship-data/processed/CausalBench2023_qc_20261111/source_lookup/download_weissmann.py",
+      "bytes": 1367,
+      "md5": "19a74ca9c8941f9c5d7077b3058eb1ca",
+      "sha256": "f31400d005ca92bc2d7a9de0b5439232af4f046e169861d0b2c8d6840eaa067d",
+      "baseline": "CAUSALBENCH2023_OUTPUT_MANIFEST.tsv"
+    },
+    {
+      "dataset": "CausalBench2023",
+      "path": "/home/zhome/xiaoe-internship-data/processed/CausalBench2023_qc_20261111/source_lookup/preprocessing.py",
+      "bytes": 3772,
+      "md5": "29011c84264baa0f8f532ae22b99bb1d",
+      "sha256": "0e552a968f73fd275f08840b1f1f2a4f040c40b17b5a18637b49e74e2bfca7dc",
+      "baseline": "CAUSALBENCH2023_OUTPUT_MANIFEST.tsv"
+    },
+    {
+      "dataset": "CausalBench2023",
+      "path": "/home/zhome/xiaoe-internship-data/processed/CausalBench2023_qc_20261111/source_lookup/splitting.py",
+      "bytes": 3807,
+      "md5": "bf23e0b57b0f726ad36a58b3c021ef59",
+      "sha256": "99721f7214a621314aec06703f1efe4360a54913d57d5ee5dd89c9de6c896dc5",
+      "baseline": "CAUSALBENCH2023_OUTPUT_MANIFEST.tsv"
+    },
+    {
+      "dataset": "chin_GSE161921",
+      "path": "/home/zhome/xiaoe-internship-data/processed/chin_GSE161921_qc_20261111/all_cells_qc.h5ad",
+      "bytes": 26936358,
+      "md5": "037f7faca81f0be87c7a90ebd27dd0d5",
+      "sha256": "11622779c042a05d14de7991d729f2477bf43ed85943d8a806d55eac530c32d7",
+      "baseline": "CHIN_OUTPUT_MANIFEST.tsv"
+    },
+    {
+      "dataset": "chin_GSE161921",
+      "path": "/home/zhome/xiaoe-internship-data/processed/chin_GSE161921_qc_20261111/cm_qc_full.h5ad",
+      "bytes": 18123021,
+      "md5": "ae3082c8d2d2360e96a9ce2b0aac7748",
+      "sha256": "42c82b2200b22e6987722ce6d6a27072f08024207a38a5867b2c8d9838d0b563",
+      "baseline": "CHIN_OUTPUT_MANIFEST.tsv"
+    },
+    {
+      "dataset": "chin_GSE161921",
+      "path": "/home/zhome/xiaoe-internship-data/processed/chin_GSE161921_qc_20261111/cm_qc_light.h5ad",
+      "bytes": 18123021,
+      "md5": "ae3082c8d2d2360e96a9ce2b0aac7748",
+      "sha256": "42c82b2200b22e6987722ce6d6a27072f08024207a38a5867b2c8d9838d0b563",
+      "baseline": "CHIN_OUTPUT_MANIFEST.tsv"
+    },
+    {
+      "dataset": "chin_GSE161921",
+      "path": "/home/zhome/xiaoe-internship-data/processed/chin_GSE161921_qc_20261111/cm_review_pending.h5ad",
+      "bytes": 5094517,
+      "md5": "15b4d4d140072ba0e588e7e3e3a668f9",
+      "sha256": "372aec271ddf0ff925e99f14d18f2c4dfe4eb8f615c2b5e49d1dcc4381612c5d",
+      "baseline": "CHIN_OUTPUT_MANIFEST.tsv"
+    },
+    {
+      "dataset": "chin_GSE161921",
+      "path": "/home/zhome/xiaoe-internship-data/processed/chin_GSE161921_qc_20261111/diagnostic_normalized.h5ad",
+      "bytes": 19765816,
+      "md5": "0e76a8e2ba73f4eaee97faa4872f5810",
+      "sha256": "8cb79a9b285f6cbfa94171c5106ff8c8efe632c1d69c8d36f064ff1f1a02b664",
+      "baseline": "CHIN_OUTPUT_MANIFEST.tsv"
+    },
+    {
+      "dataset": "chin_GSE161921",
+      "path": "/home/zhome/xiaoe-internship-data/processed/chin_GSE161921_qc_20261111/suspected_doublets.h5ad",
+      "bytes": 4773046,
+      "md5": "f72ca81eae4decfe09ee8520ed9aafd6",
+      "sha256": "7dc1ae398e4c8cdc2b0f01f95b55097e320972c338e44d4691cc04e12ea49540",
+      "baseline": "CHIN_OUTPUT_MANIFEST.tsv"
+    },
+    {
+      "dataset": "chin_GSE174691",
+      "path": "/home/zhome/xiaoe-internship-data/processed/chin_GSE174691_qc_20261111/all_cells_qc.h5ad",
+      "bytes": 69678759,
+      "md5": "c7cef59215b0197416ccd7ee2a220d01",
+      "sha256": "e660a9aec10db4dc2b7f53cd6c54a8e5ee4c3f16324aeb9321a617d3e49acd5e",
+      "baseline": "CHIN_OUTPUT_MANIFEST.tsv"
+    },
+    {
+      "dataset": "chin_GSE174691",
+      "path": "/home/zhome/xiaoe-internship-data/processed/chin_GSE174691_qc_20261111/cm_qc_full.h5ad",
+      "bytes": 47740392,
+      "md5": "6ad40c9055ef2cd7eff12a51aa21bf90",
+      "sha256": "c360016c099f3da8a5bdf426ecba1acd3dfe35f813705a85259a5c9caddd5b80",
+      "baseline": "CHIN_OUTPUT_MANIFEST.tsv"
+    },
+    {
+      "dataset": "chin_GSE174691",
+      "path": "/home/zhome/xiaoe-internship-data/processed/chin_GSE174691_qc_20261111/cm_qc_light.h5ad",
+      "bytes": 47740392,
+      "md5": "6ad40c9055ef2cd7eff12a51aa21bf90",
+      "sha256": "c360016c099f3da8a5bdf426ecba1acd3dfe35f813705a85259a5c9caddd5b80",
+      "baseline": "CHIN_OUTPUT_MANIFEST.tsv"
+    },
+    {
+      "dataset": "chin_GSE174691",
+      "path": "/home/zhome/xiaoe-internship-data/processed/chin_GSE174691_qc_20261111/cm_review_pending.h5ad",
+      "bytes": 14889448,
+      "md5": "2343641bd64b43d167c0669246fa5410",
+      "sha256": "9887886c0cd8b8d122ddb504d25e51e67a1594277aa85c75140fd1e5d9b40e19",
+      "baseline": "CHIN_OUTPUT_MANIFEST.tsv"
+    },
+    {
+      "dataset": "chin_GSE174691",
+      "path": "/home/zhome/xiaoe-internship-data/processed/chin_GSE174691_qc_20261111/diagnostic_normalized.h5ad",
+      "bytes": 50041211,
+      "md5": "fe77df411dd25b66ce877c10ae476a60",
+      "sha256": "c33b161ab2dd2c070ac80ae8bb2c29db1c3b5480a6543c66a8415d186800f1a7",
+      "baseline": "CHIN_OUTPUT_MANIFEST.tsv"
+    },
+    {
+      "dataset": "chin_GSE174691",
+      "path": "/home/zhome/xiaoe-internship-data/processed/chin_GSE174691_qc_20261111/suspected_doublets.h5ad",
+      "bytes": 12356657,
+      "md5": "398dda20de632612e32672b313699778",
+      "sha256": "9521bb836fbd790743f84a95c64528b5c58bc58afad0917f161e69efb02c8afc",
+      "baseline": "CHIN_OUTPUT_MANIFEST.tsv"
+    },
+    {
+      "dataset": "GSE138262",
+      "path": "/home/zhome/xiaoe-internship-data/processed/wehrens_GSE138262_qc_20261111/all_cells_qc.h5ad",
+      "bytes": 3600126,
+      "md5": null,
+      "sha256": "e6c13e3eb309307782d6483ae3ffec999169e718f0ac5f76286e37b8a945ff63",
+      "baseline": "GSE138262_OUTPUT_MANIFEST.tsv"
+    },
+    {
+      "dataset": "GSE138262",
+      "path": "/home/zhome/xiaoe-internship-data/processed/wehrens_GSE138262_qc_20261111/all_source_counts.h5ad",
+      "bytes": 41556461,
+      "md5": null,
+      "sha256": "dddbb53353ad8393c5f22e0cfe05fba05254befb864c5307e45acd27aa7ae83c",
+      "baseline": "GSE138262_OUTPUT_MANIFEST.tsv"
+    },
+    {
+      "dataset": "GSE138262",
+      "path": "/home/zhome/xiaoe-internship-data/processed/wehrens_GSE138262_qc_20261111/cm_qc_full.h5ad",
+      "bytes": 3571845,
+      "md5": null,
+      "sha256": "08e6157e5dd4796a482b2d9f97d69ebbfbc02927466c8827731d2866bafebc0b",
+      "baseline": "GSE138262_OUTPUT_MANIFEST.tsv"
+    },
+    {
+      "dataset": "GSE138262",
+      "path": "/home/zhome/xiaoe-internship-data/processed/wehrens_GSE138262_qc_20261111/cm_qc_light.h5ad",
+      "bytes": 3571845,
+      "md5": null,
+      "sha256": "08e6157e5dd4796a482b2d9f97d69ebbfbc02927466c8827731d2866bafebc0b",
+      "baseline": "GSE138262_OUTPUT_MANIFEST.tsv"
+    },
+    {
+      "dataset": "GSE138262",
+      "path": "/home/zhome/xiaoe-internship-data/processed/wehrens_GSE138262_qc_20261111/cm_review_pending.h5ad",
+      "bytes": 3516736,
+      "md5": null,
+      "sha256": "f4c75de4976ff044921eb58b94369dd32666c19f4b307cca783e452b3d82ac0e",
+      "baseline": "GSE138262_OUTPUT_MANIFEST.tsv"
+    },
+    {
+      "dataset": "GSE138262",
+      "path": "/home/zhome/xiaoe-internship-data/processed/wehrens_GSE138262_qc_20261111/diagnostic_Wehrens2022.h5ad",
+      "bytes": 3821323,
+      "md5": null,
+      "sha256": "ae73747889339d96535daab138145392d70d457500298da7fd14f7a3e95778de",
+      "baseline": "GSE138262_OUTPUT_MANIFEST.tsv"
+    },
+    {
+      "dataset": "GSE138262",
+      "path": "/home/zhome/xiaoe-internship-data/processed/wehrens_GSE138262_qc_20261111/mixed_lineage_review.h5ad",
+      "bytes": 3127092,
+      "md5": null,
+      "sha256": "b6841994d8a95eb5874faa36710a7190b6ac3466295bb1fa214a7ffe1f3a886e",
+      "baseline": "GSE138262_OUTPUT_MANIFEST.tsv"
+    },
+    {
+      "dataset": "GSE138262",
+      "path": "/home/zhome/xiaoe-internship-data/processed/wehrens_GSE138262_qc_20261111/outside_strict_numeric.h5ad",
+      "bytes": 41432736,
+      "md5": null,
+      "sha256": "7c10352fed12f073547f1c760f2fe8fb9728cd30863cb01136c8884aea1cd570",
+      "baseline": "GSE138262_OUTPUT_MANIFEST.tsv"
+    },
+    {
+      "dataset": "chin_GSE181764",
+      "path": "/home/zhome/xiaoe-internship-data/processed/chin_GSE181764_qc_20261111/all_cells_qc.h5ad",
+      "bytes": 47513684,
+      "md5": "f67d064676ac76ec51db08e986a6b589",
+      "sha256": "efd3304c886a3e30165e3f3e8f020479b0d68f7ec1396ea7af95e29b5fe41557",
+      "baseline": "GSE181764_OUTPUT_MANIFEST.tsv"
+    },
+    {
+      "dataset": "chin_GSE181764",
+      "path": "/home/zhome/xiaoe-internship-data/processed/chin_GSE181764_qc_20261111/cm_qc_full.h5ad",
+      "bytes": 41432206,
+      "md5": "91b6c2d5ecedbd38a4b9206ac585271d",
+      "sha256": "74a0350a017953564fb1802180b842ae69cc0f828590ac3d76ccaac9add579a1",
+      "baseline": "GSE181764_OUTPUT_MANIFEST.tsv"
+    },
+    {
+      "dataset": "chin_GSE181764",
+      "path": "/home/zhome/xiaoe-internship-data/processed/chin_GSE181764_qc_20261111/cm_qc_light.h5ad",
+      "bytes": 41432206,
+      "md5": "91b6c2d5ecedbd38a4b9206ac585271d",
+      "sha256": "74a0350a017953564fb1802180b842ae69cc0f828590ac3d76ccaac9add579a1",
+      "baseline": "GSE181764_OUTPUT_MANIFEST.tsv"
+    },
+    {
+      "dataset": "chin_GSE181764",
+      "path": "/home/zhome/xiaoe-internship-data/processed/chin_GSE181764_qc_20261111/cm_review_pending.h5ad",
+      "bytes": 9168010,
+      "md5": "b550c7b0c69389488444af671a4316cb",
+      "sha256": "47a07c7496fe76a76217de63a8a750e601bf70330c492ea4563fdc8b9f62b151",
+      "baseline": "GSE181764_OUTPUT_MANIFEST.tsv"
+    },
+    {
+      "dataset": "chin_GSE181764",
+      "path": "/home/zhome/xiaoe-internship-data/processed/chin_GSE181764_qc_20261111/diagnostic_normalized.h5ad",
+      "bytes": 28803731,
+      "md5": "a4801db1fd6773aacfa65738a158bb9c",
+      "sha256": "e37a214a2339066a5e49d54c6e1e9012daa2369976797f806fbd1109989dd64a",
+      "baseline": "GSE181764_OUTPUT_MANIFEST.tsv"
+    },
+    {
+      "dataset": "chin_GSE181764",
+      "path": "/home/zhome/xiaoe-internship-data/processed/chin_GSE181764_qc_20261111/suspected_doublets.h5ad",
+      "bytes": 3373616,
+      "md5": "7bb7e3b55f3d4a5d7b3f2c432f90ceac",
+      "sha256": "22d09aef1912c07f2bf43e6876fe9ea3700ae885db6c3448303cbd44dbd92bd4",
+      "baseline": "GSE181764_OUTPUT_MANIFEST.tsv"
+    },
+    {
+      "dataset": "GSE203274",
+      "path": "/home/zhome/xiaoe-internship-data/processed/pediatric_GSE203274_qc_20261111/all_cells_qc.h5ad",
+      "bytes": 1389564697,
+      "md5": "6efb6f559acf2d6543b9975f9be80bb9",
+      "sha256": "b06d62bb6d986ddf2bf63265260f55c338bf9f78eed3ce44c3029f0def39b935",
+      "baseline": "GSE203274_OUTPUT_MANIFEST.tsv"
+    },
+    {
+      "dataset": "GSE203274",
+      "path": "/home/zhome/xiaoe-internship-data/processed/pediatric_GSE203274_qc_20261111/all_source_counts.h5ad",
+      "bytes": 1724298238,
+      "md5": "2e8a29205407c3aa783923c9a897d3bf",
+      "sha256": "8d925cc22fe02ca00e9f63f84c909f95b0310aea3c60c2fec4048d03221096ba",
+      "baseline": "GSE203274_OUTPUT_MANIFEST.tsv"
+    },
+    {
+      "dataset": "GSE203274",
+      "path": "/home/zhome/xiaoe-internship-data/processed/pediatric_GSE203274_qc_20261111/cm_other_diseases.h5ad",
+      "bytes": 329498187,
+      "md5": "c0bf6b62241eaf23a00715e6788b1d3b",
+      "sha256": "24bf4609c774df094f72e14a0e5f22b7385553168e00f829920c4ea42f8b9c9b",
+      "baseline": "GSE203274_OUTPUT_MANIFEST.tsv"
+    },
+    {
+      "dataset": "GSE203274",
+      "path": "/home/zhome/xiaoe-internship-data/processed/pediatric_GSE203274_qc_20261111/cm_qc_full.h5ad",
+      "bytes": 426015108,
+      "md5": "33e51c68d4674d18660f41ddc71c270b",
+      "sha256": "14901219f67d3319ed36dc2795dfb6316bf406ff9ea99cb76905038923908494",
+      "baseline": "GSE203274_OUTPUT_MANIFEST.tsv"
+    },
+    {
+      "dataset": "GSE203274",
+      "path": "/home/zhome/xiaoe-internship-data/processed/pediatric_GSE203274_qc_20261111/cm_qc_light.h5ad",
+      "bytes": 256045259,
+      "md5": "e7ff66df7ca847f6dd8ffe99a31f50ab",
+      "sha256": "ff2fac2adc1249321233c733a5e0e59db34f0fee56fe82af321a7e307880fcdc",
+      "baseline": "GSE203274_OUTPUT_MANIFEST.tsv"
+    },
+    {
+      "dataset": "GSE203274",
+      "path": "/home/zhome/xiaoe-internship-data/processed/pediatric_GSE203274_qc_20261111/cm_review_pending.h5ad",
+      "bytes": 77039726,
+      "md5": "0d250ab3f6d849018f792525f8e2fc47",
+      "sha256": "43a778ea4e0c9cab82f57674d84c473a146dc9848784683e4080cc80e6d063fd",
+      "baseline": "GSE203274_OUTPUT_MANIFEST.tsv"
+    },
+    {
+      "dataset": "GSE203274",
+      "path": "/home/zhome/xiaoe-internship-data/processed/pediatric_GSE203274_qc_20261111/diagnostic_normalized.h5ad",
+      "bytes": 734071047,
+      "md5": "8dd4a400d21f9c2b4b28c52b41052e5d",
+      "sha256": "147a915f8815d7a5f0a387cede2a89d3dceda66ab6b55787703f10a2088c2462",
+      "baseline": "GSE203274_OUTPUT_MANIFEST.tsv"
+    },
+    {
+      "dataset": "GSE203274",
+      "path": "/home/zhome/xiaoe-internship-data/processed/pediatric_GSE203274_qc_20261111/outside_strict_numeric.h5ad",
+      "bytes": 376596804,
+      "md5": "36748160c403ab76e60512bca788324b",
+      "sha256": "43f119bc4fbe0ec601616371471cbaa646fe21b20b434712e1cd228d1259396b",
+      "baseline": "GSE203274_OUTPUT_MANIFEST.tsv"
+    },
+    {
+      "dataset": "GSE203274",
+      "path": "/home/zhome/xiaoe-internship-data/processed/pediatric_GSE203274_qc_20261111/suspected_doublets.h5ad",
+      "bytes": 2661689,
+      "md5": "6e5ea27599e6f0c517545f9f65a60cce",
+      "sha256": "3509f6df5851b04a6efacab917edba15c99011edb400f4b7927d0f1c49f3fe1f",
+      "baseline": "GSE203274_OUTPUT_MANIFEST.tsv"
+    },
+    {
+      "dataset": "bulk_GSE249925",
+      "path": "/home/zhome/xiaoe-internship-data/processed/bulk_GSE249925_qc_20261111/all_published_expression.h5ad",
+      "bytes": 41980472,
+      "md5": "f67cc3bea67d9d4c7653bdfac3fb495b",
+      "sha256": "08bd1c2afc9e0d6239b8eed1ceae8ab5782862a40ccf6cc006ea97510b8dc363",
+      "baseline": "GSE249925_OUTPUT_MANIFEST.tsv"
+    },
+    {
+      "dataset": "bulk_GSE249925",
+      "path": "/home/zhome/xiaoe-internship-data/processed/bulk_GSE249925_qc_20261111/bulk_qc_expression.h5ad",
+      "bytes": 37511800,
+      "md5": "2fc14f7062bbeff3dd59126274073885",
+      "sha256": "f236acb88764633a847d95f3a7c343ce3248e69cee581cc2d5e526e3f029ac06",
+      "baseline": "GSE249925_OUTPUT_MANIFEST.tsv"
+    },
+    {
+      "dataset": "bulk_GSE249925",
+      "path": "/home/zhome/xiaoe-internship-data/processed/bulk_GSE249925_qc_20261111/bulk_qc_matrix.tsv.gz",
+      "bytes": 6431732,
+      "md5": "4d3a83d9e2afe3f085a238dd89195a86",
+      "sha256": "1a7014766f503e64a4a869f2861194a951857caefc4f686934f80fe645bce87b",
+      "baseline": "GSE249925_OUTPUT_MANIFEST.tsv"
+    },
+    {
+      "dataset": "bulk_GSE249925",
+      "path": "/home/zhome/xiaoe-internship-data/processed/bulk_GSE249925_qc_20261111/sample_metadata_QC.tsv",
+      "bytes": 53744,
+      "md5": "09a81bc805bd2850d4e4db2267fb63c9",
+      "sha256": "f755184ea4846eb4f16c3bd41346e2c580c60ef01c66df30fd8b747abe4b7c64",
+      "baseline": "GSE249925_OUTPUT_MANIFEST.tsv"
+    },
+    {
+      "dataset": "bulk_GSE249925",
+      "path": "/home/zhome/xiaoe-internship-data/processed/bulk_GSE249925_qc_20261111/feature_audit.tsv.gz",
+      "bytes": 2733298,
+      "md5": "42d80913a858ba6fdc353e56fe22b0d1",
+      "sha256": "f9aa851188a1f5a2c6cc324292dbca61ca644bf1bb74f36976a724cb9dccad59",
+      "baseline": "GSE249925_OUTPUT_MANIFEST.tsv"
+    },
+    {
+      "dataset": "bulk_GSE249925",
+      "path": "/home/zhome/xiaoe-internship-data/processed/bulk_GSE249925_qc_20261111/feature_exclusions.tsv.gz",
+      "bytes": 606722,
+      "md5": "cde048dd2bb3d2b87ad820dd446a445f",
+      "sha256": "2fa5819c93a759e557d25104be704b6800339a8ccb8cda68cd2400b6c389a687",
+      "baseline": "GSE249925_OUTPUT_MANIFEST.tsv"
+    },
+    {
+      "dataset": "bulk_GSE249925",
+      "path": "/home/zhome/xiaoe-internship-data/processed/bulk_GSE249925_qc_20261111/sample_exclusions.tsv",
+      "bytes": 523,
+      "md5": "c26d542f2ba44b12c8dfaff71cd73045",
+      "sha256": "43a465ad9b6a66cfe385dc18711a093df030bc80f7bb5e4d191199b52cd03b44",
+      "baseline": "GSE249925_OUTPUT_MANIFEST.tsv"
+    },
+    {
+      "dataset": "bulk_GSE249925",
+      "path": "/home/zhome/xiaoe-internship-data/processed/bulk_GSE249925_qc_20261111/group_QC_summary.tsv",
+      "bytes": 251,
+      "md5": "9d193c41e84d958dadef836c9f55ece2",
+      "sha256": "c736610fd066ff4bf33ec695391b99e09c5d89763bd2bac0a92ee24f4ca35ab2",
+      "baseline": "GSE249925_OUTPUT_MANIFEST.tsv"
+    },
+    {
+      "dataset": "bulk_GSE249925",
+      "path": "/home/zhome/xiaoe-internship-data/processed/bulk_GSE249925_qc_20261111/qc_policy.json",
+      "bytes": 3284,
+      "md5": "af6d7a2ce3bc4e5946bb2c0a6a200b99",
+      "sha256": "0b61aa2cef0892d4aee7623b0c363909f741795f1c90e991c6daa32a914c5883",
+      "baseline": "GSE249925_OUTPUT_MANIFEST.tsv"
+    },
+    {
+      "dataset": "liu2023",
+      "path": "/home/zhome/xiaoe-internship-data/processed/liu2023_qc_20261111/all_cells_qc.h5ad",
+      "bytes": 684093219,
+      "md5": "dac18fbad799e27d077421d7ab441d03",
+      "sha256": "6e403848abe63d6e78bea411b88e21bc0d50c733d228c6e89e612fce52cad43a",
+      "baseline": "LIU_OUTPUT_MANIFEST.tsv"
+    },
+    {
+      "dataset": "liu2023",
+      "path": "/home/zhome/xiaoe-internship-data/processed/liu2023_qc_20261111/cm_qc_full.h5ad",
+      "bytes": 149065216,
+      "md5": "c83e8f0161ddba608e3c3c2f5789c26c",
+      "sha256": "03612584111dbb84d0f4f941408f9311a9897ec44507542000689f28bc1f7e74",
+      "baseline": "LIU_OUTPUT_MANIFEST.tsv"
+    },
+    {
+      "dataset": "liu2023",
+      "path": "/home/zhome/xiaoe-internship-data/processed/liu2023_qc_20261111/cm_qc_light.h5ad",
+      "bytes": 149065216,
+      "md5": "c83e8f0161ddba608e3c3c2f5789c26c",
+      "sha256": "03612584111dbb84d0f4f941408f9311a9897ec44507542000689f28bc1f7e74",
+      "baseline": "LIU_OUTPUT_MANIFEST.tsv"
+    },
+    {
+      "dataset": "liu2023",
+      "path": "/home/zhome/xiaoe-internship-data/processed/liu2023_qc_20261111/cm_review_pending.h5ad",
+      "bytes": 69712812,
+      "md5": "11f2ee39bbb3ccaf15d4d66f345d0870",
+      "sha256": "e76f1f0ee318574e0dcefadc430e72f505bc457c10a988b0779c57bb2bed14df",
+      "baseline": "LIU_OUTPUT_MANIFEST.tsv"
+    },
+    {
+      "dataset": "liu2023",
+      "path": "/home/zhome/xiaoe-internship-data/processed/liu2023_qc_20261111/diagnostic_normalized.h5ad",
+      "bytes": 357630801,
+      "md5": "ce4cdaa91661e702d927d81fdf988e15",
+      "sha256": "799115eb7db5b174349edaf1985dcc61fd3a0d1b4957a4c9f266ea63212b8d3a",
+      "baseline": "LIU_OUTPUT_MANIFEST.tsv"
+    },
+    {
+      "dataset": "liu2023",
+      "path": "/home/zhome/xiaoe-internship-data/processed/liu2023_qc_20261111/suspected_doublets.h5ad",
+      "bytes": 2381464,
+      "md5": "e6b6f93e4dde3af8a46aa8c5cf73183c",
+      "sha256": "a5d13d29427652b829579175aaec7f73e44dff65860e86ee6fc9751162f66a15",
+      "baseline": "LIU_OUTPUT_MANIFEST.tsv"
+    },
+    {
+      "dataset": "NeurIPS2021",
+      "path": "/home/zhome/xiaoe-internship-data/processed/NeurIPS2021_qc_20261111/ASSAY_INDEX.tsv",
+      "bytes": 1488,
+      "md5": "40faec028b17e95825257d12387d68c7",
+      "sha256": "9265b59583f37806e4556ae3528b928cdbc9384ac885c8104b0417bd004d6fd3",
+      "baseline": "NEURIPS2021_OUTPUT_MANIFEST.tsv"
+    },
+    {
+      "dataset": "NeurIPS2021",
+      "path": "/home/zhome/xiaoe-internship-data/processed/NeurIPS2021_qc_20261111/DERIVED_COORDINATE_QC.tsv.gz",
+      "bytes": 198499,
+      "md5": "e4510b268925ad6f9aae4ab51996cba9",
+      "sha256": "7380902c3083adafdafcc3974e4af97fbfa0e465c0db1098cb3d17806c6325ef",
+      "baseline": "NEURIPS2021_OUTPUT_MANIFEST.tsv"
+    },
+    {
+      "dataset": "NeurIPS2021",
+      "path": "/home/zhome/xiaoe-internship-data/processed/NeurIPS2021_qc_20261111/DERIVED_NONFINITE_ROWS.tsv.gz",
+      "bytes": 311669,
+      "md5": "785bdf546b19b3767bbdab9a5fdb9463",
+      "sha256": "e8118ff2a972ed3de3e70feb2bca10ed4d84c974f7c464acb23680e1f4e979c2",
+      "baseline": "NEURIPS2021_OUTPUT_MANIFEST.tsv"
+    },
+    {
+      "dataset": "NeurIPS2021",
+      "path": "/home/zhome/xiaoe-internship-data/processed/NeurIPS2021_qc_20261111/DONOR_AUDIT.tsv",
+      "bytes": 328,
+      "md5": "6ba66e51b607a269ecc8f2ef532cf661",
+      "sha256": "5ac89d2e4af214bfe7b72ced2f14e38f83c376c11476a80f5707b6ab19647e5d",
+      "baseline": "NEURIPS2021_OUTPUT_MANIFEST.tsv"
+    },
+    {
+      "dataset": "NeurIPS2021",
+      "path": "/home/zhome/xiaoe-internship-data/processed/NeurIPS2021_qc_20261111/DONOR_SITE_SPLIT_SUMMARY.tsv",
+      "bytes": 3040,
+      "md5": "b34c69618a92e078f8f823ccfab1b0f1",
+      "sha256": "05235f40c3c91b5546910892a301c7ab2da77ea2b6d20284c389b065e0590e81",
+      "baseline": "NEURIPS2021_OUTPUT_MANIFEST.tsv"
+    },
+    {
+      "dataset": "NeurIPS2021",
+      "path": "/home/zhome/xiaoe-internship-data/processed/NeurIPS2021_qc_20261111/EXPORT_SUCCESS.json",
+      "bytes": 1085,
+      "md5": "05c3094c1c903bb428d7e8206bab9739",
+      "sha256": "4211d7fbddd5275b66b333e8a283ae99c12ba63e9c3dcc858b8c60f3ed57d6ac",
+      "baseline": "NEURIPS2021_OUTPUT_MANIFEST.tsv"
+    },
+    {
+      "dataset": "NeurIPS2021",
+      "path": "/home/zhome/xiaoe-internship-data/processed/NeurIPS2021_qc_20261111/FINAL_COMPLETION_GATE.json",
+      "bytes": 543,
+      "md5": "87f7dec80bb10d6de3f40e8a178d7d99",
+      "sha256": "4c91a4cd81c680225f4018ecbddcc51ff6ae3322298fe11f82b22102f1446397",
+      "baseline": "NEURIPS2021_OUTPUT_MANIFEST.tsv"
+    },
+    {
+      "dataset": "NeurIPS2021",
+      "path": "/home/zhome/xiaoe-internship-data/processed/NeurIPS2021_qc_20261111/GEO_SOURCE.txt",
+      "bytes": 4120,
+      "md5": "1a75c89d0ba1139291205fa9f191c6e3",
+      "sha256": "807c06f2e721f61388cc3f6d585b769c89be0892153b9f1b80b316b42973c847",
+      "baseline": "NEURIPS2021_OUTPUT_MANIFEST.tsv"
+    },
+    {
+      "dataset": "NeurIPS2021",
+      "path": "/home/zhome/xiaoe-internship-data/processed/NeurIPS2021_qc_20261111/IDENTIFIER_AUDIT.json",
+      "bytes": 301,
+      "md5": "fa57a7962950e086b6ed929ed37ee952",
+      "sha256": "5f6dcff20f993ab3b46f92551895e2dd77c3cf03af394508cc819ffe6f45d507",
+      "baseline": "NEURIPS2021_OUTPUT_MANIFEST.tsv"
+    },
+    {
+      "dataset": "NeurIPS2021",
+      "path": "/home/zhome/xiaoe-internship-data/processed/NeurIPS2021_qc_20261111/INDEPENDENT_VERIFICATION.json",
+      "bytes": 79241,
+      "md5": "18efdefa2f07e74e760d216657860f49",
+      "sha256": "e12fdcb114cbb3083c61697db9833963f54fbf9f862fc1518941b63aaf024148",
+      "baseline": "NEURIPS2021_OUTPUT_MANIFEST.tsv"
+    },
+    {
+      "dataset": "NeurIPS2021",
+      "path": "/home/zhome/xiaoe-internship-data/processed/NeurIPS2021_qc_20261111/INPUT_INSPECTION.json",
+      "bytes": 35357,
+      "md5": "ada5b41221022492ebc79f6d0f774de8",
+      "sha256": "359110693cdb32470c41cf1664d9c9ab3099bb0af7a583addd8291fec1810657",
+      "baseline": "NEURIPS2021_OUTPUT_MANIFEST.tsv"
+    },
+    {
+      "dataset": "NeurIPS2021",
+      "path": "/home/zhome/xiaoe-internship-data/processed/NeurIPS2021_qc_20261111/MATRIX_QC_SUMMARY.tsv",
+      "bytes": 2284,
+      "md5": "454e6a978253d78b750682be309bc980",
+      "sha256": "de01a0b85a6ff302db86f1208acb4f90bcca72df124232efb2eebe209fc7cdb6",
+      "baseline": "NEURIPS2021_OUTPUT_MANIFEST.tsv"
+    },
+    {
+      "dataset": "NeurIPS2021",
+      "path": "/home/zhome/xiaoe-internship-data/processed/NeurIPS2021_qc_20261111/ORIGINAL_FILES.tsv",
+      "bytes": 1628,
+      "md5": "4a8987305665607ab39bc6c6433efd5a",
+      "sha256": "b958edb9ed7f04736e113739bcfc504c0d23c0ddbcdd829b9154e4a4416a74a7",
+      "baseline": "NEURIPS2021_OUTPUT_MANIFEST.tsv"
+    },
+    {
+      "dataset": "NeurIPS2021",
+      "path": "/home/zhome/xiaoe-internship-data/processed/NeurIPS2021_qc_20261111/OUTPUT_MANIFEST.tsv",
+      "bytes": 7308,
+      "md5": "1044cb3927ea0c181aca93db0dd0b9b9",
+      "sha256": "f4fcd48005539c8be51feb2079fd46c43c62920e70e046b7bbc0b551ea003416",
+      "baseline": "NEURIPS2021_OUTPUT_MANIFEST.tsv"
+    },
+    {
+      "dataset": "NeurIPS2021",
+      "path": "/home/zhome/xiaoe-internship-data/processed/NeurIPS2021_qc_20261111/REPORT.md",
+      "bytes": 1929,
+      "md5": "03cadbdf4e125d260825c421222795a9",
+      "sha256": "7c5c0a6a30d0807c746367da03cf43ddcffabbca93f2205f937e33cc88f845a6",
+      "baseline": "NEURIPS2021_OUTPUT_MANIFEST.tsv"
+    },
+    {
+      "dataset": "NeurIPS2021",
+      "path": "/home/zhome/xiaoe-internship-data/processed/NeurIPS2021_qc_20261111/SOURCE_LOOKUP.json",
+      "bytes": 148,
+      "md5": "5f5750710944576f5ed22b6df18962ec",
+      "sha256": "540a32dbead9ec54f4300d46d56978aa621248fbc3aca0d6618ec138630e06ed",
+      "baseline": "NEURIPS2021_OUTPUT_MANIFEST.tsv"
+    },
+    {
+      "dataset": "NeurIPS2021",
+      "path": "/home/zhome/xiaoe-internship-data/processed/NeurIPS2021_qc_20261111/SOURCE_METADATA_DTYPES.json",
+      "bytes": 2039,
+      "md5": "5d9c671854c8ef472a7172e6aab87a91",
+      "sha256": "db5a0aecca4433af1776eaef7175655ffef3002b350cb504c41db9cd5cdb232e",
+      "baseline": "NEURIPS2021_OUTPUT_MANIFEST.tsv"
+    },
+    {
+      "dataset": "NeurIPS2021",
+      "path": "/home/zhome/xiaoe-internship-data/processed/NeurIPS2021_qc_20261111/SOURCE_METADATA_MISSING.tsv",
+      "bytes": 1913,
+      "md5": "3215872f2b29e35e73cf4b7d0da06032",
+      "sha256": "cfbf6a5e8897e51283fb2437291e193d3a2cfacc2b68ca51c731a60241617846",
+      "baseline": "NEURIPS2021_OUTPUT_MANIFEST.tsv"
+    },
+    {
+      "dataset": "NeurIPS2021",
+      "path": "/home/zhome/xiaoe-internship-data/processed/NeurIPS2021_qc_20261111/STAGED_INPUTS.json",
+      "bytes": 1991,
+      "md5": "bdd11f3f909447a7b09630522f6fe23b",
+      "sha256": "117d8e022421695ae099d655215321b88ad2415465f9bf3f8810cb73cb9796e7",
+      "baseline": "NEURIPS2021_OUTPUT_MANIFEST.tsv"
+    },
+    {
+      "dataset": "NeurIPS2021",
+      "path": "/home/zhome/xiaoe-internship-data/processed/NeurIPS2021_qc_20261111/TARGETED_INSPECTION.json",
+      "bytes": 4442,
+      "md5": "0c3f29cadd939b58c0f0f06ea7af6292",
+      "sha256": "e79092d5f92263de91ee6c5922c42706334dd04de05e6390bca85c5201155680",
+      "baseline": "NEURIPS2021_OUTPUT_MANIFEST.tsv"
+    },
+    {
+      "dataset": "NeurIPS2021",
+      "path": "/home/zhome/xiaoe-internship-data/processed/NeurIPS2021_qc_20261111/UNIT_QC_SUMMARY.tsv",
+      "bytes": 559,
+      "md5": "7633a0210fea2e01c3d71dc022907606",
+      "sha256": "fc116ac5da205d6bf80d5a3eb77bcbd6e77d13c4736fc8653733053d6c91749a",
+      "baseline": "NEURIPS2021_OUTPUT_MANIFEST.tsv"
+    },
+    {
+      "dataset": "NeurIPS2021",
+      "path": "/home/zhome/xiaoe-internship-data/processed/NeurIPS2021_qc_20261111/VERIFICATION_REPORT.md",
+      "bytes": 577,
+      "md5": "cb2014568513dde314782f0f3b0a0dc5",
+      "sha256": "3e1219dd7f24e6e55438646807ca4bd2bb68f18f223a2284588fe6523998a5bf",
+      "baseline": "NEURIPS2021_OUTPUT_MANIFEST.tsv"
+    },
+    {
+      "dataset": "NeurIPS2021",
+      "path": "/home/zhome/xiaoe-internship-data/processed/NeurIPS2021_qc_20261111/cite_feature_QC.tsv.gz",
+      "bytes": 347486,
+      "md5": "1ade3e20a3cfa5e85b1f6f5e6a3f8394",
+      "sha256": "d356ffe7de9f74102b67c5c28252d5fb7f8678fd919695187a3098da455e6cfd",
+      "baseline": "NEURIPS2021_OUTPUT_MANIFEST.tsv"
+    },
+    {
+      "dataset": "NeurIPS2021",
+      "path": "/home/zhome/xiaoe-internship-data/processed/NeurIPS2021_qc_20261111/cite_observation_QC.tsv.gz",
+      "bytes": 6826723,
+      "md5": "403fd831390185439efc0b5a564f37e4",
+      "sha256": "8e329cd5ce803e8b872aa6d6754d85424e44f311586da93f93c36825e3e486e2",
+      "baseline": "NEURIPS2021_OUTPUT_MANIFEST.tsv"
+    },
+    {
+      "dataset": "NeurIPS2021",
+      "path": "/home/zhome/xiaoe-internship-data/processed/NeurIPS2021_qc_20261111/cite_quarantine.tsv.gz",
+      "bytes": 406,
+      "md5": "f8aff83bc0dd69300bd87f5406eb20ca",
+      "sha256": "c942d3964471e555112e563d7cf790c3cf92e4a89c0afe23046e853c62d3c75e",
+      "baseline": "NEURIPS2021_OUTPUT_MANIFEST.tsv"
+    },
+    {
+      "dataset": "NeurIPS2021",
+      "path": "/home/zhome/xiaoe-internship-data/processed/NeurIPS2021_qc_20261111/cite_usable_pairs.tsv.gz",
+      "bytes": 1385388,
+      "md5": "9c40767781c77edfa38f03981fc02b1f",
+      "sha256": "c7043fb131e4ebe4c07594d0b1ebf926f0ad7d4f428b53043f3056187881f8b3",
+      "baseline": "NEURIPS2021_OUTPUT_MANIFEST.tsv"
+    },
+    {
+      "dataset": "NeurIPS2021",
+      "path": "/home/zhome/xiaoe-internship-data/processed/NeurIPS2021_qc_20261111/multiome_feature_QC.tsv.gz",
+      "bytes": 3150040,
+      "md5": "4c123f6da8e6480ce592d79c832c4ad8",
+      "sha256": "0720f7ddfc98d1c435878819dbda6879737f78352a24f7727adc6dd4be9b32cb",
+      "baseline": "NEURIPS2021_OUTPUT_MANIFEST.tsv"
+    },
+    {
+      "dataset": "NeurIPS2021",
+      "path": "/home/zhome/xiaoe-internship-data/processed/NeurIPS2021_qc_20261111/multiome_observation_QC.tsv.gz",
+      "bytes": 7276101,
+      "md5": "18b720bd2c3efc361f8ddbe41b813256",
+      "sha256": "05ba99c2adb8794a0afeeb12fe4ca1d2b889b9729193fd05030204971fca5149",
+      "baseline": "NEURIPS2021_OUTPUT_MANIFEST.tsv"
+    },
+    {
+      "dataset": "NeurIPS2021",
+      "path": "/home/zhome/xiaoe-internship-data/processed/NeurIPS2021_qc_20261111/multiome_quarantine.tsv.gz",
+      "bytes": 437,
+      "md5": "5f5e04c659195de3ddcb765f50bae3cb",
+      "sha256": "294752b3ed74639c0c9e87ebe8292562078c14e2190a781a850b10621d9beb5a",
+      "baseline": "NEURIPS2021_OUTPUT_MANIFEST.tsv"
+    },
+    {
+      "dataset": "NeurIPS2021",
+      "path": "/home/zhome/xiaoe-internship-data/processed/NeurIPS2021_qc_20261111/multiome_usable_pairs.tsv.gz",
+      "bytes": 1083575,
+      "md5": "2508780a309a5ab3033e888aa370e5a5",
+      "sha256": "0c7451bb51c7e0dd30b27fa1679cbf49ace1ca9860008d1d678cba0cbe44caf0",
+      "baseline": "NEURIPS2021_OUTPUT_MANIFEST.tsv"
+    },
+    {
+      "dataset": "NeurIPS2021",
+      "path": "/home/zhome/xiaoe-internship-data/processed/NeurIPS2021_qc_20261111/qc_policy.json",
+      "bytes": 1730,
+      "md5": "ce3c671d7e34b6e6147f95e9049868b0",
+      "sha256": "c69554edd7cb57bb99bbd9695ed750ac4b8f1cc487692a8cffdab275517e7dc8",
+      "baseline": "NEURIPS2021_OUTPUT_MANIFEST.tsv"
+    },
+    {
+      "dataset": "NeurIPS2023",
+      "path": "/home/zhome/xiaoe-internship-data/benchmarks/competitions/neurips2023/2023-09-14_kaggle_upload/2023-09-12_de_by_cell_type_test.h5ad",
+      "bytes": 223729720,
+      "md5": "9912e666377a24caf58e877ab4e997c3",
+      "sha256": "168967bed70e002a612657466486a9f332a4d2b7433583caa7a1ec802233f513",
+      "baseline": "NEURIPS2023_OUTPUT_MANIFEST.tsv"
+    },
+    {
+      "dataset": "NeurIPS2023",
+      "path": "/home/zhome/xiaoe-internship-data/benchmarks/competitions/neurips2023/2023-09-14_kaggle_upload/2023-09-12_de_by_cell_type_train.h5ad",
+      "bytes": 537565848,
+      "md5": "00b64203be71a41f533ad67baa7dca8f",
+      "sha256": "19042eeec15814d94abdea59c43b3eef496aca5725f209915ee293c843e6c516",
+      "baseline": "NEURIPS2023_OUTPUT_MANIFEST.tsv"
+    },
+    {
+      "dataset": "NeurIPS2023",
+      "path": "/home/zhome/xiaoe-internship-data/benchmarks/competitions/neurips2023/moa_annotations.csv",
+      "bytes": 23824,
+      "md5": "80ebe44ce6b8d73f31dbc653787089f9",
+      "sha256": "2ab652b6ec33239b5e4172176fb8a68980e7066b0fae9fd54a12efc8f920d30e",
+      "baseline": "NEURIPS2023_OUTPUT_MANIFEST.tsv"
+    },
+    {
+      "dataset": "NeurIPS2023",
+      "path": "/home/zhome/xiaoe-internship-data/benchmarks/competitions/neurips2023/multiome_counts.h5mu",
+      "bytes": 3954049705,
+      "md5": "47bced5c2b4a8cbfef54a29c0e3c2881",
+      "sha256": "caf842125dd33667561a724253c4b4c24fda9b44556caea8b20ddae9b6d43d41",
+      "baseline": "NEURIPS2023_OUTPUT_MANIFEST.tsv"
+    },
+    {
+      "dataset": "NeurIPS2023",
+      "path": "/home/zhome/xiaoe-internship-data/benchmarks/competitions/neurips2023/sc_counts_reannotated_with_counts.h5ad",
+      "bytes": 3515260667,
+      "md5": "a62666a214021abb6f23786ab52a96b6",
+      "sha256": "708acfc97928ef6e3b58db081bb8bbd94264d4e046c833882821ca949768e669",
+      "baseline": "NEURIPS2023_OUTPUT_MANIFEST.tsv"
+    },
+    {
+      "dataset": "NeurIPS2023",
+      "path": "/home/zhome/xiaoe-internship-data/benchmarks/competitions/neurips2023/sc_counts.h5ad",
+      "bytes": 14258126612,
+      "md5": "f2bb08d6a7ee43c28d120ac8d5eb1fb6",
+      "sha256": "54d9e4b4aa987d8bd70e1db94d0df526db12423b9af682f20c449760d1365650",
+      "baseline": "NEURIPS2023_OUTPUT_MANIFEST.tsv"
+    },
+    {
+      "dataset": "NeurIPS2023",
+      "path": "/home/zhome/xiaoe-internship-data/benchmarks/competitions/neurips2023/workflow-resources/neurips-2023-kaggle/dataset_info.yaml",
+      "bytes": 1681,
+      "md5": "da4cb8de5e79505b3931393e0e45c453",
+      "sha256": "2f980343ca9b62d6ab8eb35a0182bd049dcccd5fab898323fd9319bf075e6dd9",
+      "baseline": "NEURIPS2023_OUTPUT_MANIFEST.tsv"
+    },
+    {
+      "dataset": "NeurIPS2023",
+      "path": "/home/zhome/xiaoe-internship-data/benchmarks/competitions/neurips2023/workflow-resources/neurips-2023-kaggle/id_map.csv",
+      "bytes": 6723,
+      "md5": "11fb963eb3cd28710d21f679e37afcd7",
+      "sha256": "5039360ded5670a8a6f1cd7a58d1e732ac9bfcba578ce3af5b01a9e6530a12d2",
+      "baseline": "NEURIPS2023_OUTPUT_MANIFEST.tsv"
+    },
+    {
+      "dataset": "NeurIPS2023",
+      "path": "/home/zhome/xiaoe-internship-data/processed/NeurIPS2023_qc_20261111/DATASET_INDEX.tsv",
+      "bytes": 2559,
+      "md5": "a6edad2ee5cb76793b09ed71a9e6c7b4",
+      "sha256": "75ef84dacd6932b45d00bb6e4ab2b7fbb63c86cfb103eed3e1b867c917d1d817",
+      "baseline": "NEURIPS2023_OUTPUT_MANIFEST.tsv"
+    },
+    {
+      "dataset": "NeurIPS2023",
+      "path": "/home/zhome/xiaoe-internship-data/processed/NeurIPS2023_qc_20261111/DE_condition_source_summary.tsv",
+      "bytes": 114130,
+      "md5": "451be14ac4645a99c598c4b5fa8a3c0a",
+      "sha256": "3dea7ddabb618dc20e94df8eb08a0f6e67814fc4aa99131fcc2a728c02e34300",
+      "baseline": "NEURIPS2023_OUTPUT_MANIFEST.tsv"
+    },
+    {
+      "dataset": "NeurIPS2023",
+      "path": "/home/zhome/xiaoe-internship-data/processed/NeurIPS2023_qc_20261111/EXPORT_SUCCESS.json",
+      "bytes": 10810,
+      "md5": "04ef528b9d4c5833f50f2f001c770320",
+      "sha256": "45a0c12f5e6f2acfb64a77c41f475e51f2d38763e215b81041db49582425f5df",
+      "baseline": "NEURIPS2023_OUTPUT_MANIFEST.tsv"
+    },
+    {
+      "dataset": "NeurIPS2023",
+      "path": "/home/zhome/xiaoe-internship-data/processed/NeurIPS2023_qc_20261111/INDEPENDENT_VERIFICATION.json",
+      "bytes": 39408,
+      "md5": "c422c4b0bc81ccef815f16012dd066b3",
+      "sha256": "76e01463710f5cf6b76cb68a6e311fbbfdd136c2fa4839776466db658d22db02",
+      "baseline": "NEURIPS2023_OUTPUT_MANIFEST.tsv"
+    },
+    {
+      "dataset": "NeurIPS2023",
+      "path": "/home/zhome/xiaoe-internship-data/processed/NeurIPS2023_qc_20261111/INPUT_INSPECTION.json",
+      "bytes": 73789,
+      "md5": "52d29620fc5e0d21c46d6a09fbebcf6c",
+      "sha256": "b5968339fdae5af3485287867b0d08eca3ccea8ccf45e47a65f074aed8edd867",
+      "baseline": "NEURIPS2023_OUTPUT_MANIFEST.tsv"
+    },
+    {
+      "dataset": "NeurIPS2023",
+      "path": "/home/zhome/xiaoe-internship-data/processed/NeurIPS2023_qc_20261111/MATRIX_QC_SUMMARY.tsv",
+      "bytes": 10082,
+      "md5": "7f300c8d93fbe48d634403e2b62aaa0f",
+      "sha256": "149ed2f3f6f6c3d700fac6dfc648e373f5414f2dd49d42bd451f2dc398b99ff4",
+      "baseline": "NEURIPS2023_OUTPUT_MANIFEST.tsv"
+    },
+    {
+      "dataset": "NeurIPS2023",
+      "path": "/home/zhome/xiaoe-internship-data/processed/NeurIPS2023_qc_20261111/ORIGINAL_DOWNLOAD_BASELINE.json",
+      "bytes": 6263,
+      "md5": "1e542fe7668020ba60a5fbc0f0e77989",
+      "sha256": "cc717173f2bfd08c1a99da379a2a28b2fc13d8fb22d4cf7d90f82ecec328d1a8",
+      "baseline": "NEURIPS2023_OUTPUT_MANIFEST.tsv"
+    },
+    {
+      "dataset": "NeurIPS2023",
+      "path": "/home/zhome/xiaoe-internship-data/processed/NeurIPS2023_qc_20261111/ORIGINAL_FILES.tsv",
+      "bytes": 2904,
+      "md5": "b8a229faee2433d591b0f41b52425918",
+      "sha256": "cc9fd2814c60cc3942bf8099c9b7180788417e74d2cc11112b8e61db419cff67",
+      "baseline": "NEURIPS2023_OUTPUT_MANIFEST.tsv"
+    },
+    {
+      "dataset": "NeurIPS2023",
+      "path": "/home/zhome/xiaoe-internship-data/processed/NeurIPS2023_qc_20261111/SOURCE_METADATA_DTYPES.json",
+      "bytes": 4330,
+      "md5": "cee097ca37ba88af55d3bbb7bcf07bd9",
+      "sha256": "0570d7e18806bfd24001b233ab1e15b3d32508aed561b94929a84163c582e118",
+      "baseline": "NEURIPS2023_OUTPUT_MANIFEST.tsv"
+    },
+    {
+      "dataset": "NeurIPS2023",
+      "path": "/home/zhome/xiaoe-internship-data/processed/NeurIPS2023_qc_20261111/UNIT_QC_SUMMARY.tsv",
+      "bytes": 708,
+      "md5": "1f86118791b2f0eee0941e05441c0b82",
+      "sha256": "32e38c7552c96e28e0aa7d08c33cd42e85aeac7a0235dab133316426700fa92c",
+      "baseline": "NEURIPS2023_OUTPUT_MANIFEST.tsv"
+    },
+    {
+      "dataset": "NeurIPS2023",
+      "path": "/home/zhome/xiaoe-internship-data/processed/NeurIPS2023_qc_20261111/annotation_transition_summary.tsv",
+      "bytes": 615,
+      "md5": "f1dcbb0ad4a742b95a27c5f0a173d8b7",
+      "sha256": "4fa281c7e0efde4f4dfe6af0f8d7e5a877eac8576873396d018a8f736c890e77",
+      "baseline": "NEURIPS2023_OUTPUT_MANIFEST.tsv"
+    },
+    {
+      "dataset": "NeurIPS2023",
+      "path": "/home/zhome/xiaoe-internship-data/processed/NeurIPS2023_qc_20261111/baseline_atac_feature_QC.tsv.gz",
+      "bytes": 5793098,
+      "md5": "28217aa7865dadc9aa89a33ee6419b40",
+      "sha256": "676d5da1024545723a64ac4e97da8fe052347cff414ffe15b0f3ea6d65941ca3",
+      "baseline": "NEURIPS2023_OUTPUT_MANIFEST.tsv"
+    },
+    {
+      "dataset": "NeurIPS2023",
+      "path": "/home/zhome/xiaoe-internship-data/processed/NeurIPS2023_qc_20261111/baseline_atac_observation_QC.tsv.gz",
+      "bytes": 1755474,
+      "md5": "82b0f345cfb1acffd32bbeb635cd7475",
+      "sha256": "ae0af137b2d1826e261ea21cdda31796cb2d77d9b6c3463748a78f7aeab7c728",
+      "baseline": "NEURIPS2023_OUTPUT_MANIFEST.tsv"
+    },
+    {
+      "dataset": "NeurIPS2023",
+      "path": "/home/zhome/xiaoe-internship-data/processed/NeurIPS2023_qc_20261111/baseline_atac_quarantine_index.tsv",
+      "bytes": 477,
+      "md5": "a886b38996255d3baf265c5e85c761d7",
+      "sha256": "31ecef5e79605457047ab64a184b7245cbce588dd14a99cc19af12488be887f8",
+      "baseline": "NEURIPS2023_OUTPUT_MANIFEST.tsv"
+    },
+    {
+      "dataset": "NeurIPS2023",
+      "path": "/home/zhome/xiaoe-internship-data/processed/NeurIPS2023_qc_20261111/baseline_atac_usable_index.tsv.gz",
+      "bytes": 1755472,
+      "md5": "c4b0d1a0c0e83b1380accc84278b1cf3",
+      "sha256": "3ec6994518b9b15145e8b3a8e44755e3f60699944132128df395fd5e19454812",
+      "baseline": "NEURIPS2023_OUTPUT_MANIFEST.tsv"
+    },
+    {
+      "dataset": "NeurIPS2023",
+      "path": "/home/zhome/xiaoe-internship-data/processed/NeurIPS2023_qc_20261111/baseline_rna_feature_QC.tsv.gz",
+      "bytes": 1500095,
+      "md5": "4b0fe67af941250404a283b3eb90301f",
+      "sha256": "43fab494e2650dba1219b670cfb02a09c2220b1d4fef9b76d47f1222d6ce2639",
+      "baseline": "NEURIPS2023_OUTPUT_MANIFEST.tsv"
+    },
+    {
+      "dataset": "NeurIPS2023",
+      "path": "/home/zhome/xiaoe-internship-data/processed/NeurIPS2023_qc_20261111/baseline_rna_observation_QC.tsv.gz",
+      "bytes": 4746706,
+      "md5": "2db89cedca73806671cd8ab68f231ab4",
+      "sha256": "ed919bb8f2f6835162e0a4080fc0ba8bb94974dc7c6c80eea7a6673bb61b0276",
+      "baseline": "NEURIPS2023_OUTPUT_MANIFEST.tsv"
+    },
+    {
+      "dataset": "NeurIPS2023",
+      "path": "/home/zhome/xiaoe-internship-data/processed/NeurIPS2023_qc_20261111/baseline_rna_quarantine_index.tsv",
+      "bytes": 746,
+      "md5": "004f131b938663d7e9f9eff1b682231a",
+      "sha256": "61393bc31e1fcbf2dc689030a04e450aa58694c80690c44d76f4e5be7783c491",
+      "baseline": "NEURIPS2023_OUTPUT_MANIFEST.tsv"
+    },
+    {
+      "dataset": "NeurIPS2023",
+      "path": "/home/zhome/xiaoe-internship-data/processed/NeurIPS2023_qc_20261111/baseline_rna_usable_index.tsv.gz",
+      "bytes": 4746704,
+      "md5": "56b43cbc41abd489a12e7d471314d2d5",
+      "sha256": "bf1cf30ebee75efc92d4394817274f02361e21e7891d4187dbad0a2ba102c673",
+      "baseline": "NEURIPS2023_OUTPUT_MANIFEST.tsv"
+    },
+    {
+      "dataset": "NeurIPS2023",
+      "path": "/home/zhome/xiaoe-internship-data/processed/NeurIPS2023_qc_20261111/compound_annotation_QC.tsv",
+      "bytes": 27853,
+      "md5": "2034306c13b9ea4e686902424d06d2cd",
+      "sha256": "2bb11edde03daef2dde33fb8247da525c6dd3352192cc5e6b5728482a1a9c65e",
+      "baseline": "NEURIPS2023_OUTPUT_MANIFEST.tsv"
+    },
+    {
+      "dataset": "NeurIPS2023",
+      "path": "/home/zhome/xiaoe-internship-data/processed/NeurIPS2023_qc_20261111/de_test_feature_QC.tsv.gz",
+      "bytes": 286678,
+      "md5": "433b27f5ece71d9183cf3582a18dad0e",
+      "sha256": "361d3b240b34303e0b8e014b55c3a658da3f832af7ce50feac992473306fac5b",
+      "baseline": "NEURIPS2023_OUTPUT_MANIFEST.tsv"
+    },
+    {
+      "dataset": "NeurIPS2023",
+      "path": "/home/zhome/xiaoe-internship-data/processed/NeurIPS2023_qc_20261111/de_test_observation_QC.tsv.gz",
+      "bytes": 11776,
+      "md5": "e025bcb10bf3039f02eb696d8870f044",
+      "sha256": "366c78692012e11b4998d9a9d9b7c15ff78c767c26a22404fe72ae89c2ebe9ac",
+      "baseline": "NEURIPS2023_OUTPUT_MANIFEST.tsv"
+    },
+    {
+      "dataset": "NeurIPS2023",
+      "path": "/home/zhome/xiaoe-internship-data/processed/NeurIPS2023_qc_20261111/de_test_quarantine_index.tsv",
+      "bytes": 307,
+      "md5": "88df0ceea0b6b902af4625144015540f",
+      "sha256": "7229f92eff23899dd96b4b1ebdbf3ae8ffe857698e40cb550513e255d9376416",
+      "baseline": "NEURIPS2023_OUTPUT_MANIFEST.tsv"
+    },
+    {
+      "dataset": "NeurIPS2023",
+      "path": "/home/zhome/xiaoe-internship-data/processed/NeurIPS2023_qc_20261111/de_test_usable_index.tsv.gz",
+      "bytes": 11774,
+      "md5": "2b2e236ffbdc6ff9947ab4e5ed764af9",
+      "sha256": "c946197829587889439d363d025d1a603e6bafabefea2d811995fd2a506fa11a",
+      "baseline": "NEURIPS2023_OUTPUT_MANIFEST.tsv"
+    },
+    {
+      "dataset": "NeurIPS2023",
+      "path": "/home/zhome/xiaoe-internship-data/processed/NeurIPS2023_qc_20261111/de_train_feature_QC.tsv.gz",
+      "bytes": 286594,
+      "md5": "37f7e5e00bc81ca391004ce7221dceb9",
+      "sha256": "a5792ca19a488e31856cdf7ab905cbc116c984b5d90b8f982d25cf94e29977a4",
+      "baseline": "NEURIPS2023_OUTPUT_MANIFEST.tsv"
+    },
+    {
+      "dataset": "NeurIPS2023",
+      "path": "/home/zhome/xiaoe-internship-data/processed/NeurIPS2023_qc_20261111/de_train_observation_QC.tsv.gz",
+      "bytes": 21534,
+      "md5": "03b3031075911c1aa92e9b6fbf6643da",
+      "sha256": "0e0ac4f9d2cc90fda47874504fe13fa0e5f7ac9de37efd64ab2e8ff09d82e003",
+      "baseline": "NEURIPS2023_OUTPUT_MANIFEST.tsv"
+    },
+    {
+      "dataset": "NeurIPS2023",
+      "path": "/home/zhome/xiaoe-internship-data/processed/NeurIPS2023_qc_20261111/de_train_quarantine_index.tsv",
+      "bytes": 307,
+      "md5": "88df0ceea0b6b902af4625144015540f",
+      "sha256": "7229f92eff23899dd96b4b1ebdbf3ae8ffe857698e40cb550513e255d9376416",
+      "baseline": "NEURIPS2023_OUTPUT_MANIFEST.tsv"
+    },
+    {
+      "dataset": "NeurIPS2023",
+      "path": "/home/zhome/xiaoe-internship-data/processed/NeurIPS2023_qc_20261111/de_train_usable_index.tsv.gz",
+      "bytes": 21532,
+      "md5": "a2f702e166409fd6528cc7bfc013cc2b",
+      "sha256": "6ef0c5a6b9f7901a389d3568e9e5a3df64a237152b3bc5eca76f178573dc0ec4",
+      "baseline": "NEURIPS2023_OUTPUT_MANIFEST.tsv"
+    },
+    {
+      "dataset": "NeurIPS2023",
+      "path": "/home/zhome/xiaoe-internship-data/processed/NeurIPS2023_qc_20261111/multiome_paired_index.tsv.gz",
+      "bytes": 377201,
+      "md5": "bd127f2a27b9f2e7324bb64e24eaad56",
+      "sha256": "8c7ee6b049d4b534e0cbbf7ca7d2383308f42a6ff1a9238d0be477afa0eb2288",
+      "baseline": "NEURIPS2023_OUTPUT_MANIFEST.tsv"
+    },
+    {
+      "dataset": "NeurIPS2023",
+      "path": "/home/zhome/xiaoe-internship-data/processed/NeurIPS2023_qc_20261111/official_test_id_mapping.tsv",
+      "bytes": 23240,
+      "md5": "2993b1f50ec2d079067a596626388f94",
+      "sha256": "517ed84fef9b0c7ef104fb4eeee0b23da1682ff1c4704711376b94906472d0b9",
+      "baseline": "NEURIPS2023_OUTPUT_MANIFEST.tsv"
+    },
+    {
+      "dataset": "NeurIPS2023",
+      "path": "/home/zhome/xiaoe-internship-data/processed/NeurIPS2023_qc_20261111/original_only_after_author_reannotation.tsv.gz",
+      "bytes": 36760,
+      "md5": "3e9d47cce375883df75d57c8c410f2c5",
+      "sha256": "d1ace866b76919e2dcfdf57ae552b711dc6812f027ad26f277b6907e2b53d522",
+      "baseline": "NEURIPS2023_OUTPUT_MANIFEST.tsv"
+    },
+    {
+      "dataset": "NeurIPS2023",
+      "path": "/home/zhome/xiaoe-internship-data/processed/NeurIPS2023_qc_20261111/published_DE_consistency.tsv",
+      "bytes": 237,
+      "md5": "d48ce9eb10e97e2afecbbfa3a7060b6c",
+      "sha256": "e0335b9a38c2ea8b9d82377e928e4c9ea8583b432fb20b0c8b28e4999ddaf899",
+      "baseline": "NEURIPS2023_OUTPUT_MANIFEST.tsv"
+    },
+    {
+      "dataset": "NeurIPS2023",
+      "path": "/home/zhome/xiaoe-internship-data/processed/NeurIPS2023_qc_20261111/publisher_control_definition.tsv",
+      "bytes": 94,
+      "md5": "5713e42a07b92acc69d995892b0892ea",
+      "sha256": "357f843783cdeb06f5d2c155feecd3d28c0ab16bf8e3063b939dc5b3940d1abc",
+      "baseline": "NEURIPS2023_OUTPUT_MANIFEST.tsv"
+    },
+    {
+      "dataset": "NeurIPS2023",
+      "path": "/home/zhome/xiaoe-internship-data/processed/NeurIPS2023_qc_20261111/qc_policy.json",
+      "bytes": 2707,
+      "md5": "0674ce91a4a796acdbd92b7327f3dd10",
+      "sha256": "b4e07319350e9e2dd3d45318476874229d23a89cffcfd64f1633fb73a6abf967",
+      "baseline": "NEURIPS2023_OUTPUT_MANIFEST.tsv"
+    },
+    {
+      "dataset": "NeurIPS2023",
+      "path": "/home/zhome/xiaoe-internship-data/processed/NeurIPS2023_qc_20261111/sc_original_feature_QC.tsv.gz",
+      "bytes": 243873,
+      "md5": "53d2b423dd9a000fb2370f741343fef7",
+      "sha256": "a91b17de3991a6b576cd43dfc981cff5c7507bb5c1734bfd71b887dbd2ad2ab0",
+      "baseline": "NEURIPS2023_OUTPUT_MANIFEST.tsv"
+    },
+    {
+      "dataset": "NeurIPS2023",
+      "path": "/home/zhome/xiaoe-internship-data/processed/NeurIPS2023_qc_20261111/sc_original_observation_QC.tsv.gz",
+      "bytes": 25476565,
+      "md5": "efc7d04d59fb9f11b81298f191c7a5aa",
+      "sha256": "2e139594f63eacc6c3320a8e15043059f6de0a5f4849e2bb08ab13ae07d7bd87",
+      "baseline": "NEURIPS2023_OUTPUT_MANIFEST.tsv"
+    },
+    {
+      "dataset": "NeurIPS2023",
+      "path": "/home/zhome/xiaoe-internship-data/processed/NeurIPS2023_qc_20261111/sc_original_quarantine_index.tsv",
+      "bytes": 577,
+      "md5": "1c19f8a00297d659b07ab4023854587c",
+      "sha256": "91decfd3fb832d001e2dfe9f415ac8ebc643ae9e1a6c66f1083c30a4043f4743",
+      "baseline": "NEURIPS2023_OUTPUT_MANIFEST.tsv"
+    },
+    {
+      "dataset": "NeurIPS2023",
+      "path": "/home/zhome/xiaoe-internship-data/processed/NeurIPS2023_qc_20261111/sc_original_usable_index.tsv.gz",
+      "bytes": 25476563,
+      "md5": "5d97652319a0bbf484b0871850c54e7b",
+      "sha256": "58bdda95a119ea152c62a4f4bf758c587478c7c8bb3b2bb0e5848cbd5c417514",
+      "baseline": "NEURIPS2023_OUTPUT_MANIFEST.tsv"
+    },
+    {
+      "dataset": "NeurIPS2023",
+      "path": "/home/zhome/xiaoe-internship-data/processed/NeurIPS2023_qc_20261111/sc_reannotated_feature_QC.tsv.gz",
+      "bytes": 790709,
+      "md5": "a3f40fc91c8c41ff5c4bc322ab078e57",
+      "sha256": "03fedff9a875f9bda12d0292d4a6abae87183d636a95bac043fdcbaf9fb4827e",
+      "baseline": "NEURIPS2023_OUTPUT_MANIFEST.tsv"
+    },
+    {
+      "dataset": "NeurIPS2023",
+      "path": "/home/zhome/xiaoe-internship-data/processed/NeurIPS2023_qc_20261111/sc_reannotated_observation_QC.tsv.gz",
+      "bytes": 25626680,
+      "md5": "1d070c0d79ebea352825a288e8202644",
+      "sha256": "e28e5b4b356fe37da3b778042afc8d3e65b134ba5344674bf49642f1c82ef4b8",
+      "baseline": "NEURIPS2023_OUTPUT_MANIFEST.tsv"
+    },
+    {
+      "dataset": "NeurIPS2023",
+      "path": "/home/zhome/xiaoe-internship-data/processed/NeurIPS2023_qc_20261111/sc_reannotated_quarantine_index.tsv",
+      "bytes": 693,
+      "md5": "8aa3a40f4879b0ee1ae13961883651d1",
+      "sha256": "efa80ffb9ba866418bbb1dd34bb8f3e5362a99e2733ccccfaf28c4b8ca4ef71f",
+      "baseline": "NEURIPS2023_OUTPUT_MANIFEST.tsv"
+    },
+    {
+      "dataset": "NeurIPS2023",
+      "path": "/home/zhome/xiaoe-internship-data/processed/NeurIPS2023_qc_20261111/sc_reannotated_usable_index.tsv.gz",
+      "bytes": 25626678,
+      "md5": "9429cb8732d014f24d801b85d55ee025",
+      "sha256": "e935ec1c2a98b50cd3ab80f5f8eaa15c19d04743950cb613981d3d57bd8b690c",
+      "baseline": "NEURIPS2023_OUTPUT_MANIFEST.tsv"
+    },
+    {
+      "dataset": "NeurIPS2023",
+      "path": "/home/zhome/xiaoe-internship-data/processed/NeurIPS2023_qc_20261111/sc_release_correspondence.tsv.gz",
+      "bytes": 3855941,
+      "md5": "250d24ba6a6908acefd1619494f7817a",
+      "sha256": "c7148aafe644dde17d53edb407b0ac4a73de2d9266932339fb95a05ffd0b7238",
+      "baseline": "NEURIPS2023_OUTPUT_MANIFEST.tsv"
+    },
+    {
+      "dataset": "VCC2025",
+      "path": "/home/zhome/xiaoe-internship-data/benchmarks/competitions/vcc2025/gene_names.csv",
+      "bytes": 116023,
+      "md5": "3e74ae68262022f62f70701bec5a2509",
+      "sha256": "e29ff3512b4c2440759bfb2a34577049b2f49df786b3e19c2a91b565de47b38e",
+      "baseline": "VCC2025_OUTPUT_MANIFEST.tsv"
+    },
+    {
+      "dataset": "VCC2025",
+      "path": "/home/zhome/xiaoe-internship-data/benchmarks/competitions/vcc2025/test/adata_Test.h5ad",
+      "bytes": 11950739168,
+      "md5": "8c639e1015095faf1642a26906229da8",
+      "sha256": "ba5ce66729e4c8e50b6f147c7d73d3f9f28f76c91fa43ff33e3f6bc2ed831f03",
+      "baseline": "VCC2025_OUTPUT_MANIFEST.tsv"
+    },
+    {
+      "dataset": "VCC2025",
+      "path": "/home/zhome/xiaoe-internship-data/benchmarks/competitions/vcc2025/test/pert_counts_Test.csv",
+      "bytes": 1894,
+      "md5": "b8deb97dfc931222a633f4418ae92270",
+      "sha256": "c4f0ba439d7c3121562ca1f79fa3854d8f96fc7c3de24dca23eb9e7c41c8923a",
+      "baseline": "VCC2025_OUTPUT_MANIFEST.tsv"
+    },
+    {
+      "dataset": "VCC2025",
+      "path": "/home/zhome/xiaoe-internship-data/benchmarks/competitions/vcc2025/train/adata_Training.h5ad",
+      "bytes": 15482497461,
+      "md5": "d2c32896945b31204c284aa322fa241d",
+      "sha256": "a09977104fefb622368ca74b50c9d3c1e891733e6c83db07acfca49b0219c02b",
+      "baseline": "VCC2025_OUTPUT_MANIFEST.tsv"
+    },
+    {
+      "dataset": "VCC2025",
+      "path": "/home/zhome/xiaoe-internship-data/benchmarks/competitions/vcc2025/train/pert_counts_Training.csv",
+      "bytes": 2824,
+      "md5": "6e1dcd2f0b4fa46428c1a36a98b89074",
+      "sha256": "633d202be221418bdbac16efd8cb169666de0ef6469a4e9bfdfb64666ea81a89",
+      "baseline": "VCC2025_OUTPUT_MANIFEST.tsv"
+    },
+    {
+      "dataset": "VCC2025",
+      "path": "/home/zhome/xiaoe-internship-data/benchmarks/competitions/vcc2025/validation/adata_Validation.h5ad",
+      "bytes": 6928967541,
+      "md5": "6537f7884b36ca6ec660f970b9d0d0b2",
+      "sha256": "376f0bab27d9f22e00dfd888668d3602006d035edc182721c378f4802c77bfe1",
+      "baseline": "VCC2025_OUTPUT_MANIFEST.tsv"
+    },
+    {
+      "dataset": "VCC2025",
+      "path": "/home/zhome/xiaoe-internship-data/benchmarks/competitions/vcc2025/validation/pert_counts_Validation.csv",
+      "bytes": 978,
+      "md5": "1b1c8926c60d5be559d9fcb31db7db10",
+      "sha256": "9da5dec8c25aff1bddc01cf76897cf94ec65f8f877beee29482c543bf1e7e43b",
+      "baseline": "VCC2025_OUTPUT_MANIFEST.tsv"
+    },
+    {
+      "dataset": "VCC2025",
+      "path": "/home/zhome/xiaoe-internship-data/processed/VCC2025_qc_20261111/DATASET_INDEX.tsv",
+      "bytes": 884,
+      "md5": "c06abb5de4618c98dc198fcc41b006ff",
+      "sha256": "cc6777d0693bb72793f85dc8d9f62156cf3234d2f94e274e0d5c8ffd5ccfb70e",
+      "baseline": "VCC2025_OUTPUT_MANIFEST.tsv"
+    },
+    {
+      "dataset": "VCC2025",
+      "path": "/home/zhome/xiaoe-internship-data/processed/VCC2025_qc_20261111/EXPORT_SUCCESS.json",
+      "bytes": 9929,
+      "md5": "34098d84985c7f75c5d30a32de687dfb",
+      "sha256": "16b004f8bf42c44dfafbf351eeac4faef410849a2254f13300f8d134b28a3ad6",
+      "baseline": "VCC2025_OUTPUT_MANIFEST.tsv"
+    },
+    {
+      "dataset": "VCC2025",
+      "path": "/home/zhome/xiaoe-internship-data/processed/VCC2025_qc_20261111/INDEPENDENT_VERIFICATION.json",
+      "bytes": 103256,
+      "md5": "fc4127101a49afc3378bf6780d498529",
+      "sha256": "037d00a423a7d84b96055a3935daf541788e976bbc00f3afcf12c33dcfc28867",
+      "baseline": "VCC2025_OUTPUT_MANIFEST.tsv"
+    },
+    {
+      "dataset": "VCC2025",
+      "path": "/home/zhome/xiaoe-internship-data/processed/VCC2025_qc_20261111/INPUT_INSPECTION.json",
+      "bytes": 4606,
+      "md5": "16e109a7350ef529585516121ecbbd32",
+      "sha256": "e20cf757068ac8252f668184db6ce5822a8a59bcff14f2eaa542b74c2d867f7d",
+      "baseline": "VCC2025_OUTPUT_MANIFEST.tsv"
+    },
+    {
+      "dataset": "VCC2025",
+      "path": "/home/zhome/xiaoe-internship-data/processed/VCC2025_qc_20261111/ORIGINAL_DOWNLOAD_BASELINE.json",
+      "bytes": 4779,
+      "md5": "76d1f43c241a081b0d9debcba5f9ca7e",
+      "sha256": "317029ec94cb7e58c93bb9fe0828b837528f419dfd76061b64e06a7b83eac9b0",
+      "baseline": "VCC2025_OUTPUT_MANIFEST.tsv"
+    },
+    {
+      "dataset": "VCC2025",
+      "path": "/home/zhome/xiaoe-internship-data/processed/VCC2025_qc_20261111/ORIGINAL_FILES.tsv",
+      "bytes": 2486,
+      "md5": "c1af8f65b4927fa477509178f0a762e2",
+      "sha256": "c82ba90fb1487afd5baea2f219edb6f112f7a8a33bcdf30e7ad7f1fbd81a7a14",
+      "baseline": "VCC2025_OUTPUT_MANIFEST.tsv"
+    },
+    {
+      "dataset": "VCC2025",
+      "path": "/home/zhome/xiaoe-internship-data/processed/VCC2025_qc_20261111/PERTURBATION_SPLITS.tsv",
+      "bytes": 9513,
+      "md5": "1ef57ffe42d47366a58236195101f9a2",
+      "sha256": "04c31a385b98ee0777cf01e216a4259e05921746bf5d53a86a930d6611fdd564",
+      "baseline": "VCC2025_OUTPUT_MANIFEST.tsv"
+    },
+    {
+      "dataset": "VCC2025",
+      "path": "/home/zhome/xiaoe-internship-data/processed/VCC2025_qc_20261111/feature_index_QC.tsv.gz",
+      "bytes": 631687,
+      "md5": "8495ac23deff7e0cd22d53d54c108ab4",
+      "sha256": "ca5753c2e001e313dedb0e6b45afa870687a314eebecc43bbf9086dce97ea147",
+      "baseline": "VCC2025_OUTPUT_MANIFEST.tsv"
+    },
+    {
+      "dataset": "VCC2025",
+      "path": "/home/zhome/xiaoe-internship-data/processed/VCC2025_qc_20261111/qc_policy.json",
+      "bytes": 2787,
+      "md5": "7953571d8a8a068061b11c0a04e8fa62",
+      "sha256": "d27680bbbdc72bb80e9f6a929ea7dcc5c513a682624ad66428fcbfedc8568fd1",
+      "baseline": "VCC2025_OUTPUT_MANIFEST.tsv"
+    },
+    {
+      "dataset": "VCC2025",
+      "path": "/home/zhome/xiaoe-internship-data/processed/VCC2025_qc_20261111/shared_controls_unique_index.tsv.gz",
+      "bytes": 3086177,
+      "md5": "61410dde4ddf7db3a2fa9f699db24ccc",
+      "sha256": "de9762f32993eebf63fb3e140052bf92c683401eaba5758e9d0179c86db3e4c3",
+      "baseline": "VCC2025_OUTPUT_MANIFEST.tsv"
+    },
+    {
+      "dataset": "VCC2025",
+      "path": "/home/zhome/xiaoe-internship-data/processed/VCC2025_qc_20261111/split_QC_summary.tsv",
+      "bytes": 491,
+      "md5": "1e80e9a68c2dedbcbd4d3a4e98fdcda4",
+      "sha256": "65d99307c2ad0609b802f856d62d8c859bf2ac0652f10c270c78abb458901180",
+      "baseline": "VCC2025_OUTPUT_MANIFEST.tsv"
+    },
+    {
+      "dataset": "VCC2025",
+      "path": "/home/zhome/xiaoe-internship-data/processed/VCC2025_qc_20261111/test_cell_QC.tsv.gz",
+      "bytes": 8956393,
+      "md5": "fa260f8f0b8b140c40f2a970f90c4128",
+      "sha256": "f991bd40ec1000eff1583cb4676fb8efe4f3f5cf7af8534ef2b25be666eed25a",
+      "baseline": "VCC2025_OUTPUT_MANIFEST.tsv"
+    },
+    {
+      "dataset": "VCC2025",
+      "path": "/home/zhome/xiaoe-internship-data/processed/VCC2025_qc_20261111/test_held_out_perturbation_index.tsv.gz",
+      "bytes": 5401896,
+      "md5": "be6af0f2ad4c93b3c488b07e80813ccf",
+      "sha256": "c9890cf3b905ee670490e35a64878b17b8609d596793a65d71e31cfecd95a198",
+      "baseline": "VCC2025_OUTPUT_MANIFEST.tsv"
+    },
+    {
+      "dataset": "VCC2025",
+      "path": "/home/zhome/xiaoe-internship-data/processed/VCC2025_qc_20261111/test_perturbation_summary.tsv",
+      "bytes": 3058,
+      "md5": "096606fa7fa39efc8ea1797388c89362",
+      "sha256": "abaa19655c827c2df2f2774e569ffa05e81d7efc343f85a0e69dd1b0d96070c3",
+      "baseline": "VCC2025_OUTPUT_MANIFEST.tsv"
+    },
+    {
+      "dataset": "VCC2025",
+      "path": "/home/zhome/xiaoe-internship-data/processed/VCC2025_qc_20261111/test_quarantine_index.tsv",
+      "bytes": 483,
+      "md5": "2de94d35e122060c5337850466d78d7d",
+      "sha256": "036ce5012ab51365506ed2628a1e0e6cada12d78590e5177f3aac3d60ed075a1",
+      "baseline": "VCC2025_OUTPUT_MANIFEST.tsv"
+    },
+    {
+      "dataset": "VCC2025",
+      "path": "/home/zhome/xiaoe-internship-data/processed/VCC2025_qc_20261111/test_usable_index.tsv.gz",
+      "bytes": 8956398,
+      "md5": "b2650a0445228e9feb0c75e0f038dd55",
+      "sha256": "7ed9de4027d45744ce75787899ff889d456298a3c9ce890883755c0a67631e17",
+      "baseline": "VCC2025_OUTPUT_MANIFEST.tsv"
+    },
+    {
+      "dataset": "VCC2025",
+      "path": "/home/zhome/xiaoe-internship-data/processed/VCC2025_qc_20261111/train_cell_QC.tsv.gz",
+      "bytes": 11244569,
+      "md5": "7101c38716e2fc350176b478e1cdbce8",
+      "sha256": "629de9fd9d7180ef29528110f3f144aa091abca55aa5e8d9fe22fe5495a805d4",
+      "baseline": "VCC2025_OUTPUT_MANIFEST.tsv"
+    },
+    {
+      "dataset": "VCC2025",
+      "path": "/home/zhome/xiaoe-internship-data/processed/VCC2025_qc_20261111/train_perturbation_summary.tsv",
+      "bytes": 4689,
+      "md5": "6351154d9f206ce5b3eb5043c46c725a",
+      "sha256": "2e3d1c8a5f0aa8ee1d3efaf8079992d68605da12127e21aa5da40809e5ee0aa5",
+      "baseline": "VCC2025_OUTPUT_MANIFEST.tsv"
+    },
+    {
+      "dataset": "VCC2025",
+      "path": "/home/zhome/xiaoe-internship-data/processed/VCC2025_qc_20261111/train_quarantine_index.tsv",
+      "bytes": 483,
+      "md5": "2de94d35e122060c5337850466d78d7d",
+      "sha256": "036ce5012ab51365506ed2628a1e0e6cada12d78590e5177f3aac3d60ed075a1",
+      "baseline": "VCC2025_OUTPUT_MANIFEST.tsv"
+    },
+    {
+      "dataset": "VCC2025",
+      "path": "/home/zhome/xiaoe-internship-data/processed/VCC2025_qc_20261111/train_usable_index.tsv.gz",
+      "bytes": 11244574,
+      "md5": "1f726737a0d4951081a59e6cbcd57ecb",
+      "sha256": "495bc5b9cdd36f8692a25bc470334e7ad418b813bc361ab09427cf2b626f0558",
+      "baseline": "VCC2025_OUTPUT_MANIFEST.tsv"
+    },
+    {
+      "dataset": "VCC2025",
+      "path": "/home/zhome/xiaoe-internship-data/processed/VCC2025_qc_20261111/validation_cell_QC.tsv.gz",
+      "bytes": 5759654,
+      "md5": "44e53eb151f25984167ac6d0aec872e7",
+      "sha256": "548f940aecbca1209f6dee03acc2a15f84cf725fb0ada198968a4ba702184c33",
+      "baseline": "VCC2025_OUTPUT_MANIFEST.tsv"
+    },
+    {
+      "dataset": "VCC2025",
+      "path": "/home/zhome/xiaoe-internship-data/processed/VCC2025_qc_20261111/validation_held_out_perturbation_index.tsv.gz",
+      "bytes": 2392934,
+      "md5": "8f4b91c117f1b5b32846cec643e5ba79",
+      "sha256": "22ac30cb16552481dce2c192bd1ee53db15c0fa7aeb84682d350b9bc76318190",
+      "baseline": "VCC2025_OUTPUT_MANIFEST.tsv"
+    },
+    {
+      "dataset": "VCC2025",
+      "path": "/home/zhome/xiaoe-internship-data/processed/VCC2025_qc_20261111/validation_perturbation_summary.tsv",
+      "bytes": 1898,
+      "md5": "42eb4ef87a0aaf6fb0ae895209d78111",
+      "sha256": "683958386a1491b12d253f21e308e6fc1718737c43a282d1dc1979d5aa53d299",
+      "baseline": "VCC2025_OUTPUT_MANIFEST.tsv"
+    },
+    {
+      "dataset": "VCC2025",
+      "path": "/home/zhome/xiaoe-internship-data/processed/VCC2025_qc_20261111/validation_quarantine_index.tsv",
+      "bytes": 483,
+      "md5": "2de94d35e122060c5337850466d78d7d",
+      "sha256": "036ce5012ab51365506ed2628a1e0e6cada12d78590e5177f3aac3d60ed075a1",
+      "baseline": "VCC2025_OUTPUT_MANIFEST.tsv"
+    },
+    {
+      "dataset": "VCC2025",
+      "path": "/home/zhome/xiaoe-internship-data/processed/VCC2025_qc_20261111/validation_usable_index.tsv.gz",
+      "bytes": 5759659,
+      "md5": "73734d87fdc942c14a6e1138b4791e67",
+      "sha256": "4f9134296439a27647cc90e6fcabc6b5f6c414915583cca35e9efc777c44b783",
+      "baseline": "VCC2025_OUTPUT_MANIFEST.tsv"
+    },
+    {
+      "dataset": "SCP1303",
+      "path": "/home/zhome/xiaoe-internship-data/processed/SCP1303_qc_reviewed_final_20261111/cm_qc_full.h5ad",
+      "bytes": 1729940710,
+      "md5": "c75d1da3d1dda7158a42a9f59635157e",
+      "sha256": "975f3b5cc658b579997321b0118731407d6254523628ba564cf9dd9d0acf3efe",
+      "baseline": "D:\\VirtualCell\\deliverables\\hcm-qc-scp1303-20261111\\review\\final\\INDEPENDENT_VERIFICATION.json"
+    },
+    {
+      "dataset": "SCP1303",
+      "path": "/home/zhome/xiaoe-internship-data/processed/SCP1303_qc_reviewed_final_20261111/cm_qc_light.h5ad",
+      "bytes": 335152770,
+      "md5": "d3033342b730232dacfb0c94f6370673",
+      "sha256": "f06ede84ddac47c41a8b562d65d4b3fb2728349a2a54438ffe096e47809ab466",
+      "baseline": "D:\\VirtualCell\\deliverables\\hcm-qc-scp1303-20261111\\review\\final\\INDEPENDENT_VERIFICATION.json"
+    },
+    {
+      "dataset": "SCP1303",
+      "path": "/home/zhome/xiaoe-internship-data/processed/SCP1303_qc_reviewed_final_20261111/cm_review_pending.h5ad",
+      "bytes": 7773734,
+      "md5": "2c4f93038736060e0f4ad9660c1d646d",
+      "sha256": "86c406a43edc753a9703a46807d0fa1617cffb727e1e10aa243eb891fb3a11a7",
+      "baseline": "D:\\VirtualCell\\deliverables\\hcm-qc-scp1303-20261111\\review\\final\\INDEPENDENT_VERIFICATION.json"
+    }
+  ],
+  "excluded": {
+    "dataset": "cox7b_GSE227734",
+    "reason": "User excluded from cleaning; missing authoritative gene mapping; no author contact authorized."
+  }
+}

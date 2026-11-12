@@ -1,0 +1,2 @@
+The first invocation of check_completion.py raised TypeError because the helper parameter and a detail field both used name. The helper parameter was renamed to label; the corrected run passed 49 checks. No data or successful cleaning job was changed or rerun.
+A local git check-ignore probe using Windows text-mode stdin did not match; the LF byte-mode rerun matched all nine requested data formats. The existing .gitignore rules were already correct and were not changed.

@@ -1,0 +1,13 @@
+{
+  "checked_utc": "2026-11-12T00:51:43.540374+00:00",
+  "status": "passed",
+  "datasets_complete": 13,
+  "datasets_excluded": 1,
+  "text_files_reviewed": 18,
+  "JSON_files_parsed": 6,
+  "requested_data_extensions_ignored": true,
+  "changed_text_diff_check_passed": true,
+  "new_data_files_to_publish": false,
+  "untouched_untracked_directory": "src/qc_review/",
+  "historical_delivery_audits_preserved": true
+}

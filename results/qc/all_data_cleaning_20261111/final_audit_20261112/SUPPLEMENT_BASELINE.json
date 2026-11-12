@@ -1,0 +1,154 @@
+{
+  "exit_files": {
+    "chin_GSE174691": [
+      "final_verification_exit_code.txt"
+    ],
+    "chin_GSE161921": [
+      "final_verification_exit_code.txt"
+    ],
+    "liu2023": [
+      "final_v2_exit_code.txt"
+    ],
+    "chin_GSE181764": [
+      "R_exit_code.txt",
+      "resume_exit_code.txt"
+    ],
+    "GSE138262": [
+      "download_exit_code.txt",
+      "inspect_exit_code.txt",
+      "stage_exit_code.txt",
+      "identity_exit_code.txt",
+      "finalize_exit_code.txt",
+      "verify_exit_code.txt"
+    ],
+    "GSE203274": [
+      "stage_exit_code.txt",
+      "repair_metadata_exit_code.txt",
+      "R_exit_code.txt",
+      "finalize_exit_code.txt",
+      "verify_exit_code.txt"
+    ],
+    "bulk_GSE249925": [
+      "prepare_exit_code.txt",
+      "verify_exit_code.txt"
+    ],
+    "VCC2025": [
+      "prepare_exit_code.txt",
+      "verify_exit_code.txt"
+    ],
+    "NeurIPS2023": [
+      "prepare_exit_code.txt",
+      "verify_exit_code.txt"
+    ],
+    "NeurIPS2021": [
+      "stage_exit_code.txt",
+      "prepare_exit_code.txt",
+      "verify_exit_code.txt"
+    ],
+    "CausalBench2023": [
+      "prepare_exit_code.txt",
+      "verify_exit_code.txt",
+      "remaining_exit_code.txt"
+    ],
+    "ACDC2017": [
+      "prepare_exit_code.txt",
+      "verify_exit_code.txt",
+      "geometry_exit_code.txt"
+    ]
+  },
+  "records": [
+    {
+      "dataset": "liu2023",
+      "name": "FINAL_COMPLETION_GATE.json",
+      "sha256": "664355011bff1e9955929411c8a667621dcb4e85f8d45e1cfa9d4e016fee7755"
+    },
+    {
+      "dataset": "chin_GSE181764",
+      "name": "FINAL_COMPLETION_GATE.json",
+      "sha256": "fd1b9b57b1452c0e0147b8e4757edc708055d0dce608a186659a37a3ab35edfd"
+    },
+    {
+      "dataset": "GSE138262",
+      "name": "FINAL_COMPLETION_GATE.json",
+      "sha256": "ee58c57bebe8201953a7f603a4d86f7089cac6eebec8da748f80fb1da505699a"
+    },
+    {
+      "dataset": "GSE203274",
+      "name": "FINAL_COMPLETION_GATE.json",
+      "sha256": "de080129438659abd93d7c3f22b1ad838aebf0c9060b83582642beccb4345a1a"
+    },
+    {
+      "dataset": "bulk_GSE249925",
+      "name": "FINAL_COMPLETION_GATE.json",
+      "sha256": "bfba2ae7cde0469edcd789b1c07bcb0bb4f76d179fe49170fe9c77dd0c317a0d"
+    },
+    {
+      "dataset": "VCC2025",
+      "name": "FINAL_COMPLETION_GATE.json",
+      "sha256": "6df7362ed5b5e8d955da52d06724e7b3e56c93813caacb29bd1d8a55c52fd0ba"
+    },
+    {
+      "dataset": "NeurIPS2023",
+      "name": "FINAL_COMPLETION_GATE.json",
+      "sha256": "0f410b512685ec825cb04f2fe2ba74cbfc1b07507cf9a7102febd388e902a465"
+    },
+    {
+      "dataset": "NeurIPS2021",
+      "name": "FINAL_COMPLETION_GATE.json",
+      "sha256": "4c91a4cd81c680225f4018ecbddcc51ff6ae3322298fe11f82b22102f1446397"
+    },
+    {
+      "dataset": "CausalBench2023",
+      "name": "FINAL_COMPLETION_GATE.json",
+      "sha256": "59e7ea0ff9b4dd08ba168a1618258e5c6ad5621eb44e2d3ebbb64f0f8353d353"
+    },
+    {
+      "dataset": "ACDC2017",
+      "name": "FINAL_COMPLETION_GATE.json",
+      "sha256": "7e6f7cb2b7e16ed4ca860041f75867f321f58473a59786125a90b8e1bcd2a685"
+    },
+    {
+      "dataset": "ACDC2017",
+      "name": "GEOMETRY_VIEWS_VERIFICATION.json",
+      "sha256": "d30d473de5e722075c5dff7372e7afd4d4578ff5c396fa3ef43825b14d9d7c6b"
+    }
+  ],
+  "geometry_artifacts": [
+    {
+      "path": "/home/zhome/xiaoe-internship-data/processed/ACDC2017_qc_20261111/VOXEL_GRID_PAIR_QC.tsv",
+      "bytes": 193304,
+      "md5": "41e0515b5bbb7b9b3a1341ce47cd97b9",
+      "sha256": "4f91cc3f422bd1240da23796beebb7ca8ff7a9c5f970633f3c286af0e05dfaa6"
+    },
+    {
+      "path": "/home/zhome/xiaoe-internship-data/processed/ACDC2017_qc_20261111/USABLE_VOXEL_GRID_IMAGE_MASK_PAIRS.tsv",
+      "bytes": 193304,
+      "md5": "41e0515b5bbb7b9b3a1341ce47cd97b9",
+      "sha256": "4f91cc3f422bd1240da23796beebb7ca8ff7a9c5f970633f3c286af0e05dfaa6"
+    },
+    {
+      "path": "/home/zhome/xiaoe-internship-data/processed/ACDC2017_qc_20261111/QUARANTINED_VOXEL_GRID_PAIRS.tsv",
+      "bytes": 468,
+      "md5": "6ae9e246d3f442758ef0d4da338548b1",
+      "sha256": "0f441c72392f4aceef3460daa529724c48e7a27723d67ffc0fe4d1858e16b607"
+    },
+    {
+      "path": "/home/zhome/xiaoe-internship-data/processed/ACDC2017_qc_20261111/GEOMETRY_CONFLICT_AUDIT.tsv",
+      "bytes": 56308,
+      "md5": "eaf9075afa2a6b1d3ecfd8cf7e116aba",
+      "sha256": "5c672a7c891ab9120fa2b52404a967e63b357a5c9c3cc3b7df5f50c23e8b2cd4"
+    },
+    {
+      "path": "/home/zhome/xiaoe-internship-data/processed/ACDC2017_qc_20261111/GEOMETRY_POLICY.md",
+      "bytes": 755,
+      "md5": "137e9977fe1603381b1455cf1daa83ee",
+      "sha256": "5aba7c2490d0b66b47aee12a0672b7a38a9df0fe5e4ee94f9d708933cce9c8fb"
+    },
+    {
+      "path": "/home/zhome/xiaoe-internship-data/processed/ACDC2017_qc_20261111/GEOMETRY_VIEWS_VERIFICATION.json",
+      "bytes": 206472,
+      "md5": "172a011d19f77bf8fcda905e6539bc8f",
+      "sha256": "d30d473de5e722075c5dff7372e7afd4d4578ff5c396fa3ef43825b14d9d7c6b"
+    }
+  ]
+}
