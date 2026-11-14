@@ -1,6 +1,6 @@
 # 新增 HCM 数据：QC、Geneformer V1 编码与交付
 
-日期：2026-11-14。新增两套 QC 和本批三套 Geneformer V1 编码均已验收；ToDesk 传输正在进行。
+日期：2026-11-14。新增两套 QC 和本批三套 Geneformer V1 编码均已验收；ToDesk 下载反复超时，传输与目标端验收尚未完成，等待远端可用网络/代理。
 
 ## 本批范围和结果
 
@@ -82,3 +82,11 @@ D:/hcm-geneformer-data/
 QC 的检测基因数计算全部原生基因，编码长度只计算 V1 词表内的表达基因，因此序列可能短于 500；这不代表绕过 QC。
 
 代码：[src/qc_hcm_expansion_20261114](../src/qc_hcm_expansion_20261114/README.md)。QC 证据：[nuclear](../results/qc/hcm_expansion_20261114/nuclear/)。[全量 token 验收](../results/qc/hcm_expansion_20261114/v1_delivery/FULL_VERIFICATION.json)、[交付文件大小/MD5/SHA256](../results/qc/hcm_expansion_20261114/v1_delivery/DELIVERY_MANIFEST.tsv)、[打包摘要](../results/qc/hcm_expansion_20261114/v1_delivery/PACKAGE_STATUS.json)。目标端验收记录在实际通过后附入。
+
+## 传输状态：未完成
+
+归档 `hcm_expansion_20261114.tar.gz` 为 **197,790,119 字节**，SHA256 `b39483c4c471f361520ce1a48e66383cbeddfc6cf725dfbe341eb580812ac906`。Linux、本机及 GitHub 私有草稿 Release 返回的摘要一致。Release tag 为 `transfer-hcm-expansion-20261114`，数据作为临时传输资产保存，未提交到 Git 历史。
+
+ToDesk 直连 Tailscale 使用 sfo 中继，慢速后超时；Linux 转接亦超时。目标通过 HTTPS 和三个官方 CDN 地址续传后，仅收到 **9,810,793 字节**，没有完整归档，不能计算/宣称目标端最终哈希一致或加载成功。目标没有已配置的代理，已请用户提供可用网络/代理地址；本轮下载进程均已退出，部分文件保留供续传。
+
+正式新日期目录尚未放置数据，旧四套未修改。完整核心/编码保留于 Linux，本机也保留已验证归档：`D:/VirtualCell/deliverables/hcm-qc-token-transfer-20261114/hcm_expansion_20261114.tar.gz`。恢复网络后续传并运行 `accept_windows.py`，无需重做 QC/编码。见[传输状态](../results/qc/hcm_expansion_20261114/v1_delivery/DELIVERY_STATUS.json)及[GitHub 归档校验](../results/qc/hcm_expansion_20261114/v1_delivery/GITHUB_TRANSPORT_STATUS.json)。

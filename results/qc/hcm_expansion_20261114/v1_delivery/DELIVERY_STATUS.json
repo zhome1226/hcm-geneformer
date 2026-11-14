@@ -1,0 +1,21 @@
+{
+  "status": "blocked_pending_destination_network",
+  "utc": "2026-11-14T13:31:37.852669+00:00",
+  "QC_complete": true,
+  "tokenization_complete": true,
+  "datasets": {
+    "GSE255296": 7516,
+    "GSE292754": 3306,
+    "GSE138262_whole_cell": 3595
+  },
+  "total_cells": 14417,
+  "source_and_local_archive_verified": true,
+  "private_release_uploaded_and_GitHub_SHA256_verified": true,
+  "destination_archive_expected_bytes": 197790119,
+  "destination_archive_partial_bytes": 9810793,
+  "destination_final_hash_verified": false,
+  "destination_datasets_loaded": false,
+  "promoted_to_formal_destination": false,
+  "background_downloads_running": false,
+  "next_step": "Provide a working ToDesk network/proxy; resume the existing archive and run accept_windows.py. No repeated QC/tokenization required."
+}
