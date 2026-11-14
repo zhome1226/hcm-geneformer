@@ -23,6 +23,8 @@ models/
 *.ckpt
 *.bin
 *.safetensors
+*.arrow
+*.dataset/
 
 # python / env
 __pycache__/

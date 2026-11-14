@@ -1,0 +1,85 @@
+{
+  "status": "passed",
+  "mode": "smoke",
+  "utc": "2026-11-14T12:48:23.045681+00:00",
+  "total_cells": 96,
+  "datasets": [
+    {
+      "dataset": "GSE255296",
+      "cells": 32,
+      "donors": 4,
+      "disease_counts": {
+        "HCM": 32
+      },
+      "length_min": 593,
+      "length_median": 1670.5,
+      "length_max": 2048,
+      "expressed_vocab_genes_min": 593,
+      "expressed_vocab_genes_median": 1670.5,
+      "truncated_cells": 13,
+      "truncated_fraction": 0.40625,
+      "source_features": 36601,
+      "matched_features": 19585,
+      "unique_vocab_genes": 19585,
+      "duplicate_matched_features_collapsed": 0,
+      "count_fraction_min": 0.6359817990899544,
+      "count_fraction_median": 0.7737587217461115,
+      "all_cells_all_tokens_verified": true,
+      "metadata_exact": true,
+      "source_unchanged": false,
+      "path": "/home/zhome/hcm-geneformer-data/tokenized/geneformer_v1_20261114/smoke_datasets/GSE255296.dataset"
+    },
+    {
+      "dataset": "GSE292754",
+      "cells": 32,
+      "donors": 2,
+      "disease_counts": {
+        "HCM": 32
+      },
+      "length_min": 505,
+      "length_median": 1717.0,
+      "length_max": 2048,
+      "expressed_vocab_genes_min": 505,
+      "expressed_vocab_genes_median": 1717.0,
+      "truncated_cells": 14,
+      "truncated_fraction": 0.4375,
+      "source_features": 36601,
+      "matched_features": 19585,
+      "unique_vocab_genes": 19585,
+      "duplicate_matched_features_collapsed": 0,
+      "count_fraction_min": 0.6458902408740999,
+      "count_fraction_median": 0.7594475797435025,
+      "all_cells_all_tokens_verified": true,
+      "metadata_exact": true,
+      "source_unchanged": false,
+      "path": "/home/zhome/hcm-geneformer-data/tokenized/geneformer_v1_20261114/smoke_datasets/GSE292754.dataset"
+    },
+    {
+      "dataset": "GSE138262_whole_cell",
+      "cells": 32,
+      "donors": 11,
+      "disease_counts": {
+        "HCM": 20,
+        "Control": 12
+      },
+      "length_min": 643,
+      "length_median": 1546.5,
+      "length_max": 2048,
+      "expressed_vocab_genes_min": 643,
+      "expressed_vocab_genes_median": 1546.5,
+      "truncated_cells": 12,
+      "truncated_fraction": 0.375,
+      "source_features": 28663,
+      "matched_features": 18904,
+      "unique_vocab_genes": 18904,
+      "duplicate_matched_features_collapsed": 0,
+      "count_fraction_min": 0.9143071911801554,
+      "count_fraction_median": 0.9930965573568308,
+      "all_cells_all_tokens_verified": true,
+      "metadata_exact": true,
+      "source_unchanged": false,
+      "path": "/home/zhome/hcm-geneformer-data/tokenized/geneformer_v1_20261114/smoke_datasets/GSE138262_whole_cell.dataset"
+    }
+  ],
+  "checks": "Every cell: source counts, metadata, vocabulary, uniqueness, lengths, descending median-scaled ranks and exact cutoff ties; no Geneformer rank function used."
+}

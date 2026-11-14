@@ -1,0 +1,18 @@
+{
+  "utc": "2026-11-14T12:48:29.408407+00:00",
+  "executable": "/home/zhome/xiaoe-internship-data/_processing/geneformer_v1_tokenization_20261112/venv/bin/python",
+  "tokenizer_source": "/home/zhome/xiaoe-internship-data/_processing/geneformer_v1_tokenization_20261112/official_source/geneformer/tokenizer.py",
+  "tokenizer_sha256": "689b71a916b75fa618fbb460a7fc460c3ab32d41e4f98064efb0ebb3ee921002",
+  "official_revision": "1f7fbae4e469a5f4f1af8c111a529cfe1b3829f5",
+  "versions": {
+    "geneformer": "0.1.0",
+    "numpy": "1.26.4",
+    "scipy": "1.15.1",
+    "pandas": "2.2.3",
+    "anndata": "0.11.4",
+    "scanpy": "1.11.5",
+    "datasets": "3.0.2",
+    "torch": "2.6.0",
+    "transformers": "4.46.1"
+  }
+}

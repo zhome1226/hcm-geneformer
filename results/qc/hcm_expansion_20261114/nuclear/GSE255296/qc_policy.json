@@ -1,0 +1,153 @@
+{
+  "version": "HCM_expansion_snRNA_20261114_v1",
+  "seed": 20261114,
+  "min_genes": 500,
+  "max_genes": 5000,
+  "mt_percent_exclusive_max": 5,
+  "count_source": "Released GEO nonnegative integer matrices; upstream SoupX or other correction not established by integer appearance. Deliverable X/counts remain unchanged; all native features retained.",
+  "cell_calling": "No independent EmptyDrops: no positive-UMI<=100 background barcodes in any released matrix. Provenance-screened released candidate barcodes; ambient correction not rerun without unfiltered background.",
+  "author_QC": "GSE255296 GEO Cell Ranger6.0.1; paper PMC12054467 uses SoupX1.6.1 and DoubletFinder2.0.3 but application to deposited matrices is unverified. GSE292754 only new P186/P194 retained. This batch applies agreed project nuclear numeric baseline and audits sample loss.",
+  "doublet_model": "scDblFinder per capture on all >=500-gene released barcodes, including high MT and >5000 genes; dbr=NULL,dbr.per1k=.008. Screening heuristic: true loading and upstream doublet history unknown.",
+  "doublet_exclusion": "Algorithmic doublet AND strong mixed pair (3 genes each >=2 UMI in each lineage, both program means >=max(reference positive q10,negative q99), smaller/larger>=.25). Algorithm-only calls retained if other CM evidence passes; same-lineage doublets not excluded reliably.",
+  "identity": "Fixed adult-LV reference and donor-held-out calibration; SingleR raw/pruned labels, marker panels and contextual support. Pediatric/region domain shift remains explicit.",
+  "CM_core": "Best/pruned reference both CM, >=2 detected CM markers, CM program dominance, reference-tail pass OR >=3 CM markers and >=.5 CM-anchor neighborhood support; no strong mixed flag.",
+  "CM_pending": "Best-reference CM or >=3 CM markers and CM program dominance, failing core and not jointly excluded; not tokenized.",
+  "graph": "Separate log1p CP10k diagnostic copy; <=3000 shared non-MT HVGs, <=40 PCs, 15 exact neighbors, Leiden .6; no disease-based integration.",
+  "feature_space": "Native Ensembl union, full feature axes and per-capture availability mask; structural missingness is not observed zero.",
+  "light": "<=20000 unique CM cores, balanced across source donor identifiers; no duplication.",
+  "disease_map": {
+    "Control": 0,
+    "HCM": 1
+  },
+  "split_status": "unassigned;model_history_and_cross_study_donor_review_pending",
+  "replicate_policy": "GSE255296 has four deposited human samples only; reused Chin controls/HCM excluded from new download. GSE292754 P86 and reused controls excluded. Cross-study donor independence not proven.",
+  "clinical_stage": "GSE255296 septal myectomy; age/sex unresolved. GSE292754 pediatric end-stage LV explants P186/P194. Both released subsets HCM-only; not standalone HCM-v-Control cohorts.",
+  "scope": "QC then separate Geneformer V1 serialization only; no DGE, training or in-silico perturbation.",
+  "mixed_program_bounds": {
+    "Cardiomyocyte": {
+      "positive_q10": 2.0177177872310743,
+      "negative_q99": 2.2061581613486987,
+      "threshold": 2.2061581613486987
+    },
+    "Fibroblast": {
+      "positive_q10": 0.49856167763108883,
+      "negative_q99": 1.1492012336489958,
+      "threshold": 1.1492012336489958
+    },
+    "Endothelial": {
+      "positive_q10": 0.5477254824204757,
+      "negative_q99": 0.5916536880035794,
+      "threshold": 0.5916536880035794
+    },
+    "Immune": {
+      "positive_q10": 0.0,
+      "negative_q99": 0.0,
+      "threshold": 0.0
+    },
+    "Mural": {
+      "positive_q10": 0.47403376034313566,
+      "negative_q99": 0.9780136147441695,
+      "threshold": 0.9780136147441695
+    }
+  },
+  "doublet_pairs": [
+    [
+      "Cardiomyocyte",
+      "Fibroblast"
+    ],
+    [
+      "Cardiomyocyte",
+      "Endothelial"
+    ],
+    [
+      "Cardiomyocyte",
+      "Immune"
+    ],
+    [
+      "Cardiomyocyte",
+      "Mural"
+    ],
+    [
+      "Fibroblast",
+      "Endothelial"
+    ],
+    [
+      "Fibroblast",
+      "Immune"
+    ],
+    [
+      "Endothelial",
+      "Immune"
+    ],
+    [
+      "Immune",
+      "Mural"
+    ]
+  ],
+  "panels": {
+    "Cardiomyocyte": [
+      "TNNT2",
+      "TTN",
+      "TNNI3",
+      "ACTC1",
+      "MYH7",
+      "MYBPC3",
+      "MYL2",
+      "TNNC1",
+      "RYR2",
+      "PLN",
+      "ACTN2",
+      "MYH6"
+    ],
+    "Fibroblast": [
+      "COL1A1",
+      "COL1A2",
+      "DCN",
+      "LUM",
+      "PDGFRA"
+    ],
+    "Endothelial": [
+      "PECAM1",
+      "VWF",
+      "KDR",
+      "EMCN",
+      "CLDN5"
+    ],
+    "Immune": [
+      "PTPRC",
+      "LST1",
+      "TYROBP",
+      "CD3D",
+      "CD79A"
+    ],
+    "Mural": [
+      "RGS5",
+      "PDGFRB",
+      "CSPG4",
+      "MYH11",
+      "ACTA2",
+      "TAGLN"
+    ],
+    "Neural": [
+      "NRXN1",
+      "SNAP25",
+      "SYT1",
+      "SLC1A3",
+      "PLP1"
+    ],
+    "Adipocyte": [
+      "ADIPOQ",
+      "FABP4",
+      "PLIN1",
+      "LPL",
+      "CIDEC"
+    ],
+    "Mesothelial": [
+      "WT1",
+      "MSLN",
+      "UPK3B",
+      "KRT8",
+      "KRT18"
+    ]
+  }
+}

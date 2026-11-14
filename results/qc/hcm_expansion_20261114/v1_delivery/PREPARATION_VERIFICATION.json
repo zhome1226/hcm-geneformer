@@ -1,0 +1,62 @@
+{
+  "status": "passed",
+  "utc": "2026-11-14T12:48:01.773880+00:00",
+  "datasets": [
+    {
+      "dataset": "GSE255296",
+      "source": "/home/zhome/hcm-geneformer-data/processed/GSE255296_qc_20261114/cm_qc_full.h5ad",
+      "source_bytes": 89728875,
+      "source_sha256": "00d21bf8d2966fb07a00f1965738fbe0bde1bee93949f5668cb3b0976e4a0044",
+      "prepared_path": "/home/zhome/hcm-geneformer-data/tokenized/geneformer_v1_20261114/prepared_inputs/GSE255296.h5ad",
+      "prepared_bytes": 86211964,
+      "prepared_sha256": "181d2b0ad4483c102be855cd1ae49fafa5a0bbaa3e48ed1b05501bcf71d7f444",
+      "cells": 7516,
+      "genes": 36601,
+      "donors": 4,
+      "gene_mapping_basis": "source_var_index",
+      "source_counts_and_feature_masks_preserved": true,
+      "disease_counts": {
+        "HCM": 7516
+      },
+      "split": "unassigned"
+    },
+    {
+      "dataset": "GSE292754",
+      "source": "/home/zhome/hcm-geneformer-data/processed/GSE292754_qc_20261114/cm_qc_full.h5ad",
+      "source_bytes": 40944612,
+      "source_sha256": "c4e85b36487fe0c1c77dd362c8b929a6792c89d8d64200210434679449ab69e0",
+      "prepared_path": "/home/zhome/hcm-geneformer-data/tokenized/geneformer_v1_20261114/prepared_inputs/GSE292754.h5ad",
+      "prepared_bytes": 41109220,
+      "prepared_sha256": "df5dc908f028e6dd67239649e211082b6390bde73185924a75750345e817c97d",
+      "cells": 3306,
+      "genes": 36601,
+      "donors": 2,
+      "gene_mapping_basis": "source_var_index",
+      "source_counts_and_feature_masks_preserved": true,
+      "disease_counts": {
+        "HCM": 3306
+      },
+      "split": "unassigned"
+    },
+    {
+      "dataset": "GSE138262_whole_cell",
+      "source": "/home/zhome/hcm-geneformer-data/processed/GSE138262_whole_cell_qc_20261114/cm_qc_full.h5ad",
+      "source_bytes": 37118773,
+      "source_sha256": "2e1361089d5930f64ae1a4ef502fb327dac76dd698c75d9575e2cdfd460678f3",
+      "prepared_path": "/home/zhome/hcm-geneformer-data/tokenized/geneformer_v1_20261114/prepared_inputs/GSE138262_whole_cell.h5ad",
+      "prepared_bytes": 39915845,
+      "prepared_sha256": "707d118d8eee5f256ba6fcb2171c91a762a48b69784f792f25c2d50f12f67849",
+      "cells": 3595,
+      "genes": 28663,
+      "donors": 12,
+      "gene_mapping_basis": "source_var_gene_id",
+      "source_counts_and_feature_masks_preserved": true,
+      "disease_counts": {
+        "HCM": 2216,
+        "Control": 1379
+      },
+      "split": "unassigned"
+    }
+  ],
+  "total_cells": 14417
+}

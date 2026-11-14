@@ -1,0 +1,49 @@
+{
+  "status": "exported_pending_independent_verification",
+  "dataset": "GSE292754",
+  "completed_utc": "2026-11-14T12:42:25.260013+00:00",
+  "strict_nuclei": 27499,
+  "all_cells_qc": 27420,
+  "core_CM": 3306,
+  "light_CM": 3306,
+  "pending_CM": 894,
+  "suspected_doublets": 79,
+  "genes": 36601,
+  "input_donors": 2,
+  "input_samples": 2,
+  "core_donors": 2,
+  "hashes": {
+    "all_cells_qc.h5ad": {
+      "bytes": 198755360,
+      "sha256": "cc75a7108de2b66e76359b3b1ad2a4e7f6d3397d8861d07d84790b4b101688ee"
+    },
+    "cm_qc_full.h5ad": {
+      "bytes": 40944612,
+      "sha256": "c4e85b36487fe0c1c77dd362c8b929a6792c89d8d64200210434679449ab69e0"
+    },
+    "cm_qc_light.h5ad": {
+      "bytes": 40944612,
+      "sha256": "c4e85b36487fe0c1c77dd362c8b929a6792c89d8d64200210434679449ab69e0"
+    },
+    "cm_review_pending.h5ad": {
+      "bytes": 8563846,
+      "sha256": "898abf8548c598986d7d3a9046c884e12c52f96f3494942892d59202ac3bf4a0"
+    },
+    "diagnostic_normalized.h5ad": {
+      "bytes": 103094029,
+      "sha256": "ff4ca6b12af3e373cf2709e24969a2e59f2114fd843e89aba8a91c264ee8a53a"
+    },
+    "suspected_doublets.h5ad": {
+      "bytes": 4232722,
+      "sha256": "770b764960b3833a36cedc2da1553b308d5d537e281536d7afa47636ff2b7252"
+    }
+  },
+  "neighbors_transformer": "sklearn (exact)",
+  "python_versions": {
+    "scanpy": "1.12.5",
+    "anndata": "0.13.4",
+    "numpy": "2.5.4",
+    "scipy": "1.18.1",
+    "pandas": "3.1.1"
+  }
+}

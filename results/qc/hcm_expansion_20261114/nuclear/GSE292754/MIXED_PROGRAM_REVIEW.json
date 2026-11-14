@@ -1,0 +1,35 @@
+{
+  "bounds": {
+    "Cardiomyocyte": {
+      "positive_q10": 2.0177177872310743,
+      "negative_q99": 2.2061581613486987,
+      "threshold": 2.2061581613486987
+    },
+    "Fibroblast": {
+      "positive_q10": 0.49856167763108883,
+      "negative_q99": 1.1492012336489958,
+      "threshold": 1.1492012336489958
+    },
+    "Endothelial": {
+      "positive_q10": 0.5477254824204757,
+      "negative_q99": 0.5916536880035794,
+      "threshold": 0.5916536880035794
+    },
+    "Immune": {
+      "positive_q10": 0.0,
+      "negative_q99": 0.0,
+      "threshold": 0.0
+    },
+    "Mural": {
+      "positive_q10": 0.47403376034313566,
+      "negative_q99": 0.9780136147441695,
+      "threshold": 0.9780136147441695
+    }
+  },
+  "reference": {
+    "nuclei": 2603,
+    "weak_flags": 307,
+    "strong_flags": 0
+  },
+  "threshold_source": "Fixed adult LV reference holdout: max(positive q10,negative q99) panel score; >=3 genes each >=2 UMIs per lineage and smaller/larger program ratio >=.25. Same holdout defines and evaluates thresholds; not independent doublet calibration. Disease labels are never used."
+}

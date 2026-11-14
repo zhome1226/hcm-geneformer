@@ -1,0 +1,104 @@
+{
+  "source": "Litvinukova2020 adult left ventricular nuclei; same fixed training/held-out donor partitions as SCP1303 reference",
+  "accuracy": 0.948905109489051,
+  "common_genes": 31823,
+  "thresholds": {
+    "Adipocyte": {
+      "n_correct": 84,
+      "delta_q05": 0.2648014405370658,
+      "delta_next_q05": 0.1791404009724378
+    },
+    "Cardiomyocyte": {
+      "n_correct": 400,
+      "delta_q05": 0.31227191007380406,
+      "delta_next_q05": 0.2507914755039195
+    },
+    "Endothelial": {
+      "n_correct": 372,
+      "delta_q05": 0.1876361439985765,
+      "delta_next_q05": 0.13002088751991836
+    },
+    "Fibroblast": {
+      "n_correct": 386,
+      "delta_q05": 0.17375840435876125,
+      "delta_next_q05": 0.12166491663441426
+    },
+    "Immune": {
+      "n_correct": 397,
+      "delta_q05": 0.1692490253614272,
+      "delta_next_q05": 0.12465539621993979
+    },
+    "Neural": {
+      "n_correct": 151,
+      "delta_q05": 0.20565415350855298,
+      "delta_next_q05": 0.0844051580559209
+    },
+    "Pericyte": {
+      "n_correct": 379,
+      "delta_q05": 0.21627992496252751,
+      "delta_next_q05": 0.051974297792410085
+    },
+    "Smooth_muscle": {
+      "n_correct": 293,
+      "delta_q05": 0.1565324072432476,
+      "delta_next_q05": 0.05120124856515954
+    }
+  },
+  "per_label": [
+    {
+      "label": "Adipocyte",
+      "n_truth": 89,
+      "precision": 1.0,
+      "recall": 0.9438202247191011
+    },
+    {
+      "label": "Cardiomyocyte",
+      "n_truth": 400,
+      "precision": 0.898876404494382,
+      "recall": 1.0
+    },
+    {
+      "label": "Endothelial",
+      "n_truth": 400,
+      "precision": 0.986737400530504,
+      "recall": 0.93
+    },
+    {
+      "label": "Fibroblast",
+      "n_truth": 400,
+      "precision": 0.9507389162561576,
+      "recall": 0.965
+    },
+    {
+      "label": "Immune",
+      "n_truth": 400,
+      "precision": 1.0,
+      "recall": 0.9925
+    },
+    {
+      "label": "Mesothelial",
+      "n_truth": 8,
+      "precision": 1.0,
+      "recall": 1.0
+    },
+    {
+      "label": "Neural",
+      "n_truth": 180,
+      "precision": 1.0,
+      "recall": 0.8388888888888889
+    },
+    {
+      "label": "Pericyte",
+      "n_truth": 400,
+      "precision": 0.8752886836027713,
+      "recall": 0.9475
+    },
+    {
+      "label": "Smooth_muscle",
+      "n_truth": 326,
+      "precision": 0.9701986754966887,
+      "recall": 0.8987730061349694
+    }
+  ],
+  "limitation": "Empirical reference tails are not posterior probabilities or independent disease validation; threshold selection and apparent tail metrics share the same held-out reference set."
+}
