@@ -1,0 +1,22 @@
+{
+  "model_repo": "ctheodoris/Geneformer",
+  "model_revision_checked": "1f7fbae4e469a5f4f1af8c111a529cfe1b3829f5",
+  "corpus_repo": "ctheodoris/Genecorpus-30M",
+  "corpus_revision_checked": "71fae97a141652584e0cf09e8ace306e9b9e6d8c",
+  "v1_pretrained_subfolder": "Geneformer-V1-10M",
+  "v1_architecture": "BertForMaskedLM",
+  "v1_max_positions": 2048,
+  "v1_vocab": 25426,
+  "v1_cardiomyopathy_subfolder": "fine_tuned_models/Geneformer-V1-10M_CellClassifier_cardiomyopathies_220224",
+  "v1_cardiomyopathy_architecture": "BertForSequenceClassification",
+  "v1_cardiomyopathy_label_count": 3,
+  "checkpoint_label_mapping_to_HCM_NF_DCM": "Not encoded in inspected config; LABEL_0/1/2 cannot be assumed to match our binary labels",
+  "main_default_model": "Geneformer-V2-316M",
+  "main_max_positions": 4096,
+  "actual_local_checkpoint": "unresolved; user supplied repository roots only",
+  "SCP1303_supervised_exposure": "Related Chaffin source used in original disease fine-tuning; exact checkpoint donor partitions not audited",
+  "pretraining_overlap_by_dataset": "unresolved; example fine-tuning files do not prove pretraining inclusion",
+  "independent_external_validation_approved": false,
+  "training_split": "unassigned",
+  "weights_downloaded_this_round": false
+}

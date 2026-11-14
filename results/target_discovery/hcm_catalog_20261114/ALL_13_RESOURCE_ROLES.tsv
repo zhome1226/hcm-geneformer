@@ -1,0 +1,14 @@
+resource	modality	status	role	limitation
+SCP1303	adult_snRNAseq	existing_QC_and_V1_dataset	reference_or_discovery_exposure_unresolved	Related source used for cardiomyopathy fine-tuning; not automatically external
+GSE174691	adult_snRNAseq	existing_QC_and_V1_dataset	adult_non_scp_existing_qc	HCM-only accession; disease/accession confounding
+GSE161921	adult_snRNAseq	existing_QC_and_V1_dataset	adult_non_scp_existing_qc	Control-only accession; disease/accession confounding
+Liu2023	adult_snRNAseq	existing_QC_and_V1_dataset	adult_non_scp_existing_qc	10 HCM plus two controls; CL0412A/B same donor; independent status unresolved
+GSE181764	adult_snRNAseq	existing_QC_no_V1_dataset	HCM_supplement_with_limits	Six HCM and two control donors retained; only five control nuclei; missing-feature masks
+GSE138262	adult_whole_cell_RNAseq	strict_QC_exists_reqc_required	full_cell_separate_review	Six strict core cells; full source has 6114 HCM and 1423 companion control cells; technology/study confounded
+GSE203274	pediatric_snRNAseq	existing_QC_no_V1_dataset	pediatric_separate	One HCM donor P86 plus four controls; cannot count nuclei as independent patients
+GSE249925	myocardium_bulk_RNAseq	downloaded_prior_raw_TMM_semantics_unresolved	bulk_support_after_semantics_check	97 HCM plus 23 controls; not cell-specific Geneformer input
+VCC2025	perturbation_competition	prior_download_records_not_reaudited_this_round	method_benchmark_only	No human HCM cardiomyocyte case/control cohort
+NeurIPS2023	perturbation_competition	prior_download_records_not_reaudited_this_round	method_benchmark_only	No human HCM cardiomyocyte case/control cohort
+NeurIPS2021	multimodal_competition	prior_download_records_not_reaudited_this_round	method_benchmark_only	No human HCM cardiomyocyte case/control cohort
+CausalBench2023	causal_network_competition	prior_download_records_not_reaudited_this_round	method_benchmark_only	No human HCM cardiomyocyte case/control cohort
+ACDC2017	cardiac_MRI_competition	prior_download_records_not_reaudited_this_round	imaging_separate	Contains HCM imaging; no gene-expression matrix

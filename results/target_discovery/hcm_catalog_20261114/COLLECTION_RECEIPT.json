@@ -1,0 +1,43 @@
+{
+  "host": "ad2012",
+  "catalog": "/home/zhome/hcm-geneformer-analysis/hcm_cohort_catalog_20261114_v2",
+  "links": [
+    {
+      "name": "chin_GSE161921.h5ad",
+      "target": "/home/zhome/xiaoe-internship-data/processed/chin_GSE161921_qc_20261111/cm_qc_full.h5ad",
+      "bytes": 18123021
+    },
+    {
+      "name": "chin_GSE174691.h5ad",
+      "target": "/home/zhome/xiaoe-internship-data/processed/chin_GSE174691_qc_20261111/cm_qc_full.h5ad",
+      "bytes": 47740392
+    },
+    {
+      "name": "chin_GSE181764.h5ad",
+      "target": "/home/zhome/xiaoe-internship-data/processed/chin_GSE181764_qc_20261111/cm_qc_full.h5ad",
+      "bytes": 41432206
+    },
+    {
+      "name": "liu2023.h5ad",
+      "target": "/home/zhome/xiaoe-internship-data/processed/liu2023_qc_20261111/cm_qc_full.h5ad",
+      "bytes": 149065216
+    }
+  ],
+  "summary": {
+    "datasets": [
+      "chin_GSE161921",
+      "chin_GSE174691",
+      "liu2023",
+      "chin_GSE181764"
+    ],
+    "nuclei": 30458,
+    "HCM": 23090,
+    "Control": 7368,
+    "dataset_scoped_donor_entries": 33,
+    "unique_people_across_studies": "unresolved",
+    "independent_of_model_training": "unresolved",
+    "approved_as_pooled_dge_or_training_input": false
+  },
+  "new_QC_run": false,
+  "ToDesk_operated": false
+}

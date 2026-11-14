@@ -1,0 +1,82 @@
+{
+  "datasets": {
+    "chin_GSE161921": {
+      "path": "/home/zhome/xiaoe-internship-data/processed/chin_GSE161921_qc_20261111/cm_qc_full.h5ad",
+      "bytes": 18123021,
+      "sha256": "42c82b2200b22e6987722ce6d6a27072f08024207a38a5867b2c8d9838d0b563",
+      "expected_cells": 3534,
+      "group": "adult_non_scp_existing_qc",
+      "qc_status": "existing_QC_passed_use_with_limits",
+      "count_semantics": "unchanged_source_integer_counts",
+      "limitation": "Control-only accession; disease/accession confounded in Chin pair",
+      "new_v1_tokenization_needed": "no_existing_output"
+    },
+    "chin_GSE174691": {
+      "path": "/home/zhome/xiaoe-internship-data/processed/chin_GSE174691_qc_20261111/cm_qc_full.h5ad",
+      "bytes": 47740392,
+      "sha256": "c360016c099f3da8a5bdf426ecba1acd3dfe35f813705a85259a5c9caddd5b80",
+      "expected_cells": 10150,
+      "group": "adult_non_scp_existing_qc",
+      "qc_status": "existing_QC_passed_use_with_limits",
+      "count_semantics": "unchanged_source_integer_counts",
+      "limitation": "HCM-only accession; disease/accession confounded in Chin pair",
+      "new_v1_tokenization_needed": "no_existing_output"
+    },
+    "liu2023": {
+      "path": "/home/zhome/xiaoe-internship-data/processed/liu2023_qc_20261111/cm_qc_full.h5ad",
+      "bytes": 149065216,
+      "sha256": "03612584111dbb84d0f4f941408f9311a9897ec44507542000689f28bc1f7e74",
+      "expected_cells": 8547,
+      "group": "adult_non_scp_existing_qc",
+      "qc_status": "existing_QC_passed_use_with_limits",
+      "count_semantics": "unchanged_source_integer_counts",
+      "limitation": "Only two control donors; CL0412A/B same donor; missing age/sex",
+      "new_v1_tokenization_needed": "no_existing_output"
+    },
+    "SCP1303": {
+      "path": "/home/zhome/xiaoe-internship-data/processed/SCP1303_qc_reviewed_final_20261111/cm_qc_full.h5ad",
+      "bytes": 1729940710,
+      "sha256": "975f3b5cc658b579997321b0118731407d6254523628ba564cf9dd9d0acf3efe",
+      "expected_cells": 114711,
+      "group": "scp_reference_exposure_unresolved",
+      "qc_status": "existing_QC_passed_use_with_limits",
+      "count_semantics": "X_counts_CellBender_adjusted_separate_CellRanger_raw_layer",
+      "limitation": "Related source used in Geneformer cardiomyopathy fine-tuning; checkpoint/donor history unresolved",
+      "new_v1_tokenization_needed": "no_existing_output"
+    },
+    "chin_GSE181764": {
+      "path": "/home/zhome/xiaoe-internship-data/processed/chin_GSE181764_qc_20261111/cm_qc_full.h5ad",
+      "bytes": 41432206,
+      "sha256": "74a0350a017953564fb1802180b842ae69cc0f828590ac3d76ccaac9add579a1",
+      "expected_cells": 8227,
+      "group": "adult_non_scp_existing_qc",
+      "qc_status": "existing_QC_passed_use_with_limits",
+      "count_semantics": "source_integer_counts_with_feature_availability_mask",
+      "limitation": "Only five control nuclei across two retained control donors; end-stage cases and feature missingness masks",
+      "new_v1_tokenization_needed": "yes_if_selected"
+    },
+    "GSE138262": {
+      "path": "/home/zhome/xiaoe-internship-data/processed/wehrens_GSE138262_qc_20261111/cm_qc_full.h5ad",
+      "bytes": 3571845,
+      "sha256": "08e6157e5dd4796a482b2d9f97d69ebbfbc02927466c8827731d2866bafebc0b",
+      "expected_cells": 6,
+      "group": "full_cell_reqc_pending",
+      "qc_status": "strict_baseline_passed_but_inadequate_for_disease_comparison",
+      "count_semantics": "unchanged_source_integer_counts",
+      "limitation": "Strict baseline retained six HCM cells, zero controls; full-cell-specific QC review required; technology/study confounded",
+      "new_v1_tokenization_needed": "deferred_until_reqc"
+    },
+    "GSE203274": {
+      "path": "/home/zhome/xiaoe-internship-data/processed/pediatric_GSE203274_qc_20261111/cm_qc_full.h5ad",
+      "bytes": 426015108,
+      "sha256": "14901219f67d3319ed36dc2795dfb6316bf406ff9ea99cb76905038923908494",
+      "expected_cells": 34532,
+      "group": "pediatric_separate",
+      "qc_status": "existing_QC_passed_use_with_limits",
+      "count_semantics": "author_CellBender_integer_counts",
+      "limitation": "Pediatric; one HCM donor P86; keep batches together; separate from adult primary cohort",
+      "new_v1_tokenization_needed": "deferred_separate_pediatric"
+    }
+  },
+  "full_cell_reqc_source": "/home/zhome/xiaoe-internship-data/processed/wehrens_GSE138262_qc_20261111/all_source_counts.h5ad"
+}
