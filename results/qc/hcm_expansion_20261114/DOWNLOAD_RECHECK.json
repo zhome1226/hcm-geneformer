@@ -1,0 +1,97 @@
+{
+  "complete": true,
+  "files": 18,
+  "total_bytes": 438817642,
+  "sample_checks": [
+    {
+      "dataset": "GSE255296",
+      "sample": "GSM8068510",
+      "source_donor_id": "5246",
+      "published_barcodes": 10824,
+      "features": 36601,
+      "stored_entries": 22744279,
+      "all_values_finite_nonnegative_integer": true,
+      "axes_unique_and_match": true,
+      "status": "download_verified_not_QC_cleaned",
+      "disease": "HCM",
+      "age_stratum": "adult_candidate_age_to_verify"
+    },
+    {
+      "dataset": "GSE255296",
+      "sample": "GSM8068511",
+      "source_donor_id": "5042",
+      "published_barcodes": 10379,
+      "features": 36601,
+      "stored_entries": 14314789,
+      "all_values_finite_nonnegative_integer": true,
+      "axes_unique_and_match": true,
+      "status": "download_verified_not_QC_cleaned",
+      "disease": "HCM",
+      "age_stratum": "adult_candidate_age_to_verify"
+    },
+    {
+      "dataset": "GSE255296",
+      "sample": "GSM8068512",
+      "source_donor_id": "2883",
+      "published_barcodes": 16834,
+      "features": 36601,
+      "stored_entries": 25150287,
+      "all_values_finite_nonnegative_integer": true,
+      "axes_unique_and_match": true,
+      "status": "download_verified_not_QC_cleaned",
+      "disease": "HCM",
+      "age_stratum": "adult_candidate_age_to_verify"
+    },
+    {
+      "dataset": "GSE255296",
+      "sample": "GSM8423481",
+      "source_donor_id": "2795",
+      "published_barcodes": 10836,
+      "features": 36601,
+      "stored_entries": 16616821,
+      "all_values_finite_nonnegative_integer": true,
+      "axes_unique_and_match": true,
+      "status": "download_verified_not_QC_cleaned",
+      "disease": "HCM",
+      "age_stratum": "adult_candidate_age_to_verify"
+    },
+    {
+      "dataset": "GSE292754",
+      "sample": "GSM8864696",
+      "source_donor_id": "P186",
+      "published_barcodes": 17360,
+      "features": 36601,
+      "stored_entries": 21628470,
+      "all_values_finite_nonnegative_integer": true,
+      "axes_unique_and_match": true,
+      "status": "download_verified_not_QC_cleaned",
+      "disease": "HCM",
+      "age_stratum": "pediatric"
+    },
+    {
+      "dataset": "GSE292754",
+      "sample": "GSM8864697",
+      "source_donor_id": "P194",
+      "published_barcodes": 12827,
+      "features": 36601,
+      "stored_entries": 15091325,
+      "all_values_finite_nonnegative_integer": true,
+      "axes_unique_and_match": true,
+      "status": "download_verified_not_QC_cleaned",
+      "disease": "HCM",
+      "age_stratum": "pediatric"
+    }
+  ],
+  "local_MD5_recheck": [
+    {
+      "dataset": "GSE255296",
+      "MD5SUMS_recheck_pass": true,
+      "files": 12
+    },
+    {
+      "dataset": "GSE292754",
+      "MD5SUMS_recheck_pass": true,
+      "files": 6
+    }
+  ]
+}

@@ -1,0 +1,5 @@
+disease	action	cells	median_nonMT_UMI	median_nonMT_genes	median_MT_percent
+Control	identity_or_mixed_QC_review	21	2022.0	909.0	62.78598906661267
+Control	whole_cell_CM_core	1379	16665.0	2418.0	59.29130108519972
+HCM	identity_or_mixed_QC_review	76	2530.5	1571.0	18.040025314892567
+HCM	whole_cell_CM_core	2216	2184.5	1068.5	32.77030928120756

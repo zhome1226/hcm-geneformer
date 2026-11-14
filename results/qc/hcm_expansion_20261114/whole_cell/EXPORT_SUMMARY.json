@@ -1,0 +1,29 @@
+{
+  "exported_utc": "2026-11-14T12:10:00.188883+00:00",
+  "source_cells": 7537,
+  "author_depth_candidates": 3692,
+  "core_cells": 3595,
+  "pending_cells": 97,
+  "core_disease_cells": {
+    "HCM": 2216,
+    "Control": 1379
+  },
+  "core_donors": {
+    "Control": 7,
+    "HCM": 5
+  },
+  "source_donors": 12,
+  "genes": 28663,
+  "mixed_review_candidates": 35,
+  "joint_numeric_outliers": 7,
+  "high_complexity_flag_not_automatic_doublet": 125,
+  "old_strict_core_cells": 6,
+  "source_counts_preserved": true,
+  "split": "unassigned",
+  "training_or_DGE_run": false,
+  "tokenization_run": false,
+  "limitation": "Supplementary whole-cell resource; disease, study and technology confounded. Not approved as independent binary validation or automatically pooled adult snRNA training.",
+  "verification_status": "passed",
+  "verification_checks_passed": 71,
+  "verification_report": "INDEPENDENT_VERIFICATION.json"
+}

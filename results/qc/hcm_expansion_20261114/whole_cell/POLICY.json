@@ -1,0 +1,26 @@
+{
+  "version": "GSE138262_author_depth_whole_cell_v2_20261114",
+  "created_utc": "2026-11-14T12:09:30.660290+00:00",
+  "author_repo_commit": "621c874b6e1f98f6eee83084c6424a52e24d4f97",
+  "author_script": "Projects/HCM_SCS_2021_06_SeuratRevisedAnalysis_v2_UmiTools.R",
+  "author_lines": "626-635, 738-777; executed filter line 769, not commented line 766",
+  "numeric_gate": "author_analysis_included AND total non-MT UMIs > 1000",
+  "MT_cutoff": null,
+  "upper_gene_cutoff": null,
+  "numeric_rationale": "Source-specific author protocol for sorted whole cells; MT-heavy whole cells differ from nuclei. MT retained in stored counts.",
+  "outlier_review": "3 raw MAD within each native table/plate-part (>=20 candidates; else study fallback). High MT AND low log1p non-MT detected genes goes to review; high depth/complexity alone is a flag.",
+  "identity": "SingleR broad and pruned Cardiomyocyte labels AND >=3 CM panel genes each >=2 UMIs AND CM-program dominance; no graph rescue.",
+  "identity_normalization": "Panel scores: diagnostic log1p(CP10k) using full non-MT library size. SingleR: common non-MT gene subset normalized monotonically within each cell. Stored X/counts remain untouched.",
+  "mixed_review": "For supported reference lineages: CM and another lineage each >=3 genes with >=2 UMIs, both programs >=max(reference truth positive q10,negative q99), weaker/stronger score >=0.25. For rare lineages without >=20 reference positives: >=3 genes each >=2 UMIs in both panels and other/CM program >=0.5 is an uncalibrated review flag. Neither proves a doublet.",
+  "doublet_scope": "No 10x loading model, EmptyDrops, Scrublet or automatic high-gene doublet call for these plate-sorted/selected whole cells; homotypic doublets unresolved.",
+  "reference": "Same fixed donor-separated adult LV nuclear reference and calibration; retrain SingleR on common non-MT genes; reference domain shift remains.",
+  "use": "Supplementary whole-cell resource; disease, study and technology confounded. Not approved as independent binary validation or automatically pooled adult snRNA training.",
+  "split": "unassigned",
+  "originals": {
+    "/home/zhome/xiaoe-internship-data/processed/wehrens_GSE138262_qc_20261111/all_source_counts.h5ad": "dddbb53353ad8393c5f22e0cfe05fba05254befb864c5307e45acd27aa7ae83c",
+    "/home/zhome/xiaoe-internship-data/processed/wehrens_GSE138262_qc_20261111/cm_qc_full.h5ad": "08e6157e5dd4796a482b2d9f97d69ebbfbc02927466c8827731d2866bafebc0b"
+  },
+  "new_DGE_or_training": false,
+  "new_tokenization": false,
+  "preserve_all_source_features": true
+}

@@ -1,0 +1,7 @@
+dataset	sample	source_donor_id	published_barcodes	features	stored_entries	all_values_finite_nonnegative_integer	axes_unique_and_match	status	disease	age_stratum
+GSE255296	GSM8068510	5246	10824	36601	22744279	True	True	download_verified_not_QC_cleaned	HCM	adult_candidate_age_to_verify
+GSE255296	GSM8068511	5042	10379	36601	14314789	True	True	download_verified_not_QC_cleaned	HCM	adult_candidate_age_to_verify
+GSE255296	GSM8068512	2883	16834	36601	25150287	True	True	download_verified_not_QC_cleaned	HCM	adult_candidate_age_to_verify
+GSE255296	GSM8423481	2795	10836	36601	16616821	True	True	download_verified_not_QC_cleaned	HCM	adult_candidate_age_to_verify
+GSE292754	GSM8864696	P186	17360	36601	21628470	True	True	download_verified_not_QC_cleaned	HCM	pediatric
+GSE292754	GSM8864697	P194	12827	36601	15091325	True	True	download_verified_not_QC_cleaned	HCM	pediatric

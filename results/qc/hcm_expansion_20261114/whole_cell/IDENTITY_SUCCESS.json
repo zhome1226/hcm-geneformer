@@ -1,0 +1,7 @@
+{
+  "cells": 3692,
+  "common_nonMT_genes": 27651,
+  "reference_calibration_accuracy": 0.9485,
+  "reference_donors_disjoint": true,
+  "domain": "adult nuclear reference applied to whole cells; no validated whole-cell accuracy"
+}

@@ -1,0 +1,66 @@
+{
+  "Cardiomyocyte": {
+    "positive_n": 400,
+    "negative_n": 2203,
+    "calibration_supported": true,
+    "positive_q10": 2.018917232439278,
+    "negative_q99": 2.2072236863292343,
+    "threshold": 2.2072236863292343
+  },
+  "Fibroblast": {
+    "positive_n": 400,
+    "negative_n": 2203,
+    "calibration_supported": true,
+    "positive_q10": 0.4988358454151015,
+    "negative_q99": 1.1529504992264619,
+    "threshold": 1.1529504992264619
+  },
+  "Endothelial": {
+    "positive_n": 400,
+    "negative_n": 2203,
+    "calibration_supported": true,
+    "positive_q10": 0.5500705579758094,
+    "negative_q99": 0.5926890718261746,
+    "threshold": 0.5926890718261746
+  },
+  "Immune": {
+    "positive_n": 400,
+    "negative_n": 2203,
+    "calibration_supported": true,
+    "positive_q10": 0.0,
+    "negative_q99": 0.0,
+    "threshold": 0.0
+  },
+  "Mural": {
+    "positive_n": 0,
+    "negative_n": 2603,
+    "calibration_supported": false,
+    "positive_q10": null,
+    "negative_q99": null,
+    "threshold": null
+  },
+  "Neural": {
+    "positive_n": 180,
+    "negative_n": 2423,
+    "calibration_supported": true,
+    "positive_q10": 0.5848626987424062,
+    "negative_q99": 0.8717351539124716,
+    "threshold": 0.8717351539124716
+  },
+  "Adipocyte": {
+    "positive_n": 89,
+    "negative_n": 2514,
+    "calibration_supported": true,
+    "positive_q10": 0.6540359018094472,
+    "negative_q99": 0.8620370209657642,
+    "threshold": 0.8620370209657642
+  },
+  "Mesothelial": {
+    "positive_n": 8,
+    "negative_n": 2595,
+    "calibration_supported": false,
+    "positive_q10": null,
+    "negative_q99": null,
+    "threshold": null
+  }
+}

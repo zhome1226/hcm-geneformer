@@ -1,0 +1,14 @@
+{
+  "download_complete": true,
+  "download_files": 18,
+  "download_bytes": 438817642,
+  "whole_cell_QC_complete": true,
+  "core_cells": 3595,
+  "HCM": 2216,
+  "Control": 1379,
+  "pending": 97,
+  "verification_checks": 71,
+  "output_MD5SUMS_rechecked": 3,
+  "new_QC_for_GSE255296_GSE292754": false,
+  "training_DGE_tokenization_run": false
+}

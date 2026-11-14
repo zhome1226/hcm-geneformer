@@ -1,0 +1,11 @@
+disease	reference_label	candidates
+Control	Cardiomyocyte	1396
+Control	Endothelial	4
+HCM	Adipocyte	1
+HCM	Cardiomyocyte	2239
+HCM	Endothelial	34
+HCM	Fibroblast	8
+HCM	Immune	2
+HCM	Mesothelial	1
+HCM	Pericyte	4
+HCM	Smooth_muscle	3

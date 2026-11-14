@@ -10,7 +10,9 @@
 
 2026-11-14 已完成[第一轮供体与计数检查](results/target_discovery/preflight_20261114/PREFLIGHT_REPORT.md)：四套核心对象共 136,942 核，原始计数层与重复样本已记录；跨研究供体独立性及最终分析划分仍待确认，尚未运行 DGE。
 
-补充完成[13 套资源盘点与模型来源核对](docs/hcm-cohort-catalog.md)：13 套包含比赛和 bulk，并非 13 个 HCM 队列。服务器已整理不含 SCP1303 的成人既有 QC 资源索引，共 30,458 核；GSE138262 需单独复核完整细胞 QC。官方仓库同时包含预训练与心肌病微调模型，实际 checkpoint 和验证独立性尚待确定。
+补充完成[13 套资源盘点与模型来源核对](docs/hcm-cohort-catalog.md)：13 套包含比赛和 bulk，并非 13 个 HCM 队列。服务器已整理不含 SCP1303 的成人既有 QC 资源索引，共 30,458 核；GSE138262 按完整细胞单列。官方仓库同时包含预训练与心肌病微调模型，实际 checkpoint 和验证独立性尚待确定。
+
+同日后续完成：[GSE138262 完整细胞新版 QC](docs/hcm-whole-cell-qc-review.md)保留 3,595 个心肌细胞（2,216 HCM、1,379 对照，5+7 位供体），旧版保留；[两套新增人源 HCM 数据](data/validation/HCM_EXPANSION_20261114.md)共 18 文件已下载校验，尚未 QC。没有运行新的 tokenization、DGE 或训练。
 
 ## 分工
 

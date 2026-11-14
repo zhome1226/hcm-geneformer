@@ -1,0 +1,10 @@
+{
+  "source_cells": 7537,
+  "source_genes": 28663,
+  "candidate_cells": 3692,
+  "common_nonmt_genes": 27651,
+  "candidate_disease_counts": {
+    "HCM": 2292,
+    "Control": 1400
+  }
+}

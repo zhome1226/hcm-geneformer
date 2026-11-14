@@ -1,0 +1,13 @@
+disease	review_reason	flagged_candidates	overlap
+HCM	reference_label_not_CM	53	Reasons may overlap; not additive
+HCM	reference_pruned_not_CM	65	Reasons may overlap; not additive
+HCM	CM_genes_ge2_less_than_3	5	Reasons may overlap; not additive
+HCM	CM_program_not_dominant	18	Reasons may overlap; not additive
+HCM	coherent_mixed_review	29	Reasons may overlap; not additive
+HCM	joint_numeric_outlier	0	Reasons may overlap; not additive
+Control	reference_label_not_CM	4	Reasons may overlap; not additive
+Control	reference_pruned_not_CM	12	Reasons may overlap; not additive
+Control	CM_genes_ge2_less_than_3	0	Reasons may overlap; not additive
+Control	CM_program_not_dominant	1	Reasons may overlap; not additive
+Control	coherent_mixed_review	6	Reasons may overlap; not additive
+Control	joint_numeric_outlier	7	Reasons may overlap; not additive
