@@ -1,10 +1,12 @@
 # 虚拟细胞：Geneformer HCM 靶点挖掘
 
-本分支挂在 [xiaoe-internship](https://github.com/zhome1226/xiaoe-internship) 下，是小鳄生物实习的一条工作线。
+本仓库 [hcm-geneformer](https://github.com/zhome1226/hcm-geneformer) 用于 HCM 心肌细胞建模与 Geneformer 候选靶点研究。
 
 用微调后的 [Geneformer](https://github.com/ctheodoris/Geneformer)（Theodoris et al., *Nature* 2023）构建虚拟病理心肌细胞，对候选基因做计算机模拟敲除（In Silico Knockout），筛选能把肥厚型心肌病（HCM）转录表型拉回健康状态的逆转靶点。
 
-硬件：本地 RTX 4090。主训练数据为 [SCP1303 / Chaffin et al., Nature 2022](https://singlecell.broadinstitute.org/single_cell/study/SCP1303)，详见 [#1](https://github.com/zhome1226/xiaoe-internship/issues/1)；已下载的验证数据与补充候选见 [数据说明](data/README.md)。旧推荐 GSE145154 无 HCM，GSE130652 是小鼠 ChIP-seq，均不用于本任务。
+硬件：RTX 4090。主数据为 [SCP1303 / Chaffin et al., Nature 2022](https://singlecell.broadinstitute.org/single_cell/study/SCP1303)，详见 [#1](https://github.com/zhome1226/hcm-geneformer/issues/1)；已下载的验证数据与补充候选见 [数据说明](data/README.md)。旧推荐 GSE145154 无 HCM，GSE130652 是小鼠 ChIP-seq，均不用于本任务。
+
+下一阶段按[HCM 差异表达与模拟敲除候选策略](docs/hcm-target-strategy.md)先检查供体与计数来源，再开展供体级差异分析、候选分层和逐基因模拟删除。候选池目标为 100–200 个，显著差异表达与文献机制证据分别记录。
 
 ## 分工
 
