@@ -1,0 +1,40 @@
+{
+  "status": "metadata_and_sampled_value_checks_passed_with_design_limitations",
+  "checks": [
+    {
+      "dataset": "chin_GSE161921",
+      "metadata_and_sampled_value_checks_passed": true,
+      "matrix_samples": {
+        "X": true,
+        "counts": true
+      }
+    },
+    {
+      "dataset": "chin_GSE174691",
+      "metadata_and_sampled_value_checks_passed": true,
+      "matrix_samples": {
+        "X": true,
+        "counts": true
+      }
+    },
+    {
+      "dataset": "liu2023",
+      "metadata_and_sampled_value_checks_passed": true,
+      "matrix_samples": {
+        "X": true,
+        "counts": true
+      }
+    },
+    {
+      "dataset": "SCP1303",
+      "metadata_and_sampled_value_checks_passed": true,
+      "matrix_samples": {
+        "X": true,
+        "cellranger_raw": true,
+        "counts": true
+      }
+    }
+  ],
+  "no_dge_or_training_run": true,
+  "script_sha256": "91c52a61b5012ef816b5f6a4963e866d35c5ff3402fba02576d20bd3c8fb71b3"
+}

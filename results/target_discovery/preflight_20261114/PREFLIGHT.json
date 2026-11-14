@@ -1,0 +1,1003 @@
+{
+  "checked_utc": "2026-11-14T02:09:10.319029+00:00",
+  "hostname": "ad2012",
+  "datasets": {
+    "chin_GSE161921": {
+      "path": "/home/zhome/xiaoe-internship-data/processed/chin_GSE161921_qc_20261111/cm_qc_full.h5ad",
+      "bytes": 18123021,
+      "bytes_match_prior_manifest": true,
+      "shape": [
+        3534,
+        33694
+      ],
+      "obs_index_unique": true,
+      "var_index_unique": true,
+      "obs_columns": [
+        "barcode_original",
+        "source_row",
+        "total_counts",
+        "n_genes_by_counts",
+        "mt_counts",
+        "pct_counts_mt",
+        "pass_strict_numeric",
+        "dataset",
+        "series",
+        "sample_id",
+        "capture_id",
+        "donor_id",
+        "donor_original",
+        "disease",
+        "label",
+        "tissue",
+        "sex",
+        "age_years",
+        "technology",
+        "metadata_path",
+        "disease_source_url",
+        "capture_evidence",
+        "donor_independence",
+        "emptydrops_FDR",
+        "emptydrops_Limited",
+        "emptydrops_called",
+        "reference_label",
+        "reference_pruned",
+        "reference_delta",
+        "reference_delta_next",
+        "reference_best_score",
+        "scDblFinder_score",
+        "scDblFinder_class",
+        "reference_tail_pass",
+        "Cardiomyocyte_markers",
+        "Cardiomyocyte_program",
+        "Fibroblast_markers",
+        "Fibroblast_program",
+        "Endothelial_markers",
+        "Endothelial_program",
+        "Immune_markers",
+        "Immune_program",
+        "Mural_markers",
+        "Mural_program",
+        "Neural_markers",
+        "Neural_program",
+        "Adipocyte_markers",
+        "Adipocyte_program",
+        "Mesothelial_markers",
+        "Mesothelial_program",
+        "cm_program_dominates",
+        "coherent_mixed_panel_flag",
+        "mixed_panel_pair",
+        "exclude_suspected_doublet",
+        "cm_anchor_neighbor_fraction",
+        "diagnostic_leiden",
+        "cell_type_qc",
+        "review_action"
+      ],
+      "var_columns": [
+        "gene_symbol",
+        "feature_type",
+        "mt"
+      ],
+      "uns_keys": [
+        "count_source",
+        "qc_policy_json",
+        "reference_calibration_json",
+        "source_file_digests_json"
+      ],
+      "provenance": {
+        "count_source": "Unmodified GEO Cell Ranger 3.0 raw droplet gene-expression counts"
+      },
+      "X": {
+        "encoding": "csr_matrix",
+        "shape": [
+          3534,
+          33694
+        ],
+        "dtype": "int32",
+        "stored_values": 3135430,
+        "sampled_values": 98304,
+        "sampling": "up to 24 evenly spread slices of at most 4096 stored entries; slices may overlap",
+        "sample_finite": true,
+        "sample_nonnegative": true,
+        "sample_integer_valued": true,
+        "sample_min": 1.0,
+        "sample_max": 8919.0,
+        "sample_status": "sampled_only_not_full_audit"
+      },
+      "layers": {
+        "counts": {
+          "encoding": "csr_matrix",
+          "shape": [
+            3534,
+            33694
+          ],
+          "dtype": "int32",
+          "stored_values": 3135430,
+          "sampled_values": 98304,
+          "sampling": "up to 24 evenly spread slices of at most 4096 stored entries; slices may overlap",
+          "sample_finite": true,
+          "sample_nonnegative": true,
+          "sample_integer_valued": true,
+          "sample_min": 1.0,
+          "sample_max": 8919.0,
+          "sample_status": "sampled_only_not_full_audit"
+        }
+      },
+      "fields": {
+        "donor_id": {
+          "nunique": 4,
+          "missing": 0,
+          "values": [
+            "Chin_2867",
+            "Chin_2879",
+            "Chin_2880",
+            "Chin_2884"
+          ]
+        },
+        "sample_id": {
+          "nunique": 4,
+          "missing": 0,
+          "values": [
+            "GSM4923401",
+            "GSM4923402",
+            "GSM4923403",
+            "GSM4923404"
+          ]
+        },
+        "disease": {
+          "nunique": 1,
+          "missing": 0,
+          "values": [
+            "Control"
+          ]
+        },
+        "label": {
+          "nunique": 1,
+          "missing": 0,
+          "values": [
+            "0"
+          ]
+        },
+        "sex": {
+          "nunique": 2,
+          "missing": 0,
+          "values": [
+            "Female",
+            "Male"
+          ]
+        },
+        "age_years": {
+          "nunique": 4,
+          "missing": 0,
+          "values": [
+            "23",
+            "43",
+            "45",
+            "57"
+          ]
+        },
+        "tissue": {
+          "nunique": 1,
+          "missing": 0,
+          "values": [
+            "interventricular septum"
+          ]
+        }
+      },
+      "warnings": [
+        "Accession completely confounded with disease in Chin pair"
+      ],
+      "labels_match_disease": true,
+      "disease_nuclei": {
+        "Control": 3534
+      },
+      "donors_per_disease": {
+        "Control": 4
+      },
+      "donors_with_multiple_diseases": 0,
+      "samples_with_multiple_donors": 0,
+      "gene_axis": {
+        "ensembl_field": "index",
+        "ensembl_format_count": 33694,
+        "gene_ids_unique": true,
+        "source_genes": 33694
+      },
+      "size_and_mtime_unchanged": true
+    },
+    "chin_GSE174691": {
+      "path": "/home/zhome/xiaoe-internship-data/processed/chin_GSE174691_qc_20261111/cm_qc_full.h5ad",
+      "bytes": 47740392,
+      "bytes_match_prior_manifest": true,
+      "shape": [
+        10150,
+        33694
+      ],
+      "obs_index_unique": true,
+      "var_index_unique": true,
+      "obs_columns": [
+        "barcode_original",
+        "source_row",
+        "total_counts",
+        "n_genes_by_counts",
+        "mt_counts",
+        "pct_counts_mt",
+        "pass_strict_numeric",
+        "dataset",
+        "series",
+        "sample_id",
+        "capture_id",
+        "donor_id",
+        "donor_original",
+        "disease",
+        "label",
+        "tissue",
+        "sex",
+        "age_years",
+        "technology",
+        "metadata_path",
+        "disease_source_url",
+        "capture_evidence",
+        "donor_independence",
+        "emptydrops_FDR",
+        "emptydrops_Limited",
+        "emptydrops_called",
+        "reference_label",
+        "reference_pruned",
+        "reference_delta",
+        "reference_delta_next",
+        "reference_best_score",
+        "scDblFinder_score",
+        "scDblFinder_class",
+        "reference_tail_pass",
+        "Cardiomyocyte_markers",
+        "Cardiomyocyte_program",
+        "Fibroblast_markers",
+        "Fibroblast_program",
+        "Endothelial_markers",
+        "Endothelial_program",
+        "Immune_markers",
+        "Immune_program",
+        "Mural_markers",
+        "Mural_program",
+        "Neural_markers",
+        "Neural_program",
+        "Adipocyte_markers",
+        "Adipocyte_program",
+        "Mesothelial_markers",
+        "Mesothelial_program",
+        "cm_program_dominates",
+        "coherent_mixed_panel_flag",
+        "mixed_panel_pair",
+        "exclude_suspected_doublet",
+        "cm_anchor_neighbor_fraction",
+        "diagnostic_leiden",
+        "cell_type_qc",
+        "review_action"
+      ],
+      "var_columns": [
+        "gene_symbol",
+        "feature_type",
+        "mt"
+      ],
+      "uns_keys": [
+        "count_source",
+        "qc_policy_json",
+        "reference_calibration_json",
+        "source_file_digests_json"
+      ],
+      "provenance": {
+        "count_source": "Unmodified GEO Cell Ranger 3.0 raw droplet gene-expression counts"
+      },
+      "X": {
+        "encoding": "csr_matrix",
+        "shape": [
+          10150,
+          33694
+        ],
+        "dtype": "int32",
+        "stored_values": 9163302,
+        "sampled_values": 98304,
+        "sampling": "up to 24 evenly spread slices of at most 4096 stored entries; slices may overlap",
+        "sample_finite": true,
+        "sample_nonnegative": true,
+        "sample_integer_valued": true,
+        "sample_min": 1.0,
+        "sample_max": 5432.0,
+        "sample_status": "sampled_only_not_full_audit"
+      },
+      "layers": {
+        "counts": {
+          "encoding": "csr_matrix",
+          "shape": [
+            10150,
+            33694
+          ],
+          "dtype": "int32",
+          "stored_values": 9163302,
+          "sampled_values": 98304,
+          "sampling": "up to 24 evenly spread slices of at most 4096 stored entries; slices may overlap",
+          "sample_finite": true,
+          "sample_nonnegative": true,
+          "sample_integer_valued": true,
+          "sample_min": 1.0,
+          "sample_max": 5432.0,
+          "sample_status": "sampled_only_not_full_audit"
+        }
+      },
+      "fields": {
+        "donor_id": {
+          "nunique": 9,
+          "missing": 0,
+          "values": [
+            "Chin_2799",
+            "Chin_2804",
+            "Chin_2812",
+            "Chin_2828",
+            "Chin_2829",
+            "Chin_2839",
+            "Chin_2841",
+            "Chin_2843",
+            "Chin_2934"
+          ]
+        },
+        "sample_id": {
+          "nunique": 9,
+          "missing": 0,
+          "values": [
+            "GSM5322568",
+            "GSM5322569",
+            "GSM5322570",
+            "GSM5322571",
+            "GSM5322572",
+            "GSM5322573",
+            "GSM5322574",
+            "GSM5322575",
+            "GSM5322576"
+          ]
+        },
+        "disease": {
+          "nunique": 1,
+          "missing": 0,
+          "values": [
+            "HCM"
+          ]
+        },
+        "label": {
+          "nunique": 1,
+          "missing": 0,
+          "values": [
+            "1"
+          ]
+        },
+        "sex": {
+          "nunique": 2,
+          "missing": 0,
+          "values": [
+            "Female",
+            "Male"
+          ]
+        },
+        "age_years": {
+          "nunique": 7,
+          "missing": 0,
+          "values": [
+            "44",
+            "54",
+            "55",
+            "58",
+            "60",
+            "63",
+            "74"
+          ]
+        },
+        "tissue": {
+          "nunique": 1,
+          "missing": 0,
+          "values": [
+            "interventricular septum"
+          ]
+        }
+      },
+      "warnings": [
+        "Accession completely confounded with disease in Chin pair"
+      ],
+      "labels_match_disease": true,
+      "disease_nuclei": {
+        "HCM": 10150
+      },
+      "donors_per_disease": {
+        "HCM": 9
+      },
+      "donors_with_multiple_diseases": 0,
+      "samples_with_multiple_donors": 0,
+      "gene_axis": {
+        "ensembl_field": "index",
+        "ensembl_format_count": 33694,
+        "gene_ids_unique": true,
+        "source_genes": 33694
+      },
+      "size_and_mtime_unchanged": true
+    },
+    "liu2023": {
+      "path": "/home/zhome/xiaoe-internship-data/processed/liu2023_qc_20261111/cm_qc_full.h5ad",
+      "bytes": 149065216,
+      "bytes_match_prior_manifest": true,
+      "shape": [
+        8547,
+        31944
+      ],
+      "obs_index_unique": true,
+      "var_index_unique": true,
+      "obs_columns": [
+        "author_orig_ident",
+        "author_nCount_RNA",
+        "author_nFeature_RNA",
+        "author_percent_mito",
+        "author_percent_ribo",
+        "author_integrated_snn_res_0_6",
+        "author_seurat_clusters",
+        "author_Group",
+        "author_Subject",
+        "author_group",
+        "author_cellType",
+        "author_cellType2",
+        "author_subcluster",
+        "barcode_original",
+        "dataset",
+        "study",
+        "sample_id",
+        "capture_id",
+        "donor_original",
+        "donor_id",
+        "disease",
+        "label",
+        "tissue",
+        "assay",
+        "source_pre_filtered",
+        "total_counts",
+        "n_genes_by_counts",
+        "pct_counts_mt",
+        "pass_strict_numeric",
+        "residual_mixed_screen",
+        "reference_label",
+        "reference_pruned",
+        "reference_delta",
+        "reference_delta_next",
+        "reference_best_score",
+        "scDblFinder_score",
+        "scDblFinder_class",
+        "reference_tail_pass",
+        "Cardiomyocyte_markers",
+        "Cardiomyocyte_markers_ge2_UMI",
+        "Cardiomyocyte_program",
+        "Fibroblast_markers",
+        "Fibroblast_markers_ge2_UMI",
+        "Fibroblast_program",
+        "Endothelial_markers",
+        "Endothelial_markers_ge2_UMI",
+        "Endothelial_program",
+        "Immune_markers",
+        "Immune_markers_ge2_UMI",
+        "Immune_program",
+        "Mural_markers",
+        "Mural_markers_ge2_UMI",
+        "Mural_program",
+        "Neural_markers",
+        "Neural_markers_ge2_UMI",
+        "Neural_program",
+        "Adipocyte_markers",
+        "Adipocyte_markers_ge2_UMI",
+        "Adipocyte_program",
+        "Mesothelial_markers",
+        "Mesothelial_markers_ge2_UMI",
+        "Mesothelial_program",
+        "cm_program_dominates",
+        "coherent_mixed_panel_flag",
+        "weak_coherent_mixed_panel_flag",
+        "weak_mixed_panel_pair",
+        "mixed_panel_pair",
+        "exclude_suspected_doublet",
+        "cm_anchor_neighbor_fraction",
+        "diagnostic_leiden",
+        "cell_type_qc",
+        "review_action"
+      ],
+      "var_columns": [
+        "gene_symbol",
+        "mt"
+      ],
+      "uns_keys": [
+        "qc_policy_json",
+        "reference_calibration_json",
+        "source_file_digests_json"
+      ],
+      "provenance": {},
+      "X": {
+        "encoding": "csr_matrix",
+        "shape": [
+          8547,
+          31944
+        ],
+        "dtype": "int64",
+        "stored_values": 30893939,
+        "sampled_values": 98304,
+        "sampling": "up to 24 evenly spread slices of at most 4096 stored entries; slices may overlap",
+        "sample_finite": true,
+        "sample_nonnegative": true,
+        "sample_integer_valued": true,
+        "sample_min": 1.0,
+        "sample_max": 2631.0,
+        "sample_status": "sampled_only_not_full_audit"
+      },
+      "layers": {
+        "counts": {
+          "encoding": "csr_matrix",
+          "shape": [
+            8547,
+            31944
+          ],
+          "dtype": "int64",
+          "stored_values": 30893939,
+          "sampled_values": 98304,
+          "sampling": "up to 24 evenly spread slices of at most 4096 stored entries; slices may overlap",
+          "sample_finite": true,
+          "sample_nonnegative": true,
+          "sample_integer_valued": true,
+          "sample_min": 1.0,
+          "sample_max": 2631.0,
+          "sample_status": "sampled_only_not_full_audit"
+        }
+      },
+      "fields": {
+        "donor_id": {
+          "nunique": 12,
+          "missing": 0,
+          "values": [
+            "Liu2023_CL0412",
+            "Liu2023_CL2",
+            "Liu2023_HCM300",
+            "Liu2023_HCM456",
+            "Liu2023_HCM483",
+            "Liu2023_HCM516",
+            "Liu2023_HCM534",
+            "Liu2023_HCM621",
+            "Liu2023_HCM752",
+            "Liu2023_HCM763",
+            "Liu2023_HCM770",
+            "Liu2023_HCM823"
+          ]
+        },
+        "sample_id": {
+          "nunique": 13,
+          "missing": 0,
+          "values": [
+            "CL0412A",
+            "CL0412B",
+            "CL2",
+            "HCM300",
+            "HCM456",
+            "HCM483",
+            "HCM516",
+            "HCM534",
+            "HCM621",
+            "HCM752",
+            "HCM763",
+            "HCM770",
+            "HCM823"
+          ]
+        },
+        "disease": {
+          "nunique": 2,
+          "missing": 0,
+          "values": [
+            "Control",
+            "HCM"
+          ]
+        },
+        "label": {
+          "nunique": 2,
+          "missing": 0,
+          "values": [
+            "0",
+            "1"
+          ]
+        },
+        "tissue": {
+          "nunique": 1,
+          "missing": 0,
+          "values": [
+            "interventricular septum"
+          ]
+        },
+        "author_subcluster": {
+          "nunique": 2,
+          "missing": 0,
+          "values": [
+            "CM1",
+            "CM2"
+          ]
+        }
+      },
+      "warnings": [
+        "Only two independent control donors; CL0412A/B must remain together"
+      ],
+      "labels_match_disease": true,
+      "disease_nuclei": {
+        "HCM": 4718,
+        "Control": 3829
+      },
+      "donors_per_disease": {
+        "Control": 2,
+        "HCM": 10
+      },
+      "donors_with_multiple_diseases": 0,
+      "samples_with_multiple_donors": 0,
+      "gene_axis": {
+        "ensembl_field": "index",
+        "ensembl_format_count": 0,
+        "gene_ids_unique": true,
+        "source_genes": 31944
+      },
+      "size_and_mtime_unchanged": true
+    },
+    "SCP1303": {
+      "path": "/home/zhome/xiaoe-internship-data/processed/SCP1303_qc_reviewed_final_20261111/cm_qc_full.h5ad",
+      "bytes": 1729940710,
+      "bytes_match_prior_manifest": true,
+      "shape": [
+        114711,
+        36601
+      ],
+      "obs_index_unique": true,
+      "var_index_unique": true,
+      "obs_columns": [
+        "biosample_id",
+        "donor_id",
+        "disease",
+        "sex",
+        "age",
+        "lvef",
+        "cell_type_leiden0.6",
+        "SubCluster",
+        "cellbender_ncount",
+        "cellbender_ngenes",
+        "cellranger_percent_mito",
+        "exon_prop",
+        "cellbender_entropy",
+        "cellranger_doublet_scores",
+        "n_genes_by_counts",
+        "total_counts",
+        "total_counts_mt",
+        "pct_counts_mt",
+        "cell_type_original",
+        "pct_counts_mt_cellbender",
+        "total_counts_cellranger",
+        "n_genes_cellranger",
+        "dataset",
+        "sample_id",
+        "capture_id",
+        "barcode_original",
+        "disease_original",
+        "doublet_score",
+        "doublet_qc_status",
+        "pass_author_qc",
+        "pass_min_genes",
+        "pass_max_genes",
+        "pass_mito",
+        "pass_baseline",
+        "pass_target_disease",
+        "pass_cm_annotation",
+        "pass_author_subcluster",
+        "cm_marker_mean_log1p_cp10k",
+        "noncm_marker_max_mean_log1p_cp10k",
+        "marker_mixed_warning",
+        "n_cm_markers_detected",
+        "exclusion_primary",
+        "kept_full",
+        "label",
+        "split",
+        "split_status",
+        "selected_light",
+        "review_identity_state",
+        "review_reason",
+        "action",
+        "kept_reviewed_core",
+        "scDblFinder_score",
+        "scDblFinder_class"
+      ],
+      "var_columns": [
+        "gene_ids",
+        "feature_types",
+        "genome",
+        "mt",
+        "n_cells_by_counts",
+        "mean_counts",
+        "pct_dropout_by_counts",
+        "total_counts",
+        "gene_symbol",
+        "ensembl_id"
+      ],
+      "uns_keys": [
+        "author_qc_reused",
+        "count_layer_provenance",
+        "created_utc",
+        "external_validation_status",
+        "label_map",
+        "qc_parameters_json",
+        "qc_review_policy_json",
+        "software_versions_json",
+        "source_files_json",
+        "split_status"
+      ],
+      "provenance": {
+        "count_layer_provenance": {
+          "X": "Unnormalized CellBender-adjusted counts",
+          "cellranger_raw": "Original Cell Ranger counts",
+          "counts": "Same CellBender-adjusted counts as X"
+        },
+        "author_qc_reused": "Original author processing reused; selective independent identity and residual-doublet review recorded per cell."
+      },
+      "X": {
+        "encoding": "csr_matrix",
+        "shape": [
+          114711,
+          36601
+        ],
+        "dtype": "float32",
+        "stored_values": 246911215,
+        "sampled_values": 98304,
+        "sampling": "up to 24 evenly spread slices of at most 4096 stored entries; slices may overlap",
+        "sample_finite": true,
+        "sample_nonnegative": true,
+        "sample_integer_valued": true,
+        "sample_min": 1.0,
+        "sample_max": 1758.0,
+        "sample_status": "sampled_only_not_full_audit"
+      },
+      "layers": {
+        "cellranger_raw": {
+          "encoding": "csr_matrix",
+          "shape": [
+            114711,
+            36601
+          ],
+          "dtype": "float32",
+          "stored_values": 252368877,
+          "sampled_values": 98304,
+          "sampling": "up to 24 evenly spread slices of at most 4096 stored entries; slices may overlap",
+          "sample_finite": true,
+          "sample_nonnegative": true,
+          "sample_integer_valued": true,
+          "sample_min": 1.0,
+          "sample_max": 1651.0,
+          "sample_status": "sampled_only_not_full_audit"
+        },
+        "counts": {
+          "encoding": "csr_matrix",
+          "shape": [
+            114711,
+            36601
+          ],
+          "dtype": "float32",
+          "stored_values": 246911215,
+          "sampled_values": 98304,
+          "sampling": "up to 24 evenly spread slices of at most 4096 stored entries; slices may overlap",
+          "sample_finite": true,
+          "sample_nonnegative": true,
+          "sample_integer_valued": true,
+          "sample_min": 1.0,
+          "sample_max": 1758.0,
+          "sample_status": "sampled_only_not_full_audit"
+        }
+      },
+      "fields": {
+        "donor_id": {
+          "nunique": 31,
+          "missing": 0,
+          "values": [
+            "P1422",
+            "P1425",
+            "P1447",
+            "P1462",
+            "P1479",
+            "P1508",
+            "P1510",
+            "P1515",
+            "P1516",
+            "P1539",
+            "P1540",
+            "P1547",
+            "P1549",
+            "P1558",
+            "P1561",
+            "P1582",
+            "P1600",
+            "P1602",
+            "P1603",
+            "P1610",
+            "P1622",
+            "P1630",
+            "P1631",
+            "P1678",
+            "P1685",
+            "P1702",
+            "P1707",
+            "P1718",
+            "P1722",
+            "P1726",
+            "P1735"
+          ]
+        },
+        "sample_id": {
+          "nunique": 60,
+          "missing": 0,
+          "values": [
+            "LV_1422_1_hcm",
+            "LV_1422_2_hcm",
+            "LV_1425_1_hcm",
+            "LV_1425_2_hcm",
+            "LV_1447_1_hcm",
+            "LV_1447_2_hcm",
+            "LV_1462_1_hcm",
+            "LV_1462_2_hcm",
+            "LV_1479_1_hcm",
+            "LV_1479_2_hcm",
+            "LV_1508_1_hcm",
+            "LV_1508_2_hcm",
+            "LV_1510_1_hcm",
+            "LV_1510_2_hcm",
+            "LV_1515_1_nf",
+            "LV_1515_2_nf",
+            "LV_1516_1_nf",
+            "LV_1516_2_nf",
+            "LV_1539_1_nf",
+            "LV_1539_2_nf",
+            "LV_1540_1_nf",
+            "LV_1540_2_nf",
+            "LV_1547_1_nf",
+            "LV_1547_2_nf",
+            "LV_1549_1_nf",
+            "LV_1549_2_nf",
+            "LV_1558_1_nf",
+            "LV_1558_2_nf",
+            "LV_1561_1_nf",
+            "LV_1561_2_nf",
+            "LV_1582_1_nf",
+            "LV_1582_2_nf",
+            "LV_1600_1_nf",
+            "LV_1600_2_nf",
+            "LV_1602_1_hcm",
+            "LV_1602_2_hcm",
+            "LV_1603_2_nf",
+            "LV_1610_1_nf",
+            "LV_1610_2_nf",
+            "LV_1622_2_nf",
+            "LV_1630_1_hcm",
+            "LV_1630_2_hcm",
+            "LV_1631_1_hcm",
+            "LV_1631_2_hcm",
+            "LV_1678_1_nf",
+            "LV_1678_2_nf",
+            "LV_1685_1_hcm",
+            "LV_1685_2_hcm",
+            "LV_1702_1_nf",
+            "LV_1702_2_nf",
+            "LV_1707_1_hcm",
+            "LV_1707_2_hcm",
+            "LV_1718_1_nf",
+            "LV_1718_2_nf",
+            "LV_1722_1_hcm",
+            "LV_1722_2_hcm",
+            "LV_1726_1_hcm",
+            "LV_1726_2_hcm",
+            "LV_1735_1_hcm",
+            "LV_1735_2_hcm"
+          ]
+        },
+        "disease": {
+          "nunique": 2,
+          "missing": 0,
+          "values": [
+            "HCM",
+            "NF"
+          ]
+        },
+        "label": {
+          "nunique": 2,
+          "missing": 0,
+          "values": [
+            "0",
+            "1"
+          ]
+        },
+        "sex": {
+          "nunique": 2,
+          "missing": 0,
+          "values": [
+            "female",
+            "male"
+          ]
+        },
+        "age": {
+          "nunique": 19,
+          "missing": 0,
+          "values": [
+            "29.0",
+            "33.0",
+            "40.0",
+            "46.0",
+            "47.0",
+            "49.0",
+            "51.0",
+            "54.0",
+            "56.0",
+            "58.0",
+            "59.0",
+            "60.0",
+            "61.0",
+            "62.0",
+            "63.0",
+            "65.0",
+            "66.0",
+            "69.0",
+            "72.0"
+          ]
+        },
+        "SubCluster": {
+          "nunique": 3,
+          "missing": 0,
+          "values": [
+            "CM-HHATL",
+            "CM-LOXL2",
+            "CM-X1"
+          ]
+        },
+        "split": {
+          "nunique": 3,
+          "missing": 0,
+          "values": [
+            "test",
+            "train",
+            "validation"
+          ]
+        },
+        "split_status": {
+          "nunique": 1,
+          "missing": 0,
+          "values": [
+            "provisional_pending_project_ratio"
+          ]
+        }
+      },
+      "warnings": [
+        "X/counts are author CellBender-adjusted; original CellRanger layer is separate"
+      ],
+      "labels_match_disease": true,
+      "disease_nuclei": {
+        "NF": 60367,
+        "HCM": 54344
+      },
+      "donors_per_disease": {
+        "HCM": 15,
+        "NF": 16
+      },
+      "donors_with_multiple_diseases": 0,
+      "samples_with_multiple_donors": 0,
+      "gene_axis": {
+        "ensembl_field": "ensembl_id",
+        "ensembl_format_count": 36601,
+        "gene_ids_unique": true,
+        "source_genes": 36601
+      },
+      "size_and_mtime_unchanged": true
+    }
+  },
+  "scope": "metadata and spread-out value samples; no hashes or full matrix comparison",
+  "input_files_opened_read_only": true,
+  "dge_run": false,
+  "model_training_run": false,
+  "cross_dataset_observed_alias_matches": [],
+  "cross_study_donor_independence": "unresolved; no common alias is not proof of independent people",
+  "total_nuclei": 136942,
+  "total_dataset_scoped_donors": 56,
+  "source_config_sha256": "3e1c085af7764e99e2bc712e8ca65f4e636481db15e93afe9a1a483868982e63"
+}
