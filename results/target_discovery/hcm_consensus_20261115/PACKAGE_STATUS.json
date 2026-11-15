@@ -1,0 +1,15 @@
+{
+  "status": "passed",
+  "file": "D:\\VirtualCell\\deliverables\\HCM_CONSENSUS_20261115_complete.zip",
+  "bytes": 60350595,
+  "sha256": "df90f5e919e4a19ad39851c5a219d63c9ecfc453293433e2a8782395cb432a81",
+  "files": 156,
+  "source_commit": "510fe659807bffb0f242bd985772ddb98130a80d",
+  "crc": "passed",
+  "per_file_sha256": "passed",
+  "includes_current_overview": true,
+  "priority_candidates": 165,
+  "exploratory_candidates": 306,
+  "transfer_to_ToDesk": "pending_user_transfer",
+  "target_folder": "D:/hcm-geneformer-data/analysis/HCM_CONSENSUS_20261115"
+}
