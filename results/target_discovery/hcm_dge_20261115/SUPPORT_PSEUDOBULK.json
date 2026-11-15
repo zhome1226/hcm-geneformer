@@ -1,0 +1,73 @@
+[
+  {
+    "dataset": "liu2023",
+    "modality": "liu",
+    "layer": "layers/counts",
+    "source_sha256": "03612584111dbb84d0f4f941408f9311a9897ec44507542000689f28bc1f7e74",
+    "source_cells": 8547,
+    "source_genes": 31944,
+    "native_across_all_samples": 31944,
+    "unmapped_features": 351,
+    "included_features": 31593,
+    "collapsed_ensembl_ids": 31593,
+    "source_total": 105185937,
+    "excluded_count": 341961,
+    "included_count": 104843976,
+    "direct_donor_conservation": true
+  },
+  {
+    "dataset": "chin_GSE161921",
+    "modality": "chin",
+    "layer": "layers/counts",
+    "source_sha256": "42c82b2200b22e6987722ce6d6a27072f08024207a38a5867b2c8d9838d0b563",
+    "source_cells": 3534,
+    "source_genes": 33694,
+    "native_across_all_samples": 33694,
+    "unmapped_features": 0,
+    "included_features": 33694,
+    "collapsed_ensembl_ids": 33694,
+    "source_total": 12938944,
+    "excluded_count": 0,
+    "included_count": 12938944,
+    "direct_donor_conservation": true
+  },
+  {
+    "dataset": "chin_GSE174691",
+    "modality": "chin",
+    "layer": "layers/counts",
+    "source_sha256": "c360016c099f3da8a5bdf426ecba1acd3dfe35f813705a85259a5c9caddd5b80",
+    "source_cells": 10150,
+    "source_genes": 33694,
+    "native_across_all_samples": 33694,
+    "unmapped_features": 0,
+    "included_features": 33694,
+    "collapsed_ensembl_ids": 33694,
+    "source_total": 29608771,
+    "excluded_count": 0,
+    "included_count": 29608771,
+    "direct_donor_conservation": true
+  },
+  {
+    "dataset": "GSE138262_whole_cell",
+    "modality": "whole",
+    "layer": "layers/counts",
+    "source_sha256": "2e1361089d5930f64ae1a4ef502fb327dac76dd698c75d9575e2cdfd460678f3",
+    "source_cells": 3595,
+    "source_genes": 28663,
+    "native_across_all_samples": 5488,
+    "unmapped_features": 0,
+    "included_features": 5488,
+    "collapsed_ensembl_ids": 5488,
+    "source_total": 80621367,
+    "excluded_count": 2497081,
+    "included_count": 78124286,
+    "direct_donor_conservation": true
+  },
+  {
+    "dataset": "Chin_pair",
+    "modality": "chin_shared_axis",
+    "shared_genes": 33694,
+    "n_donors": 13,
+    "removed_accession_specific_count": 0
+  }
+]

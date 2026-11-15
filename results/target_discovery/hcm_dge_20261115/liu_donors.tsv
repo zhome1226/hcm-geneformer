@@ -1,0 +1,13 @@
+dataset	donor_id	donor_original	disease	source_disease	nuclei	n_samples	sample_ids	age	sex	tissue	technology	study_origin	role	source_clinical_stage	age_stratum	cross_study_person_match	model_train_test_split	pseudobulk_library_size
+liu2023	Liu2023_CL0412	CL0412	Control	Control	2619	2	CL0412A;CL0412B	unknown	unknown	interventricular septum	10x 3prime v3.1 snRNA-seq	liu2023	held_out_directional_replication	unknown	unknown	unresolved	unassigned	35601056
+liu2023	Liu2023_CL2	CL2	Control	Control	1210	1	CL2	unknown	unknown	interventricular septum	10x 3prime v3.1 snRNA-seq	liu2023	held_out_directional_replication	unknown	unknown	unresolved	unassigned	14556786
+liu2023	Liu2023_HCM300	HCM300	HCM	HCM	263	1	HCM300	unknown	unknown	interventricular septum	10x 3prime v3.1 snRNA-seq	liu2023	held_out_directional_replication	unknown	unknown	unresolved	unassigned	3050112
+liu2023	Liu2023_HCM456	HCM456	HCM	HCM	272	1	HCM456	unknown	unknown	interventricular septum	10x 3prime v3.1 snRNA-seq	liu2023	held_out_directional_replication	unknown	unknown	unresolved	unassigned	3216702
+liu2023	Liu2023_HCM483	HCM483	HCM	HCM	568	1	HCM483	unknown	unknown	interventricular septum	10x 3prime v3.1 snRNA-seq	liu2023	held_out_directional_replication	unknown	unknown	unresolved	unassigned	5985641
+liu2023	Liu2023_HCM516	HCM516	HCM	HCM	581	1	HCM516	unknown	unknown	interventricular septum	10x 3prime v3.1 snRNA-seq	liu2023	held_out_directional_replication	unknown	unknown	unresolved	unassigned	6330892
+liu2023	Liu2023_HCM534	HCM534	HCM	HCM	286	1	HCM534	unknown	unknown	interventricular septum	10x 3prime v3.1 snRNA-seq	liu2023	held_out_directional_replication	unknown	unknown	unresolved	unassigned	3696884
+liu2023	Liu2023_HCM621	HCM621	HCM	HCM	532	1	HCM621	unknown	unknown	interventricular septum	10x 3prime v3.1 snRNA-seq	liu2023	held_out_directional_replication	unknown	unknown	unresolved	unassigned	5554539
+liu2023	Liu2023_HCM752	HCM752	HCM	HCM	384	1	HCM752	unknown	unknown	interventricular septum	10x 3prime v3.1 snRNA-seq	liu2023	held_out_directional_replication	unknown	unknown	unresolved	unassigned	5156227
+liu2023	Liu2023_HCM763	HCM763	HCM	HCM	753	1	HCM763	unknown	unknown	interventricular septum	10x 3prime v3.1 snRNA-seq	liu2023	held_out_directional_replication	unknown	unknown	unresolved	unassigned	8605293
+liu2023	Liu2023_HCM770	HCM770	HCM	HCM	954	1	HCM770	unknown	unknown	interventricular septum	10x 3prime v3.1 snRNA-seq	liu2023	held_out_directional_replication	unknown	unknown	unresolved	unassigned	11660792
+liu2023	Liu2023_HCM823	HCM823	HCM	HCM	125	1	HCM823	unknown	unknown	interventricular septum	10x 3prime v3.1 snRNA-seq	liu2023	held_out_directional_replication	unknown	unknown	unresolved	unassigned	1429052

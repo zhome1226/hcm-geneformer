@@ -1,0 +1,41 @@
+{
+  "status": "passed",
+  "mode": "post-lock independent reconciliation; no model refit",
+  "completed_checks": [
+    "verify frozen inputs, study design and validation seal",
+    "reconcile seven study roles, samples and donor covariates",
+    "count conservation, native masks and independent expression filtering",
+    "recalculate discovery coverage, BH, 31 omissions, thresholds and rankings",
+    "reconcile held-out contrasts and seven-source actual sequence coverage",
+    "reconcile final evidence table"
+  ],
+  "metrics": {
+    "lock_sha256": "d2fc63ed14d76c8d291afd09c067c0339584f38550369c8691248e0126bfa09d",
+    "locked": 200,
+    "locked_utc": "2026-11-15T04:26:03.621331+00:00",
+    "donor_study_rows": 74,
+    "total_cells": 151359,
+    "datasets": 7,
+    "source_genes": {
+      "scp_raw": 36601,
+      "scp_cb": 36601,
+      "scp_hhatl": 36601,
+      "liu": 31593,
+      "chin": 33694,
+      "whole": 5488
+    },
+    "genomewide_tests": 20172,
+    "robust": 4108,
+    "eligible": 544,
+    "LODO_folds": 31,
+    "support_donor_gene_rows": 14800,
+    "final_evidence_sha256": "ca6cf42c9e5d3fd3c233d797174f14cfd2084d8da1ef72cef3f9c07def4d44a0",
+    "liu_categories": {
+      "same_both_single_controls": 141,
+      "opposite": 42,
+      "same_control_sensitive": 17
+    }
+  },
+  "failure": null,
+  "utc": "2026-11-15T05:17:39.734600+00:00"
+}

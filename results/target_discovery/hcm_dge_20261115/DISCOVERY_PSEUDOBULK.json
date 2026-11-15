@@ -1,0 +1,44 @@
+[
+  {
+    "dataset": "SCP1303",
+    "modality": "scp_raw",
+    "layer": "layers/cellranger_raw",
+    "source_sha256": "975f3b5cc658b579997321b0118731407d6254523628ba564cf9dd9d0acf3efe",
+    "source_cells": 114711,
+    "source_genes": 36601,
+    "native_across_all_samples": 36601,
+    "unmapped_features": 0,
+    "included_features": 36601,
+    "collapsed_ensembl_ids": 36601,
+    "source_total": 647405561,
+    "excluded_count": 0,
+    "included_count": 647405561,
+    "direct_donor_conservation": true
+  },
+  {
+    "dataset": "SCP1303",
+    "modality": "scp_hhatl",
+    "source_cells": 99011,
+    "included_donors": 31,
+    "layer": "layers/cellranger_raw",
+    "min_per_donor": 50,
+    "source_sha256": "975f3b5cc658b579997321b0118731407d6254523628ba564cf9dd9d0acf3efe",
+    "direct_donor_conservation": true
+  },
+  {
+    "dataset": "SCP1303",
+    "modality": "scp_cb",
+    "layer": "layers/counts",
+    "source_sha256": "975f3b5cc658b579997321b0118731407d6254523628ba564cf9dd9d0acf3efe",
+    "source_cells": 114711,
+    "source_genes": 36601,
+    "native_across_all_samples": 36601,
+    "unmapped_features": 0,
+    "included_features": 36601,
+    "collapsed_ensembl_ids": 36601,
+    "source_total": 634920517,
+    "excluded_count": 0,
+    "included_count": 634920517,
+    "direct_donor_conservation": true
+  }
+]

@@ -1,0 +1,7 @@
+stage	genes	higher_HCM	lower_HCM
+tested	20172	9831	10341
+primary_DEG	4369	2507	1862
+same_direction_CB_among_DEG	4111	2506	1605
+robust_after_LODO	4108	2503	1605
+robust_and_V1_eligible	544	249	295
+locked_top200	200	101	99

@@ -1,0 +1,8 @@
+# Keep frozen receipts and hashes byte-identical across Windows/Linux checkouts.
+*.tsv -text
+*.csv -text whitespace=cr-at-eol
+*.json -text whitespace=cr-at-eol
+*.sha256 -text
+*.txt -text
+# R sessionInfo is retained verbatim, including column-alignment spaces.
+session_*.txt whitespace=-blank-at-eol

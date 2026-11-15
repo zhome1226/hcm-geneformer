@@ -1,0 +1,9 @@
+{
+  "status": "passed",
+  "archive_sha256": "1fd8407f1e33ec47536ada7ffa55e16af9df6e109a46dc319cf450b957b28f6e",
+  "verified_files": 80,
+  "verified_manifest_sha256": "ff653888270363e576765241bb326b6789eea4e32b6ac89051db9e5cb1809a35",
+  "archive_bytes": 21990052,
+  "source": "Linux export receipt + per-file SHA256",
+  "extracted": "D:\\VirtualCell\\deliverables\\hcm-dge-20261115\\evidence"
+}

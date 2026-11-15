@@ -1,0 +1,71 @@
+{
+  "generated_utc": "2026-11-15T05:16:36.506126+00:00",
+  "candidate_sha256": "d2fc63ed14d76c8d291afd09c067c0339584f38550369c8691248e0126bfa09d",
+  "locked_candidates": 200,
+  "higher_in_HCM": 101,
+  "lower_in_HCM": 99,
+  "liu_evaluable": 200,
+  "liu_direction_counts": {
+    "same": 158,
+    "opposite": 42
+  },
+  "liu_evidence_category_counts": {
+    "same_both_single_controls": 141,
+    "opposite": 42,
+    "same_control_sensitive": 17
+  },
+  "liu_FDR_lt05_same_direction": 86,
+  "liu_FDR_lt05_opposite": 5,
+  "liu_omit_direction_counts": {
+    "liu_direction_omit_Liu2023_CL0412": {
+      "same": 159,
+      "opposite": 41
+    },
+    "liu_direction_omit_Liu2023_CL2": {
+      "same": 160,
+      "opposite": 40
+    }
+  },
+  "scp_hhatl_direction_counts": {
+    "same": 200
+  },
+  "descriptive_direction_counts": {
+    "chin": {
+      "same": 119,
+      "opposite": 52,
+      "not_evaluable": 29
+    },
+    "whole": {
+      "not_evaluable": 91,
+      "same": 63,
+      "opposite": 46
+    }
+  },
+  "coverage": {
+    "liu2023": {
+      "HCM_donors": 10,
+      "HCM_cells": 4718,
+      "genes_measured_any_cells": 200,
+      "genes_token_in_any_cells": 200,
+      "genes_token_ge10pct_in_at_least_half_donors": 188,
+      "median_gene_token_fraction": 0.28264094959999997
+    },
+    "GSE255296": {
+      "HCM_donors": 4,
+      "HCM_cells": 7516,
+      "genes_measured_any_cells": 200,
+      "genes_token_in_any_cells": 200,
+      "genes_token_ge10pct_in_at_least_half_donors": 166,
+      "median_gene_token_fraction": 0.18427354975
+    },
+    "GSE292754": {
+      "HCM_donors": 2,
+      "HCM_cells": 3306,
+      "genes_measured_any_cells": 200,
+      "genes_token_in_any_cells": 200,
+      "genes_token_ge10pct_in_at_least_half_donors": 182,
+      "median_gene_token_fraction": 0.22761645495
+    }
+  },
+  "interpretation": "Association candidates, not proven therapeutic knockout targets. Validation never changes rank."
+}

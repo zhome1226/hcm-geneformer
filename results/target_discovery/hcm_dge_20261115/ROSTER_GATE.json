@@ -1,0 +1,8 @@
+{
+  "role": "DGE_only_not_model_split",
+  "donor_rows": 74,
+  "cells": 151359,
+  "roster_sha256": "4148611ac015e29ed8afe4837c69570e868a988dcc223216b6dd7879802e697b",
+  "alias_scope": "exact available source IDs/aliases only; absence does not establish cross-study independence",
+  "exact_cross_study_aliases_to_review": 0
+}

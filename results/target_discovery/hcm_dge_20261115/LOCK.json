@@ -1,0 +1,16 @@
+{
+  "locked_utc": "2026-11-15T04:26:03.621331+00:00",
+  "candidate_sha256": "d2fc63ed14d76c8d291afd09c067c0339584f38550369c8691248e0126bfa09d",
+  "selected": 200,
+  "genes_tested": 20172,
+  "cutoff_commit": "5019f70",
+  "inputs": {
+    "stats/discovery.tsv": "dc27134ac2021adf7480d70b4fc82cddbced241060d70a32ee2bebb80d7404a3",
+    "pb/scp_raw_genes.tsv": "bb2b0452032124e42be93948dd2ee7130d9628bc493baac06b0ffd3405a44879",
+    "coverage/discovery.tsv": "2ec6644ddd3b71c9b168ed93612bb52cfe101f754489d12ad9c30a316310e04d",
+    "pb/DONOR_ROSTER.tsv": "4148611ac015e29ed8afe4837c69570e868a988dcc223216b6dd7879802e697b",
+    "pb/ROSTER_GATE.json": "8da93c6558565fc00bfd3e605eea4f87bae90cf23ffbfd95588110c3dd719621",
+    "code/DESIGN.md": "72fca3947e2ad32ce3a246d79b48ac09ace31247237f1a807d57f4517d4b5b16"
+  },
+  "no_validation_outcomes_at_lock": true
+}
