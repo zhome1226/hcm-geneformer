@@ -15,10 +15,3 @@
 
 时间节点见 Milestones：11.13 数据与流程跑通 → 11.20 Tokenization / 分类器 / 靶点池 → 11.24 模型交付 → 12.05 虚拟敲除与验证。
 
-## 仓库约定
-
-- 本工作线的代码提交到 `virtual-cell` 分支。
-- 代码、脚本、文档、小型结果表可以入库。
-- 原始测序数据、大体积 `h5ad`、模型权重不要直接 push。超过 50 MB 的文件用 Git LFS 或 Release，并在 `data/README.md` 或 `results/README.md` 写获取方式。
-- 目录：`data/` 数据说明与下载脚本，`src/` 代码，`results/` 结果，`docs/` 计划与报告。
-
