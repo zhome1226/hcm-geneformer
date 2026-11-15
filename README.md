@@ -2,7 +2,7 @@
 
 本仓库 [hcm-geneformer](https://github.com/zhome1226/hcm-geneformer) 用于 HCM 心肌细胞建模与 Geneformer 候选靶点研究。
 
-**第一次了解项目，请先读[《项目工作总览》](PROJECT_OVERVIEW.md)**：用日常语言说明数据为什么这样选、如何清洗、转化了多少，以及 200 个候选基因从哪里来。
+**第一次了解项目，请先读[《项目工作总览》](PROJECT_OVERVIEW.md)**：用于说明数据为什么这样选、如何清洗、转化了多少，以及 200 个候选基因从哪里来。
 
 项目计划用 [Geneformer](https://github.com/ctheodoris/Geneformer)（Theodoris et al., *Nature* 2023）模拟改变基因，研究肥厚型心肌病（HCM）心肌细胞的状态是否可能向对照靠近。具体模型和评价方案仍需确定，不能把表达差异直接当作敲除有效的证据。
 
