@@ -1,0 +1,88 @@
+function (y, design = NULL, group = NULL, lib.size = NULL, min.count = 10, 
+    min.total.count = 15, large.n = 10, min.prop = 0.7, ...) 
+{
+    y <- as.matrix(y)
+    if (mode(y) != "numeric") 
+        stop("y is not a numeric matrix")
+    if (is.null(lib.size)) 
+        lib.size <- colSums(y)
+    if (is.null(group)) {
+        if (is.null(design)) {
+            message("No group or design set. Assuming all samples belong to one group.")
+            MinSampleSize <- ncol(y)
+        }
+        else {
+            h <- hat(design)
+            MinSampleSize <- 1/max(h)
+        }
+    }
+    else {
+        group <- as.factor(group)
+        n <- tabulate(group)
+        MinSampleSize <- min(n[n > 0L])
+    }
+    if (MinSampleSize > large.n) 
+        MinSampleSize <- large.n + (MinSampleSize - large.n) * 
+            min.prop
+    MedianLibSize <- median(lib.size)
+    CPM.Cutoff <- min.count/MedianLibSize * 1e+06
+    CPM <- cpm(y, lib.size = lib.size)
+    tol <- 1e-14
+    keep.CPM <- rowSums(CPM >= CPM.Cutoff) >= (MinSampleSize - 
+        tol)
+    keep.TotalCount <- (rowSums(y) >= min.total.count - tol)
+    keep.CPM & keep.TotalCount
+}
+<bytecode: 0x5cab3a58f290>
+<environment: namespace:edgeR>
+function (y, lib.size = NULL, offset = NULL, log = FALSE, prior.count = 2, 
+    ...) 
+{
+    ymin <- min(y)
+    if (is.na(ymin)) 
+        stop("NA counts not allowed")
+    if (ymin < 0) 
+        stop("Negative counts not allowed")
+    y <- as.matrix(y)
+    if (any(dim(y) == 0L)) {
+        return(y)
+    }
+    if (!is.null(offset)) {
+        if (is.matrix(offset)) {
+            if (any(dim(offset) != dim(y))) 
+                stop("dimensions are not consistent between counts and offset")
+        }
+        else {
+            if (length(offset) != ncol(y)) 
+                stop("Length of offset differs from number of libraries")
+        }
+        if (!is.null(lib.size)) 
+            warning("lib.size is ignored in the presence of offset")
+        lib.size <- exp(offset)
+    }
+    else {
+        if (is.null(lib.size)) 
+            lib.size <- colSums(y)
+    }
+    if (!is.double(lib.size)) {
+        if (!is.numeric(lib.size)) 
+            stop("lib.size must be numeric")
+        storage.mode(lib.size) <- "double"
+    }
+    minlibsize <- min(lib.size)
+    if (is.na(minlibsize)) 
+        stop("NA library sizes not allowed")
+    if (minlibsize <= 0) 
+        stop("library sizes should be greater than zero")
+    lib.size <- makeCompressedMatrix(lib.size, dim(y), byrow = TRUE)
+    if (log) {
+        prior.count <- .compressPrior(y, prior.count)
+        out <- .Call(.cxx_calculate_cpm_log, y, lib.size, prior.count)
+    }
+    else {
+        out <- .Call(.cxx_calculate_cpm_raw, y, lib.size)
+    }
+    out
+}
+<bytecode: 0x5cab3c7f9bd8>
+<environment: namespace:edgeR>

@@ -1,0 +1,14 @@
+{
+  "A_SIMULATABLE": {
+    "rows": 165,
+    "both_descriptive_same": 48,
+    "at_least_one_descriptive_opposite": 63,
+    "both_HCM_only_half_donors_covered": 145
+  },
+  "B_SIMULATABLE": {
+    "rows": 306,
+    "both_descriptive_same": 74,
+    "at_least_one_descriptive_opposite": 150,
+    "both_HCM_only_half_donors_covered": 257
+  }
+}

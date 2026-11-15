@@ -1,0 +1,47 @@
+{
+  "status": "passed",
+  "mode": "independent reconciliation, not a second model fit",
+  "completed_checks": [
+    "preserved source hashes and exploratory design",
+    "donor counts, gene universe and expression filters",
+    "whole-genome BH, 31 omissions and original Liu values",
+    "seven-study coverage from all donor detail",
+    "full evidence joins, candidate rules and complete rankings"
+  ],
+  "metrics": {
+    "genes": 37944,
+    "original_candidates": 200,
+    "original_candidate_sha256": "d2fc63ed14d76c8d291afd09c067c0339584f38550369c8691248e0126bfa09d",
+    "design_sha256": "a493254e98b926b96c9b986be1dd5123c522049d9619f2ee16d749b004f89c1c",
+    "mode": "exploratory_joint_discovery",
+    "expression_filtered_genes": {
+      "scp_raw": 20172,
+      "liu": 16334,
+      "chin": 9590,
+      "whole": 5483
+    },
+    "CPM_arithmetic": "(counts * 1e6) / library_size; edgeR calc_cpm_raw order, no added tolerance",
+    "SCP_LODO_folds": 31,
+    "Liu_BH_recomputed_from_all_tested_PValues": 16334,
+    "donor_gene_coverage_rows": 2807856,
+    "predicted_counts": {
+      "A_BIOLOGICAL": 560,
+      "B_BIOLOGICAL": 1265,
+      "A_SIMULATABLE": 165,
+      "B_SIMULATABLE": 306,
+      "PRIORITY_TOP200": 165
+    },
+    "shared_DEG_before_sensitivity": 579,
+    "priority_previous_overlap": 80,
+    "final_evidence_sha256": "c929d7dc53b2eeaa56bcddd9b86c0ba1de0e5aa3f1762852472c030a58b76709",
+    "candidate_sha256": {
+      "A_BIOLOGICAL": "f4eb92c38c3a02b2576952ee0d2a2c3835f90668e706368491decbf3428c4dda",
+      "B_BIOLOGICAL": "3084da914f88d7716dd9d52e19df97a1ace581921fcf4cc873765e75047bb7cc",
+      "A_SIMULATABLE": "4d9a6a91289b81f2d486ac7a611f4c4fde8224b18c309f2cf9e39eac83d28363",
+      "B_SIMULATABLE": "e2a45d5b27d5e18fd27a381d1237302cf2a6634d5148e1cb53ae771f36bda825",
+      "PRIORITY_TOP200": "4d9a6a91289b81f2d486ac7a611f4c4fde8224b18c309f2cf9e39eac83d28363"
+    }
+  },
+  "failure": null,
+  "utc": "2026-11-15T08:02:48.444574+00:00"
+}

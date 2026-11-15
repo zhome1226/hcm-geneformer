@@ -1,0 +1,353 @@
+{
+  "status": "passed",
+  "completed_utc": "2026-11-15T07:50:57.995665+00:00",
+  "scope": "all genes in frozen union; no previous candidate filtering",
+  "genes": 37944,
+  "datasets": 7,
+  "cells": 151359,
+  "donor_study_records": 74,
+  "aggregate_rows": 379440,
+  "donor_gene_rows": 2807856,
+  "inputs": {
+    "input/GENE_UNIVERSE.tsv": "abb01d6987e94cce92800c45b748ce38431213770c2b3e8cf67c51388737863f",
+    "input/pb/DONOR_ROSTER.tsv": "4148611ac015e29ed8afe4837c69570e868a988dcc223216b6dd7879802e697b",
+    "code/coverage_base.py": "edf30d660d793a1f89318d8fff90a3607cee233fae0112fc97997e6443246d29",
+    "code/DESIGN.md": "a493254e98b926b96c9b986be1dd5123c522049d9619f2ee16d749b004f89c1c"
+  },
+  "vocab": {
+    "path": "/home/zhome/xiaoe-internship-data/_processing/geneformer_v1_tokenization_20261112/official_source/geneformer/gene_dictionaries_30m/token_dictionary_gc30M.pkl",
+    "sha256": "ab9dc40973fa5224d77b793e2fd114cacf3d08423ed9c4c49caf0ba9c7f218f1"
+  },
+  "studies": [
+    {
+      "dataset": "SCP1303",
+      "cells": 114711,
+      "donors": 31,
+      "disease_donors": {
+        "HCM": 15,
+        "Control": 16
+      },
+      "genes": 37944,
+      "aggregate_rows": 75888,
+      "donor_gene_rows": 1176264
+    },
+    {
+      "dataset": "liu2023",
+      "cells": 8547,
+      "donors": 12,
+      "disease_donors": {
+        "HCM": 10,
+        "Control": 2
+      },
+      "genes": 37944,
+      "aggregate_rows": 75888,
+      "donor_gene_rows": 455328
+    },
+    {
+      "dataset": "chin_GSE174691",
+      "cells": 10150,
+      "donors": 9,
+      "disease_donors": {
+        "HCM": 9
+      },
+      "genes": 37944,
+      "aggregate_rows": 37944,
+      "donor_gene_rows": 341496
+    },
+    {
+      "dataset": "chin_GSE161921",
+      "cells": 3534,
+      "donors": 4,
+      "disease_donors": {
+        "Control": 4
+      },
+      "genes": 37944,
+      "aggregate_rows": 37944,
+      "donor_gene_rows": 151776
+    },
+    {
+      "dataset": "GSE255296",
+      "cells": 7516,
+      "donors": 4,
+      "disease_donors": {
+        "HCM": 4
+      },
+      "genes": 37944,
+      "aggregate_rows": 37944,
+      "donor_gene_rows": 151776
+    },
+    {
+      "dataset": "GSE292754",
+      "cells": 3306,
+      "donors": 2,
+      "disease_donors": {
+        "HCM": 2
+      },
+      "genes": 37944,
+      "aggregate_rows": 37944,
+      "donor_gene_rows": 75888
+    },
+    {
+      "dataset": "GSE138262_whole_cell",
+      "cells": 3595,
+      "donors": 12,
+      "disease_donors": {
+        "HCM": 5,
+        "Control": 7
+      },
+      "genes": 37944,
+      "aggregate_rows": 75888,
+      "donor_gene_rows": 455328
+    }
+  ],
+  "source_files_verified_before_and_after": [
+    {
+      "dataset": "SCP1303",
+      "files": [
+        {
+          "path": "/home/zhome/xiaoe-internship-data/processed/SCP1303_qc_reviewed_final_20261111/cm_qc_full.h5ad",
+          "bytes": 1729940710,
+          "sha256": "975f3b5cc658b579997321b0118731407d6254523628ba564cf9dd9d0acf3efe"
+        },
+        {
+          "path": "/home/zhome/xiaoe-internship-data/tokenized/geneformer_v1_20261112/prepared_inputs/SCP1303.h5ad",
+          "bytes": 586210410,
+          "sha256": "c21a0f21a4e8526778cf61d0ba0392b136b5cb380bfbfbbf6cb554146ad0c8e5"
+        },
+        {
+          "path": "/home/zhome/xiaoe-internship-data/tokenized/geneformer_v1_20261112/datasets/SCP1303.dataset/data-00000-of-00001.arrow",
+          "bytes": 395721848,
+          "sha256": "660bfa94913dad2a1d63bc4ed5eb27773f8be07ccca61e333ea5dde44800d0e8"
+        },
+        {
+          "path": "/home/zhome/xiaoe-internship-data/tokenized/geneformer_v1_20261112/datasets/SCP1303.dataset/dataset_info.json",
+          "bytes": 1494,
+          "sha256": "d40f5da2db4366fb17c5237f303a048ae7d955e087a965f7b8707f6883cae81c"
+        },
+        {
+          "path": "/home/zhome/xiaoe-internship-data/tokenized/geneformer_v1_20261112/datasets/SCP1303.dataset/state.json",
+          "bytes": 247,
+          "sha256": "0098cc0413937a9479e8a997d92f7da0883486058458945fd410a814636b6070"
+        }
+      ],
+      "preparation_manifest": "/home/zhome/xiaoe-internship-data/tokenized/geneformer_v1_20261112/prepared_inputs/PREPARATION_VERIFICATION.json",
+      "preparation_manifest_sha256": "861e7010d25e703e7043b10e0a8e16576903580cd27000cb8bc17788032769b0",
+      "dataset_manifest": "/home/zhome/xiaoe-internship-data/tokenized/geneformer_v1_20261112/FULL_MANIFEST.tsv",
+      "dataset_manifest_sha256": "88b9cd2754fa3f61233a767b16680c19226dc111d9f9509bed082864fd5af850"
+    },
+    {
+      "dataset": "liu2023",
+      "files": [
+        {
+          "path": "/home/zhome/xiaoe-internship-data/processed/liu2023_qc_20261111/cm_qc_full.h5ad",
+          "bytes": 149065216,
+          "sha256": "03612584111dbb84d0f4f941408f9311a9897ec44507542000689f28bc1f7e74"
+        },
+        {
+          "path": "/home/zhome/xiaoe-internship-data/tokenized/geneformer_v1_20261112/prepared_inputs/liu2023.h5ad",
+          "bytes": 78892189,
+          "sha256": "def7c7b9b411ccc28b10fe94e130bbf309d46bb13caf34189bdd6012e83f6753"
+        },
+        {
+          "path": "/home/zhome/xiaoe-internship-data/tokenized/geneformer_v1_20261112/datasets/liu2023.dataset/data-00000-of-00001.arrow",
+          "bytes": 36616232,
+          "sha256": "cfae0591c0532510417fa4897e94eddd6154dcac23e5367b76d523e9b581fefa"
+        },
+        {
+          "path": "/home/zhome/xiaoe-internship-data/tokenized/geneformer_v1_20261112/datasets/liu2023.dataset/dataset_info.json",
+          "bytes": 1331,
+          "sha256": "0d4640fcf1d89db7388779a399c0d579c70047536cdb9d3e98a7e939fee05f26"
+        },
+        {
+          "path": "/home/zhome/xiaoe-internship-data/tokenized/geneformer_v1_20261112/datasets/liu2023.dataset/state.json",
+          "bytes": 247,
+          "sha256": "688f5c39dbabe128beb2a4ba9b23ec21c97cbca898160e96275f67b00bc00108"
+        }
+      ],
+      "preparation_manifest": "/home/zhome/xiaoe-internship-data/tokenized/geneformer_v1_20261112/prepared_inputs/PREPARATION_VERIFICATION.json",
+      "preparation_manifest_sha256": "861e7010d25e703e7043b10e0a8e16576903580cd27000cb8bc17788032769b0",
+      "dataset_manifest": "/home/zhome/xiaoe-internship-data/tokenized/geneformer_v1_20261112/FULL_MANIFEST.tsv",
+      "dataset_manifest_sha256": "88b9cd2754fa3f61233a767b16680c19226dc111d9f9509bed082864fd5af850"
+    },
+    {
+      "dataset": "chin_GSE174691",
+      "files": [
+        {
+          "path": "/home/zhome/xiaoe-internship-data/processed/chin_GSE174691_qc_20261111/cm_qc_full.h5ad",
+          "bytes": 47740392,
+          "sha256": "c360016c099f3da8a5bdf426ecba1acd3dfe35f813705a85259a5c9caddd5b80"
+        },
+        {
+          "path": "/home/zhome/xiaoe-internship-data/tokenized/geneformer_v1_20261112/prepared_inputs/chin_GSE174691.h5ad",
+          "bytes": 28825271,
+          "sha256": "cd2a312948bbb19d36d592f6b17789c262f57c6ed1d063ca40ba266649e770db"
+        },
+        {
+          "path": "/home/zhome/xiaoe-internship-data/tokenized/geneformer_v1_20261112/datasets/chin_GSE174691.dataset/data-00000-of-00001.arrow",
+          "bytes": 19879984,
+          "sha256": "5fcf6d165171bf0cf081e40c5986528dc063cbb35479e0c5187e23d8a440da72"
+        },
+        {
+          "path": "/home/zhome/xiaoe-internship-data/tokenized/geneformer_v1_20261112/datasets/chin_GSE174691.dataset/dataset_info.json",
+          "bytes": 1331,
+          "sha256": "0d4640fcf1d89db7388779a399c0d579c70047536cdb9d3e98a7e939fee05f26"
+        },
+        {
+          "path": "/home/zhome/xiaoe-internship-data/tokenized/geneformer_v1_20261112/datasets/chin_GSE174691.dataset/state.json",
+          "bytes": 247,
+          "sha256": "49e37463ace59b649b0acda73a0ecf211595c0ee6f3ab7e6dfd7dd2dcb2366cb"
+        }
+      ],
+      "preparation_manifest": "/home/zhome/xiaoe-internship-data/tokenized/geneformer_v1_20261112/prepared_inputs/PREPARATION_VERIFICATION.json",
+      "preparation_manifest_sha256": "861e7010d25e703e7043b10e0a8e16576903580cd27000cb8bc17788032769b0",
+      "dataset_manifest": "/home/zhome/xiaoe-internship-data/tokenized/geneformer_v1_20261112/FULL_MANIFEST.tsv",
+      "dataset_manifest_sha256": "88b9cd2754fa3f61233a767b16680c19226dc111d9f9509bed082864fd5af850"
+    },
+    {
+      "dataset": "chin_GSE161921",
+      "files": [
+        {
+          "path": "/home/zhome/xiaoe-internship-data/processed/chin_GSE161921_qc_20261111/cm_qc_full.h5ad",
+          "bytes": 18123021,
+          "sha256": "42c82b2200b22e6987722ce6d6a27072f08024207a38a5867b2c8d9838d0b563"
+        },
+        {
+          "path": "/home/zhome/xiaoe-internship-data/tokenized/geneformer_v1_20261112/prepared_inputs/chin_GSE161921.h5ad",
+          "bytes": 13135708,
+          "sha256": "aa9624973a80d20aa1c448cef08fad8807771fdde0187a49f49a13dccbe5694a"
+        },
+        {
+          "path": "/home/zhome/xiaoe-internship-data/tokenized/geneformer_v1_20261112/datasets/chin_GSE161921.dataset/data-00000-of-00001.arrow",
+          "bytes": 6821984,
+          "sha256": "473184bc4da228e38f873950a9ec2b8ab1324d93ee3939146d0fc7485ea653cd"
+        },
+        {
+          "path": "/home/zhome/xiaoe-internship-data/tokenized/geneformer_v1_20261112/datasets/chin_GSE161921.dataset/dataset_info.json",
+          "bytes": 1331,
+          "sha256": "0d4640fcf1d89db7388779a399c0d579c70047536cdb9d3e98a7e939fee05f26"
+        },
+        {
+          "path": "/home/zhome/xiaoe-internship-data/tokenized/geneformer_v1_20261112/datasets/chin_GSE161921.dataset/state.json",
+          "bytes": 247,
+          "sha256": "37587a829a1342775505964beaa74a1269947d3d4efac44f9adb63c1a5d617ec"
+        }
+      ],
+      "preparation_manifest": "/home/zhome/xiaoe-internship-data/tokenized/geneformer_v1_20261112/prepared_inputs/PREPARATION_VERIFICATION.json",
+      "preparation_manifest_sha256": "861e7010d25e703e7043b10e0a8e16576903580cd27000cb8bc17788032769b0",
+      "dataset_manifest": "/home/zhome/xiaoe-internship-data/tokenized/geneformer_v1_20261112/FULL_MANIFEST.tsv",
+      "dataset_manifest_sha256": "88b9cd2754fa3f61233a767b16680c19226dc111d9f9509bed082864fd5af850"
+    },
+    {
+      "dataset": "GSE255296",
+      "files": [
+        {
+          "path": "/home/zhome/hcm-geneformer-data/processed/GSE255296_qc_20261114/cm_qc_full.h5ad",
+          "bytes": 89728875,
+          "sha256": "00d21bf8d2966fb07a00f1965738fbe0bde1bee93949f5668cb3b0976e4a0044"
+        },
+        {
+          "path": "/home/zhome/hcm-geneformer-data/tokenized/geneformer_v1_20261114/prepared_inputs/GSE255296.h5ad",
+          "bytes": 86211964,
+          "sha256": "181d2b0ad4483c102be855cd1ae49fafa5a0bbaa3e48ed1b05501bcf71d7f444"
+        },
+        {
+          "path": "/home/zhome/hcm-geneformer-data/tokenized/geneformer_v1_20261114/datasets/GSE255296.dataset/data-00000-of-00001.arrow",
+          "bytes": 25802152,
+          "sha256": "5c013b3eaf95554f6eb5a638480bde7e2d6072a41069170b9bafb1acd7b2ba15"
+        },
+        {
+          "path": "/home/zhome/hcm-geneformer-data/tokenized/geneformer_v1_20261114/datasets/GSE255296.dataset/dataset_info.json",
+          "bytes": 2258,
+          "sha256": "5578cc7e3d035d7cc2a70c54e69a0f1635ce5dddfaaae21154a86c8f1efee6a1"
+        },
+        {
+          "path": "/home/zhome/hcm-geneformer-data/tokenized/geneformer_v1_20261114/datasets/GSE255296.dataset/state.json",
+          "bytes": 247,
+          "sha256": "e59b28dedf65cfbfacd9c57f39173558a8b1787bce4deb5fbc2aa728e49e8c9a"
+        }
+      ],
+      "preparation_manifest": "/home/zhome/hcm-geneformer-data/tokenized/geneformer_v1_20261114/prepared_inputs/PREPARATION_VERIFICATION.json",
+      "preparation_manifest_sha256": "5a7b6090e95d78b68b1a5704ac2c3f6cd662495f1f35afa6115d48eb7d4991ae",
+      "dataset_manifest": "/home/zhome/hcm-geneformer-data/tokenized/geneformer_v1_20261114/FULL_MANIFEST.tsv",
+      "dataset_manifest_sha256": "fc1d225353030835dfaf2303ce9e80a0e6d07c1eee9f3971bac544570625e7b6"
+    },
+    {
+      "dataset": "GSE292754",
+      "files": [
+        {
+          "path": "/home/zhome/hcm-geneformer-data/processed/GSE292754_qc_20261114/cm_qc_full.h5ad",
+          "bytes": 40944612,
+          "sha256": "c4e85b36487fe0c1c77dd362c8b929a6792c89d8d64200210434679449ab69e0"
+        },
+        {
+          "path": "/home/zhome/hcm-geneformer-data/tokenized/geneformer_v1_20261114/prepared_inputs/GSE292754.h5ad",
+          "bytes": 41109220,
+          "sha256": "df5dc908f028e6dd67239649e211082b6390bde73185924a75750345e817c97d"
+        },
+        {
+          "path": "/home/zhome/hcm-geneformer-data/tokenized/geneformer_v1_20261114/datasets/GSE292754.dataset/data-00000-of-00001.arrow",
+          "bytes": 12429288,
+          "sha256": "bc6b69622b8416eab8a52d899c5673324e2e6c7b960d2cbbbd1c5181b343b756"
+        },
+        {
+          "path": "/home/zhome/hcm-geneformer-data/tokenized/geneformer_v1_20261114/datasets/GSE292754.dataset/dataset_info.json",
+          "bytes": 2258,
+          "sha256": "5578cc7e3d035d7cc2a70c54e69a0f1635ce5dddfaaae21154a86c8f1efee6a1"
+        },
+        {
+          "path": "/home/zhome/hcm-geneformer-data/tokenized/geneformer_v1_20261114/datasets/GSE292754.dataset/state.json",
+          "bytes": 247,
+          "sha256": "647ce1b889d1e13e6bc1ea248b8109fef11eebe3c22d426fe7658655b855d5ce"
+        }
+      ],
+      "preparation_manifest": "/home/zhome/hcm-geneformer-data/tokenized/geneformer_v1_20261114/prepared_inputs/PREPARATION_VERIFICATION.json",
+      "preparation_manifest_sha256": "5a7b6090e95d78b68b1a5704ac2c3f6cd662495f1f35afa6115d48eb7d4991ae",
+      "dataset_manifest": "/home/zhome/hcm-geneformer-data/tokenized/geneformer_v1_20261114/FULL_MANIFEST.tsv",
+      "dataset_manifest_sha256": "fc1d225353030835dfaf2303ce9e80a0e6d07c1eee9f3971bac544570625e7b6"
+    },
+    {
+      "dataset": "GSE138262_whole_cell",
+      "files": [
+        {
+          "path": "/home/zhome/hcm-geneformer-data/processed/GSE138262_whole_cell_qc_20261114/cm_qc_full.h5ad",
+          "bytes": 37118773,
+          "sha256": "2e1361089d5930f64ae1a4ef502fb327dac76dd698c75d9575e2cdfd460678f3"
+        },
+        {
+          "path": "/home/zhome/hcm-geneformer-data/tokenized/geneformer_v1_20261114/prepared_inputs/GSE138262_whole_cell.h5ad",
+          "bytes": 39915845,
+          "sha256": "707d118d8eee5f256ba6fcb2171c91a762a48b69784f792f25c2d50f12f67849"
+        },
+        {
+          "path": "/home/zhome/hcm-geneformer-data/tokenized/geneformer_v1_20261114/datasets/GSE138262_whole_cell.dataset/data-00000-of-00001.arrow",
+          "bytes": 12625368,
+          "sha256": "3ceb8d680c1aaee076305a2548de5d2cf74f6a91492a31c67e962e7782a0c8f3"
+        },
+        {
+          "path": "/home/zhome/hcm-geneformer-data/tokenized/geneformer_v1_20261114/datasets/GSE138262_whole_cell.dataset/dataset_info.json",
+          "bytes": 2118,
+          "sha256": "7b74456246b7b2a6e4126247fc76e247acae4ff26ad81b61dac1639370111716"
+        },
+        {
+          "path": "/home/zhome/hcm-geneformer-data/tokenized/geneformer_v1_20261114/datasets/GSE138262_whole_cell.dataset/state.json",
+          "bytes": 247,
+          "sha256": "0fcc73cd0782574ada08a6e102129969cb7f288de4d08cbcb48397111938253f"
+        }
+      ],
+      "preparation_manifest": "/home/zhome/hcm-geneformer-data/tokenized/geneformer_v1_20261114/prepared_inputs/PREPARATION_VERIFICATION.json",
+      "preparation_manifest_sha256": "5a7b6090e95d78b68b1a5704ac2c3f6cd662495f1f35afa6115d48eb7d4991ae",
+      "dataset_manifest": "/home/zhome/hcm-geneformer-data/tokenized/geneformer_v1_20261114/FULL_MANIFEST.tsv",
+      "dataset_manifest_sha256": "fc1d225353030835dfaf2303ce9e80a0e6d07c1eee9f3971bac544570625e7b6"
+    }
+  ],
+  "outputs": {
+    "ALL_COVERAGE.tsv.gz": {
+      "bytes": 6470092,
+      "sha256": "481f3225c04fbfff86200e9c3ffcfbcba927d2a290cf6dc7539f77f769a4bb69"
+    },
+    "DONOR_COVERAGE.tsv.gz": {
+      "bytes": 28217069,
+      "sha256": "c7a55601bc76c6302bf9a6e2a51b1475b4a060553a80b7b93cdc6a48a353becb"
+    }
+  }
+}

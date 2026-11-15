@@ -1,0 +1,306 @@
+{
+  "created_utc": "2026-11-15T07:47:46.268013+00:00",
+  "design_commit": "aefa26c",
+  "design_sha256": "a493254e98b926b96c9b986be1dd5123c522049d9619f2ee16d749b004f89c1c",
+  "previous_workspace": "/home/zhome/hcm-geneformer-analysis/hcm_dge_20261115",
+  "prior_outcomes_seen": true,
+  "Liu_role": "joint_exploratory_discovery_not_validation",
+  "gene_universe": 37944,
+  "gene_universe_sha256": "abb01d6987e94cce92800c45b748ce38431213770c2b3e8cf67c51388737863f",
+  "files": [
+    {
+      "source": "/home/zhome/hcm-geneformer-analysis/hcm_dge_20261115/pb/CROSS_STUDY_ALIAS_FLAGS.tsv",
+      "path": "input/pb/CROSS_STUDY_ALIAS_FLAGS.tsv",
+      "bytes": 14,
+      "sha256": "a08510e50333bb9b679ae2ffd6e642308c337c84a4b103e86859695e8229e646"
+    },
+    {
+      "source": "/home/zhome/hcm-geneformer-analysis/hcm_dge_20261115/pb/DISCOVERY_PSEUDOBULK.json",
+      "path": "input/pb/DISCOVERY_PSEUDOBULK.json",
+      "bytes": 1316,
+      "sha256": "84864c3412f9eec542063084cfdca5f8cd95ba0483b0989662bdbf54880f1cc8"
+    },
+    {
+      "source": "/home/zhome/hcm-geneformer-analysis/hcm_dge_20261115/pb/DONOR_ROSTER.tsv",
+      "path": "input/pb/DONOR_ROSTER.tsv",
+      "bytes": 14469,
+      "sha256": "4148611ac015e29ed8afe4837c69570e868a988dcc223216b6dd7879802e697b"
+    },
+    {
+      "source": "/home/zhome/hcm-geneformer-analysis/hcm_dge_20261115/pb/GSE138262_whole_cell_whole_count_balance.tsv",
+      "path": "input/pb/GSE138262_whole_cell_whole_count_balance.tsv",
+      "bytes": 521,
+      "sha256": "98ddc862e58839bfa82b37b7983acacc54d05db820b24174e3b583f1d4e3e2c4"
+    },
+    {
+      "source": "/home/zhome/hcm-geneformer-analysis/hcm_dge_20261115/pb/INPUT_SOURCES.tsv",
+      "path": "input/pb/INPUT_SOURCES.tsv",
+      "bytes": 1521,
+      "sha256": "bc9327768dcf5b0fcaef8fce1d0779acb37c4b7269fafdf62c466441a045dac5"
+    },
+    {
+      "source": "/home/zhome/hcm-geneformer-analysis/hcm_dge_20261115/pb/ROSTER_GATE.json",
+      "path": "input/pb/ROSTER_GATE.json",
+      "bytes": 324,
+      "sha256": "8da93c6558565fc00bfd3e605eea4f87bae90cf23ffbfd95588110c3dd719621"
+    },
+    {
+      "source": "/home/zhome/hcm-geneformer-analysis/hcm_dge_20261115/pb/SAMPLE_ROSTER.tsv",
+      "path": "input/pb/SAMPLE_ROSTER.tsv",
+      "bytes": 5531,
+      "sha256": "945a6e390f0457f73cd9232bb211952589617aa0cb21bfcd92370261de94fd10"
+    },
+    {
+      "source": "/home/zhome/hcm-geneformer-analysis/hcm_dge_20261115/pb/SCP1303_scp_cb_count_balance.tsv",
+      "path": "input/pb/SCP1303_scp_cb_count_balance.tsv",
+      "bytes": 897,
+      "sha256": "20c1b42a3ed1853bb7fd46ff6c7939eabdfb3f51f97c3defe91e7d8fc163e8aa"
+    },
+    {
+      "source": "/home/zhome/hcm-geneformer-analysis/hcm_dge_20261115/pb/SCP1303_scp_raw_count_balance.tsv",
+      "path": "input/pb/SCP1303_scp_raw_count_balance.tsv",
+      "bytes": 897,
+      "sha256": "f4a872b6e5f8ac715cb1e805c29735d0e94043a61c43c2aea94ef4c7679fc13d"
+    },
+    {
+      "source": "/home/zhome/hcm-geneformer-analysis/hcm_dge_20261115/pb/SCP_SUBTYPE_RETENTION.tsv",
+      "path": "input/pb/SCP_SUBTYPE_RETENTION.tsv",
+      "bytes": 1545,
+      "sha256": "9e4af4c910c18c7d88116dd25e4d70c623482c45c5044b6e4f9005d72f5ed4db"
+    },
+    {
+      "source": "/home/zhome/hcm-geneformer-analysis/hcm_dge_20261115/pb/SUPPORT_PSEUDOBULK.json",
+      "path": "input/pb/SUPPORT_PSEUDOBULK.json",
+      "bytes": 2173,
+      "sha256": "88037ce638ec4f1a9646e14c713073e6e1af670bd67f1020b00fe3e81a00b508"
+    },
+    {
+      "source": "/home/zhome/hcm-geneformer-analysis/hcm_dge_20261115/pb/chin.tsv.gz",
+      "path": "input/pb/chin.tsv.gz",
+      "bytes": 449528,
+      "sha256": "8a11530fefec30e04f618246032a0a78e344340df1cd315f3925cddf07ff4949"
+    },
+    {
+      "source": "/home/zhome/hcm-geneformer-analysis/hcm_dge_20261115/pb/chin_GSE161921_chin_count_balance.tsv",
+      "path": "input/pb/chin_GSE161921_chin_count_balance.tsv",
+      "bytes": 211,
+      "sha256": "a0fcbc6c5697534f02f102e7ff0f3b7dc7daba61fe98e105d106174fa61fc024"
+    },
+    {
+      "source": "/home/zhome/hcm-geneformer-analysis/hcm_dge_20261115/pb/chin_GSE174691_chin_count_balance.tsv",
+      "path": "input/pb/chin_GSE174691_chin_count_balance.tsv",
+      "bytes": 345,
+      "sha256": "9b150aac95f4f3bce989174a518168aa9dc9d87ac43564060612b837464df64f"
+    },
+    {
+      "source": "/home/zhome/hcm-geneformer-analysis/hcm_dge_20261115/pb/chin_common_axis_count_balance.tsv",
+      "path": "input/pb/chin_common_axis_count_balance.tsv",
+      "bytes": 423,
+      "sha256": "422393bef2aabfea2aac5e37aa4c012999eb53fd63ecf989dbf99790520919db"
+    },
+    {
+      "source": "/home/zhome/hcm-geneformer-analysis/hcm_dge_20261115/pb/chin_donors.tsv",
+      "path": "input/pb/chin_donors.tsv",
+      "bytes": 2851,
+      "sha256": "a3b10ea5d9997347398ad637d841fb888971291f11e70a4470b689539778edb1"
+    },
+    {
+      "source": "/home/zhome/hcm-geneformer-analysis/hcm_dge_20261115/pb/chin_genes.tsv",
+      "path": "input/pb/chin_genes.tsv",
+      "bytes": 840958,
+      "sha256": "fdc279e1170b00e7e3d8dbba43cf2d0fdc4519c20b234fff3416002593fccea8"
+    },
+    {
+      "source": "/home/zhome/hcm-geneformer-analysis/hcm_dge_20261115/pb/liu.tsv.gz",
+      "path": "input/pb/liu.tsv.gz",
+      "bytes": 542546,
+      "sha256": "81d4de19e036df09ca5dc1afa34cc5c0efb6267aafde732e2f1950a57a4eb647"
+    },
+    {
+      "source": "/home/zhome/hcm-geneformer-analysis/hcm_dge_20261115/pb/liu2023_liu_count_balance.tsv",
+      "path": "input/pb/liu2023_liu_count_balance.tsv",
+      "bytes": 544,
+      "sha256": "50c2c2cfffd8994562a3ee176a80a0eaa8a296a7e4d34a4a0779973b376b20f0"
+    },
+    {
+      "source": "/home/zhome/hcm-geneformer-analysis/hcm_dge_20261115/pb/liu_donors.tsv",
+      "path": "input/pb/liu_donors.tsv",
+      "bytes": 2702,
+      "sha256": "129e5bf0534df81059d10898940bc22fdb8acbe70c7ce1635d757baff56f0bf4"
+    },
+    {
+      "source": "/home/zhome/hcm-geneformer-analysis/hcm_dge_20261115/pb/liu_feature_audit.tsv.gz",
+      "path": "input/pb/liu_feature_audit.tsv.gz",
+      "bytes": 362179,
+      "sha256": "5234db960b047a57c956b236ecd1eb36e32489f4d596d25b81d505fe55ef6cf9"
+    },
+    {
+      "source": "/home/zhome/hcm-geneformer-analysis/hcm_dge_20261115/pb/liu_genes.tsv",
+      "path": "input/pb/liu_genes.tsv",
+      "bytes": 765059,
+      "sha256": "cb2db569408de462b71bd093803340b30243eb389b872f3905a7393d5fdfbc5e"
+    },
+    {
+      "source": "/home/zhome/hcm-geneformer-analysis/hcm_dge_20261115/pb/scp_cb.tsv.gz",
+      "path": "input/pb/scp_cb.tsv.gz",
+      "bytes": 1491563,
+      "sha256": "a4058b3958e8e308f993c40fa5cde1c1900157501752a34440edb5efeaa26f9c"
+    },
+    {
+      "source": "/home/zhome/hcm-geneformer-analysis/hcm_dge_20261115/pb/scp_cb_donors.tsv",
+      "path": "input/pb/scp_cb_donors.tsv",
+      "bytes": 5394,
+      "sha256": "7804b95c5c2b2fb26d2ba653d5bd088f7693c1e5ef2aaecc903350018381d082"
+    },
+    {
+      "source": "/home/zhome/hcm-geneformer-analysis/hcm_dge_20261115/pb/scp_cb_genes.tsv",
+      "path": "input/pb/scp_cb_genes.tsv",
+      "bytes": 893595,
+      "sha256": "bb2b0452032124e42be93948dd2ee7130d9628bc493baac06b0ffd3405a44879"
+    },
+    {
+      "source": "/home/zhome/hcm-geneformer-analysis/hcm_dge_20261115/pb/scp_hhatl.tsv.gz",
+      "path": "input/pb/scp_hhatl.tsv.gz",
+      "bytes": 1475284,
+      "sha256": "2e357e7ee782f849483580cac22792f6ec8d8296a0de2e4b3112c53e4811326a"
+    },
+    {
+      "source": "/home/zhome/hcm-geneformer-analysis/hcm_dge_20261115/pb/scp_hhatl_donors.tsv",
+      "path": "input/pb/scp_hhatl_donors.tsv",
+      "bytes": 5394,
+      "sha256": "c384211e299dbb04c40672750eb29a5a46266cc6556d78f37dc15b4335b36908"
+    },
+    {
+      "source": "/home/zhome/hcm-geneformer-analysis/hcm_dge_20261115/pb/scp_hhatl_genes.tsv",
+      "path": "input/pb/scp_hhatl_genes.tsv",
+      "bytes": 893595,
+      "sha256": "bb2b0452032124e42be93948dd2ee7130d9628bc493baac06b0ffd3405a44879"
+    },
+    {
+      "source": "/home/zhome/hcm-geneformer-analysis/hcm_dge_20261115/pb/scp_raw.tsv.gz",
+      "path": "input/pb/scp_raw.tsv.gz",
+      "bytes": 1522854,
+      "sha256": "bfbc4382c10c14c0eb86420b5106627bd302f70bc5c5932fa7edf1e352ac90cd"
+    },
+    {
+      "source": "/home/zhome/hcm-geneformer-analysis/hcm_dge_20261115/pb/scp_raw_donors.tsv",
+      "path": "input/pb/scp_raw_donors.tsv",
+      "bytes": 5394,
+      "sha256": "68f41fb6aef9410b72f2651df9bad2cbfc495e75a24d8588a55e52cac9353ba4"
+    },
+    {
+      "source": "/home/zhome/hcm-geneformer-analysis/hcm_dge_20261115/pb/scp_raw_genes.tsv",
+      "path": "input/pb/scp_raw_genes.tsv",
+      "bytes": 893595,
+      "sha256": "bb2b0452032124e42be93948dd2ee7130d9628bc493baac06b0ffd3405a44879"
+    },
+    {
+      "source": "/home/zhome/hcm-geneformer-analysis/hcm_dge_20261115/pb/whole.tsv.gz",
+      "path": "input/pb/whole.tsv.gz",
+      "bytes": 133873,
+      "sha256": "3036d6a09a4b3c7bd95a23009d502973cf6b2cb47683c5a25cac61ab0ea6cbde"
+    },
+    {
+      "source": "/home/zhome/hcm-geneformer-analysis/hcm_dge_20261115/pb/whole_donors.tsv",
+      "path": "input/pb/whole_donors.tsv",
+      "bytes": 3574,
+      "sha256": "37da5e94f4e8e1c21ddb1ea99fe3956763e20b43b6e8c4a9d236b8015ba64cca"
+    },
+    {
+      "source": "/home/zhome/hcm-geneformer-analysis/hcm_dge_20261115/pb/whole_feature_audit.tsv.gz",
+      "path": "input/pb/whole_feature_audit.tsv.gz",
+      "bytes": 295775,
+      "sha256": "f1323825b3ed8a22e2350baac52ac7fd2e74cd2f0fe6b614c02fe8b858709911"
+    },
+    {
+      "source": "/home/zhome/hcm-geneformer-analysis/hcm_dge_20261115/pb/whole_genes.tsv",
+      "path": "input/pb/whole_genes.tsv",
+      "bytes": 122387,
+      "sha256": "b9fcf0d2720a7e46094254e70397a42490df4f96c66a9e14fb0a2afde7bf9157"
+    },
+    {
+      "source": "/home/zhome/hcm-geneformer-analysis/hcm_dge_20261115/stats/discovery.tsv",
+      "path": "input/scp/discovery.tsv",
+      "bytes": 6145315,
+      "sha256": "dc27134ac2021adf7480d70b4fc82cddbced241060d70a32ee2bebb80d7404a3"
+    },
+    {
+      "source": "/home/zhome/hcm-geneformer-analysis/hcm_dge_20261115/stats/scp_loo_logFC.tsv.gz",
+      "path": "input/scp/scp_loo_logFC.tsv.gz",
+      "bytes": 5322653,
+      "sha256": "d8ac1e27b3cdf59ca4ac6878e0351f0cf48e9f8b9be99e0c18eb23718f04e21d"
+    },
+    {
+      "source": "/home/zhome/hcm-geneformer-analysis/hcm_dge_20261115/stats/scp_design.tsv",
+      "path": "input/scp/scp_design.tsv",
+      "bytes": 969,
+      "sha256": "7e1ca8e55b03aa6dc4a35dce97148ff3e94312ba27861e13d72ebb8d3cbde7a4"
+    },
+    {
+      "source": "/home/zhome/hcm-geneformer-analysis/hcm_dge_20261115/stats/scp_raw_libraries.tsv",
+      "path": "input/scp/scp_raw_libraries.tsv",
+      "bytes": 2076,
+      "sha256": "454c218653ba40fd4d9f2dffbd843167c0f5c811f7a2a1c3e77cdc4224adf736"
+    },
+    {
+      "source": "/home/zhome/hcm-geneformer-analysis/hcm_dge_20261115/stats/scp_cb_libraries.tsv",
+      "path": "input/scp/scp_cb_libraries.tsv",
+      "bytes": 2078,
+      "sha256": "97599e218c755870115ba9da76970f96f93b97484ad586b7e380e3735fcf1bb1"
+    },
+    {
+      "source": "/home/zhome/hcm-geneformer-analysis/hcm_dge_20261115/stats/scp_hhatl_libraries.tsv",
+      "path": "input/scp/scp_hhatl_libraries.tsv",
+      "bytes": 2081,
+      "sha256": "4a9f5f2e67ac95e7d891024849c9f60e3d0a9dd7c2a40ac297bf514ae04e2143"
+    },
+    {
+      "source": "/home/zhome/hcm-geneformer-analysis/hcm_dge_20261115/stats/scp_hhatl_status.tsv",
+      "path": "input/scp/scp_hhatl_status.tsv",
+      "bytes": 33,
+      "sha256": "919349df028445857b4be5b24a01fa177da33baa51b4feb4acbf34e5279d577c"
+    },
+    {
+      "source": "/home/zhome/hcm-geneformer-analysis/hcm_dge_20261115/stats/session_discovery.txt",
+      "path": "input/scp/session_discovery.txt",
+      "bytes": 988,
+      "sha256": "8b2500a0208f3c98942e2e596e49cbda0260bf0479a922a54bb7632e34f1903a"
+    },
+    {
+      "source": "/home/zhome/hcm-geneformer-analysis/hcm_dge_20261115/stats/liu.tsv",
+      "path": "input/previous/liu.tsv",
+      "bytes": 38403,
+      "sha256": "c8b3b2e0af49f723ecd5982adba5f53b435a6ca58b78efea6c05cbbbeb7e250b"
+    },
+    {
+      "source": "/home/zhome/hcm-geneformer-analysis/hcm_dge_20261115/lock/CANDIDATES.tsv",
+      "path": "input/previous/CANDIDATES.tsv",
+      "bytes": 97436,
+      "sha256": "d2fc63ed14d76c8d291afd09c067c0339584f38550369c8691248e0126bfa09d"
+    },
+    {
+      "source": "/home/zhome/hcm-geneformer-analysis/hcm_dge_20261115/lock/LOCK.json",
+      "path": "input/previous/LOCK.json",
+      "bytes": 848,
+      "sha256": "d36623a454fff41d803d655819de7b2c4d314843394a5fc1c0b0aed0f20aa6bd"
+    },
+    {
+      "source": "/home/zhome/hcm-geneformer-analysis/hcm_dge_20261115/audit/FINAL_AUDIT.json",
+      "path": "input/previous/FINAL_AUDIT.json",
+      "bytes": 1357,
+      "sha256": "c76a5a2d0a280d77e611056750ca812b056aa5da2a318480d404276e5fac61d1"
+    },
+    {
+      "source": "/home/zhome/hcm-geneformer-analysis/hcm_dge_20261115/coverage/discovery.tsv",
+      "path": "input/scp/coverage.tsv",
+      "bytes": 4375792,
+      "sha256": "2ec6644ddd3b71c9b168ed93612bb52cfe101f754489d12ad9c30a316310e04d"
+    },
+    {
+      "source": "/home/zhome/hcm-geneformer-analysis/hcm_dge_20261115/code/coverage.py",
+      "path": "code/coverage_base.py",
+      "bytes": 11413,
+      "sha256": "edf30d660d793a1f89318d8fff90a3607cee233fae0112fc97997e6443246d29"
+    }
+  ]
+}

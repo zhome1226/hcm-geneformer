@@ -1,0 +1,23 @@
+{
+  "status": "failed",
+  "mode": "independent reconciliation, not a second model fit",
+  "completed_checks": [
+    "preserved source hashes and exploratory design",
+    "donor counts, gene universe and expression filters"
+  ],
+  "metrics": {
+    "genes": 37944,
+    "original_candidates": 200,
+    "original_candidate_sha256": "d2fc63ed14d76c8d291afd09c067c0339584f38550369c8691248e0126bfa09d",
+    "design_sha256": "a493254e98b926b96c9b986be1dd5123c522049d9619f2ee16d749b004f89c1c",
+    "mode": "exploratory_joint_discovery",
+    "expression_filtered_genes": {
+      "scp_raw": 20172,
+      "liu": 16334,
+      "chin": 9619,
+      "whole": 5483
+    }
+  },
+  "failure": "whole-genome BH, 31 omissions and original Liu values: ValueError: chin independently recomputed filter",
+  "utc": "2026-11-15T07:55:22.200901+00:00"
+}

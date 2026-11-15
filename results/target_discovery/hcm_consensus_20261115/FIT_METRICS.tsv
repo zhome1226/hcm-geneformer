@@ -1,0 +1,4 @@
+dataset	source_genes	tested_genes	control_donors	hcm_donors	output_rows	disease_hypothesis_test	model	BH_scope
+liu	31593	16334	2	10	31593	TRUE	edgeR robust QL; TMM; ~disease	all_expression_filtered_genes
+chin	33694	9590	4	9	33694	FALSE	median donor log2(TMM CPM + 0.5) difference	not_applicable
+whole	5488	5483	7	5	5488	FALSE	median donor log2(TMM CPM + 0.5) difference	not_applicable

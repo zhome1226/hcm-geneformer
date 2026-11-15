@@ -1,5 +1,9 @@
 # HCM差异表达与Geneformer V1模拟敲除候选策略
 
+当前进展（2026-11-15，第二版）：根据用户提出的跨研究共性目标，SCP 与 Liu 已从各自全基因共同发现；579个共同差异经稳定性筛选剩560个，再经双研究模型覆盖得到 **165个优先候选**，另列306个探索候选。其余五套提供描述方向或模型覆盖，不作等权独立投票。见[第二版方案](../results/target_discovery/hcm_consensus_20261115/DESIGN.md)、[第二版报告](../results/target_discovery/hcm_consensus_20261115/REPORT.md)与[通俗总览](../PROJECT_OVERVIEW.md)。Liu 已用于发现，不能再作为第二版独立验证；模型和最终检验设计仍待定。
+
+以下保留第一版的设计与完成记录；其中“SCP唯一发现、Liu留出复核”和200名单描述仅适用于第一版，第二版以以上链接方案为准。
+
 更新：2026-11-15（北京时间）。七套核心数据的供体级 DGE 与锁定后方向复核已完成；锁定 200 个 V1 待扰动候选。Liu2023 中 158 个主分析同向，其中 141 个在两次单对照分析中仍同向；42 个反向，全部保留原序号。见[本次报告与流程图](../results/target_discovery/hcm_dge_20261115/REPORT.md)、[中文候选表](../results/target_discovery/hcm_dge_20261115/CANDIDATES_REVIEW.csv)、[预定设计](../results/target_discovery/hcm_dge_20261115/DESIGN.md)。未训练或模拟扰动。
 
 已完成[13套资源与官方模型盘点](hcm-cohort-catalog.md)及[新增三套 QC/编码](hcm-expansion-qc-v1-delivery.md)。本轮采用 SCP 发现、Liu 留出方向复核、其余分层支持；这是 DGE 分工，不是模型训练/测试划分。模型来源和跨研究同人仍待核实，不宣称完全独立的模型验证。ToDesk 手动交付尚待目标端验收，不影响本轮 Linux 分析。

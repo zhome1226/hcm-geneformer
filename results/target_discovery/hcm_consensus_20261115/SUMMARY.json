@@ -1,0 +1,170 @@
+{
+  "generated_utc": "2026-11-15T07:52:24.991390+00:00",
+  "design_commit": "aefa26c",
+  "design_sha256": "a493254e98b926b96c9b986be1dd5123c522049d9619f2ee16d749b004f89c1c",
+  "gene_universe": 37944,
+  "studies": {
+    "scp": {
+      "source_genes": 36601,
+      "expression_filtered": 20172,
+      "DEG": 4369
+    },
+    "liu": {
+      "source_genes": 31593,
+      "expression_filtered": 16334,
+      "DEG": 3533
+    },
+    "chin": {
+      "source_genes": 33694,
+      "expression_filtered": 9590
+    },
+    "whole": {
+      "source_genes": 5488,
+      "expression_filtered": 5483
+    }
+  },
+  "both_evaluable": 16272,
+  "comparison_counts": {
+    "not_evaluable": 21672,
+    "same": 8682,
+    "opposite": 7590
+  },
+  "shared_DEG": 579,
+  "shared_stability_failed": 19,
+  "evidence_category_counts": {
+    "not_evaluable": 21672,
+    "opposite": 7590,
+    "same_neither_DEG": 5500,
+    "single_study_direction_sensitive": 1338,
+    "B_single_study_directional": 1265,
+    "A_shared_strong": 560,
+    "shared_direction_sensitive": 19
+  },
+  "table_rows": {
+    "A_BIOLOGICAL": 560,
+    "B_BIOLOGICAL": 1265,
+    "A_SIMULATABLE": 165,
+    "B_SIMULATABLE": 306,
+    "PRIORITY_TOP200": 165
+  },
+  "prior_200_status": {
+    "A_simulatable": 80,
+    "not_selected": 59,
+    "B_simulatable": 54,
+    "A_low_coverage": 4,
+    "B_low_coverage": 3
+  },
+  "prior_200_sha256": "d2fc63ed14d76c8d291afd09c067c0339584f38550369c8691248e0126bfa09d",
+  "candidate_groups": {
+    "A_BIOLOGICAL": {
+      "higher_HCM": 301,
+      "lower_HCM": 259,
+      "in_previous_200": 84,
+      "new_vs_previous_200": 476,
+      "main_support": {
+        "both": 560
+      },
+      "chin_directions": {
+        "not_evaluable": 280,
+        "same": 229,
+        "opposite": 51
+      },
+      "whole_directions": {
+        "not_evaluable": 394,
+        "same": 91,
+        "opposite": 75
+      },
+      "gse255296_half_donors_covered": 166,
+      "gse292754_half_donors_covered": 188
+    },
+    "B_BIOLOGICAL": {
+      "higher_HCM": 840,
+      "lower_HCM": 425,
+      "in_previous_200": 57,
+      "new_vs_previous_200": 1208,
+      "main_support": {
+        "SCP1303": 895,
+        "Liu2023": 370
+      },
+      "chin_directions": {
+        "not_evaluable": 723,
+        "same": 388,
+        "opposite": 154
+      },
+      "whole_directions": {
+        "not_evaluable": 976,
+        "opposite": 149,
+        "same": 140
+      },
+      "gse255296_half_donors_covered": 295,
+      "gse292754_half_donors_covered": 336
+    },
+    "A_SIMULATABLE": {
+      "higher_HCM": 59,
+      "lower_HCM": 106,
+      "in_previous_200": 80,
+      "new_vs_previous_200": 85,
+      "main_support": {
+        "both": 165
+      },
+      "chin_directions": {
+        "same": 123,
+        "opposite": 24,
+        "not_evaluable": 18
+      },
+      "whole_directions": {
+        "same": 61,
+        "not_evaluable": 58,
+        "opposite": 46
+      },
+      "gse255296_half_donors_covered": 149,
+      "gse292754_half_donors_covered": 156
+    },
+    "B_SIMULATABLE": {
+      "higher_HCM": 123,
+      "lower_HCM": 183,
+      "in_previous_200": 54,
+      "new_vs_previous_200": 252,
+      "main_support": {
+        "SCP1303": 162,
+        "Liu2023": 144
+      },
+      "chin_directions": {
+        "same": 197,
+        "opposite": 86,
+        "not_evaluable": 23
+      },
+      "whole_directions": {
+        "not_evaluable": 113,
+        "opposite": 99,
+        "same": 94
+      },
+      "gse255296_half_donors_covered": 266,
+      "gse292754_half_donors_covered": 283
+    },
+    "PRIORITY_TOP200": {
+      "higher_HCM": 59,
+      "lower_HCM": 106,
+      "in_previous_200": 80,
+      "new_vs_previous_200": 85,
+      "main_support": {
+        "both": 165
+      },
+      "chin_directions": {
+        "same": 123,
+        "opposite": 24,
+        "not_evaluable": 18
+      },
+      "whole_directions": {
+        "same": 61,
+        "not_evaluable": 58,
+        "opposite": 46
+      },
+      "gse255296_half_donors_covered": 149,
+      "gse292754_half_donors_covered": 156
+    }
+  },
+  "held_out_validation": false,
+  "selection_scope": "full_gene_union_not_previous_200",
+  "joint_FDR_claim": false
+}

@@ -1,0 +1,10 @@
+{
+  "status": "passed",
+  "archive_sha256": "f40cf08460dd85095a25157e7701a5f3f85870ceca82164a1d40bf805a35f801",
+  "archive_bytes": 59324222,
+  "files": 106,
+  "per_file_sha256": "passed",
+  "review_ids_and_numeric_values": "passed",
+  "seven_dataset_rows": 3297,
+  "target_receipt": false
+}
